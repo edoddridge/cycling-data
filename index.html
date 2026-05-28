@@ -36,33 +36,71 @@
             <a class="active" href="index.html" aria-current="page">Dashboard</a>
           </nav>
         </div>
-        <div class="toolbar">
-          <div class="toolbar-row">
-            <label for="dataset-filter">Map Layer</label>
-            <select id="dataset-filter">
-              <option value="all">All Sites</option>
-              <option value="st">Super Tuesday (Commuter)</option>
-              <option value="ss">Super Sunday (Recreation)</option>
-            </select>
-          </div>
-          <div class="toolbar-row search-row">
-            <label for="site-search">Find Site</label>
-            <div class="search-group">
-              <input id="site-search" list="site-search-options" type="search" placeholder="Search by site_id or council" />
-              <datalist id="site-search-options"></datalist>
-              <button id="site-search-button" type="button">Locate</button>
-            </div>
-          </div>
-        </div>
       </header>
 
       <main class="layout-grid">
-        <section class="map-panel card">
-          <div id="map"></div>
-          <div id="status-banner" class="status-banner">Loading workbooks...</div>
-        </section>
+        <div class="map-column">
+          <section class="map-panel card">
+            <div id="map"></div>
+            <div id="status-banner" class="status-banner">Loading workbooks...</div>
+          </section>
+
+          <section class="card panel" id="dashboard-stats-block">
+            <div class="panel-header">
+              <h3>Descriptive Statistics</h3>
+              <div class="stats-controls">
+                <label class="select-label" for="stats-dataset-filter">
+                  Dataset
+                  <select id="stats-dataset-filter">
+                    <option value="all" selected>All Sites</option>
+                    <option value="st">Super Tuesday (Commuter)</option>
+                    <option value="ss">Super Sunday (Recreation)</option>
+                  </select>
+                </label>
+                <label class="select-label" for="stats-city-filter">
+                  City / Council
+                  <select id="stats-city-filter">
+                    <option value="all" selected>All Cities</option>
+                  </select>
+                </label>
+                <label class="select-label" for="stats-volume-mode">
+                  Volume view
+                  <select id="stats-volume-mode">
+                    <option value="summed" selected>Summed quantity</option>
+                    <option value="site">Site-specific quantities</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <p class="muted compact" id="stats-scope"></p>
+            <div id="stats-grid" class="stats-grid"></div>
+            <div id="stats-notes" class="stats-notes"></div>
+            <div class="stats-trends">
+              <div id="stats-trend-volume" class="stats-chart"></div>
+            </div>
+          </section>
+        </div>
 
         <aside class="detail-panel card">
+          <section class="analysis-controls">
+            <div class="toolbar-row">
+              <label for="dataset-filter">Map Layer</label>
+              <select id="dataset-filter">
+                <option value="all">All Sites</option>
+                <option value="st">Super Tuesday (Commuter)</option>
+                <option value="ss">Super Sunday (Recreation)</option>
+              </select>
+            </div>
+            <div class="toolbar-row search-row">
+              <label for="site-search">Find Site</label>
+              <div class="search-group">
+                <input id="site-search" list="site-search-options" type="search" placeholder="Search by site_id or council" />
+                <datalist id="site-search-options"></datalist>
+                <button id="site-search-button" type="button">Locate</button>
+              </div>
+            </div>
+          </section>
+
           <div id="empty-state" class="empty-state">
             <h2>Select a count location</h2>
             <p>Click a map marker to inspect intersection geometry and count trends.</p>
@@ -121,40 +159,6 @@
             </section>
           </div>
 
-          <section class="block" id="dashboard-stats-block">
-            <div class="panel-header">
-              <h3>Descriptive Statistics</h3>
-              <div class="stats-controls">
-                <label class="select-label" for="stats-dataset-filter">
-                  Dataset
-                  <select id="stats-dataset-filter">
-                    <option value="all" selected>All Sites</option>
-                    <option value="st">Super Tuesday (Commuter)</option>
-                    <option value="ss">Super Sunday (Recreation)</option>
-                  </select>
-                </label>
-                <label class="select-label" for="stats-city-filter">
-                  City / Council
-                  <select id="stats-city-filter">
-                    <option value="all" selected>All Cities</option>
-                  </select>
-                </label>
-                <label class="select-label" for="stats-volume-mode">
-                  Volume view
-                  <select id="stats-volume-mode">
-                    <option value="summed" selected>Summed quantity</option>
-                    <option value="site">Site-specific quantities</option>
-                  </select>
-                </label>
-              </div>
-            </div>
-            <p class="muted compact" id="stats-scope"></p>
-            <div id="stats-grid" class="stats-grid"></div>
-            <div id="stats-notes" class="stats-notes"></div>
-            <div class="stats-trends">
-              <div id="stats-trend-volume" class="stats-chart"></div>
-            </div>
-          </section>
         </aside>
       </main>
     </div>
