@@ -30,8 +30,8 @@
     <div class="app-shell">
       <header class="topbar">
         <div>
-          <h1>Cycling Transit Count Explorer</h1>
-          <p>Map-first dashboard for Super Tuesday and Super Sunday intersection counts.</p>
+          <h1>Cycling Transit Data</h1>
+          <p>Dashboard for Super Tuesday and Super Sunday cycling counts.</p>
         </div>
         <div class="toolbar">
           <div class="toolbar-row">
@@ -93,19 +93,12 @@
                     <label><input type="radio" name="chart-mode" value="day" checked /> Single day</label>
                     <label><input type="radio" name="chart-mode" value="year" /> All years</label>
                   </div>
-                  <label class="select-label" for="series-view">
-                    Display
-                    <select id="series-view">
-                      <option value="total" selected>Total</option>
-                      <option value="category">Categories</option>
-                    </select>
-                  </label>
+                  <div class="split-controls" role="group" aria-label="Split by">
+                    <span class="split-label">Split by:</span>
+                    <label><input id="split-mode" type="checkbox" /> Mode of transport</label>
+                    <label><input id="split-gender" type="checkbox" /> Gender</label>
+                  </div>
                 </div>
-              </div>
-
-              <div id="date-picker-wrap" class="date-picker-wrap">
-                <label for="date-select">Count date</label>
-                <select id="date-select"></select>
               </div>
 
               <div id="chart"></div>
@@ -114,9 +107,9 @@
             <section class="block">
               <div class="chart-controls">
                 <h3>Directional Data</h3>
-                <label class="select-label" for="directional-date-select">
-                  Directional date
-                  <select id="directional-date-select"></select>
+                <label class="select-label" for="date-select">
+                  Count date
+                  <select id="date-select"></select>
                 </label>
               </div>
               <p id="directional-summary" class="muted"></p>

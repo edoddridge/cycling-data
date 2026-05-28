@@ -22,7 +22,8 @@ const appState = {
   selectedMarkerKey: null,
   selectedSite: null,
   chartMode: "day",
-  seriesView: "total",
+  splitMode: false,
+  splitGender: false,
   insetRenderToken: 0,
   insetZoom: 16
 };
@@ -58,13 +59,12 @@ const siteMeta = document.getElementById("site-meta");
 const insetNote = document.getElementById("inset-note");
 const insetZoom = document.getElementById("inset-zoom");
 const insetZoomValue = document.getElementById("inset-zoom-value");
-const datePickerWrap = document.getElementById("date-picker-wrap");
 const dateSelect = document.getElementById("date-select");
-const directionalDateSelect = document.getElementById("directional-date-select");
 const directionalSummary = document.getElementById("directional-summary");
 const directionalChart = document.getElementById("directional-chart");
 const directionalMatrix = document.getElementById("directional-matrix");
-const seriesView = document.getElementById("series-view");
+const splitModeInput = document.getElementById("split-mode");
+const splitGenderInput = document.getElementById("split-gender");
 const chartElement = document.getElementById("chart");
 const chartModeInputs = document.querySelectorAll("input[name='chart-mode']");
 
@@ -291,19 +291,9 @@ function populateDateControl(selectElement, records, preferredValue) {
     : selectElement.options[selectElement.options.length - 1].value;
 }
 
-function syncDateSelections(selectedValue) {
-  if ([...dateSelect.options].some((option) => option.value === selectedValue)) {
-    dateSelect.value = selectedValue;
-  }
-  if ([...directionalDateSelect.options].some((option) => option.value === selectedValue)) {
-    directionalDateSelect.value = selectedValue;
-  }
-}
-
 function updateDateOptions(site) {
   const records = getDistinctRecords(site);
   populateDateControl(dateSelect, records, dateSelect.value);
-  populateDateControl(directionalDateSelect, records, directionalDateSelect.value || dateSelect.value);
 }
 
 function getSelectedRecord(site, dateKey) {
@@ -331,7 +321,7 @@ function categoryHourlyValues(record, categoryId, x) {
   return { y, hasData };
 }
 
-function renderCategoryDayFallbackToTotal(site, record) {
+function renderCategoryDayFallbackToTotal(site, record, message = "Category time-binned data is unavailable for this selection. Showing total hourly counts.") {
   Plotly.newPlot(
     chartElement,
     [
@@ -353,7 +343,7 @@ function renderCategoryDayFallbackToTotal(site, record) {
       plot_bgcolor: "rgba(0,0,0,0)",
       annotations: [
         {
-          text: "Category time-binned data is unavailable for this date. Showing total hourly counts.",
+          text: message,
           showarrow: false,
           x: 0.5,
           y: 1.2,
@@ -369,10 +359,125 @@ function renderCategoryDayFallbackToTotal(site, record) {
           font: { size: 11, color: "#27423c" }
         }
       ],
+      legend: { orientation: "h", y: -0.22 },
       font: { family: "Space Grotesk, sans-serif", color: "#11231f" }
     },
     { displayModeBar: false, responsive: true }
   );
+}
+
+function hasActiveSplit() {
+  return appState.splitMode || appState.splitGender;
+}
+
+function legendSpacing(traceCount) {
+  const itemsPerRow = window.innerWidth <= 900 ? 2 : 3;
+  const rows = Math.max(1, Math.ceil(traceCount / itemsPerRow));
+  return {
+    marginBottom: 76 + Math.max(0, rows - 1) * 24,
+    legendY: -0.24 - Math.max(0, rows - 1) * 0.12
+  };
+}
+
+function categoryDimensions(definition) {
+  const token = `${definition.id || ""} ${definition.label || ""}`.toLowerCase();
+
+  let mode = "Other";
+  if (token.includes("ebike") || token.includes("e-bike")) {
+    mode = "E-bike";
+  } else if (token.includes("micro") || token.includes("_mm") || token.includes(" mm")) {
+    mode = "Micro mobility";
+  } else if (token.includes("pushbike")) {
+    mode = "Pushbike";
+  } else if (token.includes("bicycle")) {
+    mode = "Bicycle";
+  } else if (token.includes("walker")) {
+    mode = "Walker";
+  } else if (token.includes("runner")) {
+    mode = "Runner";
+  } else if (token.includes("dog")) {
+    mode = "Dog walker";
+  }
+
+  let gender = null;
+  if (token.includes("women") || token.includes("female")) {
+    gender = "Women";
+  } else if (token.includes("men") || token.includes("male")) {
+    gender = "Men";
+  } else if (token.includes("not known") || token.includes("not_known") || token.includes("unknown")) {
+    gender = "Unknown";
+  }
+
+  return { mode, gender };
+}
+
+function splitGroupForDefinition(definition) {
+  const dims = categoryDimensions(definition);
+  const parts = [];
+
+  if (appState.splitMode) {
+    parts.push(dims.mode);
+  }
+  if (appState.splitGender) {
+    if (!dims.gender) {
+      return null;
+    }
+    parts.push(dims.gender);
+  }
+  if (parts.length === 0) {
+    return null;
+  }
+
+  return {
+    key: parts.join("||"),
+    label: parts.join(" - "),
+    mode: dims.mode,
+    gender: dims.gender
+  };
+}
+
+function splitGroupStyle(group, index) {
+  const modeColor = {
+    Pushbike: "#0077b6",
+    "E-bike": "#ef476f",
+    "Micro mobility": "#7b2cbf",
+    Bicycle: "#2a9d8f",
+    Walker: "#e9c46a",
+    Runner: "#f4a261",
+    "Dog walker": "#e76f51",
+    Other: "#8d99ae"
+  };
+  const genderColor = {
+    Women: "#1d3557",
+    Men: "#2a9d8f",
+    Unknown: "#6c757d"
+  };
+  const modeDash = {
+    Pushbike: "solid",
+    "E-bike": "dash",
+    "Micro mobility": "dot",
+    Bicycle: "solid",
+    Walker: "longdash",
+    Runner: "dashdot",
+    "Dog walker": "longdashdot",
+    Other: "solid"
+  };
+  const genderSymbol = {
+    Women: "square",
+    Men: "circle",
+    Unknown: "diamond"
+  };
+  const fallbackColors = ["#4d908e", "#577590", "#f9844a", "#9c6644", "#6a4c93"];
+
+  const color = appState.splitMode
+    ? (modeColor[group.mode] || fallbackColors[index % fallbackColors.length])
+    : (genderColor[group.gender] || fallbackColors[index % fallbackColors.length]);
+
+  return {
+    color,
+    dash: appState.splitMode ? (modeDash[group.mode] || "solid") : "solid",
+    symbol: appState.splitGender ? (genderSymbol[group.gender] || "diamond") : "circle"
+  };
 }
 
 function showEmptyPlot(element, message) {
@@ -426,7 +531,7 @@ function renderTotalDayChart(site, record) {
   );
 }
 
-function renderCategoryDayChart(site, record) {
+function renderSplitDayChart(site, record) {
   const definitions = availableCategoryDefinitions(site);
   if (definitions.length === 0) {
     showEmptyPlot(chartElement, "No category breakdowns are available for this site.");
@@ -451,28 +556,55 @@ function renderCategoryDayChart(site, record) {
     return;
   }
 
-  const traces = chartDefinitions.map((definition) => {
-    const style = categoryVisualStyle(definition);
+  const grouped = new Map();
+  chartDefinitions.forEach((definition) => {
+    const group = splitGroupForDefinition(definition);
+    if (!group) {
+      return;
+    }
     const series = categoryHourlyValues(record, definition.id, x);
     if (!series.hasData) {
-      return null;
+      return;
     }
+
+    if (!grouped.has(group.key)) {
+      grouped.set(group.key, {
+        ...group,
+        y: Array(x.length).fill(null)
+      });
+    }
+
+    const current = grouped.get(group.key);
+    series.y.forEach((value, index) => {
+      if (value == null) {
+        return;
+      }
+      current.y[index] = (current.y[index] ?? 0) + Number(value);
+    });
+  });
+
+  const groups = [...grouped.values()]
+    .filter((group) => group.y.some((value) => value != null))
+    .sort((left, right) => left.label.localeCompare(right.label));
+
+  const traces = groups.map((group, index) => {
+    const style = splitGroupStyle(group, index);
 
     return {
       x,
-      y: series.y,
+      y: group.y.map((value) => (value == null ? null : Number(value.toFixed(2)))),
       type: "scatter",
       mode: "lines+markers",
-      line: { color: definition.color, width: 2.2, dash: style.dash },
-      marker: { symbol: style.symbol, size: 8, color: definition.color },
+      line: { color: style.color, width: 2.2, dash: style.dash },
+      marker: { symbol: style.symbol, size: 8, color: style.color },
       connectgaps: false,
-      legendgroup: definition.id,
-      name: definition.label
+      legendgroup: group.key,
+      name: group.label
     };
-  }).filter(Boolean);
+  });
 
   if (traces.length === 0) {
-    renderCategoryDayFallbackToTotal(site, record);
+    renderCategoryDayFallbackToTotal(site, record, "Time-binned category data is unavailable for this split. Showing total hourly counts.");
     return;
   }
 
@@ -480,14 +612,14 @@ function renderCategoryDayChart(site, record) {
     chartElement,
     traces,
     {
-      margin: { t: 56, r: 16, b: 42, l: 42 },
-      xaxis: { title: "Time of Day" },
+      margin: { t: 56, r: 16, b: legendSpacing(traces.length).marginBottom, l: 42 },
+      xaxis: { title: { text: "Time of Day", standoff: 14 } },
       yaxis: { title: "Count" },
       paper_bgcolor: "rgba(0,0,0,0)",
       plot_bgcolor: "rgba(0,0,0,0)",
       annotations: [
         {
-          text: "Showing available category time-binned counts for this date.",
+          text: "Showing category time-binned counts split by selected dimensions.",
           showarrow: false,
           x: 0.5,
           y: 1.2,
@@ -503,7 +635,7 @@ function renderCategoryDayChart(site, record) {
           font: { size: 11, color: "#27423c" }
         }
       ],
-      legend: { orientation: "h", y: -0.22 },
+      legend: { orientation: "h", y: legendSpacing(traces.length).legendY },
       font: { family: "Space Grotesk, sans-serif", color: "#11231f" }
     },
     { displayModeBar: false, responsive: true }
@@ -545,16 +677,47 @@ function renderTotalYearChart(site) {
   );
 }
 
-function renderCategoryYearChart(site) {
+function renderSplitYearChart(site) {
   const definitions = availableCategoryDefinitions(site);
   if (definitions.length === 0) {
     showEmptyPlot(chartElement, "No category breakdowns are available for this site.");
     return;
   }
 
-  const series = categoryYearlySeries(site.records, definitions).filter((item) => item.valuesByYear.size > 0);
+  const grouped = new Map();
+  site.records.forEach((record) => {
+    if (!record.year) {
+      return;
+    }
+    definitions.forEach((definition) => {
+      const group = splitGroupForDefinition(definition);
+      if (!group) {
+        return;
+      }
+
+      const value = record.categories?.[definition.id];
+      if (value == null) {
+        return;
+      }
+
+      if (!grouped.has(group.key)) {
+        grouped.set(group.key, {
+          ...group,
+          valuesByYear: new Map()
+        });
+      }
+
+      const item = grouped.get(group.key);
+      if (!item.valuesByYear.has(record.year)) {
+        item.valuesByYear.set(record.year, []);
+      }
+      item.valuesByYear.get(record.year).push(Number(value));
+    });
+  });
+
+  const series = [...grouped.values()].filter((item) => item.valuesByYear.size > 0);
   if (series.length === 0) {
-    showEmptyPlot(chartElement, "No year-level category breakdowns are available for this site.");
+    renderTotalYearChart(site);
     return;
   }
 
@@ -566,8 +729,8 @@ function renderCategoryYearChart(site) {
 
   Plotly.newPlot(
     chartElement,
-    series.map((item) => {
-      const style = categoryVisualStyle(item);
+    series.map((item, index) => {
+      const style = splitGroupStyle(item, index);
       return {
         x,
         y: x.map((yearLabel) => {
@@ -579,17 +742,17 @@ function renderCategoryYearChart(site) {
         }),
         type: "scatter",
         mode: "lines+markers",
-        line: { color: item.color, width: 2, dash: style.dash },
-        marker: { size: 6, symbol: style.symbol, color: item.color },
+        line: { color: style.color, width: 2, dash: style.dash },
+        marker: { size: 6, symbol: style.symbol, color: style.color },
         connectgaps: false,
         name: item.label
       };
     }),
     {
-      margin: { t: 12, r: 16, b: 42, l: 42 },
-      xaxis: { title: "Year" },
+      margin: { t: 12, r: 16, b: legendSpacing(series.length).marginBottom, l: 42 },
+      xaxis: { title: { text: "Year", standoff: 14 } },
       yaxis: { title: "Category count" },
-      legend: { orientation: "h", y: -0.22 },
+      legend: { orientation: "h", y: legendSpacing(series.length).legendY },
       paper_bgcolor: "rgba(0,0,0,0)",
       plot_bgcolor: "rgba(0,0,0,0)",
       font: { family: "Space Grotesk, sans-serif", color: "#11231f" }
@@ -601,18 +764,16 @@ function renderCategoryYearChart(site) {
 function renderChart(site) {
   const selectedRecord = getSelectedRecord(site, dateSelect.value);
   if (appState.chartMode === "day") {
-    datePickerWrap.classList.remove("hidden");
-    if (appState.seriesView === "category") {
-      renderCategoryDayChart(site, selectedRecord);
+    if (hasActiveSplit()) {
+      renderSplitDayChart(site, selectedRecord);
       return;
     }
     renderTotalDayChart(site, selectedRecord);
     return;
   }
 
-  datePickerWrap.classList.add("hidden");
-  if (appState.seriesView === "category") {
-    renderCategoryYearChart(site);
+  if (hasActiveSplit()) {
+    renderSplitYearChart(site);
     return;
   }
   renderTotalYearChart(site);
@@ -657,7 +818,7 @@ function renderDirectionalMatrix(site, record) {
 }
 
 function renderDirectionalPanel(site) {
-  const record = getSelectedRecord(site, directionalDateSelect.value);
+  const record = getSelectedRecord(site, dateSelect.value);
   if (!record) {
     showEmptyPlot(directionalChart, "No directional data is available for this site.");
     directionalSummary.textContent = "";
@@ -1009,25 +1170,21 @@ function wireEvents() {
     }
   });
 
-  seriesView.addEventListener("change", (event) => {
-    appState.seriesView = event.target.value;
+  splitModeInput.addEventListener("change", () => {
+    appState.splitMode = splitModeInput.checked;
+    if (appState.selectedSite) {
+      renderChart(appState.selectedSite);
+    }
+  });
+
+  splitGenderInput.addEventListener("change", () => {
+    appState.splitGender = splitGenderInput.checked;
     if (appState.selectedSite) {
       renderChart(appState.selectedSite);
     }
   });
 
   dateSelect.addEventListener("change", () => {
-    syncDateSelections(dateSelect.value);
-    if (appState.selectedSite) {
-      if (appState.chartMode === "day") {
-        renderChart(appState.selectedSite);
-      }
-      renderDirectionalPanel(appState.selectedSite);
-    }
-  });
-
-  directionalDateSelect.addEventListener("change", () => {
-    syncDateSelections(directionalDateSelect.value);
     if (appState.selectedSite) {
       if (appState.chartMode === "day") {
         renderChart(appState.selectedSite);

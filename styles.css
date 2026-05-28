@@ -244,6 +244,26 @@ body {
   font-size: 0.8rem;
 }
 
+.split-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+}
+
+.split-label {
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+
+.split-controls label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 .date-picker-wrap {
   display: flex;
   align-items: center;
