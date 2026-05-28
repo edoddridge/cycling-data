@@ -32,6 +32,10 @@
         <div>
           <h1>Cycling Transit Data</h1>
           <p>Dashboard for Super Tuesday and Super Sunday cycling counts.</p>
+          <nav class="page-nav" aria-label="Pages">
+            <a class="active" href="index.html" aria-current="page">Dashboard</a>
+            <a href="experimental.html">Experimental</a>
+          </nav>
         </div>
         <div class="toolbar">
           <div class="toolbar-row">
@@ -93,6 +97,10 @@
                     <label><input type="radio" name="chart-mode" value="day" checked /> Single day</label>
                     <label><input type="radio" name="chart-mode" value="year" /> All years</label>
                   </div>
+                  <label id="date-select-wrap" class="select-label" for="date-select">
+                    Count date
+                    <select id="date-select"></select>
+                  </label>
                   <div class="split-controls" role="group" aria-label="Split by">
                     <span class="split-label">Split by:</span>
                     <label><input id="split-mode" type="checkbox" /> Mode of transport</label>
@@ -107,16 +115,47 @@
             <section class="block">
               <div class="chart-controls">
                 <h3>Directional Data</h3>
-                <label class="select-label" for="date-select">
-                  Count date
-                  <select id="date-select"></select>
-                </label>
               </div>
               <p id="directional-summary" class="muted"></p>
               <div id="directional-chart"></div>
               <div id="directional-matrix" class="matrix-wrap"></div>
             </section>
           </div>
+
+          <section class="block" id="dashboard-stats-block">
+            <div class="panel-header">
+              <h3>Descriptive Statistics</h3>
+              <div class="stats-controls">
+                <label class="select-label" for="stats-dataset-filter">
+                  Dataset
+                  <select id="stats-dataset-filter">
+                    <option value="all" selected>All Sites</option>
+                    <option value="st">Super Tuesday (Commuter)</option>
+                    <option value="ss">Super Sunday (Recreation)</option>
+                  </select>
+                </label>
+                <label class="select-label" for="stats-city-filter">
+                  City / Council
+                  <select id="stats-city-filter">
+                    <option value="all" selected>All Cities</option>
+                  </select>
+                </label>
+                <label class="select-label" for="stats-volume-mode">
+                  Volume view
+                  <select id="stats-volume-mode">
+                    <option value="summed" selected>Summed quantity</option>
+                    <option value="site">Site-specific quantities</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <p class="muted compact" id="stats-scope"></p>
+            <div id="stats-grid" class="stats-grid"></div>
+            <div id="stats-notes" class="stats-notes"></div>
+            <div class="stats-trends">
+              <div id="stats-trend-volume" class="stats-chart"></div>
+            </div>
+          </section>
         </aside>
       </main>
     </div>

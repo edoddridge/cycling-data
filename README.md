@@ -80,6 +80,26 @@ git push
    - **Trend between years** for annual totals
 5. Review the **Intersection Inset** to interpret leg labels and azimuth directions.
 
+## Experimental page
+
+An additional page, `experimental.html`, provides exploratory network analysis.
+
+- Vertices: monitoring sites.
+- Edges: inferred links between nearby sites with overlapping road-label tokens.
+- Edge thickness: proportional to inferred flow.
+- Leakage handling: each edge is drawn in two halves, so thickness can change at the midpoint when outbound and inbound estimates differ.
+
+The page contains two views:
+
+1. **Static Network**
+  - `Single day`: uses total daily counts for the selected date.
+  - `All-years average`: uses average daily totals across all available years.
+2. **Temporal Network**
+  - Uses time bins and supports stepping/playing through the day.
+  - Can run on either a single selected day or all-years average hourly bins.
+
+Use the page navigation links in the header to switch between **Dashboard** and **Experimental**.
+
 ## Tests
 
 Run parsing tests with:

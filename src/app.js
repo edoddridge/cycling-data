@@ -25,7 +25,10 @@ const appState = {
   splitMode: false,
   splitGender: false,
   insetRenderToken: 0,
-  insetZoom: 16
+  insetZoom: 16,
+  statsVolumeMode: "summed",
+  statsDataset: "all",
+  statsCity: "all"
 };
 
 const insetTileCache = new Map();
@@ -60,9 +63,17 @@ const insetNote = document.getElementById("inset-note");
 const insetZoom = document.getElementById("inset-zoom");
 const insetZoomValue = document.getElementById("inset-zoom-value");
 const dateSelect = document.getElementById("date-select");
+const dateSelectWrap = document.getElementById("date-select-wrap");
 const directionalSummary = document.getElementById("directional-summary");
 const directionalChart = document.getElementById("directional-chart");
 const directionalMatrix = document.getElementById("directional-matrix");
+const statsDatasetFilter = document.getElementById("stats-dataset-filter");
+const statsCityFilter = document.getElementById("stats-city-filter");
+const statsVolumeMode = document.getElementById("stats-volume-mode");
+const statsScope = document.getElementById("stats-scope");
+const statsGrid = document.getElementById("stats-grid");
+const statsNotes = document.getElementById("stats-notes");
+const statsTrendVolume = document.getElementById("stats-trend-volume");
 const splitModeInput = document.getElementById("split-mode");
 const splitGenderInput = document.getElementById("split-gender");
 const chartElement = document.getElementById("chart");
@@ -92,6 +103,25 @@ function formatDateLabel(date) {
     year: "numeric",
     month: "short",
     day: "2-digit"
+  });
+}
+
+function percentile(values, fraction) {
+  if (values.length === 0) {
+    return null;
+  }
+  const sorted = [...values].sort((left, right) => left - right);
+  const idx = Math.min(sorted.length - 1, Math.max(0, Math.round((sorted.length - 1) * fraction)));
+  return sorted[idx];
+}
+
+function formatNumber(value, digits = 0) {
+  if (value == null || !Number.isFinite(value)) {
+    return "n/a";
+  }
+  return value.toLocaleString("en-AU", {
+    minimumFractionDigits: digits,
+    maximumFractionDigits: digits
   });
 }
 
@@ -200,6 +230,263 @@ function visibleSites() {
   return [...appState.sites.values()].filter((site) => filter === "all" || site.datasetId === filter);
 }
 
+function statsVisibleSites() {
+  return [...appState.sites.values()].filter((site) => {
+    const datasetOk = appState.statsDataset === "all" || site.datasetId === appState.statsDataset;
+    const cityOk = appState.statsCity === "all" || site.council === appState.statsCity;
+    return datasetOk && cityOk;
+  });
+}
+
+function sortedUniqueCouncils(sites) {
+  return [...new Set(sites.map((site) => site.council).filter(Boolean))].sort((left, right) => left.localeCompare(right));
+}
+
+function refreshStatsCityOptions() {
+  const datasetScoped = appState.statsDataset === "all"
+    ? [...appState.sites.values()]
+    : [...appState.sites.values()].filter((site) => site.datasetId === appState.statsDataset);
+
+  const councils = sortedUniqueCouncils(datasetScoped);
+  const previous = appState.statsCity;
+
+  statsCityFilter.innerHTML = "";
+  const allOption = document.createElement("option");
+  allOption.value = "all";
+  allOption.textContent = "All Cities";
+  statsCityFilter.appendChild(allOption);
+
+  councils.forEach((council) => {
+    const option = document.createElement("option");
+    option.value = council;
+    option.textContent = council;
+    statsCityFilter.appendChild(option);
+  });
+
+  const validValues = new Set(["all", ...councils]);
+  appState.statsCity = validValues.has(previous) ? previous : "all";
+  statsCityFilter.value = appState.statsCity;
+}
+
+function getDistinctYearsForSites(sites) {
+  const years = new Set();
+  sites.forEach((site) => {
+    site.records.forEach((record) => {
+      if (record.year != null) {
+        years.add(Number(record.year));
+      }
+    });
+  });
+  return [...years].sort((left, right) => left - right);
+}
+
+function computeDashboardStats(sites) {
+  const allRecords = sites.flatMap((site) => site.records || []);
+  const totals = allRecords.map((record) => record.total).filter((value) => value != null);
+  const years = getDistinctYearsForSites(sites);
+
+  const siteTotals = sites
+    .map((site) => ({
+      key: site.key,
+      siteId: site.siteId,
+      total: (site.records || []).reduce((sum, record) => sum + (record.total || 0), 0)
+    }))
+    .sort((left, right) => right.total - left.total);
+
+  const topSlice = Math.max(1, Math.ceil(siteTotals.length * 0.1));
+  const totalVolume = siteTotals.reduce((sum, item) => sum + item.total, 0);
+  const topVolume = siteTotals.slice(0, topSlice).reduce((sum, item) => sum + item.total, 0);
+  const concentration = totalVolume > 0 ? (topVolume / totalVolume) * 100 : null;
+
+  const hourlyNetwork = averageHourlySeries([{ hourly: allRecords.flatMap((record) => record.hourly || []) }]);
+  const peak = hourlyNetwork.reduce((best, point) => {
+    if (point.value == null) {
+      return best;
+    }
+    if (!best || point.value > best.value) {
+      return point;
+    }
+    return best;
+  }, null);
+
+  return {
+    siteCount: sites.length,
+    recordCount: allRecords.length,
+    yearRange: years.length ? `${years[0]}-${years[years.length - 1]}` : "n/a",
+    totalVolume,
+    medianDailyTotal: percentile(totals, 0.5),
+    concentration,
+    peakHour: peak ? `${peak.time} (${formatNumber(peak.value, 1)})` : "n/a",
+    topSites: siteTotals.slice(0, 5)
+  };
+}
+
+function computeDashboardYearlyStats(sites) {
+  const yearly = new Map();
+  const siteYearTotals = new Map();
+
+  sites.forEach((site) => {
+    if (!siteYearTotals.has(site.key)) {
+      siteYearTotals.set(site.key, new Map());
+    }
+
+    (site.records || []).forEach((record) => {
+      if (record.year == null || record.total == null) {
+        return;
+      }
+
+      const year = Number(record.year);
+      const total = Number(record.total);
+
+      if (!yearly.has(year)) {
+        yearly.set(year, {
+          totals: [],
+          networkTotal: 0
+        });
+      }
+
+      const current = yearly.get(year);
+      current.totals.push(total);
+      current.networkTotal += total;
+
+      const byYear = siteYearTotals.get(site.key);
+      byYear.set(year, (byYear.get(year) || 0) + total);
+    });
+  });
+
+  const years = [...yearly.keys()].sort((left, right) => left - right);
+
+  const siteSeries = [...siteYearTotals.entries()].map(([siteKey, valuesByYear]) => ({
+    siteKey,
+    y: years.map((year) => valuesByYear.get(year) ?? null)
+  }));
+
+  const medianSiteTotals = years.map((year, yearIndex) => {
+    const values = siteSeries.map((series) => series.y[yearIndex]).filter((value) => value != null);
+    return percentile(values, 0.5);
+  });
+
+  const p90SiteTotals = years.map((year, yearIndex) => {
+    const values = siteSeries.map((series) => series.y[yearIndex]).filter((value) => value != null);
+    return percentile(values, 0.9);
+  });
+
+  return {
+    years,
+    networkTotals: years.map((year) => yearly.get(year).networkTotal),
+    siteSeries,
+    medianSiteTotals,
+    p90SiteTotals
+  };
+}
+
+function renderDashboardStatsTrends(sites) {
+  const yearly = computeDashboardYearlyStats(sites);
+  if (!window.Plotly) {
+    return;
+  }
+
+  if (yearly.years.length === 0) {
+    Plotly.purge(statsTrendVolume);
+    return;
+  }
+
+  const x = yearly.years.map((year) => String(year));
+
+  const traces = appState.statsVolumeMode === "site"
+    ? [
+      ...yearly.siteSeries.map((series) => ({
+        x,
+        y: series.y,
+        type: "scatter",
+        mode: "lines",
+        showlegend: false,
+        hoverinfo: "skip",
+        line: { color: "rgba(17, 35, 31, 0.12)", width: 1 }
+      })),
+      {
+        x,
+        y: yearly.medianSiteTotals,
+        type: "scatter",
+        mode: "lines+markers",
+        name: "Median across sites",
+        line: { color: "#005f73", width: 3 }
+      },
+      {
+        x,
+        y: yearly.p90SiteTotals,
+        type: "scatter",
+        mode: "lines+markers",
+        name: "P90 across sites",
+        line: { color: "#b5651d", width: 3, dash: "dash" }
+      }
+    ]
+    : [
+      {
+        x,
+        y: yearly.networkTotals,
+        type: "scatter",
+        mode: "lines+markers",
+        name: "Network total",
+        line: { color: "#005f73", width: 2.8 }
+      }
+    ];
+
+  Plotly.newPlot(
+    statsTrendVolume,
+    traces,
+    {
+      margin: { t: 36, r: 14, b: 60, l: 56 },
+      title: { text: "Volume Evolution", font: { size: 14 } },
+      xaxis: { title: { text: "Year", standoff: 12 } },
+      yaxis: { title: "Count" },
+      legend: { orientation: "h", y: -0.28 },
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)",
+      font: { family: "Space Grotesk, sans-serif", color: "#11231f" }
+    },
+    { displayModeBar: false, responsive: true }
+  );
+}
+
+function renderDashboardStats() {
+  const sites = statsVisibleSites();
+  const scopeDataset = appState.statsDataset === "all" ? "All datasets" : appState.statsDataset.toUpperCase();
+  const scopeCity = appState.statsCity === "all" ? "All cities" : appState.statsCity;
+  statsScope.textContent = `Scope: ${scopeDataset} | ${scopeCity}`;
+
+  if (sites.length === 0) {
+    statsGrid.innerHTML = "";
+    statsNotes.textContent = "No statistics available for the current scope.";
+    if (window.Plotly) {
+      Plotly.purge(statsTrendVolume);
+    }
+    return;
+  }
+
+  const stats = computeDashboardStats(sites);
+  const cards = [
+    ["Sites", formatNumber(stats.siteCount)],
+    ["Records", formatNumber(stats.recordCount)],
+    ["Year range", stats.yearRange],
+    ["Total counts", formatNumber(stats.totalVolume)],
+    ["Median daily count", formatNumber(stats.medianDailyTotal, 1)],
+    ["Top 10% share", stats.concentration == null ? "n/a" : `${formatNumber(stats.concentration, 1)}%`],
+    ["Peak hour", stats.peakHour]
+  ];
+
+  statsGrid.innerHTML = cards
+    .map(([label, value]) => `<div class="stat-card"><div class="stat-label">${label}</div><div class="stat-value">${value}</div></div>`)
+    .join("");
+
+  const topSiteText = stats.topSites
+    .map((item) => `Site ${item.siteId}: ${formatNumber(item.total)}`)
+    .join(" | ");
+
+  statsNotes.textContent = `Top sites by count: ${topSiteText}`;
+  renderDashboardStatsTrends(sites);
+}
+
 function hydrateSite(site, dataset, categoryDefinitions) {
   const records = (site.records || []).map((record) => ({
     ...record,
@@ -298,6 +585,80 @@ function updateDateOptions(site) {
 
 function getSelectedRecord(site, dateKey) {
   return site.records.find((record) => record.dateKey === dateKey) || site.records.at(-1) || null;
+}
+
+function averageValue(values) {
+  if (values.length === 0) {
+    return null;
+  }
+  return Number((values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(2));
+}
+
+function buildDirectionalAverageRecord(site) {
+  const legTotalsByLeg = new Map();
+  const movementsByPair = new Map();
+
+  site.records.forEach((record) => {
+    (record.directional?.legTotals || []).forEach((leg) => {
+      if (!legTotalsByLeg.has(leg.leg)) {
+        legTotalsByLeg.set(leg.leg, { enter: [], exit: [], total: [] });
+      }
+      const bucket = legTotalsByLeg.get(leg.leg);
+      if (leg.enter != null) {
+        bucket.enter.push(Number(leg.enter));
+      }
+      if (leg.exit != null) {
+        bucket.exit.push(Number(leg.exit));
+      }
+      if (leg.total != null) {
+        bucket.total.push(Number(leg.total));
+      }
+    });
+
+    (record.directional?.movements || []).forEach((movement) => {
+      const key = `${movement.from}-${movement.to}`;
+      if (!movementsByPair.has(key)) {
+        movementsByPair.set(key, {
+          from: movement.from,
+          to: movement.to,
+          values: []
+        });
+      }
+      if (movement.value != null) {
+        movementsByPair.get(key).values.push(Number(movement.value));
+      }
+    });
+  });
+
+  const legTotals = [...legTotalsByLeg.entries()]
+    .sort((left, right) => left[0] - right[0])
+    .map(([leg, bucket]) => ({
+      leg,
+      enter: averageValue(bucket.enter),
+      exit: averageValue(bucket.exit),
+      total: averageValue(bucket.total)
+    }));
+
+  const movements = [...movementsByPair.values()]
+    .map((movement) => ({
+      from: movement.from,
+      to: movement.to,
+      value: averageValue(movement.values)
+    }))
+    .filter((movement) => movement.value != null)
+    .sort((left, right) => (left.from - right.from) || (left.to - right.to));
+
+  return {
+    directional: { legTotals, movements },
+    dateObj: null
+  };
+}
+
+function updateDateControlVisibility() {
+  if (!dateSelectWrap) {
+    return;
+  }
+  dateSelectWrap.classList.toggle("hidden", appState.chartMode === "year");
 }
 
 function availableCategoryDefinitions(site) {
@@ -689,6 +1050,11 @@ function renderSplitYearChart(site) {
     if (!record.year) {
       return;
     }
+
+    // Aggregate all category slices for a group within this record first,
+    // then average those per-record totals by year.
+    const recordGroupTotals = new Map();
+
     definitions.forEach((definition) => {
       const group = splitGroupForDefinition(definition);
       if (!group) {
@@ -700,18 +1066,31 @@ function renderSplitYearChart(site) {
         return;
       }
 
-      if (!grouped.has(group.key)) {
-        grouped.set(group.key, {
+      if (!recordGroupTotals.has(group.key)) {
+        recordGroupTotals.set(group.key, {
           ...group,
+          total: 0
+        });
+      }
+      recordGroupTotals.get(group.key).total += Number(value);
+    });
+
+    recordGroupTotals.forEach((recordGroup) => {
+      if (!grouped.has(recordGroup.key)) {
+        grouped.set(recordGroup.key, {
+          key: recordGroup.key,
+          label: recordGroup.label,
+          mode: recordGroup.mode,
+          gender: recordGroup.gender,
           valuesByYear: new Map()
         });
       }
 
-      const item = grouped.get(group.key);
+      const item = grouped.get(recordGroup.key);
       if (!item.valuesByYear.has(record.year)) {
         item.valuesByYear.set(record.year, []);
       }
-      item.valuesByYear.get(record.year).push(Number(value));
+      item.valuesByYear.get(record.year).push(recordGroup.total);
     });
   });
 
@@ -818,7 +1197,8 @@ function renderDirectionalMatrix(site, record) {
 }
 
 function renderDirectionalPanel(site) {
-  const record = getSelectedRecord(site, dateSelect.value);
+  const isAllYears = appState.chartMode === "year";
+  const record = isAllYears ? buildDirectionalAverageRecord(site) : getSelectedRecord(site, dateSelect.value);
   if (!record) {
     showEmptyPlot(directionalChart, "No directional data is available for this site.");
     directionalSummary.textContent = "";
@@ -827,10 +1207,17 @@ function renderDirectionalPanel(site) {
   }
 
   const legTotals = (record.directional?.legTotals || []).filter((item) => item.enter != null || item.exit != null || item.total != null);
-  directionalSummary.textContent = `Directional values for ${formatDateLabel(record.dateObj)}. Bars show per-leg entry and exit totals; the matrix shows from-leg to to-leg movements.`;
+  directionalSummary.textContent = isAllYears
+    ? "Directional values averaged across all available years. Bars show per-leg entry and exit means; the matrix shows average from-leg to to-leg movements."
+    : `Directional values for ${formatDateLabel(record.dateObj)}. Bars show per-leg entry and exit totals; the matrix shows from-leg to to-leg movements.`;
 
   if (legTotals.length === 0) {
-    showEmptyPlot(directionalChart, "No per-leg directional totals are available for this count date.");
+    showEmptyPlot(
+      directionalChart,
+      isAllYears
+        ? "No per-leg directional totals are available to average across years."
+        : "No per-leg directional totals are available for this count date."
+    );
   } else {
     const labels = legTotals.map((item) => formatLegLabel(site, item.leg));
     Plotly.newPlot(
@@ -865,6 +1252,7 @@ function showDetail(site) {
   siteMeta.textContent = `${site.council}, ${site.state} | ${site.description || "No description"}`;
 
   updateDateOptions(site);
+  updateDateControlVisibility();
   drawIntersectionInset(site);
   renderChart(site);
   renderDirectionalPanel(site);
@@ -1196,10 +1584,28 @@ function wireEvents() {
   chartModeInputs.forEach((input) => {
     input.addEventListener("change", (event) => {
       appState.chartMode = event.target.value;
+      updateDateControlVisibility();
       if (appState.selectedSite) {
         renderChart(appState.selectedSite);
+        renderDirectionalPanel(appState.selectedSite);
       }
     });
+  });
+
+  statsDatasetFilter.addEventListener("change", () => {
+    appState.statsDataset = statsDatasetFilter.value;
+    refreshStatsCityOptions();
+    renderDashboardStats();
+  });
+
+  statsCityFilter.addEventListener("change", () => {
+    appState.statsCity = statsCityFilter.value;
+    renderDashboardStats();
+  });
+
+  statsVolumeMode.addEventListener("change", () => {
+    appState.statsVolumeMode = statsVolumeMode.value;
+    renderDashboardStats();
   });
 }
 
@@ -1211,6 +1617,11 @@ async function bootstrap() {
   }
   wireEvents();
   renderMarkers();
+  statsDatasetFilter.value = appState.statsDataset;
+  refreshStatsCityOptions();
+  statsVolumeMode.value = appState.statsVolumeMode;
+  updateDateControlVisibility();
+  renderDashboardStats();
   setStatus(`Loaded ${appState.sites.size} intersections`, false);
   window.setTimeout(() => setStatus("", true), 2200);
 }
