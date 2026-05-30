@@ -227,15 +227,17 @@ function markerStyle(site, isSelected = false) {
 
 function visibleSites() {
   const filter = datasetFilter.value;
-  return [...appState.sites.values()].filter((site) => filter === "all" || site.datasetId === filter);
-}
-
-function statsVisibleSites() {
   return [...appState.sites.values()].filter((site) => {
-    const datasetOk = appState.statsDataset === "all" || site.datasetId === appState.statsDataset;
+    const datasetOk = filter === "all" || site.datasetId === filter;
     const cityOk = appState.statsCity === "all" || site.council === appState.statsCity;
     return datasetOk && cityOk;
   });
+}
+
+function statsVisibleSites() {
+  const filtered = visibleSites();
+  const bounds = map.getBounds();
+  return filtered.filter((site) => bounds.contains([site.latitude, site.longitude]));
 }
 
 function sortedUniqueCouncils(sites) {
@@ -243,9 +245,9 @@ function sortedUniqueCouncils(sites) {
 }
 
 function refreshStatsCityOptions() {
-  const datasetScoped = appState.statsDataset === "all"
+  const datasetScoped = datasetFilter.value === "all"
     ? [...appState.sites.values()]
-    : [...appState.sites.values()].filter((site) => site.datasetId === appState.statsDataset);
+    : [...appState.sites.values()].filter((site) => site.datasetId === datasetFilter.value);
 
   const councils = sortedUniqueCouncils(datasetScoped);
   const previous = appState.statsCity;
@@ -411,14 +413,6 @@ function renderDashboardStatsTrends(sites) {
         mode: "lines+markers",
         name: "Median across sites",
         line: { color: "#005f73", width: 3 }
-      },
-      {
-        x,
-        y: yearly.p90SiteTotals,
-        type: "scatter",
-        mode: "lines+markers",
-        name: "P90 across sites",
-        line: { color: "#b5651d", width: 3, dash: "dash" }
       }
     ]
     : [
@@ -451,9 +445,9 @@ function renderDashboardStatsTrends(sites) {
 
 function renderDashboardStats() {
   const sites = statsVisibleSites();
-  const scopeDataset = appState.statsDataset === "all" ? "All datasets" : appState.statsDataset.toUpperCase();
+  const scopeDataset = datasetFilter.value === "all" ? "All datasets" : datasetFilter.value.toUpperCase();
   const scopeCity = appState.statsCity === "all" ? "All cities" : appState.statsCity;
-  statsScope.textContent = `Scope: ${scopeDataset} | ${scopeCity}`;
+  statsScope.textContent = `Scope: ${scopeDataset} | ${scopeCity} | current map view`;
 
   if (sites.length === 0) {
     statsGrid.innerHTML = "";
@@ -1304,7 +1298,7 @@ function performSearch() {
   selectSite(matchedSite, true);
 }
 
-function renderMarkers() {
+function renderMarkers(fitToBounds = true) {
   markerLayer.clearLayers();
   appState.markerByKey.clear();
 
@@ -1323,9 +1317,11 @@ function renderMarkers() {
   });
 
   rebuildSearchOptions();
-  if (bounds.length > 0) {
+  if (fitToBounds && bounds.length > 0) {
     map.fitBounds(L.latLngBounds(bounds).pad(0.1));
   }
+
+  renderDashboardStats();
 }
 
 function drawArrow(ctx, fromX, fromY, toX, toY, color, dashed = false) {
@@ -1539,6 +1535,9 @@ async function drawIntersectionInset(site) {
 
 function wireEvents() {
   datasetFilter.addEventListener("change", () => {
+    appState.statsDataset = datasetFilter.value;
+    statsDatasetFilter.value = appState.statsDataset;
+    refreshStatsCityOptions();
     renderMarkers();
   });
 
@@ -1594,17 +1593,26 @@ function wireEvents() {
 
   statsDatasetFilter.addEventListener("change", () => {
     appState.statsDataset = statsDatasetFilter.value;
+    datasetFilter.value = appState.statsDataset;
     refreshStatsCityOptions();
-    renderDashboardStats();
+    renderMarkers();
   });
 
   statsCityFilter.addEventListener("change", () => {
     appState.statsCity = statsCityFilter.value;
-    renderDashboardStats();
+    renderMarkers();
   });
 
   statsVolumeMode.addEventListener("change", () => {
     appState.statsVolumeMode = statsVolumeMode.value;
+    renderDashboardStats();
+  });
+
+  map.on("moveend", () => {
+    renderDashboardStats();
+  });
+
+  map.on("zoomend", () => {
     renderDashboardStats();
   });
 }
@@ -1616,6 +1624,7 @@ async function bootstrap() {
     await loadDataset(dataset);
   }
   wireEvents();
+  appState.statsDataset = datasetFilter.value;
   renderMarkers();
   statsDatasetFilter.value = appState.statsDataset;
   refreshStatsCityOptions();
