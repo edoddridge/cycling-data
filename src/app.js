@@ -67,7 +67,6 @@ const dateSelectWrap = document.getElementById("date-select-wrap");
 const directionalSummary = document.getElementById("directional-summary");
 const directionalChart = document.getElementById("directional-chart");
 const directionalMatrix = document.getElementById("directional-matrix");
-const statsDatasetFilter = document.getElementById("stats-dataset-filter");
 const statsCityFilter = document.getElementById("stats-city-filter");
 const statsVolumeMode = document.getElementById("stats-volume-mode");
 const statsScope = document.getElementById("stats-scope");
@@ -326,6 +325,7 @@ function computeDashboardStats(sites) {
 function computeDashboardYearlyStats(sites) {
   const yearly = new Map();
   const siteYearTotals = new Map();
+  const siteIdByKey = new Map(sites.map((site) => [site.key, site.siteId]));
 
   sites.forEach((site) => {
     if (!siteYearTotals.has(site.key)) {
@@ -360,6 +360,7 @@ function computeDashboardYearlyStats(sites) {
 
   const siteSeries = [...siteYearTotals.entries()].map(([siteKey, valuesByYear]) => ({
     siteKey,
+    siteId: siteIdByKey.get(siteKey) ?? siteKey,
     y: years.map((year) => valuesByYear.get(year) ?? null)
   }));
 
@@ -400,11 +401,12 @@ function renderDashboardStatsTrends(sites) {
       ...yearly.siteSeries.map((series) => ({
         x,
         y: series.y,
+        meta: `Site ${series.siteId}`,
         type: "scatter",
         mode: "lines",
         showlegend: false,
-        hoverinfo: "skip",
-        line: { color: "rgba(17, 35, 31, 0.12)", width: 1 }
+        line: { color: "rgba(17, 35, 31, 0.12)", width: 1 },
+        hovertemplate: "%{meta}<br>Year %{x}<br>Count %{y:.1f}<extra></extra>"
       })),
       {
         x,
@@ -412,7 +414,8 @@ function renderDashboardStatsTrends(sites) {
         type: "scatter",
         mode: "lines+markers",
         name: "Median across sites",
-        line: { color: "#005f73", width: 3 }
+        line: { color: "#005f73", width: 3 },
+        hovertemplate: "Median across sites<br>Year %{x}<br>Count %{y:.1f}<extra></extra>"
       }
     ]
     : [
@@ -1536,7 +1539,6 @@ async function drawIntersectionInset(site) {
 function wireEvents() {
   datasetFilter.addEventListener("change", () => {
     appState.statsDataset = datasetFilter.value;
-    statsDatasetFilter.value = appState.statsDataset;
     refreshStatsCityOptions();
     renderMarkers();
   });
@@ -1591,13 +1593,6 @@ function wireEvents() {
     });
   });
 
-  statsDatasetFilter.addEventListener("change", () => {
-    appState.statsDataset = statsDatasetFilter.value;
-    datasetFilter.value = appState.statsDataset;
-    refreshStatsCityOptions();
-    renderMarkers();
-  });
-
   statsCityFilter.addEventListener("change", () => {
     appState.statsCity = statsCityFilter.value;
     renderMarkers();
@@ -1626,7 +1621,6 @@ async function bootstrap() {
   wireEvents();
   appState.statsDataset = datasetFilter.value;
   renderMarkers();
-  statsDatasetFilter.value = appState.statsDataset;
   refreshStatsCityOptions();
   statsVolumeMode.value = appState.statsVolumeMode;
   updateDateControlVisibility();
