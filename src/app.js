@@ -2423,16 +2423,48 @@ function smoothSeriesValues(yValues, windowSize) {
   });
 }
 
-function getSmoothingWindowPoints() {
-  const minutes = Number(appState.smoothWindowMinutes) || 5;
-  return Math.max(1, Math.round(minutes / 5));
+function smoothingWindowChoices(binMinutes = 5) {
+  const base = Math.max(1, Number(binMinutes) || 5);
+  return [...new Set([base, base * 6, base * 12])].sort((left, right) => left - right);
 }
 
-function applySmoothingToTraces(traces) {
+function syncSmoothingWindowOptions(site) {
+  if (!IS_OTHER_MODE || !smoothWindowInput) {
+    return;
+  }
+
+  const nativeBinMinutes = Math.max(1, Number(site?.binMinutes) || 5);
+  const choices = smoothingWindowChoices(nativeBinMinutes);
+  const requested = Number(appState.smoothWindowMinutes) || choices[Math.min(1, choices.length - 1)] || nativeBinMinutes;
+  const selected = choices.includes(requested)
+    ? requested
+    : choices[Math.min(1, choices.length - 1)] || nativeBinMinutes;
+
+  smoothWindowInput.innerHTML = "";
+  choices.forEach((minutes) => {
+    const option = document.createElement("option");
+    option.value = String(minutes);
+    option.textContent = minutes === nativeBinMinutes
+      ? `${minutes} minutes (native)`
+      : `${minutes} minutes`;
+    smoothWindowInput.appendChild(option);
+  });
+
+  appState.smoothWindowMinutes = selected;
+  smoothWindowInput.value = String(selected);
+}
+
+function getSmoothingWindowPoints(binMinutes = 5) {
+  const minutes = Number(appState.smoothWindowMinutes) || 5;
+  const sourceBinMinutes = Math.max(1, Number(binMinutes) || 5);
+  return Math.max(1, Math.round(minutes / sourceBinMinutes));
+}
+
+function applySmoothingToTraces(traces, binMinutes = 5) {
   if (!IS_OTHER_MODE || !appState.smoothSeries) {
     return traces;
   }
-  const window = getSmoothingWindowPoints();
+  const window = getSmoothingWindowPoints(binMinutes);
   if (window <= 1) {
     return traces;
   }
@@ -2745,7 +2777,7 @@ function renderOtherTimeSeries(site) {
   const aggregated = seriesMode === "daily"
     ? aggregateOtherTimeOfDayClimatology(records, splitDefinitions, site.flowUnit || "People", site.binMinutes || 5)
     : aggregateSeriesPoints(expandOtherFacetSeries(createOtherBaseSeries(records, splitDefinitions), records), seriesMode);
-  const traces = applySmoothingToTraces(aggregated.traces);
+  const traces = applySmoothingToTraces(aggregated.traces, site.binMinutes || 5);
 
   if (traces.length === 0) {
     showEmptyPlot(chartElement, "No rows match the selected time-series disaggregation options.");
@@ -2864,6 +2896,7 @@ function showDetail(site) {
   siteChip.style.background = site.color;
   siteMeta.textContent = `${site.council}, ${site.state} | ${site.description || "No description"}`;
 
+  syncSmoothingWindowOptions(site);
   updateDateOptions(site);
   updateDateControlVisibility();
   drawIntersectionInset(site);
@@ -3269,7 +3302,9 @@ function wireEvents() {
 
   if (smoothWindowInput) {
     smoothWindowInput.addEventListener("change", () => {
-      appState.smoothWindowMinutes = Number(smoothWindowInput.value) || 30;
+      appState.smoothWindowMinutes = Number(smoothWindowInput.value)
+        || Number(appState.selectedSite?.binMinutes)
+        || 5;
       if (appState.selectedSite) {
         renderChart(appState.selectedSite);
       }
