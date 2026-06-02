@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Other Data Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>Cycling Transit Data</h1>
+          <p>Dashboard for additional downloaded datasets.</p>
+          <nav class="page-nav" aria-label="Pages">
+            <a href="index.html">Dashboard</a>
+            <a class="active" href="other-data.html" aria-current="page">Other data</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="layout-grid">
+        <div class="map-column">
+          <section class="map-panel card">
+            <div id="map"></div>
+            <div id="status-banner" class="status-banner">Loading external dataset...</div>
+          </section>
+
+          <section class="card panel" id="dashboard-stats-block">
+            <div class="panel-header">
+              <h3>Descriptive Statistics</h3>
+              <div class="stats-controls">
+                <label class="select-label" for="stats-city-filter">
+                  City / Council
+                  <select id="stats-city-filter">
+                    <option value="all" selected>All Cities</option>
+                  </select>
+                </label>
+                <label class="select-label" for="stats-volume-mode">
+                  Volume view
+                  <select id="stats-volume-mode">
+                    <option value="summed" selected>Summed quantity</option>
+                    <option value="site">Site-specific quantities</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <p class="muted compact" id="stats-scope"></p>
+            <div id="stats-grid" class="stats-grid"></div>
+            <div id="stats-notes" class="stats-notes"></div>
+            <div class="stats-trends">
+              <div id="stats-trend-volume" class="stats-chart"></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="detail-panel card">
+          <section class="analysis-controls">
+            <div class="toolbar-row">
+              <select id="dataset-filter" class="hidden" aria-hidden="true" tabindex="-1">
+                <option value="other_active" selected>Active layer</option>
+              </select>
+            </div>
+            <div class="toolbar-row search-row">
+              <label for="site-search">Find Site</label>
+              <div class="search-group">
+                <input id="site-search" list="site-search-options" type="search" placeholder="Search by site_id or council" />
+                <datalist id="site-search-options"></datalist>
+                <button id="site-search-button" type="button">Locate</button>
+              </div>
+            </div>
+          </section>
+
+          <div id="empty-state" class="empty-state">
+            <h2>Select a count location</h2>
+            <p>Click a map marker to inspect location detail and count trends.</p>
+          </div>
+
+          <div id="detail-state" class="hidden">
+            <div class="site-header">
+              <h2 id="site-title"></h2>
+              <span id="site-chip" class="chip"></span>
+            </div>
+            <p id="site-meta" class="muted"></p>
+
+            <section class="block">
+              <div class="inset-controls">
+                <h3>Intersection Inset</h3>
+                <label for="inset-zoom">
+                  Inset zoom
+                  <input id="inset-zoom" type="range" min="14" max="18" step="1" value="16" />
+                  <span id="inset-zoom-value">16</span>
+                </label>
+              </div>
+              <canvas id="intersection-canvas" width="520" height="260"></canvas>
+              <p id="inset-note" class="muted"></p>
+            </section>
+
+            <section class="block">
+              <div class="chart-controls">
+                <h3>Time Series</h3>
+                <div class="chart-toolbar">
+                  <label class="select-label" for="other-series-mode">
+                    Analysis mode
+                    <select id="other-series-mode">
+                      <option value="daily" selected>Daily climatology (time of day)</option>
+                      <option value="weekly">Weekly climatology</option>
+                      <option value="annual">Annual climatology</option>
+                    </select>
+                  </label>
+                  <div class="split-controls" role="group" aria-label="Split by">
+                    <span class="split-label">Split by:</span>
+                    <label><input id="split-path" type="checkbox" /> Path (north/south)</label>
+                    <label><input id="split-direction" type="checkbox" /> Direction (east/west)</label>
+                    <label><input id="split-user-type" type="checkbox" /> User type / class</label>
+                    <label><input id="split-weekpart" type="checkbox" /> Weekday vs weekend</label>
+                    <label><input id="split-season" type="checkbox" /> Season</label>
+                    <label><input id="smooth-series" type="checkbox" /> Smooth series</label>
+                    <label class="select-label" for="smooth-window">
+                      Smooth window
+                      <select id="smooth-window">
+                        <option value="5">5 minutes (native)</option>
+                        <option value="30" selected>30 minutes</option>
+                        <option value="60">60 minutes</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div id="chart"></div>
+            </section>
+          </div>
+
+        </aside>
+      </main>
+    </div>
+
+    <script type="module" src="src/app.js?mode=other&v=20260601c"></script>
+  </body>
+</html>

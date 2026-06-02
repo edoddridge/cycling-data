@@ -1,19 +1,57 @@
-const DATASETS = [
-  {
-    id: "st",
-    name: "Super Tuesday (Commuter)",
-    file: "data/processed/st.json",
-    color: "#005f73",
-    markerColor: "#00b4d8"
-  },
-  {
-    id: "ss",
-    name: "Super Sunday (Recreation)",
-    file: "data/processed/ss.json",
-    color: "#bc6c25",
-    markerColor: "#ff9f1c"
+const APP_MODE = new URL(import.meta.url).searchParams.get("mode") || "main";
+
+function getDatasets() {
+  if (APP_MODE === "other") {
+    return [
+      {
+        id: "other_active",
+        name: "Drakewell Tasman Bridge Shared Path",
+        source: "drakewell",
+        profile: "active_cycling",
+        file: "data/external/drakewell/TAS_ACTIVE/00A0113113AT/timeseries.csv",
+        color: "#1d3557",
+        markerColor: "#457b9d"
+      },
+      {
+        id: "other_active",
+        name: "Sydney Bicycle Count Surveys",
+        source: "drakewell",
+        profile: "sydney_active",
+        file: "data/external/Sydney/processed/sydney_active_timeseries.csv",
+        color: "#0b6e4f",
+        markerColor: "#1f9d72"
+      },
+      {
+        id: "other_active",
+        name: "Melbourne Bicycle Network",
+        source: "drakewell",
+        profile: "melbourne_cycling",
+        file: "data/external/Melbourne/processed/melbourne_network_timeseries.csv",
+        color: "#2f6f4e",
+        markerColor: "#5aa469"
+      }
+    ];
   }
-];
+
+  return [
+    {
+      id: "st",
+      name: "Super Tuesday (Commuter)",
+      file: "data/processed/st.json",
+      color: "#005f73",
+      markerColor: "#00b4d8"
+    },
+    {
+      id: "ss",
+      name: "Super Sunday (Recreation)",
+      file: "data/processed/ss.json",
+      color: "#bc6c25",
+      markerColor: "#ff9f1c"
+    }
+  ];
+}
+
+const DATASETS = getDatasets();
 
 const appState = {
   sites: new Map(),
@@ -22,7 +60,15 @@ const appState = {
   selectedMarkerKey: null,
   selectedSite: null,
   chartMode: "day",
+  otherSeriesMode: "daily",
   splitMode: false,
+  splitPath: false,
+  splitDirection: false,
+  splitUserType: false,
+  splitWeekpart: false,
+  splitSeason: false,
+  smoothSeries: false,
+  smoothWindowMinutes: 30,
   splitGender: false,
   insetRenderToken: 0,
   insetZoom: 16,
@@ -30,6 +76,8 @@ const appState = {
   statsDataset: "all",
   statsCity: "all"
 };
+
+const IS_OTHER_MODE = APP_MODE === "other";
 
 const insetTileCache = new Map();
 
@@ -74,7 +122,15 @@ const statsGrid = document.getElementById("stats-grid");
 const statsNotes = document.getElementById("stats-notes");
 const statsTrendVolume = document.getElementById("stats-trend-volume");
 const splitModeInput = document.getElementById("split-mode");
+const splitPathInput = document.getElementById("split-path");
+const splitDirectionInput = document.getElementById("split-direction");
+const splitUserTypeInput = document.getElementById("split-user-type");
+const splitWeekpartInput = document.getElementById("split-weekpart");
+const splitSeasonInput = document.getElementById("split-season");
+const smoothSeriesInput = document.getElementById("smooth-series");
+const smoothWindowInput = document.getElementById("smooth-window");
 const splitGenderInput = document.getElementById("split-gender");
+const otherSeriesModeInput = document.getElementById("other-series-mode");
 const chartElement = document.getElementById("chart");
 const chartModeInputs = document.querySelectorAll("input[name='chart-mode']");
 
@@ -322,6 +378,114 @@ function computeDashboardStats(sites) {
   };
 }
 
+function dateRangeCoverage(records) {
+  const recordDates = records
+    .map((record) => parseDate(record.dateKey || record.date))
+    .filter(Boolean)
+    .sort((left, right) => left - right);
+
+  if (recordDates.length === 0) {
+    return {
+      observedDays: 0,
+      expectedDays: 0,
+      coveragePct: null,
+      rangeLabel: "n/a"
+    };
+  }
+
+  const first = recordDates[0];
+  const last = recordDates[recordDates.length - 1];
+  const millisInDay = 24 * 60 * 60 * 1000;
+  const expectedDays = Math.round((last.getTime() - first.getTime()) / millisInDay) + 1;
+  const observedDays = new Set(recordDates.map((date) => date.toISOString().slice(0, 10))).size;
+  const coveragePct = expectedDays > 0 ? (observedDays / expectedDays) * 100 : null;
+
+  return {
+    observedDays,
+    expectedDays,
+    coveragePct,
+    rangeLabel: `${first.getFullYear()}-${last.getFullYear()}`
+  };
+}
+
+function computeOtherDashboardStats(sites) {
+  const allRecords = sites.flatMap((site) => site.records || []);
+  const coverage = dateRangeCoverage(allRecords);
+
+  const byDate = new Map();
+  allRecords.forEach((record) => {
+    const key = record.dateKey || record.date;
+    if (!key || record.total == null) {
+      return;
+    }
+    if (!byDate.has(key)) {
+      byDate.set(key, []);
+    }
+    byDate.get(key).push(Number(record.total));
+  });
+
+  const dailyValues = [...byDate.keys()]
+    .sort((left, right) => left.localeCompare(right))
+    .map((day) => {
+      const values = byDate.get(day) || [];
+      if (values.length === 0) {
+        return null;
+      }
+      if (appState.statsVolumeMode === "site") {
+        return values.reduce((sum, current) => sum + current, 0) / values.length;
+      }
+      return values.reduce((sum, current) => sum + current, 0);
+    })
+    .filter((value) => value != null);
+
+  const averageDaily = dailyValues.length
+    ? dailyValues.reduce((sum, current) => sum + current, 0) / dailyValues.length
+    : null;
+
+  const peakDay = [...byDate.entries()].reduce((best, [day, values]) => {
+    if (values.length === 0) {
+      return best;
+    }
+    const dayValue = appState.statsVolumeMode === "site"
+      ? values.reduce((sum, current) => sum + current, 0) / values.length
+      : values.reduce((sum, current) => sum + current, 0);
+
+    if (!best || dayValue > best.value) {
+      return { day, value: dayValue };
+    }
+    return best;
+  }, null);
+
+  const topSites = sites
+    .map((site) => {
+      const siteTotals = (site.records || []).map((record) => record.total).filter((value) => value != null);
+      const meanDaily = siteTotals.length
+        ? siteTotals.reduce((sum, current) => sum + current, 0) / siteTotals.length
+        : null;
+      return {
+        key: site.key,
+        siteId: site.siteId,
+        meanDaily,
+        observedDays: siteTotals.length
+      };
+    })
+    .sort((left, right) => (right.meanDaily || 0) - (left.meanDaily || 0));
+
+  return {
+    siteCount: sites.length,
+    observedDays: coverage.observedDays,
+    expectedDays: coverage.expectedDays,
+    coveragePct: coverage.coveragePct,
+    yearRange: coverage.rangeLabel,
+    averageDaily,
+    medianDaily: percentile(dailyValues, 0.5),
+    peakDayLabel: peakDay
+      ? `${peakDay.day} (${formatNumber(peakDay.value, 0)})`
+      : "n/a",
+    topSites: topSites.slice(0, 5)
+  };
+}
+
 function computeDashboardYearlyStats(sites) {
   const yearly = new Map();
   const siteYearTotals = new Map();
@@ -384,6 +548,83 @@ function computeDashboardYearlyStats(sites) {
 }
 
 function renderDashboardStatsTrends(sites) {
+  if (IS_OTHER_MODE) {
+    const allRecords = sites.flatMap((site) => site.records || []);
+    const byDate = new Map();
+    allRecords.forEach((record) => {
+      const key = record.dateKey || record.date;
+      if (!key || record.total == null) {
+        return;
+      }
+      if (!byDate.has(key)) {
+        byDate.set(key, []);
+      }
+      byDate.get(key).push(Number(record.total));
+    });
+
+    const x = [...byDate.keys()].sort((left, right) => left.localeCompare(right));
+    if (x.length === 0) {
+      Plotly.purge(statsTrendVolume);
+      return;
+    }
+
+    const dailyValues = x.map((day) => {
+      const values = byDate.get(day) || [];
+      if (values.length === 0) {
+        return null;
+      }
+      if (appState.statsVolumeMode === "site") {
+        return values.reduce((sum, current) => sum + current, 0) / values.length;
+      }
+      return values.reduce((sum, current) => sum + current, 0);
+    });
+
+    const rolling14 = dailyValues.map((_, index) => {
+      const window = dailyValues.slice(Math.max(0, index - 13), index + 1).filter((value) => value != null);
+      return window.length ? Number((window.reduce((sum, current) => sum + current, 0) / window.length).toFixed(2)) : null;
+    });
+
+    const baseLabel = appState.statsVolumeMode === "site" ? "Daily mean per site" : "Daily network total";
+    const rollingLabel = appState.statsVolumeMode === "site" ? "14-day moving mean (site mean)" : "14-day moving mean (network total)";
+    const yAxisTitle = appState.statsVolumeMode === "site" ? "Daily count per site" : "Daily count (summed across sites)";
+
+    Plotly.newPlot(
+      statsTrendVolume,
+      [
+        {
+          x,
+          y: dailyValues,
+          type: "scatter",
+          mode: "lines",
+          name: baseLabel,
+          line: { color: "#1d3557", width: 1.8 },
+          connectgaps: false
+        },
+        {
+          x,
+          y: rolling14,
+          type: "scatter",
+          mode: "lines",
+          name: rollingLabel,
+          line: { color: "#457b9d", width: 2.6 },
+          connectgaps: false
+        }
+      ],
+      {
+        margin: { t: 36, r: 14, b: 60, l: 56 },
+        title: { text: "Daily Volume Evolution", font: { size: 14 } },
+        xaxis: { title: { text: "Date", standoff: 12 }, type: "date" },
+        yaxis: { title: yAxisTitle },
+        legend: { orientation: "h", y: -0.28 },
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        font: { family: "Space Grotesk, sans-serif", color: "#11231f" }
+      },
+      { displayModeBar: false, responsive: true }
+    );
+    return;
+  }
+
   const yearly = computeDashboardYearlyStats(sites);
   if (!window.Plotly) {
     return;
@@ -448,7 +689,9 @@ function renderDashboardStatsTrends(sites) {
 
 function renderDashboardStats() {
   const sites = statsVisibleSites();
-  const scopeDataset = datasetFilter.value === "all" ? "All datasets" : datasetFilter.value.toUpperCase();
+  const scopeDataset = IS_OTHER_MODE
+    ? "Active layer"
+    : (datasetFilter.value === "all" ? "All datasets" : datasetFilter.value.toUpperCase());
   const scopeCity = appState.statsCity === "all" ? "All cities" : appState.statsCity;
   statsScope.textContent = `Scope: ${scopeDataset} | ${scopeCity} | current map view`;
 
@@ -458,6 +701,32 @@ function renderDashboardStats() {
     if (window.Plotly) {
       Plotly.purge(statsTrendVolume);
     }
+    return;
+  }
+
+  if (IS_OTHER_MODE) {
+    const stats = computeOtherDashboardStats(sites);
+    const cards = [
+      ["Sites", formatNumber(stats.siteCount)],
+      ["Observed days", formatNumber(stats.observedDays)],
+      ["Expected days", formatNumber(stats.expectedDays)],
+      ["Coverage", stats.coveragePct == null ? "n/a" : `${formatNumber(stats.coveragePct, 1)}%`],
+      ["Year range", stats.yearRange],
+      ["Mean daily count", formatNumber(stats.averageDaily, 1)],
+      ["Median daily count", formatNumber(stats.medianDaily, 1)],
+      ["Peak day", stats.peakDayLabel]
+    ];
+
+    statsGrid.innerHTML = cards
+      .map(([label, value]) => `<div class="stat-card"><div class="stat-label">${label}</div><div class="stat-value">${value}</div></div>`)
+      .join("");
+
+    const topSiteText = stats.topSites
+      .map((item) => `Site ${item.siteId}: ${formatNumber(item.meanDaily, 1)} avg/day over ${formatNumber(item.observedDays)} observed days`)
+      .join(" | ");
+
+    statsNotes.textContent = `Missing dates are excluded from daily averages. Top sites by mean daily count: ${topSiteText}`;
+    renderDashboardStatsTrends(sites);
     return;
   }
 
@@ -504,7 +773,868 @@ function hydrateSite(site, dataset, categoryDefinitions) {
   };
 }
 
+function parseCsvLine(line) {
+  const values = [];
+  let current = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+
+    if (char === '"') {
+      const next = line[index + 1];
+      if (inQuotes && next === '"') {
+        current += '"';
+        index += 1;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
+    }
+
+    if (char === "," && !inQuotes) {
+      values.push(current);
+      current = "";
+      continue;
+    }
+
+    current += char;
+  }
+
+  values.push(current);
+  return values;
+}
+
+function parseCsv(text) {
+  const lines = text
+    .replace(/^\uFEFF/, "")
+    .split(/\r?\n/)
+    .filter((line) => line.trim().length > 0);
+
+  if (lines.length < 2) {
+    return [];
+  }
+
+  const headers = parseCsvLine(lines[0]).map((header) => header.trim());
+  return lines.slice(1).map((line) => {
+    const columns = parseCsvLine(line);
+    return headers.reduce((row, header, index) => {
+      row[header] = columns[index] ?? "";
+      return row;
+    }, {});
+  });
+}
+
+function parseOptionalNumber(value) {
+  if (value == null || value === "") {
+    return null;
+  }
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+const VEHICLE_CLASS_LABELS = {
+  sv: "SV - Short",
+  svt: "SVT - Short + trailer",
+  tb2: "TB2 - Two axle rigid/bus",
+  tb3: "TB3 - Three axle rigid/bus",
+  t4: "T4 - Four+ axle rigid",
+  art3: "ART3 - Three axle artic",
+  art4: "ART4 - Four axle artic",
+  art5: "ART5 - Five axle artic",
+  art6: "ART6 - Six+ axle artic",
+  bd: "BD - B double",
+  drt: "DRT - Double road train",
+  trt: "TRT - Triple road train",
+  ucv: "UCV - Unclassified vehicle"
+};
+
+function vehicleClassLabel(code) {
+  return VEHICLE_CLASS_LABELS[code] || code.toUpperCase();
+}
+
+function parseVehicleLaneDirection(directionLabel) {
+  const lower = String(directionLabel || "").toLowerCase();
+  const path = lower.includes("right lane")
+    ? "Right lane"
+    : lower.includes("centre lane")
+      ? "Centre lane"
+      : lower.includes("left lane")
+        ? "Left lane"
+        : "Other lane";
+  const direction = lower.includes("eastbound")
+    ? "Eastbound"
+    : lower.includes("westbound")
+      ? "Westbound"
+      : "Other direction";
+  return { path, direction };
+}
+
+function buildDrakewellActiveSite(rows, dataset) {
+  const byDate = new Map();
+  rows.forEach((row) => {
+    if (!row.date) {
+      return;
+    }
+    if (!byDate.has(row.date)) {
+      byDate.set(row.date, []);
+    }
+    byDate.get(row.date).push(row);
+  });
+
+  const normalizeDirectionId = (directionLabel) => `dir_${String(directionLabel || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "")}`;
+
+  const directionLabels = [...new Set(rows
+    .map((row) => row.direction)
+    .filter((direction) => direction && direction !== "All directions"))]
+    .sort((left, right) => left.localeCompare(right));
+
+  const parsePathDirection = (label) => {
+    const lower = String(label || "").toLowerCase();
+    const path = lower.includes("northern")
+      ? "Northern shared path"
+      : lower.includes("southern")
+        ? "Southern shared path"
+        : "Other path";
+    const direction = lower.includes("eastbound")
+      ? "Eastbound"
+      : lower.includes("westbound")
+        ? "Westbound"
+        : "Other direction";
+    return { path, direction };
+  };
+
+  const directionDefinitions = directionLabels.map((label) => ({
+    ...parsePathDirection(label),
+    id: normalizeDirectionId(label),
+    label,
+    splitGroup: label,
+    userType: "combined"
+  }));
+
+  const records = [...byDate.entries()]
+    .sort((left, right) => left[0].localeCompare(right[0]))
+    .map(([recordDate, dateRows]) => {
+      const allDirectionRows = dateRows
+        .filter((row) => row.direction === "All directions")
+        .sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+
+      const directionRowsByLabel = new Map(directionLabels.map((label) => [label, []]));
+      dateRows.forEach((row) => {
+        if (!directionRowsByLabel.has(row.direction)) {
+          return;
+        }
+        directionRowsByLabel.get(row.direction).push(row);
+      });
+      directionRowsByLabel.forEach((directionRows) => {
+        directionRows.sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+      });
+
+      const hourly = allDirectionRows.map((row) => ({
+        time: (row.time_bin || "").slice(0, 5),
+        value: parseOptionalNumber(row.total_flow)
+      }));
+
+      const pedHourly = allDirectionRows.map((row) => ({
+        time: (row.time_bin || "").slice(0, 5),
+        value: parseOptionalNumber(row.ped)
+      }));
+
+      const pclHourly = allDirectionRows.map((row) => ({
+        time: (row.time_bin || "").slice(0, 5),
+        value: parseOptionalNumber(row.pcl)
+      }));
+
+      const categories = {
+        walker_total: pedHourly.reduce((sum, point) => sum + (point.value || 0), 0),
+        pushbike_total: pclHourly.reduce((sum, point) => sum + (point.value || 0), 0)
+      };
+
+      const categoryHourly = {
+        walker_total: pedHourly,
+        pushbike_total: pclHourly
+      };
+
+      directionDefinitions.forEach((definition) => {
+        const directionRows = directionRowsByLabel.get(definition.label) || [];
+        const directionHourly = directionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.total_flow)
+        }));
+        categoryHourly[definition.id] = directionHourly;
+        categories[definition.id] = directionHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+
+        const pedId = `${definition.id}_ped`;
+        const pclId = `${definition.id}_pcl`;
+        const pedHourly = directionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.ped)
+        }));
+        const pclHourly = directionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.pcl)
+        }));
+
+        categoryHourly[pedId] = pedHourly;
+        categories[pedId] = pedHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+        categoryHourly[pclId] = pclHourly;
+        categories[pclId] = pclHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+      });
+
+      const dailyTotal = hourly.length > 0
+        ? hourly.reduce((sum, point) => sum + (point.value || 0), 0)
+        : directionDefinitions.reduce((sum, definition) => sum + (categories[definition.id] || 0), 0);
+
+      return {
+        date: recordDate,
+        year: Number(recordDate.slice(0, 4)),
+        total: dailyTotal,
+        hourly,
+        categories,
+        categoryHourly,
+        directional: {
+          legTotals: [],
+          movements: []
+        }
+      };
+    });
+
+  const yearlyTotals = records.reduce((accumulator, record) => {
+    if (!Number.isFinite(record.year)) {
+      return accumulator;
+    }
+    const key = String(record.year);
+    accumulator[key] = (accumulator[key] || 0) + (record.total || 0);
+    return accumulator;
+  }, {});
+
+  return {
+    key: "drakewell-00A0113113AT",
+    siteId: "00A0113113AT",
+    datasetId: dataset.id,
+    council: "Hobart",
+    state: "TAS",
+    counterName: "Tasman Bridge shared path",
+    description: "Tasman Bridge shared path",
+    latitude: -42.863212,
+    longitude: 147.352933,
+    legs: 0,
+    roadLabels: [],
+    exitLayout: [],
+    flowUnit: "People",
+    binMinutes: 5,
+    records,
+    yearlyTotals,
+    directionDefinitions
+  };
+}
+
+function buildDrakewellVehicleSite(rows, dataset) {
+  const byDate = new Map();
+  rows.forEach((row) => {
+    if (!row.date) {
+      return;
+    }
+    if (!byDate.has(row.date)) {
+      byDate.set(row.date, []);
+    }
+    byDate.get(row.date).push(row);
+  });
+
+  const normalizeDirectionId = (directionLabel) => `vdir_${String(directionLabel || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "")}`;
+
+  const directionLabels = [...new Set(rows
+    .map((row) => row.direction)
+    .filter((direction) => direction && direction !== "All directions"))]
+    .sort((left, right) => left.localeCompare(right));
+
+  const metricKeys = [...new Set(rows.flatMap((row) => Object.keys(row)))].filter((key) => {
+    return !["date", "time_bin", "direction", "total_flow", "invalid_reading"].includes(key);
+  });
+
+  const classPriority = ["sv", "svt", "tb2", "tb3", "t4", "art3", "art4", "art5", "art6", "bd", "drt", "trt", "ucv"];
+  const classKeys = metricKeys
+    .filter((key) => metricKeys.includes(key))
+    .sort((left, right) => {
+      const leftIndex = classPriority.indexOf(left);
+      const rightIndex = classPriority.indexOf(right);
+      if (leftIndex === -1 && rightIndex === -1) {
+        return left.localeCompare(right);
+      }
+      if (leftIndex === -1) {
+        return 1;
+      }
+      if (rightIndex === -1) {
+        return -1;
+      }
+      return leftIndex - rightIndex;
+    });
+
+  const directionDefinitions = directionLabels.map((label) => ({
+    ...parseVehicleLaneDirection(label),
+    id: normalizeDirectionId(label),
+    label,
+    splitGroup: label,
+    userType: "combined",
+    userTypeLabel: "All classes"
+  }));
+
+  const records = [...byDate.entries()]
+    .sort((left, right) => left[0].localeCompare(right[0]))
+    .map(([recordDate, dateRows]) => {
+      const allDirectionRows = dateRows
+        .filter((row) => row.direction === "All directions")
+        .sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+
+      const directionRowsByLabel = new Map(directionLabels.map((label) => [label, []]));
+      dateRows.forEach((row) => {
+        if (!directionRowsByLabel.has(row.direction)) {
+          return;
+        }
+        directionRowsByLabel.get(row.direction).push(row);
+      });
+      directionRowsByLabel.forEach((directionRows) => {
+        directionRows.sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+      });
+
+      const hourly = allDirectionRows.map((row) => ({
+        time: (row.time_bin || "").slice(0, 5),
+        value: parseOptionalNumber(row.total_flow)
+      }));
+
+      const categories = {};
+      const categoryHourly = {};
+
+      classKeys.forEach((classKey) => {
+        const id = `class_${classKey}`;
+        const classHourly = allDirectionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row[classKey])
+        }));
+        categoryHourly[id] = classHourly;
+        categories[id] = classHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+      });
+
+      directionDefinitions.forEach((definition) => {
+        const directionRows = directionRowsByLabel.get(definition.label) || [];
+        const directionHourly = directionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.total_flow)
+        }));
+        categoryHourly[definition.id] = directionHourly;
+        categories[definition.id] = directionHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+
+        classKeys.forEach((classKey) => {
+          const classId = `${definition.id}_${classKey}`;
+          const classHourly = directionRows.map((row) => ({
+            time: (row.time_bin || "").slice(0, 5),
+            value: parseOptionalNumber(row[classKey])
+          }));
+          categoryHourly[classId] = classHourly;
+          categories[classId] = classHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+        });
+      });
+
+      const dailyTotal = hourly.length > 0
+        ? hourly.reduce((sum, point) => sum + (point.value || 0), 0)
+        : directionDefinitions.reduce((sum, definition) => sum + (categories[definition.id] || 0), 0);
+
+      return {
+        date: recordDate,
+        year: Number(recordDate.slice(0, 4)),
+        total: dailyTotal,
+        hourly,
+        categories,
+        categoryHourly,
+        directional: {
+          legTotals: [],
+          movements: []
+        }
+      };
+    });
+
+  const yearlyTotals = records.reduce((accumulator, record) => {
+    if (!Number.isFinite(record.year)) {
+      return accumulator;
+    }
+    const key = String(record.year);
+    accumulator[key] = (accumulator[key] || 0) + (record.total || 0);
+    return accumulator;
+  }, {});
+
+  const classDefinitions = classKeys.map((classKey) => ({
+    id: `class_${classKey}`,
+    label: vehicleClassLabel(classKey),
+    splitGroup: "all_classes",
+    path: "All lanes",
+    direction: "All directions",
+    userType: classKey,
+    userTypeLabel: vehicleClassLabel(classKey)
+  }));
+
+  const directionClassDefinitions = directionDefinitions.flatMap((definition) => classKeys.map((classKey) => ({
+    id: `${definition.id}_${classKey}`,
+    label: `${definition.label} - ${vehicleClassLabel(classKey)}`,
+    splitGroup: definition.label,
+    path: definition.path,
+    direction: definition.direction,
+    userType: classKey,
+    userTypeLabel: vehicleClassLabel(classKey)
+  })));
+
+  return {
+    key: "drakewell-0000A0113112",
+    siteId: "A0113112",
+    datasetId: dataset.id,
+    council: "Rose Bay",
+    state: "TAS",
+    counterName: "Tasman Highway traffic",
+    description: "Tasman Highway 100m E Of Tasman Bridge East Abutment",
+    latitude: -42.8627749,
+    longitude: 147.3536489,
+    legs: 0,
+    roadLabels: [],
+    exitLayout: [],
+    flowUnit: "Vehicles",
+    binMinutes: 5,
+    records,
+    yearlyTotals,
+    directionDefinitions,
+    classDefinitions,
+    directionClassDefinitions
+  };
+}
+
+function buildMelbourneCyclingSites(rows, dataset) {
+  const bySite = new Map();
+  rows.forEach((row) => {
+    const route = String(row.site_xn_route || "").trim();
+    if (!route || !row.date) {
+      return;
+    }
+    if (!bySite.has(route)) {
+      bySite.set(route, []);
+    }
+    bySite.get(route).push(row);
+  });
+
+  const normalizeDirectionId = (directionLabel) => `mdir_${String(directionLabel || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "")}`;
+
+  const directionLabels = [...new Set(rows
+    .map((row) => row.direction)
+    .filter((direction) => direction && direction !== "All directions"))]
+    .sort((left, right) => left.localeCompare(right));
+
+  const directionDefinitions = directionLabels.map((label) => ({
+    id: normalizeDirectionId(label),
+    label,
+    splitGroup: label,
+    path: "Network",
+    direction: label,
+    userType: "combined",
+    userTypeLabel: "Cyclist"
+  }));
+
+  const sites = [];
+
+  bySite.forEach((siteRows, route) => {
+    const byDate = new Map();
+    siteRows.forEach((row) => {
+      if (!byDate.has(row.date)) {
+        byDate.set(row.date, []);
+      }
+      byDate.get(row.date).push(row);
+    });
+
+    const records = [...byDate.entries()]
+      .sort((left, right) => left[0].localeCompare(right[0]))
+      .map(([recordDate, dateRows]) => {
+        const allDirectionRows = dateRows
+          .filter((row) => row.direction === "All directions")
+          .sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+
+        const directionRowsByLabel = new Map(directionLabels.map((label) => [label, []]));
+        dateRows.forEach((row) => {
+          if (!directionRowsByLabel.has(row.direction)) {
+            return;
+          }
+          directionRowsByLabel.get(row.direction).push(row);
+        });
+        directionRowsByLabel.forEach((directionRows) => {
+          directionRows.sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+        });
+
+        const hourly = allDirectionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.total_flow)
+        }));
+
+        const categories = {};
+        const categoryHourly = {};
+
+        directionDefinitions.forEach((definition) => {
+          const directionRows = directionRowsByLabel.get(definition.label) || [];
+          const directionHourly = directionRows.map((row) => ({
+            time: (row.time_bin || "").slice(0, 5),
+            value: parseOptionalNumber(row.total_flow)
+          }));
+          categoryHourly[definition.id] = directionHourly;
+          categories[definition.id] = directionHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+        });
+
+        const dailyTotal = hourly.reduce((sum, point) => sum + (point.value || 0), 0);
+
+        return {
+          date: recordDate,
+          year: Number(recordDate.slice(0, 4)),
+          total: dailyTotal,
+          hourly,
+          categories,
+          categoryHourly,
+          directional: {
+            legTotals: [],
+            movements: []
+          }
+        };
+      });
+
+    const yearlyTotals = records.reduce((accumulator, record) => {
+      if (!Number.isFinite(record.year)) {
+        return accumulator;
+      }
+      const key = String(record.year);
+      accumulator[key] = (accumulator[key] || 0) + (record.total || 0);
+      return accumulator;
+    }, {});
+
+    const sample = siteRows[0] || {};
+    const latitude = parseOptionalNumber(sample.gps_lat);
+    const longitude = parseOptionalNumber(sample.gps_long);
+    if (latitude == null || longitude == null) {
+      return;
+    }
+
+    const region = String(sample.region || "Melbourne").trim() || "Melbourne";
+    const purpose = String(sample.purpose || "").trim();
+    const surfaceType = String(sample.surface_type || "").trim();
+    const status = String(sample.status || "").trim();
+    const siteDesc = String(sample.site_desc || "").trim();
+
+    const descriptionParts = [surfaceType, status, purpose].filter(Boolean);
+
+    sites.push({
+      key: `melbourne-${route}`,
+      siteId: route,
+      datasetId: dataset.id,
+      council: region,
+      state: "VIC",
+      counterName: siteDesc || `Melbourne site ${route}`,
+      description: descriptionParts.join(" | ") || "Melbourne bicycle monitoring site",
+      latitude,
+      longitude,
+      legs: 0,
+      roadLabels: [],
+      exitLayout: [],
+      flowUnit: "People",
+      binMinutes: 60,
+      records,
+      yearlyTotals,
+      directionDefinitions
+    });
+  });
+
+  return {
+    sites,
+    directionDefinitions
+  };
+}
+
+function buildSydneyActiveSites(rows, dataset) {
+  const bySite = new Map();
+  rows.forEach((row) => {
+    const siteId = String(row.site_id || "").trim();
+    if (!siteId || !row.date) {
+      return;
+    }
+    if (!bySite.has(siteId)) {
+      bySite.set(siteId, []);
+    }
+    bySite.get(siteId).push(row);
+  });
+
+  const normalizeDirectionId = (directionLabel) => `sydir_${String(directionLabel || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "")}`;
+
+  const directionLabels = [...new Set(rows
+    .map((row) => row.direction)
+    .filter((direction) => direction && direction !== "All directions"))]
+    .sort((left, right) => left.localeCompare(right));
+
+  const directionDefinitions = directionLabels.map((label) => ({
+    id: normalizeDirectionId(label),
+    label,
+    splitGroup: label,
+    path: "Sydney survey route",
+    direction: label,
+    userType: "combined",
+    userTypeLabel: "Cyclist"
+  }));
+
+  const sites = [];
+
+  bySite.forEach((siteRows, siteId) => {
+    const byDate = new Map();
+    siteRows.forEach((row) => {
+      if (!byDate.has(row.date)) {
+        byDate.set(row.date, []);
+      }
+      byDate.get(row.date).push(row);
+    });
+
+    const records = [...byDate.entries()]
+      .sort((left, right) => left[0].localeCompare(right[0]))
+      .map(([recordDate, dateRows]) => {
+        const allDirectionRows = dateRows
+          .filter((row) => row.direction === "All directions")
+          .sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+
+        const directionRowsByLabel = new Map(directionLabels.map((label) => [label, []]));
+        dateRows.forEach((row) => {
+          if (!directionRowsByLabel.has(row.direction)) {
+            return;
+          }
+          directionRowsByLabel.get(row.direction).push(row);
+        });
+        directionRowsByLabel.forEach((directionRows) => {
+          directionRows.sort((left, right) => (left.time_bin || "").localeCompare(right.time_bin || ""));
+        });
+
+        const hourly = allDirectionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.total_flow)
+        }));
+
+        const pedHourly = allDirectionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.ped)
+        }));
+
+        const pclHourly = allDirectionRows.map((row) => ({
+          time: (row.time_bin || "").slice(0, 5),
+          value: parseOptionalNumber(row.pcl)
+        }));
+
+        const categories = {
+          walker_total: pedHourly.reduce((sum, point) => sum + (point.value || 0), 0),
+          pushbike_total: pclHourly.reduce((sum, point) => sum + (point.value || 0), 0)
+        };
+
+        const categoryHourly = {
+          walker_total: pedHourly,
+          pushbike_total: pclHourly
+        };
+
+        directionDefinitions.forEach((definition) => {
+          const directionRows = directionRowsByLabel.get(definition.label) || [];
+          const directionHourly = directionRows.map((row) => ({
+            time: (row.time_bin || "").slice(0, 5),
+            value: parseOptionalNumber(row.total_flow)
+          }));
+          categoryHourly[definition.id] = directionHourly;
+          categories[definition.id] = directionHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+
+          const pedId = `${definition.id}_ped`;
+          const pclId = `${definition.id}_pcl`;
+          const directionPedHourly = directionRows.map((row) => ({
+            time: (row.time_bin || "").slice(0, 5),
+            value: parseOptionalNumber(row.ped)
+          }));
+          const directionPclHourly = directionRows.map((row) => ({
+            time: (row.time_bin || "").slice(0, 5),
+            value: parseOptionalNumber(row.pcl)
+          }));
+
+          categoryHourly[pedId] = directionPedHourly;
+          categories[pedId] = directionPedHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+          categoryHourly[pclId] = directionPclHourly;
+          categories[pclId] = directionPclHourly.reduce((sum, point) => sum + (point.value || 0), 0);
+        });
+
+        const dailyTotal = hourly.length > 0
+          ? hourly.reduce((sum, point) => sum + (point.value || 0), 0)
+          : directionDefinitions.reduce((sum, definition) => sum + (categories[definition.id] || 0), 0);
+
+        return {
+          date: recordDate,
+          year: Number(recordDate.slice(0, 4)),
+          total: dailyTotal,
+          hourly,
+          categories,
+          categoryHourly,
+          directional: {
+            legTotals: [],
+            movements: []
+          }
+        };
+      });
+
+    const yearlyTotals = records.reduce((accumulator, record) => {
+      if (!Number.isFinite(record.year)) {
+        return accumulator;
+      }
+      const key = String(record.year);
+      accumulator[key] = (accumulator[key] || 0) + (record.total || 0);
+      return accumulator;
+    }, {});
+
+    const sample = siteRows[0] || {};
+    const latitude = parseOptionalNumber(sample.latitude);
+    const longitude = parseOptionalNumber(sample.longitude);
+    if (latitude == null || longitude == null) {
+      return;
+    }
+
+    const intersection = String(sample.intersection || "").trim();
+    sites.push({
+      key: `sydney-${siteId}`,
+      siteId,
+      datasetId: dataset.id,
+      council: "Sydney",
+      state: "NSW",
+      counterName: intersection || `Sydney site ${siteId}`,
+      description: intersection || "City of Sydney bicycle count site",
+      latitude,
+      longitude,
+      legs: 0,
+      roadLabels: [],
+      exitLayout: [],
+      flowUnit: "People",
+      binMinutes: 60,
+      records,
+      yearlyTotals,
+      directionDefinitions
+    });
+  });
+
+  return {
+    sites,
+    directionDefinitions
+  };
+}
+
+async function loadDrakewellDataset(dataset) {
+  const response = await fetch(dataset.file);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${dataset.file}`);
+  }
+
+  const csvText = await response.text();
+  const rows = parseCsv(csvText);
+  if (rows.length === 0) {
+    throw new Error("Drakewell timeseries file is empty");
+  }
+
+  let site;
+
+  if (dataset.profile === "perm_vehicle") {
+    site = buildDrakewellVehicleSite(rows, dataset);
+    dataset.categoryDefinitions = [
+      ...(site.directionDefinitions || []),
+      ...(site.classDefinitions || []),
+      ...(site.directionClassDefinitions || [])
+    ];
+  } else if (dataset.profile === "melbourne_cycling") {
+    const melbourne = buildMelbourneCyclingSites(rows, dataset);
+    dataset.categoryDefinitions = [
+      ...(melbourne.directionDefinitions || [])
+    ];
+    (melbourne.sites || []).forEach((melbourneSite) => {
+      const hydrated = hydrateSite(melbourneSite, dataset, dataset.categoryDefinitions);
+      appState.sites.set(hydrated.key, hydrated);
+    });
+    return;
+  } else if (dataset.profile === "sydney_active") {
+    const sydney = buildSydneyActiveSites(rows, dataset);
+    dataset.categoryDefinitions = [
+      { id: "walker_total", label: "Pedestrian" },
+      { id: "pushbike_total", label: "Cyclist" },
+      ...(sydney.directionDefinitions || []),
+      ...(sydney.directionDefinitions || []).flatMap((definition) => [
+        {
+          id: `${definition.id}_ped`,
+          label: `${definition.label} - Pedestrian`,
+          splitGroup: definition.label,
+          path: definition.path,
+          direction: definition.direction,
+          userType: "pedestrian",
+          userTypeLabel: "Pedestrian"
+        },
+        {
+          id: `${definition.id}_pcl`,
+          label: `${definition.label} - Cyclist`,
+          splitGroup: definition.label,
+          path: definition.path,
+          direction: definition.direction,
+          userType: "cyclist",
+          userTypeLabel: "Cyclist"
+        }
+      ])
+    ];
+    (sydney.sites || []).forEach((sydneySite) => {
+      const hydrated = hydrateSite(sydneySite, dataset, dataset.categoryDefinitions);
+      appState.sites.set(hydrated.key, hydrated);
+    });
+    return;
+  } else {
+    site = buildDrakewellActiveSite(rows, dataset);
+    dataset.categoryDefinitions = [
+      { id: "walker_total", label: "Pedestrian" },
+      { id: "pushbike_total", label: "Cyclist" },
+      ...(site.directionDefinitions || []),
+      ...(site.directionDefinitions || []).flatMap((definition) => [
+        {
+          id: `${definition.id}_ped`,
+          label: `${definition.label} - Pedestrian`,
+          splitGroup: definition.label,
+          path: definition.path,
+          direction: definition.direction,
+          userType: "pedestrian",
+          userTypeLabel: "Pedestrian"
+        },
+        {
+          id: `${definition.id}_pcl`,
+          label: `${definition.label} - Cyclist`,
+          splitGroup: definition.label,
+          path: definition.path,
+          direction: definition.direction,
+          userType: "cyclist",
+          userTypeLabel: "Cyclist"
+        }
+      ])
+    ];
+  }
+
+  const hydrated = hydrateSite(site, dataset, dataset.categoryDefinitions);
+  appState.sites.set(hydrated.key, hydrated);
+}
+
 async function loadDataset(dataset) {
+  if (dataset.source === "drakewell") {
+    await loadDrakewellDataset(dataset);
+    return;
+  }
+
   const response = await fetch(dataset.file);
   if (!response.ok) {
     throw new Error(`Failed to fetch ${dataset.file}`);
@@ -576,6 +1706,9 @@ function populateDateControl(selectElement, records, preferredValue) {
 }
 
 function updateDateOptions(site) {
+  if (!dateSelect) {
+    return;
+  }
   const records = getDistinctRecords(site);
   populateDateControl(dateSelect, records, dateSelect.value);
 }
@@ -770,6 +1903,48 @@ function categoryDimensions(definition) {
 }
 
 function splitGroupForDefinition(definition) {
+  if (IS_OTHER_MODE && definition.splitGroup) {
+    const includePath = appState.splitPath;
+    const includeDirection = appState.splitDirection;
+    const includeUserType = appState.splitUserType;
+
+    if (!includePath && !includeDirection && !includeUserType) {
+      return null;
+    }
+
+    if (!includeUserType) {
+      if (definition.userType && definition.userType !== "combined") {
+        return null;
+      }
+    } else if (!definition.userType || definition.userType === "combined") {
+      return null;
+    }
+
+    const parts = [];
+    if (includePath) {
+      parts.push(definition.path || "Other path");
+    }
+    if (includeDirection) {
+      parts.push(definition.direction || "Other direction");
+    }
+    if (includeUserType) {
+      const userTypeLabel = definition.userTypeLabel
+        || (definition.userType === "pedestrian" ? "Pedestrian" : definition.userType === "cyclist" ? "Cyclist" : String(definition.userType || "Unknown"));
+      parts.push(userTypeLabel);
+    }
+
+    if (parts.length === 0) {
+      return null;
+    }
+
+    return {
+      key: parts.join("||"),
+      label: parts.join(" - "),
+      mode: parts.join(" "),
+      gender: null
+    };
+  }
+
   const dims = categoryDimensions(definition);
   const parts = [];
 
@@ -826,6 +2001,14 @@ function splitGroupStyle(group, index) {
     Unknown: "diamond"
   };
   const fallbackColors = ["#4d908e", "#577590", "#f9844a", "#9c6644", "#6a4c93"];
+
+  if (IS_OTHER_MODE) {
+    return {
+      color: fallbackColors[index % fallbackColors.length],
+      dash: "solid",
+      symbol: "circle"
+    };
+  }
 
   const color = appState.splitMode
     ? (modeColor[group.mode] || fallbackColors[index % fallbackColors.length])
@@ -1138,6 +2321,11 @@ function renderSplitYearChart(site) {
 }
 
 function renderChart(site) {
+  if (IS_OTHER_MODE) {
+    renderOtherTimeSeries(site);
+    return;
+  }
+
   const selectedRecord = getSelectedRecord(site, dateSelect.value);
   if (appState.chartMode === "day") {
     if (hasActiveSplit()) {
@@ -1153,6 +2341,432 @@ function renderChart(site) {
     return;
   }
   renderTotalYearChart(site);
+}
+
+function weekpartLabel(date) {
+  const day = date.getDay();
+  return day === 0 || day === 6 ? "Weekend" : "Weekday";
+}
+
+function seasonLabel(date) {
+  const month = date.getMonth();
+  if (month === 11 || month <= 1) {
+    return "Summer";
+  }
+  if (month >= 2 && month <= 4) {
+    return "Autumn";
+  }
+  if (month >= 5 && month <= 7) {
+    return "Winter";
+  }
+  return "Spring";
+}
+
+function createOtherBaseSeries(records, splitDefinitions) {
+  if (!(appState.splitPath || appState.splitDirection || appState.splitUserType)) {
+    return [{
+      key: "all",
+      label: "All directions daily total",
+      mode: "all",
+      valuesByDate: new Map(records.map((record) => [record.dateKey, record.total]))
+    }];
+  }
+
+  const grouped = new Map();
+  splitDefinitions.forEach((definition) => {
+    const group = splitGroupForDefinition(definition);
+    if (!group) {
+      return;
+    }
+
+    if (!grouped.has(group.key)) {
+      grouped.set(group.key, {
+        ...group,
+        definitionIds: []
+      });
+    }
+    grouped.get(group.key).definitionIds.push(definition.id);
+  });
+
+  return [...grouped.values()]
+    .sort((left, right) => left.label.localeCompare(right.label))
+    .map((group) => ({
+      key: group.key,
+      label: group.label,
+      mode: group.mode,
+      valuesByDate: new Map(records.map((record) => {
+        const value = group.definitionIds.reduce((sum, definitionId) => sum + (record.categories?.[definitionId] || 0), 0);
+        return [record.dateKey, Number(value.toFixed(2))];
+      }))
+    }));
+}
+
+function smoothSeriesValues(yValues, windowSize) {
+  const radius = Math.max(0, Math.floor(windowSize / 2));
+  return yValues.map((value, index) => {
+    if (value == null) {
+      return null;
+    }
+    const start = Math.max(0, index - radius);
+    const end = Math.min(yValues.length - 1, index + radius);
+    const windowValues = [];
+    for (let cursor = start; cursor <= end; cursor += 1) {
+      const current = yValues[cursor];
+      if (current != null) {
+        windowValues.push(current);
+      }
+    }
+    if (windowValues.length === 0) {
+      return null;
+    }
+    return Number((windowValues.reduce((sum, current) => sum + current, 0) / windowValues.length).toFixed(2));
+  });
+}
+
+function getSmoothingWindowPoints() {
+  const minutes = Number(appState.smoothWindowMinutes) || 5;
+  return Math.max(1, Math.round(minutes / 5));
+}
+
+function applySmoothingToTraces(traces) {
+  if (!IS_OTHER_MODE || !appState.smoothSeries) {
+    return traces;
+  }
+  const window = getSmoothingWindowPoints();
+  if (window <= 1) {
+    return traces;
+  }
+  return traces.map((trace) => {
+    if (!Array.isArray(trace.y) || trace.y.length < 3) {
+      return trace;
+    }
+    return {
+      ...trace,
+      y: smoothSeriesValues(trace.y, window),
+      name: `${trace.name} (smoothed)`
+    };
+  });
+}
+
+function expandOtherFacetSeries(baseSeries, records) {
+  const includeBase = baseSeries.length > 1;
+  const groups = new Map();
+
+  records.forEach((record) => {
+    const date = parseDate(record.dateKey);
+    if (!date) {
+      return;
+    }
+
+    baseSeries.forEach((series) => {
+      const value = series.valuesByDate.get(record.dateKey);
+      if (value == null) {
+        return;
+      }
+
+      const parts = [];
+      if (includeBase) {
+        parts.push(series.label);
+      }
+      if (appState.splitWeekpart) {
+        parts.push(weekpartLabel(date));
+      }
+      if (appState.splitSeason) {
+        parts.push(seasonLabel(date));
+      }
+
+      const key = parts.length ? parts.join("||") : series.key;
+      const label = parts.length ? parts.join(" - ") : series.label;
+      if (!groups.has(key)) {
+        groups.set(key, {
+          key,
+          label,
+          mode: label,
+          points: []
+        });
+      }
+      groups.get(key).points.push({ date, dateKey: record.dateKey, value: Number(value) });
+    });
+  });
+
+  return [...groups.values()].sort((left, right) => left.label.localeCompare(right.label));
+}
+
+function aggregateSeriesPoints(seriesGroups, mode) {
+  const weekdayLabels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  const monthLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  if (mode === "weekly") {
+    const x = weekdayLabels;
+    const traces = seriesGroups.map((group, index) => {
+      const byBucket = new Map();
+      group.points.forEach((point) => {
+        const bucket = (point.date.getDay() + 6) % 7;
+        if (!byBucket.has(bucket)) {
+          byBucket.set(bucket, []);
+        }
+        byBucket.get(bucket).push(point.value);
+      });
+
+      const style = splitGroupStyle(group, index);
+      return {
+        x,
+        y: x.map((_, bucket) => {
+          const values = byBucket.get(bucket) || [];
+          if (values.length === 0) {
+            return null;
+          }
+          return Number((values.reduce((sum, current) => sum + current, 0) / values.length).toFixed(2));
+        }),
+        type: "scatter",
+        mode: "lines+markers",
+        line: { color: style.color, width: 2.2 },
+        marker: { size: 6, color: style.color },
+        connectgaps: false,
+        name: group.label
+      };
+    });
+
+    return {
+      traces,
+      xaxis: { title: { text: "Day of week", standoff: 14 }, type: "category" },
+      yaxisTitle: "Mean daily count",
+      chartTitle: "Weekly Climatology"
+    };
+  }
+
+  if (mode === "annual") {
+    const x = monthLabels;
+    const traces = seriesGroups.map((group, index) => {
+      const byBucket = new Map();
+      group.points.forEach((point) => {
+        const bucket = point.date.getMonth();
+        if (!byBucket.has(bucket)) {
+          byBucket.set(bucket, []);
+        }
+        byBucket.get(bucket).push(point.value);
+      });
+
+      const style = splitGroupStyle(group, index);
+      return {
+        x,
+        y: x.map((_, bucket) => {
+          const values = byBucket.get(bucket) || [];
+          if (values.length === 0) {
+            return null;
+          }
+          return Number((values.reduce((sum, current) => sum + current, 0) / values.length).toFixed(2));
+        }),
+        type: "scatter",
+        mode: "lines+markers",
+        line: { color: style.color, width: 2.2 },
+        marker: { size: 6, color: style.color },
+        connectgaps: false,
+        name: group.label
+      };
+    });
+
+    return {
+      traces,
+      xaxis: { title: { text: "Month", standoff: 14 }, type: "category" },
+      yaxisTitle: "Mean daily count",
+      chartTitle: "Annual Climatology"
+    };
+  }
+
+  const traces = seriesGroups.map((group, index) => {
+    const style = splitGroupStyle(group, index);
+    return {
+      x: group.points.map((point) => point.dateKey),
+      y: group.points.map((point) => Number(point.value.toFixed(2))),
+      type: "scatter",
+      mode: "lines+markers",
+      line: { color: style.color, width: 2.2 },
+      marker: { size: 6, color: style.color },
+      connectgaps: false,
+      name: group.label
+    };
+  });
+
+  return {
+    traces,
+    xaxis: { title: { text: "Date", standoff: 14 }, type: "date" },
+    yaxisTitle: "Daily count",
+    chartTitle: "Daily Trend"
+  };
+}
+
+function aggregateOtherTimeOfDayClimatology(records, splitDefinitions, flowUnit = "People", binMinutes = 5) {
+  const includeBaseSplit = appState.splitPath || appState.splitDirection || appState.splitUserType;
+  const includeWeekpart = appState.splitWeekpart;
+  const includeSeason = appState.splitSeason;
+
+  const baseGroups = includeBaseSplit
+    ? (() => {
+      const grouped = new Map();
+      splitDefinitions.forEach((definition) => {
+        const group = splitGroupForDefinition(definition);
+        if (!group) {
+          return;
+        }
+        if (!grouped.has(group.key)) {
+          grouped.set(group.key, {
+            key: group.key,
+            label: group.label,
+            mode: group.mode,
+            definitionIds: []
+          });
+        }
+        grouped.get(group.key).definitionIds.push(definition.id);
+      });
+      return [...grouped.values()].sort((left, right) => left.label.localeCompare(right.label));
+    })()
+    : [{ key: "all", label: "All directions", mode: "all", definitionIds: null }];
+
+  const groupedSeries = new Map();
+  const allTimeBins = new Set();
+
+  records.forEach((record) => {
+    const date = parseDate(record.dateKey);
+    if (!date) {
+      return;
+    }
+
+    const facetParts = [];
+    if (includeWeekpart) {
+      facetParts.push(weekpartLabel(date));
+    }
+    if (includeSeason) {
+      facetParts.push(seasonLabel(date));
+    }
+
+    baseGroups.forEach((base) => {
+      const labelParts = [];
+      if (includeBaseSplit) {
+        labelParts.push(base.label);
+      }
+      labelParts.push(...facetParts);
+
+      const seriesLabel = labelParts.length ? labelParts.join(" - ") : "All directions";
+      const seriesKey = labelParts.length ? labelParts.join("||") : "all";
+
+      if (!groupedSeries.has(seriesKey)) {
+        groupedSeries.set(seriesKey, {
+          key: seriesKey,
+          label: seriesLabel,
+          mode: seriesLabel,
+          valuesByTime: new Map()
+        });
+      }
+
+      const destination = groupedSeries.get(seriesKey);
+
+      if (!base.definitionIds) {
+        (record.hourly || []).forEach((point) => {
+          if (point.value == null || !point.time) {
+            return;
+          }
+          allTimeBins.add(point.time);
+          if (!destination.valuesByTime.has(point.time)) {
+            destination.valuesByTime.set(point.time, []);
+          }
+          destination.valuesByTime.get(point.time).push(Number(point.value));
+        });
+        return;
+      }
+
+      const summedByTime = new Map();
+      base.definitionIds.forEach((definitionId) => {
+        (record.categoryHourly?.[definitionId] || []).forEach((point) => {
+          if (point.value == null || !point.time) {
+            return;
+          }
+          summedByTime.set(point.time, (summedByTime.get(point.time) || 0) + Number(point.value));
+        });
+      });
+
+      summedByTime.forEach((value, time) => {
+        allTimeBins.add(time);
+        if (!destination.valuesByTime.has(time)) {
+          destination.valuesByTime.set(time, []);
+        }
+        destination.valuesByTime.get(time).push(value);
+      });
+    });
+  });
+
+  const x = [...allTimeBins].sort((left, right) => left.localeCompare(right));
+  const xDate = x.map((time) => `2000-01-01T${time}:00`);
+  const groups = [...groupedSeries.values()].sort((left, right) => left.label.localeCompare(right.label));
+
+  const traces = groups.map((group, index) => {
+    const style = splitGroupStyle(group, index);
+    return {
+      x: xDate,
+      y: x.map((time) => {
+        const values = group.valuesByTime.get(time) || [];
+        if (values.length === 0) {
+          return null;
+        }
+        // Convert mean bin count to an hourly rate based on source bin width.
+        const multiplier = 60 / Math.max(1, Number(binMinutes) || 5);
+        return Number(((values.reduce((sum, current) => sum + current, 0) / values.length) * multiplier).toFixed(2));
+      }),
+      type: "scatter",
+      mode: "lines+markers",
+      line: { color: style.color, width: 2.2 },
+      marker: { size: 5, color: style.color },
+      connectgaps: false,
+      name: group.label
+    };
+  });
+
+  return {
+    traces,
+    xaxis: {
+      title: { text: "Time of day", standoff: 14 },
+      type: "date",
+      tickformat: "%H:%M"
+    },
+    yaxisTitle: `${flowUnit} per hour`,
+    chartTitle: "Daily Climatology"
+  };
+}
+
+function renderOtherTimeSeries(site) {
+  const records = getDistinctRecords(site).sort((left, right) => (left.dateKey || "").localeCompare(right.dateKey || ""));
+  if (records.length === 0) {
+    showEmptyPlot(chartElement, "No daily rows are available for this site.");
+    return;
+  }
+
+  const splitDefinitions = (site.categoryDefinitions || []).filter((definition) => definition.splitGroup);
+  const seriesMode = appState.otherSeriesMode || "daily";
+  const aggregated = seriesMode === "daily"
+    ? aggregateOtherTimeOfDayClimatology(records, splitDefinitions, site.flowUnit || "People", site.binMinutes || 5)
+    : aggregateSeriesPoints(expandOtherFacetSeries(createOtherBaseSeries(records, splitDefinitions), records), seriesMode);
+  const traces = applySmoothingToTraces(aggregated.traces);
+
+  if (traces.length === 0) {
+    showEmptyPlot(chartElement, "No rows match the selected time-series disaggregation options.");
+    return;
+  }
+
+  Plotly.newPlot(
+    chartElement,
+    traces,
+    {
+      margin: { t: 12, r: 16, b: legendSpacing(traces.length).marginBottom, l: 42 },
+      xaxis: aggregated.xaxis,
+      yaxis: { title: aggregated.yaxisTitle },
+      title: { text: aggregated.chartTitle, font: { size: 14 } },
+      legend: { orientation: "h", y: legendSpacing(traces.length).legendY },
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)",
+      font: { family: "Space Grotesk, sans-serif", color: "#11231f" }
+    },
+    { displayModeBar: false, responsive: true }
+  );
 }
 
 function formatLegLabel(site, legNumber) {
@@ -1243,7 +2857,9 @@ function showDetail(site) {
   emptyState.classList.add("hidden");
   detailState.classList.remove("hidden");
 
-  siteTitle.textContent = `Site ${site.siteId}`;
+  siteTitle.textContent = site.counterName
+    ? `${site.counterName} (${site.siteId})`
+    : `Site ${site.siteId}`;
   siteChip.textContent = site.datasetId.toUpperCase();
   siteChip.style.background = site.color;
   siteMeta.textContent = `${site.council}, ${site.state} | ${site.description || "No description"}`;
@@ -1252,7 +2868,9 @@ function showDetail(site) {
   updateDateControlVisibility();
   drawIntersectionInset(site);
   renderChart(site);
-  renderDirectionalPanel(site);
+  if (!IS_OTHER_MODE) {
+    renderDirectionalPanel(site);
+  }
 }
 
 function focusSite(site) {
@@ -1277,6 +2895,13 @@ function selectSite(site, focusMap = false) {
   }
 }
 
+function clearSelectedSite() {
+  appState.selectedSite = null;
+  setSelectedMarker(null);
+  emptyState.classList.remove("hidden");
+  detailState.classList.add("hidden");
+}
+
 function performSearch() {
   const query = siteSearch.value.trim().toLowerCase();
   if (!query) {
@@ -1288,7 +2913,7 @@ function performSearch() {
   let matchedSite = exactKey ? appState.sites.get(exactKey) : null;
 
   if (!matchedSite) {
-    matchedSite = sites.find((site) => String(site.siteId) === query)
+    matchedSite = sites.find((site) => String(site.siteId).toLowerCase() === query)
       || sites.find((site) => site.council.toLowerCase().includes(query));
   }
 
@@ -1306,6 +2931,13 @@ function renderMarkers(fitToBounds = true) {
   appState.markerByKey.clear();
 
   const sites = visibleSites();
+  const selectedVisible = appState.selectedSite
+    ? sites.some((site) => site.key === appState.selectedSite.key)
+    : false;
+  if (!selectedVisible && appState.selectedSite) {
+    clearSelectedSite();
+  }
+
   const bounds = [];
   sites.forEach((site) => {
     const marker = L.circleMarker([site.latitude, site.longitude], markerStyle(site, site.key === appState.selectedMarkerKey));
@@ -1325,6 +2957,10 @@ function renderMarkers(fitToBounds = true) {
   }
 
   renderDashboardStats();
+
+  if (IS_OTHER_MODE && sites.length === 1 && !appState.selectedSite) {
+    selectSite(sites[0], false);
+  }
 }
 
 function drawArrow(ctx, fromX, fromY, toX, toY, color, dashed = false) {
@@ -1559,28 +3195,108 @@ function wireEvents() {
     }
   });
 
-  splitModeInput.addEventListener("change", () => {
-    appState.splitMode = splitModeInput.checked;
-    if (appState.selectedSite) {
-      renderChart(appState.selectedSite);
-    }
-  });
-
-  splitGenderInput.addEventListener("change", () => {
-    appState.splitGender = splitGenderInput.checked;
-    if (appState.selectedSite) {
-      renderChart(appState.selectedSite);
-    }
-  });
-
-  dateSelect.addEventListener("change", () => {
-    if (appState.selectedSite) {
-      if (appState.chartMode === "day") {
+  if (splitModeInput) {
+    splitModeInput.addEventListener("change", () => {
+      appState.splitMode = splitModeInput.checked;
+      if (appState.selectedSite) {
         renderChart(appState.selectedSite);
       }
-      renderDirectionalPanel(appState.selectedSite);
-    }
-  });
+    });
+  }
+
+  if (splitPathInput) {
+    splitPathInput.addEventListener("change", () => {
+      appState.splitPath = splitPathInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (splitDirectionInput) {
+    splitDirectionInput.addEventListener("change", () => {
+      appState.splitDirection = splitDirectionInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (splitUserTypeInput) {
+    splitUserTypeInput.addEventListener("change", () => {
+      appState.splitUserType = splitUserTypeInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (splitWeekpartInput) {
+    splitWeekpartInput.addEventListener("change", () => {
+      appState.splitWeekpart = splitWeekpartInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (splitSeasonInput) {
+    splitSeasonInput.addEventListener("change", () => {
+      appState.splitSeason = splitSeasonInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (otherSeriesModeInput) {
+    otherSeriesModeInput.addEventListener("change", () => {
+      appState.otherSeriesMode = otherSeriesModeInput.value;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (smoothSeriesInput) {
+    smoothSeriesInput.addEventListener("change", () => {
+      appState.smoothSeries = smoothSeriesInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (smoothWindowInput) {
+    smoothWindowInput.addEventListener("change", () => {
+      appState.smoothWindowMinutes = Number(smoothWindowInput.value) || 30;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (splitGenderInput) {
+    splitGenderInput.addEventListener("change", () => {
+      appState.splitGender = splitGenderInput.checked;
+      if (appState.selectedSite) {
+        renderChart(appState.selectedSite);
+      }
+    });
+  }
+
+  if (dateSelect) {
+    dateSelect.addEventListener("change", () => {
+      if (appState.selectedSite) {
+        if (appState.chartMode === "day") {
+          renderChart(appState.selectedSite);
+        }
+        if (!IS_OTHER_MODE) {
+          renderDirectionalPanel(appState.selectedSite);
+        }
+      }
+    });
+  }
 
   chartModeInputs.forEach((input) => {
     input.addEventListener("change", (event) => {
@@ -1588,7 +3304,9 @@ function wireEvents() {
       updateDateControlVisibility();
       if (appState.selectedSite) {
         renderChart(appState.selectedSite);
-        renderDirectionalPanel(appState.selectedSite);
+        if (!IS_OTHER_MODE) {
+          renderDirectionalPanel(appState.selectedSite);
+        }
       }
     });
   });
@@ -1613,7 +3331,7 @@ function wireEvents() {
 }
 
 async function bootstrap() {
-  setStatus("Loading preprocessed datasets...");
+  setStatus(APP_MODE === "other" ? "Loading external dataset..." : "Loading preprocessed datasets...");
   for (const dataset of DATASETS) {
     setStatus(`Loading ${dataset.name}...`);
     await loadDataset(dataset);
@@ -1623,6 +3341,16 @@ async function bootstrap() {
   renderMarkers();
   refreshStatsCityOptions();
   statsVolumeMode.value = appState.statsVolumeMode;
+  if (IS_OTHER_MODE && splitGenderInput) {
+    splitGenderInput.checked = false;
+    splitGenderInput.disabled = true;
+  }
+  if (IS_OTHER_MODE && otherSeriesModeInput) {
+    otherSeriesModeInput.value = appState.otherSeriesMode;
+  }
+  if (IS_OTHER_MODE && smoothWindowInput) {
+    smoothWindowInput.value = String(appState.smoothWindowMinutes);
+  }
   updateDateControlVisibility();
   renderDashboardStats();
   setStatus(`Loaded ${appState.sites.size} intersections`, false);
