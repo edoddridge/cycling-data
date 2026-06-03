@@ -8,9 +8,24 @@ function getDatasets() {
         name: "Drakewell Tasman Bridge Shared Path",
         source: "drakewell",
         profile: "active_cycling",
-        file: "data/external/drakewell/TAS_ACTIVE/00A0113113AT/timeseries.csv",
+        file: "data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/timeseries_monthly.csv",
+        climatologyIntradayFile: "data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/climatology_intraday.csv",
+        climatologyWeeklyFile: "data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/climatology_weekly.csv",
+        climatologyAnnualFile: "data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/climatology_annual.csv",
         color: "#1d3557",
         markerColor: "#457b9d"
+      },
+      {
+        id: "other_active",
+        name: "Drakewell Tasman Highway Traffic",
+        source: "drakewell",
+        profile: "perm_vehicle",
+        file: "data/external/drakewell/TAS_PERM/0000A0113112/processed/timeseries_monthly.csv",
+        climatologyIntradayFile: "data/external/drakewell/TAS_PERM/0000A0113112/processed/climatology_intraday.csv",
+        climatologyWeeklyFile: "data/external/drakewell/TAS_PERM/0000A0113112/processed/climatology_weekly.csv",
+        climatologyAnnualFile: "data/external/drakewell/TAS_PERM/0000A0113112/processed/climatology_annual.csv",
+        color: "#6a4c93",
+        markerColor: "#8c6bc4"
       },
       {
         id: "other_active",
@@ -27,6 +42,10 @@ function getDatasets() {
         source: "drakewell",
         profile: "melbourne_cycling",
         file: "data/external/Melbourne/processed/melbourne_network_timeseries.csv",
+        metadataFile: "data/external/Melbourne/processed/melbourne_site_metadata.csv",
+        climatologyIntradayFile: "data/external/Melbourne/processed/melbourne_climatology_intraday.csv",
+        climatologyWeeklyFile: "data/external/Melbourne/processed/melbourne_climatology_weekly.csv",
+        climatologyAnnualFile: "data/external/Melbourne/processed/melbourne_climatology_annual.csv",
         color: "#2f6f4e",
         markerColor: "#5aa469"
       }
@@ -412,22 +431,22 @@ function computeOtherDashboardStats(sites) {
   const allRecords = sites.flatMap((site) => site.records || []);
   const coverage = dateRangeCoverage(allRecords);
 
-  const byDate = new Map();
+  const byMonth = new Map();
   allRecords.forEach((record) => {
     const key = record.dateKey || record.date;
     if (!key || record.total == null) {
       return;
     }
-    if (!byDate.has(key)) {
-      byDate.set(key, []);
+    if (!byMonth.has(key)) {
+      byMonth.set(key, []);
     }
-    byDate.get(key).push(Number(record.total));
+    byMonth.get(key).push(Number(record.total));
   });
 
-  const dailyValues = [...byDate.keys()]
+  const monthlyValues = [...byMonth.keys()]
     .sort((left, right) => left.localeCompare(right))
-    .map((day) => {
-      const values = byDate.get(day) || [];
+    .map((month) => {
+      const values = byMonth.get(month) || [];
       if (values.length === 0) {
         return null;
       }
@@ -438,20 +457,20 @@ function computeOtherDashboardStats(sites) {
     })
     .filter((value) => value != null);
 
-  const averageDaily = dailyValues.length
-    ? dailyValues.reduce((sum, current) => sum + current, 0) / dailyValues.length
+  const averageMonthly = monthlyValues.length
+    ? monthlyValues.reduce((sum, current) => sum + current, 0) / monthlyValues.length
     : null;
 
-  const peakDay = [...byDate.entries()].reduce((best, [day, values]) => {
+  const peakMonth = [...byMonth.entries()].reduce((best, [month, values]) => {
     if (values.length === 0) {
       return best;
     }
-    const dayValue = appState.statsVolumeMode === "site"
+    const monthValue = appState.statsVolumeMode === "site"
       ? values.reduce((sum, current) => sum + current, 0) / values.length
       : values.reduce((sum, current) => sum + current, 0);
 
-    if (!best || dayValue > best.value) {
-      return { day, value: dayValue };
+    if (!best || monthValue > best.value) {
+      return { month, value: monthValue };
     }
     return best;
   }, null);
@@ -459,28 +478,25 @@ function computeOtherDashboardStats(sites) {
   const topSites = sites
     .map((site) => {
       const siteTotals = (site.records || []).map((record) => record.total).filter((value) => value != null);
-      const meanDaily = siteTotals.length
+      const meanMonthly = siteTotals.length
         ? siteTotals.reduce((sum, current) => sum + current, 0) / siteTotals.length
         : null;
       return {
         key: site.key,
         siteId: site.siteId,
-        meanDaily,
-        observedDays: siteTotals.length
+        meanMonthly,
+        observedMonths: siteTotals.length
       };
     })
-    .sort((left, right) => (right.meanDaily || 0) - (left.meanDaily || 0));
+    .sort((left, right) => (right.meanMonthly || 0) - (left.meanMonthly || 0));
 
   return {
     siteCount: sites.length,
-    observedDays: coverage.observedDays,
-    expectedDays: coverage.expectedDays,
-    coveragePct: coverage.coveragePct,
     yearRange: coverage.rangeLabel,
-    averageDaily,
-    medianDaily: percentile(dailyValues, 0.5),
-    peakDayLabel: peakDay
-      ? `${peakDay.day} (${formatNumber(peakDay.value, 0)})`
+    averageMonthly,
+    medianMonthly: percentile(monthlyValues, 0.5),
+    peakMonthLabel: peakMonth
+      ? `${peakMonth.month} (${formatNumber(peakMonth.value, 0)})`
       : "n/a",
     topSites: topSites.slice(0, 5)
   };
@@ -568,7 +584,7 @@ function renderDashboardStatsTrends(sites) {
       return;
     }
 
-    const dailyValues = x.map((day) => {
+    const monthlyValues = x.map((day) => {
       const values = byDate.get(day) || [];
       if (values.length === 0) {
         return null;
@@ -579,21 +595,21 @@ function renderDashboardStatsTrends(sites) {
       return values.reduce((sum, current) => sum + current, 0);
     });
 
-    const rolling14 = dailyValues.map((_, index) => {
-      const window = dailyValues.slice(Math.max(0, index - 13), index + 1).filter((value) => value != null);
+    const rolling12 = monthlyValues.map((_, index) => {
+      const window = monthlyValues.slice(Math.max(0, index - 11), index + 1).filter((value) => value != null);
       return window.length ? Number((window.reduce((sum, current) => sum + current, 0) / window.length).toFixed(2)) : null;
     });
 
-    const baseLabel = appState.statsVolumeMode === "site" ? "Daily mean per site" : "Daily network total";
-    const rollingLabel = appState.statsVolumeMode === "site" ? "14-day moving mean (site mean)" : "14-day moving mean (network total)";
-    const yAxisTitle = appState.statsVolumeMode === "site" ? "Daily count per site" : "Daily count (summed across sites)";
+    const baseLabel = appState.statsVolumeMode === "site" ? "Monthly mean per site" : "Monthly network total";
+    const rollingLabel = appState.statsVolumeMode === "site" ? "12-month moving mean (site mean)" : "12-month moving mean (network total)";
+    const yAxisTitle = appState.statsVolumeMode === "site" ? "Monthly count per site" : "Monthly count (summed across sites)";
 
     Plotly.newPlot(
       statsTrendVolume,
       [
         {
           x,
-          y: dailyValues,
+          y: monthlyValues,
           type: "scatter",
           mode: "lines",
           name: baseLabel,
@@ -602,7 +618,7 @@ function renderDashboardStatsTrends(sites) {
         },
         {
           x,
-          y: rolling14,
+          y: rolling12,
           type: "scatter",
           mode: "lines",
           name: rollingLabel,
@@ -612,7 +628,7 @@ function renderDashboardStatsTrends(sites) {
       ],
       {
         margin: { t: 36, r: 14, b: 60, l: 56 },
-        title: { text: "Daily Volume Evolution", font: { size: 14 } },
+        title: { text: "Monthly Volume Evolution", font: { size: 14 } },
         xaxis: { title: { text: "Date", standoff: 12 }, type: "date" },
         yaxis: { title: yAxisTitle },
         legend: { orientation: "h", y: -0.28 },
@@ -708,13 +724,10 @@ function renderDashboardStats() {
     const stats = computeOtherDashboardStats(sites);
     const cards = [
       ["Sites", formatNumber(stats.siteCount)],
-      ["Observed days", formatNumber(stats.observedDays)],
-      ["Expected days", formatNumber(stats.expectedDays)],
-      ["Coverage", stats.coveragePct == null ? "n/a" : `${formatNumber(stats.coveragePct, 1)}%`],
       ["Year range", stats.yearRange],
-      ["Mean daily count", formatNumber(stats.averageDaily, 1)],
-      ["Median daily count", formatNumber(stats.medianDaily, 1)],
-      ["Peak day", stats.peakDayLabel]
+      ["Mean monthly count", formatNumber(stats.averageMonthly, 1)],
+      ["Median monthly count", formatNumber(stats.medianMonthly, 1)],
+      ["Peak month", stats.peakMonthLabel]
     ];
 
     statsGrid.innerHTML = cards
@@ -722,10 +735,10 @@ function renderDashboardStats() {
       .join("");
 
     const topSiteText = stats.topSites
-      .map((item) => `Site ${item.siteId}: ${formatNumber(item.meanDaily, 1)} avg/day over ${formatNumber(item.observedDays)} observed days`)
+      .map((item) => `Site ${item.siteId}: ${formatNumber(item.meanMonthly, 1)} avg/month`)
       .join(" | ");
 
-    statsNotes.textContent = `Missing dates are excluded from daily averages. Top sites by mean daily count: ${topSiteText}`;
+    statsNotes.textContent = `Top sites by mean monthly count: ${topSiteText}`;
     renderDashboardStatsTrends(sites);
     return;
   }
@@ -753,8 +766,8 @@ function renderDashboardStats() {
   renderDashboardStatsTrends(sites);
 }
 
-function hydrateSite(site, dataset, categoryDefinitions) {
-  const records = (site.records || []).map((record) => ({
+function hydrateRecords(recordsInput) {
+  return (recordsInput || []).map((record) => ({
     ...record,
     categories: record.categories || {},
     categoryHourly: record.categoryHourly || {},
@@ -762,13 +775,20 @@ function hydrateSite(site, dataset, categoryDefinitions) {
     dateObj: parseDate(record.date),
     dateKey: record.date || "unknown"
   })).sort((left, right) => (left.dateObj?.getTime() || 0) - (right.dateObj?.getTime() || 0));
+}
+
+function hydrateSite(site, dataset, categoryDefinitions) {
+  const records = hydrateRecords(site.records || []);
+  const climateRecords = hydrateRecords(site.climateRecords || []);
 
   return {
     ...site,
+    datasetProfile: dataset.profile,
     color: dataset.color,
     markerColor: dataset.markerColor,
     categoryDefinitions: categoryDefinitions || [],
     records,
+    climateRecords,
     yearlyTotals: site.yearlyTotals || {}
   };
 }
@@ -831,6 +851,35 @@ function parseOptionalNumber(value) {
   }
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : null;
+}
+
+function inferBinMinutesFromRows(rows, fallback = 60) {
+  const minutes = [...new Set(rows
+    .map((row) => {
+      const token = String(row.time_bin || "").slice(0, 5);
+      const [hourText, minuteText] = token.split(":");
+      const hour = Number(hourText);
+      const minute = Number(minuteText);
+      if (!Number.isFinite(hour) || !Number.isFinite(minute)) {
+        return null;
+      }
+      return hour * 60 + minute;
+    })
+    .filter((value) => value != null))].sort((left, right) => left - right);
+
+  if (minutes.length < 2) {
+    return fallback;
+  }
+
+  let minGap = Infinity;
+  for (let index = 1; index < minutes.length; index += 1) {
+    const delta = minutes[index] - minutes[index - 1];
+    if (delta > 0) {
+      minGap = Math.min(minGap, delta);
+    }
+  }
+
+  return Number.isFinite(minGap) ? minGap : fallback;
 }
 
 const VEHICLE_CLASS_LABELS = {
@@ -912,7 +961,9 @@ function buildDrakewellActiveSite(rows, dataset) {
     id: normalizeDirectionId(label),
     label,
     splitGroup: label,
-    userType: "combined"
+    userType: "combined",
+    cubeMetric: "total_flow",
+    cubeDirectionLabel: label
   }));
 
   const records = [...byDate.entries()]
@@ -1082,7 +1133,9 @@ function buildDrakewellVehicleSite(rows, dataset) {
     label,
     splitGroup: label,
     userType: "combined",
-    userTypeLabel: "All classes"
+    userTypeLabel: "All classes",
+    cubeMetric: "total_flow",
+    cubeDirectionLabel: label
   }));
 
   const records = [...byDate.entries()]
@@ -1175,7 +1228,9 @@ function buildDrakewellVehicleSite(rows, dataset) {
     path: "All lanes",
     direction: "All directions",
     userType: classKey,
-    userTypeLabel: vehicleClassLabel(classKey)
+    userTypeLabel: vehicleClassLabel(classKey),
+    cubeMetric: classKey,
+    cubeDirectionLabel: "All directions"
   }));
 
   const directionClassDefinitions = directionDefinitions.flatMap((definition) => classKeys.map((classKey) => ({
@@ -1185,7 +1240,9 @@ function buildDrakewellVehicleSite(rows, dataset) {
     path: definition.path,
     direction: definition.direction,
     userType: classKey,
-    userTypeLabel: vehicleClassLabel(classKey)
+    userTypeLabel: vehicleClassLabel(classKey),
+    cubeMetric: classKey,
+    cubeDirectionLabel: definition.label
   })));
 
   return {
@@ -1211,7 +1268,7 @@ function buildDrakewellVehicleSite(rows, dataset) {
   };
 }
 
-function buildMelbourneCyclingSites(rows, dataset) {
+function buildMelbourneCyclingSites(rows, dataset, metadataBySite = new Map()) {
   const bySite = new Map();
   rows.forEach((row) => {
     const route = String(row.site_xn_route || "").trim();
@@ -1241,10 +1298,13 @@ function buildMelbourneCyclingSites(rows, dataset) {
     path: "Network",
     direction: label,
     userType: "combined",
-    userTypeLabel: "Cyclist"
+    userTypeLabel: "Cyclist",
+    cubeMetric: "total_flow",
+    cubeDirectionLabel: label
   }));
 
   const sites = [];
+  const binMinutes = inferBinMinutesFromRows(rows, 60);
 
   bySite.forEach((siteRows, route) => {
     const byDate = new Map();
@@ -1316,7 +1376,7 @@ function buildMelbourneCyclingSites(rows, dataset) {
       return accumulator;
     }, {});
 
-    const sample = siteRows[0] || {};
+    const sample = metadataBySite.get(route) || siteRows[0] || {};
     const latitude = parseOptionalNumber(sample.gps_lat);
     const longitude = parseOptionalNumber(sample.gps_long);
     if (latitude == null || longitude == null) {
@@ -1345,7 +1405,7 @@ function buildMelbourneCyclingSites(rows, dataset) {
       roadLabels: [],
       exitLayout: [],
       flowUnit: "People",
-      binMinutes: 60,
+      binMinutes,
       records,
       yearlyTotals,
       directionDefinitions
@@ -1534,6 +1594,32 @@ function buildSydneyActiveSites(rows, dataset) {
 }
 
 async function loadDrakewellDataset(dataset) {
+  const fetchCsvRows = async (filePath, errorLabel) => {
+    const response = await fetch(filePath);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${filePath}`);
+    }
+    const text = await response.text();
+    const parsed = parseCsv(text);
+    if (parsed.length === 0) {
+      throw new Error(`${errorLabel} file is empty`);
+    }
+    return parsed;
+  };
+
+  const loadCubeRows = async () => {
+    const intradayCubeRows = dataset.climatologyIntradayFile
+      ? await fetchCsvRows(dataset.climatologyIntradayFile, `${dataset.name} intraday climatology`)
+      : [];
+    const weeklyCubeRows = dataset.climatologyWeeklyFile
+      ? await fetchCsvRows(dataset.climatologyWeeklyFile, `${dataset.name} weekly climatology`)
+      : [];
+    const annualCubeRows = dataset.climatologyAnnualFile
+      ? await fetchCsvRows(dataset.climatologyAnnualFile, `${dataset.name} annual climatology`)
+      : [];
+    return { intradayCubeRows, weeklyCubeRows, annualCubeRows };
+  };
+
   const response = await fetch(dataset.file);
   if (!response.ok) {
     throw new Error(`Failed to fetch ${dataset.file}`);
@@ -1554,12 +1640,65 @@ async function loadDrakewellDataset(dataset) {
       ...(site.classDefinitions || []),
       ...(site.directionClassDefinitions || [])
     ];
+    const cubes = await loadCubeRows();
+    site.climatologyIntradayCubeRows = cubes.intradayCubeRows;
+    site.climatologyWeeklyCubeRows = cubes.weeklyCubeRows;
+    site.climatologyAnnualCubeRows = cubes.annualCubeRows;
+    site.climateBinMinutes = inferBinMinutesFromRows(cubes.intradayCubeRows, site.binMinutes || 60);
   } else if (dataset.profile === "melbourne_cycling") {
-    const melbourne = buildMelbourneCyclingSites(rows, dataset);
+    const metadataRows = dataset.metadataFile
+      ? await fetchCsvRows(dataset.metadataFile, "Melbourne metadata")
+      : [];
+    const cubes = await loadCubeRows();
+
+    const metadataBySiteId = new Map(metadataRows.map((row) => [String(row.site_xn_route || "").trim(), row]));
+
+    const melbourne = buildMelbourneCyclingSites(rows, dataset, metadataBySiteId);
     dataset.categoryDefinitions = [
       ...(melbourne.directionDefinitions || [])
     ];
+
+    const intradayBySiteId = new Map();
+    cubes.intradayCubeRows.forEach((row) => {
+      const siteId = String(row.site_xn_route || "").trim();
+      if (!siteId) {
+        return;
+      }
+      if (!intradayBySiteId.has(siteId)) {
+        intradayBySiteId.set(siteId, []);
+      }
+      intradayBySiteId.get(siteId).push(row);
+    });
+
+    const weeklyBySiteId = new Map();
+    cubes.weeklyCubeRows.forEach((row) => {
+      const siteId = String(row.site_xn_route || "").trim();
+      if (!siteId) {
+        return;
+      }
+      if (!weeklyBySiteId.has(siteId)) {
+        weeklyBySiteId.set(siteId, []);
+      }
+      weeklyBySiteId.get(siteId).push(row);
+    });
+
+    const annualBySiteId = new Map();
+    cubes.annualCubeRows.forEach((row) => {
+      const siteId = String(row.site_xn_route || "").trim();
+      if (!siteId) {
+        return;
+      }
+      if (!annualBySiteId.has(siteId)) {
+        annualBySiteId.set(siteId, []);
+      }
+      annualBySiteId.get(siteId).push(row);
+    });
+
     (melbourne.sites || []).forEach((melbourneSite) => {
+      melbourneSite.climatologyIntradayCubeRows = intradayBySiteId.get(melbourneSite.siteId) || [];
+      melbourneSite.climatologyWeeklyCubeRows = weeklyBySiteId.get(melbourneSite.siteId) || [];
+      melbourneSite.climatologyAnnualCubeRows = annualBySiteId.get(melbourneSite.siteId) || [];
+      melbourneSite.climateBinMinutes = inferBinMinutesFromRows(melbourneSite.climatologyIntradayCubeRows, melbourneSite.binMinutes || 60);
       const hydrated = hydrateSite(melbourneSite, dataset, dataset.categoryDefinitions);
       appState.sites.set(hydrated.key, hydrated);
     });
@@ -1599,8 +1738,8 @@ async function loadDrakewellDataset(dataset) {
   } else {
     site = buildDrakewellActiveSite(rows, dataset);
     dataset.categoryDefinitions = [
-      { id: "walker_total", label: "Pedestrian" },
-      { id: "pushbike_total", label: "Cyclist" },
+      { id: "walker_total", label: "Pedestrian", cubeMetric: "ped", cubeDirectionLabel: "All directions" },
+      { id: "pushbike_total", label: "Cyclist", cubeMetric: "pcl", cubeDirectionLabel: "All directions" },
       ...(site.directionDefinitions || []),
       ...(site.directionDefinitions || []).flatMap((definition) => [
         {
@@ -1610,7 +1749,9 @@ async function loadDrakewellDataset(dataset) {
           path: definition.path,
           direction: definition.direction,
           userType: "pedestrian",
-          userTypeLabel: "Pedestrian"
+          userTypeLabel: "Pedestrian",
+          cubeMetric: "ped",
+          cubeDirectionLabel: definition.label
         },
         {
           id: `${definition.id}_pcl`,
@@ -1619,10 +1760,17 @@ async function loadDrakewellDataset(dataset) {
           path: definition.path,
           direction: definition.direction,
           userType: "cyclist",
-          userTypeLabel: "Cyclist"
+          userTypeLabel: "Cyclist",
+          cubeMetric: "pcl",
+          cubeDirectionLabel: definition.label
         }
       ])
     ];
+    const cubes = await loadCubeRows();
+    site.climatologyIntradayCubeRows = cubes.intradayCubeRows;
+    site.climatologyWeeklyCubeRows = cubes.weeklyCubeRows;
+    site.climatologyAnnualCubeRows = cubes.annualCubeRows;
+    site.climateBinMinutes = inferBinMinutesFromRows(cubes.intradayCubeRows, site.binMinutes || 60);
   }
 
   const hydrated = hydrateSite(site, dataset, dataset.categoryDefinitions);
@@ -1675,8 +1823,11 @@ function setSelectedMarker(siteKey) {
 }
 
 function getDistinctRecords(site) {
+  const sourceRecords = (site.climateRecords && site.climateRecords.length > 0)
+    ? site.climateRecords
+    : site.records;
   const uniqueByDate = new Map();
-  site.records.forEach((record) => {
+  sourceRecords.forEach((record) => {
     if (!uniqueByDate.has(record.dateKey)) {
       uniqueByDate.set(record.dateKey, record);
     }
@@ -2366,7 +2517,7 @@ function createOtherBaseSeries(records, splitDefinitions) {
   if (!(appState.splitPath || appState.splitDirection || appState.splitUserType)) {
     return [{
       key: "all",
-      label: "All directions daily total",
+      label: "All directions total",
       mode: "all",
       valuesByDate: new Map(records.map((record) => [record.dateKey, record.total]))
     }];
@@ -2433,7 +2584,7 @@ function syncSmoothingWindowOptions(site) {
     return;
   }
 
-  const nativeBinMinutes = Math.max(1, Number(site?.binMinutes) || 5);
+  const nativeBinMinutes = Math.max(1, Number(site?.climateBinMinutes || site?.binMinutes) || 5);
   const choices = smoothingWindowChoices(nativeBinMinutes);
   const requested = Number(appState.smoothWindowMinutes) || choices[Math.min(1, choices.length - 1)] || nativeBinMinutes;
   const selected = choices.includes(requested)
@@ -2629,31 +2780,10 @@ function aggregateSeriesPoints(seriesGroups, mode) {
 }
 
 function aggregateOtherTimeOfDayClimatology(records, splitDefinitions, flowUnit = "People", binMinutes = 5) {
-  const includeBaseSplit = appState.splitPath || appState.splitDirection || appState.splitUserType;
+  const baseGroups = buildOtherSplitGroups(splitDefinitions);
+  const includeBaseSplit = baseGroups.length > 1;
   const includeWeekpart = appState.splitWeekpart;
   const includeSeason = appState.splitSeason;
-
-  const baseGroups = includeBaseSplit
-    ? (() => {
-      const grouped = new Map();
-      splitDefinitions.forEach((definition) => {
-        const group = splitGroupForDefinition(definition);
-        if (!group) {
-          return;
-        }
-        if (!grouped.has(group.key)) {
-          grouped.set(group.key, {
-            key: group.key,
-            label: group.label,
-            mode: group.mode,
-            definitionIds: []
-          });
-        }
-        grouped.get(group.key).definitionIds.push(definition.id);
-      });
-      return [...grouped.values()].sort((left, right) => left.label.localeCompare(right.label));
-    })()
-    : [{ key: "all", label: "All directions", mode: "all", definitionIds: null }];
 
   const groupedSeries = new Map();
   const allTimeBins = new Set();
@@ -2765,19 +2895,298 @@ function aggregateOtherTimeOfDayClimatology(records, splitDefinitions, flowUnit 
   };
 }
 
-function renderOtherTimeSeries(site) {
-  const records = getDistinctRecords(site).sort((left, right) => (left.dateKey || "").localeCompare(right.dateKey || ""));
-  if (records.length === 0) {
-    showEmptyPlot(chartElement, "No daily rows are available for this site.");
-    return;
+function buildOtherSplitGroups(splitDefinitions) {
+  const includeBaseSplit = appState.splitPath || appState.splitDirection || appState.splitUserType;
+  if (!includeBaseSplit) {
+    return [{
+      key: "all",
+      label: "All directions",
+      mode: "all",
+      definitionIds: null,
+      directionSet: null,
+      cubeMatchers: [{ directionLabel: "All directions", metric: "total_flow" }]
+    }];
   }
 
+  const grouped = new Map();
+  splitDefinitions.forEach((definition) => {
+    const group = splitGroupForDefinition(definition);
+    if (!group) {
+      return;
+    }
+    if (!grouped.has(group.key)) {
+      grouped.set(group.key, {
+        key: group.key,
+        label: group.label,
+        mode: group.mode,
+        definitionIds: [],
+        directionSet: new Set(),
+        cubeMatchers: []
+      });
+    }
+
+    const destination = grouped.get(group.key);
+    destination.definitionIds.push(definition.id);
+    const direction = String(definition.direction || definition.label || "").trim();
+    if (direction) {
+      destination.directionSet.add(direction);
+    }
+
+    destination.cubeMatchers.push({
+      directionLabel: String(definition.cubeDirectionLabel || definition.label || definition.direction || "All directions").trim() || "All directions",
+      metric: String(definition.cubeMetric || "total_flow").trim() || "total_flow"
+    });
+  });
+
+  return [...grouped.values()].sort((left, right) => left.label.localeCompare(right.label));
+}
+
+function aggregateOtherCubeSeries(rows, splitDefinitions, mode, flowUnit = "People", binMinutes = 60) {
+  const includeWeekpart = appState.splitWeekpart;
+  const includeSeason = appState.splitSeason;
+  const baseGroups = buildOtherSplitGroups(splitDefinitions);
+  const includeBaseSplit = baseGroups.length > 1;
+
+  const groupedSeries = new Map();
+  const bucketOrder = mode === "weekly"
+    ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    : mode === "annual"
+      ? ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+      : null;
+
+  const allBuckets = new Set();
+
+  rows.forEach((row) => {
+    const direction = String(row.direction || "All directions").trim() || "All directions";
+    const metric = String(row.metric || "total_flow").trim() || "total_flow";
+    const weekpart = String(row.weekpart || "").trim();
+    const season = String(row.season || "").trim();
+    const sumFlow = Number(row.sum_flow);
+    const sampleCount = Number(row.sample_count);
+    if (!Number.isFinite(sumFlow) || !Number.isFinite(sampleCount) || sampleCount <= 0) {
+      return;
+    }
+
+    const bucket = mode === "daily"
+      ? String(row.time_bin || "").slice(0, 5)
+      : mode === "weekly"
+        ? String(row.weekday || "").trim()
+        : String(row.month || "").trim();
+
+    if (!bucket) {
+      return;
+    }
+
+    if (bucketOrder && !bucketOrder.includes(bucket)) {
+      return;
+    }
+
+    allBuckets.add(bucket);
+
+    baseGroups.forEach((base) => {
+      if (base.cubeMatchers && base.cubeMatchers.length > 0) {
+        const matches = base.cubeMatchers.some((matcher) => {
+          return matcher.directionLabel === direction && matcher.metric === metric;
+        });
+        if (!matches) {
+          return;
+        }
+      } else if (base.directionSet && !base.directionSet.has(direction)) {
+        return;
+      }
+
+      const labelParts = [];
+      if (includeBaseSplit) {
+        labelParts.push(base.label);
+      }
+      if (includeWeekpart) {
+        labelParts.push(weekpart || "Unknown weekpart");
+      }
+      if (includeSeason) {
+        labelParts.push(season || "Unknown season");
+      }
+
+      const seriesKey = labelParts.length ? labelParts.join("||") : "all";
+      const seriesLabel = labelParts.length ? labelParts.join(" - ") : "All directions";
+
+      if (!groupedSeries.has(seriesKey)) {
+        groupedSeries.set(seriesKey, {
+          key: seriesKey,
+          label: seriesLabel,
+          mode: seriesLabel,
+          bucketStats: new Map()
+        });
+      }
+
+      const destination = groupedSeries.get(seriesKey);
+      if (!destination.bucketStats.has(bucket)) {
+        destination.bucketStats.set(bucket, { sumFlow: 0, sampleCount: 0 });
+      }
+
+      const stats = destination.bucketStats.get(bucket);
+      stats.sumFlow += sumFlow;
+      stats.sampleCount += sampleCount;
+    });
+  });
+
+  const x = bucketOrder || [...allBuckets].sort((left, right) => left.localeCompare(right));
+  const groups = [...groupedSeries.values()].sort((left, right) => left.label.localeCompare(right.label));
+
+  const traces = groups.map((group, index) => {
+    const style = splitGroupStyle(group, index);
+    return {
+      x: mode === "daily" ? x.map((bucket) => `2000-01-01T${bucket}:00`) : x,
+      y: x.map((bucket) => {
+        const stats = group.bucketStats.get(bucket);
+        if (!stats || stats.sampleCount <= 0) {
+          return null;
+        }
+        const mean = stats.sumFlow / stats.sampleCount;
+        if (mode === "daily") {
+          const multiplier = 60 / Math.max(1, Number(binMinutes) || 60);
+          return Number((mean * multiplier).toFixed(2));
+        }
+        return Number(mean.toFixed(2));
+      }),
+      type: "scatter",
+      mode: "lines+markers",
+      line: { color: style.color, width: 2.2 },
+      marker: { size: 6, color: style.color },
+      connectgaps: false,
+      name: group.label
+    };
+  });
+
+  if (mode === "daily") {
+    return {
+      traces,
+      xaxis: {
+        title: { text: "Time of day", standoff: 14 },
+        type: "date",
+        tickformat: "%H:%M"
+      },
+      yaxisTitle: `${flowUnit} per hour`,
+      chartTitle: "Daily Climatology"
+    };
+  }
+
+  if (mode === "weekly") {
+    return {
+      traces,
+      xaxis: { title: { text: "Day of week", standoff: 14 }, type: "category" },
+      yaxisTitle: "Mean daily count",
+      chartTitle: "Weekly Climatology"
+    };
+  }
+
+  return {
+    traces,
+    xaxis: { title: { text: "Month", standoff: 14 }, type: "category" },
+    yaxisTitle: "Mean weekly count",
+    chartTitle: "Annual Climatology"
+  };
+}
+
+function aggregateRecordsToWeekly(records) {
+  const byWeek = new Map();
+
+  records.forEach((record) => {
+    const date = parseDate(record.dateKey || record.date);
+    if (!date) {
+      return;
+    }
+
+    const weekStart = new Date(date);
+    weekStart.setDate(weekStart.getDate() - ((weekStart.getDay() + 6) % 7));
+    const weekKey = weekStart.toISOString().slice(0, 10);
+
+    if (!byWeek.has(weekKey)) {
+      byWeek.set(weekKey, {
+        date: weekKey,
+        dateKey: weekKey,
+        dateObj: parseDate(weekKey),
+        total: 0,
+        categories: {},
+        categoryHourly: {},
+        directional: { legTotals: [], movements: [] }
+      });
+    }
+
+    const bucket = byWeek.get(weekKey);
+    bucket.total += Number(record.total || 0);
+
+    Object.entries(record.categories || {}).forEach(([key, value]) => {
+      if (value == null) {
+        return;
+      }
+      bucket.categories[key] = (bucket.categories[key] || 0) + Number(value);
+    });
+  });
+
+  return [...byWeek.values()]
+    .sort((left, right) => (left.dateKey || "").localeCompare(right.dateKey || ""))
+    .map((record) => ({
+      ...record,
+      total: Number(record.total.toFixed(2)),
+      categories: Object.fromEntries(Object.entries(record.categories).map(([key, value]) => [key, Number(value.toFixed(2))]))
+    }));
+}
+
+function renderOtherTimeSeries(site) {
+  const trendRecords = (site.records || []).sort((left, right) => (left.dateKey || "").localeCompare(right.dateKey || ""));
+  const climateDailyRecords = getDistinctRecords(site).sort((left, right) => (left.dateKey || "").localeCompare(right.dateKey || ""));
   const splitDefinitions = (site.categoryDefinitions || []).filter((definition) => definition.splitGroup);
   const seriesMode = appState.otherSeriesMode || "daily";
-  const aggregated = seriesMode === "daily"
-    ? aggregateOtherTimeOfDayClimatology(records, splitDefinitions, site.flowUnit || "People", site.binMinutes || 5)
-    : aggregateSeriesPoints(expandOtherFacetSeries(createOtherBaseSeries(records, splitDefinitions), records), seriesMode);
-  const traces = applySmoothingToTraces(aggregated.traces, site.binMinutes || 5);
+  const sourceBinMinutes = site.climateBinMinutes || site.binMinutes || 5;
+  const hasClimatologyCubes = Array.isArray(site.climatologyIntradayCubeRows)
+    && Array.isArray(site.climatologyWeeklyCubeRows)
+    && Array.isArray(site.climatologyAnnualCubeRows)
+    && (site.climatologyIntradayCubeRows.length > 0 || site.climatologyWeeklyCubeRows.length > 0 || site.climatologyAnnualCubeRows.length > 0);
+  let aggregated;
+
+  if (seriesMode === "monthly") {
+    if (trendRecords.length === 0) {
+      showEmptyPlot(chartElement, "No trend rows are available for this site.");
+      return;
+    }
+    aggregated = aggregateSeriesPoints(
+      expandOtherFacetSeries(createOtherBaseSeries(trendRecords, splitDefinitions), trendRecords),
+      "daily"
+    );
+  } else if (hasClimatologyCubes && seriesMode === "daily") {
+    aggregated = aggregateOtherCubeSeries(site.climatologyIntradayCubeRows, splitDefinitions, "daily", site.flowUnit || "People", sourceBinMinutes);
+  } else if (hasClimatologyCubes && seriesMode === "weekly") {
+    aggregated = aggregateOtherCubeSeries(site.climatologyWeeklyCubeRows, splitDefinitions, "weekly", site.flowUnit || "People", sourceBinMinutes);
+  } else if (hasClimatologyCubes && seriesMode === "annual") {
+    aggregated = aggregateOtherCubeSeries(site.climatologyAnnualCubeRows, splitDefinitions, "annual", site.flowUnit || "People", sourceBinMinutes);
+  } else if (seriesMode === "daily") {
+    if (climateDailyRecords.length === 0) {
+      showEmptyPlot(chartElement, "No daily rows are available for this site.");
+      return;
+    }
+    aggregated = aggregateOtherTimeOfDayClimatology(climateDailyRecords, splitDefinitions, site.flowUnit || "People", sourceBinMinutes);
+  } else if (seriesMode === "weekly") {
+    if (climateDailyRecords.length === 0) {
+      showEmptyPlot(chartElement, "No daily rows are available for this site.");
+      return;
+    }
+    aggregated = aggregateSeriesPoints(
+      expandOtherFacetSeries(createOtherBaseSeries(climateDailyRecords, splitDefinitions), climateDailyRecords),
+      "weekly"
+    );
+  } else {
+    if (climateDailyRecords.length === 0) {
+      showEmptyPlot(chartElement, "No daily rows are available for this site.");
+      return;
+    }
+    const weeklyRecords = aggregateRecordsToWeekly(climateDailyRecords);
+    aggregated = aggregateSeriesPoints(
+      expandOtherFacetSeries(createOtherBaseSeries(weeklyRecords, splitDefinitions), weeklyRecords),
+      "annual"
+    );
+  }
+
+  const traces = applySmoothingToTraces(aggregated.traces, sourceBinMinutes);
 
   if (traces.length === 0) {
     showEmptyPlot(chartElement, "No rows match the selected time-series disaggregation options.");
