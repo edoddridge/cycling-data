@@ -1,0 +1,2745 @@
+weekday,direction,metric,weekpart,season,sum_flow,sample_count
+Fri,All directions,art3,Weekday,Autumn,16790.0,110
+Fri,All directions,art3,Weekday,Spring,17431.0,115
+Fri,All directions,art3,Weekday,Summer,17603.0,118
+Fri,All directions,art3,Weekday,Winter,12671.0,90
+Fri,All directions,art4,Weekday,Autumn,12062.0,110
+Fri,All directions,art4,Weekday,Spring,12032.0,115
+Fri,All directions,art4,Weekday,Summer,12364.0,118
+Fri,All directions,art4,Weekday,Winter,9500.0,90
+Fri,All directions,art5,Weekday,Autumn,4448.0,110
+Fri,All directions,art5,Weekday,Spring,5058.0,115
+Fri,All directions,art5,Weekday,Summer,5006.0,118
+Fri,All directions,art5,Weekday,Winter,3649.0,90
+Fri,All directions,art6,Weekday,Autumn,26024.0,110
+Fri,All directions,art6,Weekday,Spring,28120.0,115
+Fri,All directions,art6,Weekday,Summer,27262.0,118
+Fri,All directions,art6,Weekday,Winter,21589.0,90
+Fri,All directions,bd,Weekday,Autumn,4420.0,110
+Fri,All directions,bd,Weekday,Spring,5076.0,115
+Fri,All directions,bd,Weekday,Summer,4735.0,118
+Fri,All directions,bd,Weekday,Winter,3671.0,90
+Fri,All directions,drt,Weekday,Autumn,35.0,110
+Fri,All directions,drt,Weekday,Spring,33.0,115
+Fri,All directions,drt,Weekday,Summer,31.0,118
+Fri,All directions,drt,Weekday,Winter,25.0,90
+Fri,All directions,sv,Weekday,Autumn,7522579.0,110
+Fri,All directions,sv,Weekday,Spring,8246993.0,115
+Fri,All directions,sv,Weekday,Summer,8547573.0,118
+Fri,All directions,sv,Weekday,Winter,6431249.0,90
+Fri,All directions,svt,Weekday,Autumn,81710.0,110
+Fri,All directions,svt,Weekday,Spring,81359.0,115
+Fri,All directions,svt,Weekday,Summer,95262.0,118
+Fri,All directions,svt,Weekday,Winter,59553.0,90
+Fri,All directions,t4,Weekday,Autumn,14745.0,110
+Fri,All directions,t4,Weekday,Spring,15570.0,115
+Fri,All directions,t4,Weekday,Summer,14517.0,118
+Fri,All directions,t4,Weekday,Winter,12459.0,90
+Fri,All directions,tb2,Weekday,Autumn,625769.0,110
+Fri,All directions,tb2,Weekday,Spring,666612.0,115
+Fri,All directions,tb2,Weekday,Summer,661512.0,118
+Fri,All directions,tb2,Weekday,Winter,543215.0,90
+Fri,All directions,tb3,Weekday,Autumn,33344.0,110
+Fri,All directions,tb3,Weekday,Spring,35714.0,115
+Fri,All directions,tb3,Weekday,Summer,34947.0,118
+Fri,All directions,tb3,Weekday,Winter,28602.0,90
+Fri,All directions,total_flow,Weekday,Autumn,8342395.0,110
+Fri,All directions,total_flow,Weekday,Spring,9114468.0,115
+Fri,All directions,total_flow,Weekday,Summer,9421360.0,118
+Fri,All directions,total_flow,Weekday,Winter,7126562.0,90
+Fri,All directions,trt,Weekday,Autumn,0.0,110
+Fri,All directions,trt,Weekday,Spring,3.0,115
+Fri,All directions,trt,Weekday,Summer,2.0,118
+Fri,All directions,trt,Weekday,Winter,0.0,90
+Fri,All directions,ucv,Weekday,Autumn,469.0,110
+Fri,All directions,ucv,Weekday,Spring,467.0,115
+Fri,All directions,ucv,Weekday,Summer,546.0,118
+Fri,All directions,ucv,Weekday,Winter,379.0,90
+Fri,Eastbound Centre Lane,art3,Weekday,Autumn,6220.0,110
+Fri,Eastbound Centre Lane,art3,Weekday,Spring,6389.0,115
+Fri,Eastbound Centre Lane,art3,Weekday,Summer,6327.0,118
+Fri,Eastbound Centre Lane,art3,Weekday,Winter,4718.0,90
+Fri,Eastbound Centre Lane,art4,Weekday,Autumn,4437.0,110
+Fri,Eastbound Centre Lane,art4,Weekday,Spring,4363.0,115
+Fri,Eastbound Centre Lane,art4,Weekday,Summer,4578.0,118
+Fri,Eastbound Centre Lane,art4,Weekday,Winter,3442.0,90
+Fri,Eastbound Centre Lane,art5,Weekday,Autumn,1958.0,110
+Fri,Eastbound Centre Lane,art5,Weekday,Spring,2211.0,115
+Fri,Eastbound Centre Lane,art5,Weekday,Summer,2110.0,118
+Fri,Eastbound Centre Lane,art5,Weekday,Winter,1627.0,90
+Fri,Eastbound Centre Lane,art6,Weekday,Autumn,13082.0,110
+Fri,Eastbound Centre Lane,art6,Weekday,Spring,14050.0,115
+Fri,Eastbound Centre Lane,art6,Weekday,Summer,13344.0,118
+Fri,Eastbound Centre Lane,art6,Weekday,Winter,10888.0,90
+Fri,Eastbound Centre Lane,bd,Weekday,Autumn,2127.0,110
+Fri,Eastbound Centre Lane,bd,Weekday,Spring,2457.0,115
+Fri,Eastbound Centre Lane,bd,Weekday,Summer,2261.0,118
+Fri,Eastbound Centre Lane,bd,Weekday,Winter,1764.0,90
+Fri,Eastbound Centre Lane,drt,Weekday,Autumn,15.0,110
+Fri,Eastbound Centre Lane,drt,Weekday,Spring,6.0,115
+Fri,Eastbound Centre Lane,drt,Weekday,Summer,8.0,118
+Fri,Eastbound Centre Lane,drt,Weekday,Winter,8.0,90
+Fri,Eastbound Centre Lane,sv,Weekday,Autumn,2133424.0,110
+Fri,Eastbound Centre Lane,sv,Weekday,Spring,2333657.0,115
+Fri,Eastbound Centre Lane,sv,Weekday,Summer,2387537.0,118
+Fri,Eastbound Centre Lane,sv,Weekday,Winter,1824330.0,90
+Fri,Eastbound Centre Lane,svt,Weekday,Autumn,27018.0,110
+Fri,Eastbound Centre Lane,svt,Weekday,Spring,25943.0,115
+Fri,Eastbound Centre Lane,svt,Weekday,Summer,30597.0,118
+Fri,Eastbound Centre Lane,svt,Weekday,Winter,19109.0,90
+Fri,Eastbound Centre Lane,t4,Weekday,Autumn,6225.0,110
+Fri,Eastbound Centre Lane,t4,Weekday,Spring,6627.0,115
+Fri,Eastbound Centre Lane,t4,Weekday,Summer,6021.0,118
+Fri,Eastbound Centre Lane,t4,Weekday,Winter,5248.0,90
+Fri,Eastbound Centre Lane,tb2,Weekday,Autumn,190621.0,110
+Fri,Eastbound Centre Lane,tb2,Weekday,Spring,204746.0,115
+Fri,Eastbound Centre Lane,tb2,Weekday,Summer,199773.0,118
+Fri,Eastbound Centre Lane,tb2,Weekday,Winter,164831.0,90
+Fri,Eastbound Centre Lane,tb3,Weekday,Autumn,13518.0,110
+Fri,Eastbound Centre Lane,tb3,Weekday,Spring,14637.0,115
+Fri,Eastbound Centre Lane,tb3,Weekday,Summer,13600.0,118
+Fri,Eastbound Centre Lane,tb3,Weekday,Winter,11476.0,90
+Fri,Eastbound Centre Lane,total_flow,Weekday,Autumn,2398667.0,110
+Fri,Eastbound Centre Lane,total_flow,Weekday,Spring,2615111.0,115
+Fri,Eastbound Centre Lane,total_flow,Weekday,Summer,2666190.0,118
+Fri,Eastbound Centre Lane,total_flow,Weekday,Winter,2047460.0,90
+Fri,Eastbound Centre Lane,trt,Weekday,Autumn,0.0,110
+Fri,Eastbound Centre Lane,trt,Weekday,Spring,0.0,115
+Fri,Eastbound Centre Lane,trt,Weekday,Summer,0.0,118
+Fri,Eastbound Centre Lane,trt,Weekday,Winter,0.0,90
+Fri,Eastbound Centre Lane,ucv,Weekday,Autumn,22.0,110
+Fri,Eastbound Centre Lane,ucv,Weekday,Spring,25.0,115
+Fri,Eastbound Centre Lane,ucv,Weekday,Summer,34.0,118
+Fri,Eastbound Centre Lane,ucv,Weekday,Winter,19.0,90
+Fri,Eastbound Left Lane,art3,Weekday,Autumn,828.0,110
+Fri,Eastbound Left Lane,art3,Weekday,Spring,916.0,115
+Fri,Eastbound Left Lane,art3,Weekday,Summer,829.0,118
+Fri,Eastbound Left Lane,art3,Weekday,Winter,713.0,90
+Fri,Eastbound Left Lane,art4,Weekday,Autumn,522.0,110
+Fri,Eastbound Left Lane,art4,Weekday,Spring,618.0,115
+Fri,Eastbound Left Lane,art4,Weekday,Summer,619.0,118
+Fri,Eastbound Left Lane,art4,Weekday,Winter,495.0,90
+Fri,Eastbound Left Lane,art5,Weekday,Autumn,99.0,110
+Fri,Eastbound Left Lane,art5,Weekday,Spring,115.0,115
+Fri,Eastbound Left Lane,art5,Weekday,Summer,122.0,118
+Fri,Eastbound Left Lane,art5,Weekday,Winter,64.0,90
+Fri,Eastbound Left Lane,art6,Weekday,Autumn,357.0,110
+Fri,Eastbound Left Lane,art6,Weekday,Spring,380.0,115
+Fri,Eastbound Left Lane,art6,Weekday,Summer,433.0,118
+Fri,Eastbound Left Lane,art6,Weekday,Winter,258.0,90
+Fri,Eastbound Left Lane,bd,Weekday,Autumn,30.0,110
+Fri,Eastbound Left Lane,bd,Weekday,Spring,35.0,115
+Fri,Eastbound Left Lane,bd,Weekday,Summer,40.0,118
+Fri,Eastbound Left Lane,bd,Weekday,Winter,26.0,90
+Fri,Eastbound Left Lane,drt,Weekday,Autumn,0.0,110
+Fri,Eastbound Left Lane,drt,Weekday,Spring,0.0,115
+Fri,Eastbound Left Lane,drt,Weekday,Summer,0.0,118
+Fri,Eastbound Left Lane,drt,Weekday,Winter,0.0,90
+Fri,Eastbound Left Lane,sv,Weekday,Autumn,587435.0,110
+Fri,Eastbound Left Lane,sv,Weekday,Spring,646106.0,115
+Fri,Eastbound Left Lane,sv,Weekday,Summer,652596.0,118
+Fri,Eastbound Left Lane,sv,Weekday,Winter,506457.0,90
+Fri,Eastbound Left Lane,svt,Weekday,Autumn,4131.0,110
+Fri,Eastbound Left Lane,svt,Weekday,Spring,4307.0,115
+Fri,Eastbound Left Lane,svt,Weekday,Summer,4726.0,118
+Fri,Eastbound Left Lane,svt,Weekday,Winter,3084.0,90
+Fri,Eastbound Left Lane,t4,Weekday,Autumn,620.0,110
+Fri,Eastbound Left Lane,t4,Weekday,Spring,546.0,115
+Fri,Eastbound Left Lane,t4,Weekday,Summer,595.0,118
+Fri,Eastbound Left Lane,t4,Weekday,Winter,561.0,90
+Fri,Eastbound Left Lane,tb2,Weekday,Autumn,35742.0,110
+Fri,Eastbound Left Lane,tb2,Weekday,Spring,38307.0,115
+Fri,Eastbound Left Lane,tb2,Weekday,Summer,37530.0,118
+Fri,Eastbound Left Lane,tb2,Weekday,Winter,31575.0,90
+Fri,Eastbound Left Lane,tb3,Weekday,Autumn,1362.0,110
+Fri,Eastbound Left Lane,tb3,Weekday,Spring,1305.0,115
+Fri,Eastbound Left Lane,tb3,Weekday,Summer,1261.0,118
+Fri,Eastbound Left Lane,tb3,Weekday,Winter,1280.0,90
+Fri,Eastbound Left Lane,total_flow,Weekday,Autumn,631128.0,110
+Fri,Eastbound Left Lane,total_flow,Weekday,Spring,692644.0,115
+Fri,Eastbound Left Lane,total_flow,Weekday,Summer,698762.0,118
+Fri,Eastbound Left Lane,total_flow,Weekday,Winter,544521.0,90
+Fri,Eastbound Left Lane,trt,Weekday,Autumn,0.0,110
+Fri,Eastbound Left Lane,trt,Weekday,Spring,0.0,115
+Fri,Eastbound Left Lane,trt,Weekday,Summer,0.0,118
+Fri,Eastbound Left Lane,trt,Weekday,Winter,0.0,90
+Fri,Eastbound Left Lane,ucv,Weekday,Autumn,2.0,110
+Fri,Eastbound Left Lane,ucv,Weekday,Spring,9.0,115
+Fri,Eastbound Left Lane,ucv,Weekday,Summer,11.0,118
+Fri,Eastbound Left Lane,ucv,Weekday,Winter,8.0,90
+Fri,Eastbound Right Lane,art3,Weekday,Autumn,1216.0,110
+Fri,Eastbound Right Lane,art3,Weekday,Spring,1231.0,115
+Fri,Eastbound Right Lane,art3,Weekday,Summer,1475.0,118
+Fri,Eastbound Right Lane,art3,Weekday,Winter,816.0,90
+Fri,Eastbound Right Lane,art4,Weekday,Autumn,1096.0,110
+Fri,Eastbound Right Lane,art4,Weekday,Spring,1098.0,115
+Fri,Eastbound Right Lane,art4,Weekday,Summer,1100.0,118
+Fri,Eastbound Right Lane,art4,Weekday,Winter,871.0,90
+Fri,Eastbound Right Lane,art5,Weekday,Autumn,203.0,110
+Fri,Eastbound Right Lane,art5,Weekday,Spring,224.0,115
+Fri,Eastbound Right Lane,art5,Weekday,Summer,294.0,118
+Fri,Eastbound Right Lane,art5,Weekday,Winter,126.0,90
+Fri,Eastbound Right Lane,art6,Weekday,Autumn,921.0,110
+Fri,Eastbound Right Lane,art6,Weekday,Spring,1004.0,115
+Fri,Eastbound Right Lane,art6,Weekday,Summer,1295.0,118
+Fri,Eastbound Right Lane,art6,Weekday,Winter,732.0,90
+Fri,Eastbound Right Lane,bd,Weekday,Autumn,125.0,110
+Fri,Eastbound Right Lane,bd,Weekday,Spring,151.0,115
+Fri,Eastbound Right Lane,bd,Weekday,Summer,177.0,118
+Fri,Eastbound Right Lane,bd,Weekday,Winter,103.0,90
+Fri,Eastbound Right Lane,drt,Weekday,Autumn,2.0,110
+Fri,Eastbound Right Lane,drt,Weekday,Spring,2.0,115
+Fri,Eastbound Right Lane,drt,Weekday,Summer,6.0,118
+Fri,Eastbound Right Lane,drt,Weekday,Winter,0.0,90
+Fri,Eastbound Right Lane,sv,Weekday,Autumn,1159956.0,110
+Fri,Eastbound Right Lane,sv,Weekday,Spring,1255757.0,115
+Fri,Eastbound Right Lane,sv,Weekday,Summer,1344750.0,118
+Fri,Eastbound Right Lane,sv,Weekday,Winter,970199.0,90
+Fri,Eastbound Right Lane,svt,Weekday,Autumn,12811.0,110
+Fri,Eastbound Right Lane,svt,Weekday,Spring,12591.0,115
+Fri,Eastbound Right Lane,svt,Weekday,Summer,15440.0,118
+Fri,Eastbound Right Lane,svt,Weekday,Winter,9279.0,90
+Fri,Eastbound Right Lane,t4,Weekday,Autumn,685.0,110
+Fri,Eastbound Right Lane,t4,Weekday,Spring,721.0,115
+Fri,Eastbound Right Lane,t4,Weekday,Summer,815.0,118
+Fri,Eastbound Right Lane,t4,Weekday,Winter,509.0,90
+Fri,Eastbound Right Lane,tb2,Weekday,Autumn,71081.0,110
+Fri,Eastbound Right Lane,tb2,Weekday,Spring,76567.0,115
+Fri,Eastbound Right Lane,tb2,Weekday,Summer,78281.0,118
+Fri,Eastbound Right Lane,tb2,Weekday,Winter,61927.0,90
+Fri,Eastbound Right Lane,tb3,Weekday,Autumn,1907.0,110
+Fri,Eastbound Right Lane,tb3,Weekday,Spring,2046.0,115
+Fri,Eastbound Right Lane,tb3,Weekday,Summer,2460.0,118
+Fri,Eastbound Right Lane,tb3,Weekday,Winter,1571.0,90
+Fri,Eastbound Right Lane,total_flow,Weekday,Autumn,1250014.0,110
+Fri,Eastbound Right Lane,total_flow,Weekday,Spring,1351400.0,115
+Fri,Eastbound Right Lane,total_flow,Weekday,Summer,1446106.0,118
+Fri,Eastbound Right Lane,total_flow,Weekday,Winter,1046140.0,90
+Fri,Eastbound Right Lane,trt,Weekday,Autumn,0.0,110
+Fri,Eastbound Right Lane,trt,Weekday,Spring,0.0,115
+Fri,Eastbound Right Lane,trt,Weekday,Summer,0.0,118
+Fri,Eastbound Right Lane,trt,Weekday,Winter,0.0,90
+Fri,Eastbound Right Lane,ucv,Weekday,Autumn,11.0,110
+Fri,Eastbound Right Lane,ucv,Weekday,Spring,8.0,115
+Fri,Eastbound Right Lane,ucv,Weekday,Summer,13.0,118
+Fri,Eastbound Right Lane,ucv,Weekday,Winter,7.0,90
+Fri,Westbound Centre Lane,art3,Weekday,Autumn,2231.0,110
+Fri,Westbound Centre Lane,art3,Weekday,Spring,2332.0,115
+Fri,Westbound Centre Lane,art3,Weekday,Summer,2365.0,118
+Fri,Westbound Centre Lane,art3,Weekday,Winter,1662.0,90
+Fri,Westbound Centre Lane,art4,Weekday,Autumn,1635.0,110
+Fri,Westbound Centre Lane,art4,Weekday,Spring,1559.0,115
+Fri,Westbound Centre Lane,art4,Weekday,Summer,1708.0,118
+Fri,Westbound Centre Lane,art4,Weekday,Winter,1260.0,90
+Fri,Westbound Centre Lane,art5,Weekday,Autumn,355.0,110
+Fri,Westbound Centre Lane,art5,Weekday,Spring,449.0,115
+Fri,Westbound Centre Lane,art5,Weekday,Summer,461.0,118
+Fri,Westbound Centre Lane,art5,Weekday,Winter,339.0,90
+Fri,Westbound Centre Lane,art6,Weekday,Autumn,890.0,110
+Fri,Westbound Centre Lane,art6,Weekday,Spring,1010.0,115
+Fri,Westbound Centre Lane,art6,Weekday,Summer,1099.0,118
+Fri,Westbound Centre Lane,art6,Weekday,Winter,819.0,90
+Fri,Westbound Centre Lane,bd,Weekday,Autumn,182.0,110
+Fri,Westbound Centre Lane,bd,Weekday,Spring,192.0,115
+Fri,Westbound Centre Lane,bd,Weekday,Summer,179.0,118
+Fri,Westbound Centre Lane,bd,Weekday,Winter,98.0,90
+Fri,Westbound Centre Lane,drt,Weekday,Autumn,5.0,110
+Fri,Westbound Centre Lane,drt,Weekday,Spring,7.0,115
+Fri,Westbound Centre Lane,drt,Weekday,Summer,7.0,118
+Fri,Westbound Centre Lane,drt,Weekday,Winter,5.0,90
+Fri,Westbound Centre Lane,sv,Weekday,Autumn,1109835.0,110
+Fri,Westbound Centre Lane,sv,Weekday,Spring,1234168.0,115
+Fri,Westbound Centre Lane,sv,Weekday,Summer,1296626.0,118
+Fri,Westbound Centre Lane,sv,Weekday,Winter,957242.0,90
+Fri,Westbound Centre Lane,svt,Weekday,Autumn,10954.0,110
+Fri,Westbound Centre Lane,svt,Weekday,Spring,11516.0,115
+Fri,Westbound Centre Lane,svt,Weekday,Summer,13459.0,118
+Fri,Westbound Centre Lane,svt,Weekday,Winter,8087.0,90
+Fri,Westbound Centre Lane,t4,Weekday,Autumn,1192.0,110
+Fri,Westbound Centre Lane,t4,Weekday,Spring,1142.0,115
+Fri,Westbound Centre Lane,t4,Weekday,Summer,1213.0,118
+Fri,Westbound Centre Lane,t4,Weekday,Winter,992.0,90
+Fri,Westbound Centre Lane,tb2,Weekday,Autumn,87044.0,110
+Fri,Westbound Centre Lane,tb2,Weekday,Spring,92879.0,115
+Fri,Westbound Centre Lane,tb2,Weekday,Summer,94147.0,118
+Fri,Westbound Centre Lane,tb2,Weekday,Winter,75790.0,90
+Fri,Westbound Centre Lane,tb3,Weekday,Autumn,3026.0,110
+Fri,Westbound Centre Lane,tb3,Weekday,Spring,3234.0,115
+Fri,Westbound Centre Lane,tb3,Weekday,Summer,3347.0,118
+Fri,Westbound Centre Lane,tb3,Weekday,Winter,2736.0,90
+Fri,Westbound Centre Lane,total_flow,Weekday,Autumn,1217556.0,110
+Fri,Westbound Centre Lane,total_flow,Weekday,Spring,1348700.0,115
+Fri,Westbound Centre Lane,total_flow,Weekday,Summer,1414861.0,118
+Fri,Westbound Centre Lane,total_flow,Weekday,Winter,1049209.0,90
+Fri,Westbound Centre Lane,trt,Weekday,Autumn,0.0,110
+Fri,Westbound Centre Lane,trt,Weekday,Spring,1.0,115
+Fri,Westbound Centre Lane,trt,Weekday,Summer,1.0,118
+Fri,Westbound Centre Lane,trt,Weekday,Winter,0.0,90
+Fri,Westbound Centre Lane,ucv,Weekday,Autumn,207.0,110
+Fri,Westbound Centre Lane,ucv,Weekday,Spring,211.0,115
+Fri,Westbound Centre Lane,ucv,Weekday,Summer,249.0,118
+Fri,Westbound Centre Lane,ucv,Weekday,Winter,179.0,90
+Fri,Westbound Left Lane,art3,Weekday,Autumn,6140.0,110
+Fri,Westbound Left Lane,art3,Weekday,Spring,6383.0,115
+Fri,Westbound Left Lane,art3,Weekday,Summer,6478.0,118
+Fri,Westbound Left Lane,art3,Weekday,Winter,4647.0,90
+Fri,Westbound Left Lane,art4,Weekday,Autumn,4265.0,110
+Fri,Westbound Left Lane,art4,Weekday,Spring,4301.0,115
+Fri,Westbound Left Lane,art4,Weekday,Summer,4276.0,118
+Fri,Westbound Left Lane,art4,Weekday,Winter,3366.0,90
+Fri,Westbound Left Lane,art5,Weekday,Autumn,1827.0,110
+Fri,Westbound Left Lane,art5,Weekday,Spring,2052.0,115
+Fri,Westbound Left Lane,art5,Weekday,Summer,2005.0,118
+Fri,Westbound Left Lane,art5,Weekday,Winter,1481.0,90
+Fri,Westbound Left Lane,art6,Weekday,Autumn,10758.0,110
+Fri,Westbound Left Lane,art6,Weekday,Spring,11651.0,115
+Fri,Westbound Left Lane,art6,Weekday,Summer,11066.0,118
+Fri,Westbound Left Lane,art6,Weekday,Winter,8878.0,90
+Fri,Westbound Left Lane,bd,Weekday,Autumn,1955.0,110
+Fri,Westbound Left Lane,bd,Weekday,Spring,2238.0,115
+Fri,Westbound Left Lane,bd,Weekday,Summer,2074.0,118
+Fri,Westbound Left Lane,bd,Weekday,Winter,1680.0,90
+Fri,Westbound Left Lane,drt,Weekday,Autumn,12.0,110
+Fri,Westbound Left Lane,drt,Weekday,Spring,17.0,115
+Fri,Westbound Left Lane,drt,Weekday,Summer,10.0,118
+Fri,Westbound Left Lane,drt,Weekday,Winter,11.0,90
+Fri,Westbound Left Lane,sv,Weekday,Autumn,2326042.0,110
+Fri,Westbound Left Lane,sv,Weekday,Spring,2549522.0,115
+Fri,Westbound Left Lane,sv,Weekday,Summer,2664145.0,118
+Fri,Westbound Left Lane,sv,Weekday,Winter,1989501.0,90
+Fri,Westbound Left Lane,svt,Weekday,Autumn,25969.0,110
+Fri,Westbound Left Lane,svt,Weekday,Spring,26083.0,115
+Fri,Westbound Left Lane,svt,Weekday,Summer,30129.0,118
+Fri,Westbound Left Lane,svt,Weekday,Winter,19316.0,90
+Fri,Westbound Left Lane,t4,Weekday,Autumn,5987.0,110
+Fri,Westbound Left Lane,t4,Weekday,Spring,6511.0,115
+Fri,Westbound Left Lane,t4,Weekday,Summer,5849.0,118
+Fri,Westbound Left Lane,t4,Weekday,Winter,5117.0,90
+Fri,Westbound Left Lane,tb2,Weekday,Autumn,228308.0,110
+Fri,Westbound Left Lane,tb2,Weekday,Spring,240311.0,115
+Fri,Westbound Left Lane,tb2,Weekday,Summer,239633.0,118
+Fri,Westbound Left Lane,tb2,Weekday,Winter,197637.0,90
+Fri,Westbound Left Lane,tb3,Weekday,Autumn,13413.0,110
+Fri,Westbound Left Lane,tb3,Weekday,Spring,14305.0,115
+Fri,Westbound Left Lane,tb3,Weekday,Summer,14159.0,118
+Fri,Westbound Left Lane,tb3,Weekday,Winter,11403.0,90
+Fri,Westbound Left Lane,total_flow,Weekday,Autumn,2624891.0,110
+Fri,Westbound Left Lane,total_flow,Weekday,Spring,2863577.0,115
+Fri,Westbound Left Lane,total_flow,Weekday,Summer,2980049.0,118
+Fri,Westbound Left Lane,total_flow,Weekday,Winter,2243193.0,90
+Fri,Westbound Left Lane,trt,Weekday,Autumn,0.0,110
+Fri,Westbound Left Lane,trt,Weekday,Spring,1.0,115
+Fri,Westbound Left Lane,trt,Weekday,Summer,1.0,118
+Fri,Westbound Left Lane,trt,Weekday,Winter,0.0,90
+Fri,Westbound Left Lane,ucv,Weekday,Autumn,215.0,110
+Fri,Westbound Left Lane,ucv,Weekday,Spring,202.0,115
+Fri,Westbound Left Lane,ucv,Weekday,Summer,224.0,118
+Fri,Westbound Left Lane,ucv,Weekday,Winter,156.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Autumn,155.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Spring,180.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Summer,129.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Winter,115.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Autumn,107.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Spring,93.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Summer,83.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Winter,66.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Autumn,6.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Spring,7.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Summer,14.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Winter,12.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Autumn,16.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Spring,25.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Summer,25.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Winter,14.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Autumn,1.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Spring,3.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Summer,4.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Winter,0.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Autumn,1.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Spring,1.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Summer,0.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Winter,1.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Autumn,205887.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Spring,227783.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Summer,201919.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Winter,183520.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Autumn,827.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Spring,919.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Summer,911.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Winter,678.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Autumn,36.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Spring,23.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Summer,24.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Winter,32.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Autumn,12973.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Spring,13802.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Summer,12148.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Winter,11455.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Autumn,118.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Spring,187.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Summer,120.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Winter,136.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Autumn,220139.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Spring,243036.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Summer,215392.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Winter,196039.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Autumn,0.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Spring,1.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Summer,0.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Winter,0.0,90
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Autumn,12.0,110
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Spring,12.0,115
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Summer,15.0,118
+Fri,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Winter,10.0,90
+Mon,All directions,art3,Weekday,Autumn,15480.0,109
+Mon,All directions,art3,Weekday,Spring,17070.0,112
+Mon,All directions,art3,Weekday,Summer,16771.0,118
+Mon,All directions,art3,Weekday,Winter,11729.0,88
+Mon,All directions,art4,Weekday,Autumn,11601.0,109
+Mon,All directions,art4,Weekday,Spring,12132.0,112
+Mon,All directions,art4,Weekday,Summer,11887.0,118
+Mon,All directions,art4,Weekday,Winter,8840.0,88
+Mon,All directions,art5,Weekday,Autumn,4853.0,109
+Mon,All directions,art5,Weekday,Spring,5598.0,112
+Mon,All directions,art5,Weekday,Summer,5635.0,118
+Mon,All directions,art5,Weekday,Winter,3858.0,88
+Mon,All directions,art6,Weekday,Autumn,24367.0,109
+Mon,All directions,art6,Weekday,Spring,28562.0,112
+Mon,All directions,art6,Weekday,Summer,25934.0,118
+Mon,All directions,art6,Weekday,Winter,20290.0,88
+Mon,All directions,bd,Weekday,Autumn,4774.0,109
+Mon,All directions,bd,Weekday,Spring,5201.0,112
+Mon,All directions,bd,Weekday,Summer,4879.0,118
+Mon,All directions,bd,Weekday,Winter,3633.0,88
+Mon,All directions,drt,Weekday,Autumn,35.0,109
+Mon,All directions,drt,Weekday,Spring,27.0,112
+Mon,All directions,drt,Weekday,Summer,31.0,118
+Mon,All directions,drt,Weekday,Winter,23.0,88
+Mon,All directions,sv,Weekday,Autumn,6741998.0,109
+Mon,All directions,sv,Weekday,Spring,7571442.0,112
+Mon,All directions,sv,Weekday,Summer,7776109.0,118
+Mon,All directions,sv,Weekday,Winter,5500582.0,88
+Mon,All directions,svt,Weekday,Autumn,76507.0,109
+Mon,All directions,svt,Weekday,Spring,76127.0,112
+Mon,All directions,svt,Weekday,Summer,88772.0,118
+Mon,All directions,svt,Weekday,Winter,52667.0,88
+Mon,All directions,t4,Weekday,Autumn,13367.0,109
+Mon,All directions,t4,Weekday,Spring,15405.0,112
+Mon,All directions,t4,Weekday,Summer,13650.0,118
+Mon,All directions,t4,Weekday,Winter,11019.0,88
+Mon,All directions,tb2,Weekday,Autumn,574822.0,109
+Mon,All directions,tb2,Weekday,Spring,645428.0,112
+Mon,All directions,tb2,Weekday,Summer,605579.0,118
+Mon,All directions,tb2,Weekday,Winter,486809.0,88
+Mon,All directions,tb3,Weekday,Autumn,32000.0,109
+Mon,All directions,tb3,Weekday,Spring,37417.0,112
+Mon,All directions,tb3,Weekday,Summer,32477.0,118
+Mon,All directions,tb3,Weekday,Winter,26524.0,88
+Mon,All directions,total_flow,Weekday,Autumn,7500220.0,109
+Mon,All directions,total_flow,Weekday,Spring,8414814.0,112
+Mon,All directions,total_flow,Weekday,Summer,8582203.0,118
+Mon,All directions,total_flow,Weekday,Winter,6126316.0,88
+Mon,All directions,trt,Weekday,Autumn,1.0,109
+Mon,All directions,trt,Weekday,Spring,1.0,112
+Mon,All directions,trt,Weekday,Summer,1.0,118
+Mon,All directions,trt,Weekday,Winter,2.0,88
+Mon,All directions,ucv,Weekday,Autumn,415.0,109
+Mon,All directions,ucv,Weekday,Spring,404.0,112
+Mon,All directions,ucv,Weekday,Summer,478.0,118
+Mon,All directions,ucv,Weekday,Winter,340.0,88
+Mon,Eastbound Centre Lane,art3,Weekday,Autumn,5609.0,109
+Mon,Eastbound Centre Lane,art3,Weekday,Spring,6229.0,112
+Mon,Eastbound Centre Lane,art3,Weekday,Summer,5891.0,118
+Mon,Eastbound Centre Lane,art3,Weekday,Winter,4280.0,88
+Mon,Eastbound Centre Lane,art4,Weekday,Autumn,4234.0,109
+Mon,Eastbound Centre Lane,art4,Weekday,Spring,4353.0,112
+Mon,Eastbound Centre Lane,art4,Weekday,Summer,4230.0,118
+Mon,Eastbound Centre Lane,art4,Weekday,Winter,3107.0,88
+Mon,Eastbound Centre Lane,art5,Weekday,Autumn,2163.0,109
+Mon,Eastbound Centre Lane,art5,Weekday,Spring,2505.0,112
+Mon,Eastbound Centre Lane,art5,Weekday,Summer,2379.0,118
+Mon,Eastbound Centre Lane,art5,Weekday,Winter,1758.0,88
+Mon,Eastbound Centre Lane,art6,Weekday,Autumn,12300.0,109
+Mon,Eastbound Centre Lane,art6,Weekday,Spring,14451.0,112
+Mon,Eastbound Centre Lane,art6,Weekday,Summer,12695.0,118
+Mon,Eastbound Centre Lane,art6,Weekday,Winter,10323.0,88
+Mon,Eastbound Centre Lane,bd,Weekday,Autumn,2264.0,109
+Mon,Eastbound Centre Lane,bd,Weekday,Spring,2507.0,112
+Mon,Eastbound Centre Lane,bd,Weekday,Summer,2302.0,118
+Mon,Eastbound Centre Lane,bd,Weekday,Winter,1713.0,88
+Mon,Eastbound Centre Lane,drt,Weekday,Autumn,8.0,109
+Mon,Eastbound Centre Lane,drt,Weekday,Spring,6.0,112
+Mon,Eastbound Centre Lane,drt,Weekday,Summer,7.0,118
+Mon,Eastbound Centre Lane,drt,Weekday,Winter,5.0,88
+Mon,Eastbound Centre Lane,sv,Weekday,Autumn,1919779.0,109
+Mon,Eastbound Centre Lane,sv,Weekday,Spring,2131614.0,112
+Mon,Eastbound Centre Lane,sv,Weekday,Summer,2180120.0,118
+Mon,Eastbound Centre Lane,sv,Weekday,Winter,1570939.0,88
+Mon,Eastbound Centre Lane,svt,Weekday,Autumn,23869.0,109
+Mon,Eastbound Centre Lane,svt,Weekday,Spring,23586.0,112
+Mon,Eastbound Centre Lane,svt,Weekday,Summer,27242.0,118
+Mon,Eastbound Centre Lane,svt,Weekday,Winter,16218.0,88
+Mon,Eastbound Centre Lane,t4,Weekday,Autumn,5734.0,109
+Mon,Eastbound Centre Lane,t4,Weekday,Spring,6670.0,112
+Mon,Eastbound Centre Lane,t4,Weekday,Summer,5703.0,118
+Mon,Eastbound Centre Lane,t4,Weekday,Winter,4728.0,88
+Mon,Eastbound Centre Lane,tb2,Weekday,Autumn,176463.0,109
+Mon,Eastbound Centre Lane,tb2,Weekday,Spring,201265.0,112
+Mon,Eastbound Centre Lane,tb2,Weekday,Summer,185625.0,118
+Mon,Eastbound Centre Lane,tb2,Weekday,Winter,150523.0,88
+Mon,Eastbound Centre Lane,tb3,Weekday,Autumn,13048.0,109
+Mon,Eastbound Centre Lane,tb3,Weekday,Spring,15609.0,112
+Mon,Eastbound Centre Lane,tb3,Weekday,Summer,12904.0,118
+Mon,Eastbound Centre Lane,tb3,Weekday,Winter,10806.0,88
+Mon,Eastbound Centre Lane,total_flow,Weekday,Autumn,2165488.0,109
+Mon,Eastbound Centre Lane,total_flow,Weekday,Spring,2408818.0,112
+Mon,Eastbound Centre Lane,total_flow,Weekday,Summer,2439123.0,118
+Mon,Eastbound Centre Lane,total_flow,Weekday,Winter,1774415.0,88
+Mon,Eastbound Centre Lane,trt,Weekday,Autumn,0.0,109
+Mon,Eastbound Centre Lane,trt,Weekday,Spring,0.0,112
+Mon,Eastbound Centre Lane,trt,Weekday,Summer,0.0,118
+Mon,Eastbound Centre Lane,trt,Weekday,Winter,0.0,88
+Mon,Eastbound Centre Lane,ucv,Weekday,Autumn,17.0,109
+Mon,Eastbound Centre Lane,ucv,Weekday,Spring,23.0,112
+Mon,Eastbound Centre Lane,ucv,Weekday,Summer,25.0,118
+Mon,Eastbound Centre Lane,ucv,Weekday,Winter,15.0,88
+Mon,Eastbound Left Lane,art3,Weekday,Autumn,710.0,109
+Mon,Eastbound Left Lane,art3,Weekday,Spring,898.0,112
+Mon,Eastbound Left Lane,art3,Weekday,Summer,810.0,118
+Mon,Eastbound Left Lane,art3,Weekday,Winter,648.0,88
+Mon,Eastbound Left Lane,art4,Weekday,Autumn,544.0,109
+Mon,Eastbound Left Lane,art4,Weekday,Spring,607.0,112
+Mon,Eastbound Left Lane,art4,Weekday,Summer,538.0,118
+Mon,Eastbound Left Lane,art4,Weekday,Winter,435.0,88
+Mon,Eastbound Left Lane,art5,Weekday,Autumn,106.0,109
+Mon,Eastbound Left Lane,art5,Weekday,Spring,132.0,112
+Mon,Eastbound Left Lane,art5,Weekday,Summer,128.0,118
+Mon,Eastbound Left Lane,art5,Weekday,Winter,91.0,88
+Mon,Eastbound Left Lane,art6,Weekday,Autumn,344.0,109
+Mon,Eastbound Left Lane,art6,Weekday,Spring,318.0,112
+Mon,Eastbound Left Lane,art6,Weekday,Summer,348.0,118
+Mon,Eastbound Left Lane,art6,Weekday,Winter,241.0,88
+Mon,Eastbound Left Lane,bd,Weekday,Autumn,9.0,109
+Mon,Eastbound Left Lane,bd,Weekday,Spring,8.0,112
+Mon,Eastbound Left Lane,bd,Weekday,Summer,40.0,118
+Mon,Eastbound Left Lane,bd,Weekday,Winter,28.0,88
+Mon,Eastbound Left Lane,drt,Weekday,Autumn,0.0,109
+Mon,Eastbound Left Lane,drt,Weekday,Spring,0.0,112
+Mon,Eastbound Left Lane,drt,Weekday,Summer,0.0,118
+Mon,Eastbound Left Lane,drt,Weekday,Winter,0.0,88
+Mon,Eastbound Left Lane,sv,Weekday,Autumn,526665.0,109
+Mon,Eastbound Left Lane,sv,Weekday,Spring,597122.0,112
+Mon,Eastbound Left Lane,sv,Weekday,Summer,588862.0,118
+Mon,Eastbound Left Lane,sv,Weekday,Winter,434539.0,88
+Mon,Eastbound Left Lane,svt,Weekday,Autumn,3942.0,109
+Mon,Eastbound Left Lane,svt,Weekday,Spring,4237.0,112
+Mon,Eastbound Left Lane,svt,Weekday,Summer,4557.0,118
+Mon,Eastbound Left Lane,svt,Weekday,Winter,2797.0,88
+Mon,Eastbound Left Lane,t4,Weekday,Autumn,613.0,109
+Mon,Eastbound Left Lane,t4,Weekday,Spring,623.0,112
+Mon,Eastbound Left Lane,t4,Weekday,Summer,605.0,118
+Mon,Eastbound Left Lane,t4,Weekday,Winter,515.0,88
+Mon,Eastbound Left Lane,tb2,Weekday,Autumn,33089.0,109
+Mon,Eastbound Left Lane,tb2,Weekday,Spring,37826.0,112
+Mon,Eastbound Left Lane,tb2,Weekday,Summer,35375.0,118
+Mon,Eastbound Left Lane,tb2,Weekday,Winter,28261.0,88
+Mon,Eastbound Left Lane,tb3,Weekday,Autumn,1331.0,109
+Mon,Eastbound Left Lane,tb3,Weekday,Spring,1316.0,112
+Mon,Eastbound Left Lane,tb3,Weekday,Summer,1180.0,118
+Mon,Eastbound Left Lane,tb3,Weekday,Winter,1073.0,88
+Mon,Eastbound Left Lane,total_flow,Weekday,Autumn,567354.0,109
+Mon,Eastbound Left Lane,total_flow,Weekday,Spring,643088.0,112
+Mon,Eastbound Left Lane,total_flow,Weekday,Summer,632449.0,118
+Mon,Eastbound Left Lane,total_flow,Weekday,Winter,468633.0,88
+Mon,Eastbound Left Lane,trt,Weekday,Autumn,0.0,109
+Mon,Eastbound Left Lane,trt,Weekday,Spring,0.0,112
+Mon,Eastbound Left Lane,trt,Weekday,Summer,0.0,118
+Mon,Eastbound Left Lane,trt,Weekday,Winter,0.0,88
+Mon,Eastbound Left Lane,ucv,Weekday,Autumn,1.0,109
+Mon,Eastbound Left Lane,ucv,Weekday,Spring,1.0,112
+Mon,Eastbound Left Lane,ucv,Weekday,Summer,6.0,118
+Mon,Eastbound Left Lane,ucv,Weekday,Winter,5.0,88
+Mon,Eastbound Right Lane,art3,Weekday,Autumn,1067.0,109
+Mon,Eastbound Right Lane,art3,Weekday,Spring,1115.0,112
+Mon,Eastbound Right Lane,art3,Weekday,Summer,1281.0,118
+Mon,Eastbound Right Lane,art3,Weekday,Winter,737.0,88
+Mon,Eastbound Right Lane,art4,Weekday,Autumn,916.0,109
+Mon,Eastbound Right Lane,art4,Weekday,Spring,964.0,112
+Mon,Eastbound Right Lane,art4,Weekday,Summer,1033.0,118
+Mon,Eastbound Right Lane,art4,Weekday,Winter,730.0,88
+Mon,Eastbound Right Lane,art5,Weekday,Autumn,187.0,109
+Mon,Eastbound Right Lane,art5,Weekday,Spring,202.0,112
+Mon,Eastbound Right Lane,art5,Weekday,Summer,294.0,118
+Mon,Eastbound Right Lane,art5,Weekday,Winter,114.0,88
+Mon,Eastbound Right Lane,art6,Weekday,Autumn,814.0,109
+Mon,Eastbound Right Lane,art6,Weekday,Spring,998.0,112
+Mon,Eastbound Right Lane,art6,Weekday,Summer,1273.0,118
+Mon,Eastbound Right Lane,art6,Weekday,Winter,574.0,88
+Mon,Eastbound Right Lane,bd,Weekday,Autumn,118.0,109
+Mon,Eastbound Right Lane,bd,Weekday,Spring,130.0,112
+Mon,Eastbound Right Lane,bd,Weekday,Summer,164.0,118
+Mon,Eastbound Right Lane,bd,Weekday,Winter,90.0,88
+Mon,Eastbound Right Lane,drt,Weekday,Autumn,0.0,109
+Mon,Eastbound Right Lane,drt,Weekday,Spring,0.0,112
+Mon,Eastbound Right Lane,drt,Weekday,Summer,0.0,118
+Mon,Eastbound Right Lane,drt,Weekday,Winter,2.0,88
+Mon,Eastbound Right Lane,sv,Weekday,Autumn,1007832.0,109
+Mon,Eastbound Right Lane,sv,Weekday,Spring,1142126.0,112
+Mon,Eastbound Right Lane,sv,Weekday,Summer,1195316.0,118
+Mon,Eastbound Right Lane,sv,Weekday,Winter,811883.0,88
+Mon,Eastbound Right Lane,svt,Weekday,Autumn,10557.0,109
+Mon,Eastbound Right Lane,svt,Weekday,Spring,10700.0,112
+Mon,Eastbound Right Lane,svt,Weekday,Summer,12803.0,118
+Mon,Eastbound Right Lane,svt,Weekday,Winter,7290.0,88
+Mon,Eastbound Right Lane,t4,Weekday,Autumn,554.0,109
+Mon,Eastbound Right Lane,t4,Weekday,Spring,633.0,112
+Mon,Eastbound Right Lane,t4,Weekday,Summer,704.0,118
+Mon,Eastbound Right Lane,t4,Weekday,Winter,463.0,88
+Mon,Eastbound Right Lane,tb2,Weekday,Autumn,62125.0,109
+Mon,Eastbound Right Lane,tb2,Weekday,Spring,70826.0,112
+Mon,Eastbound Right Lane,tb2,Weekday,Summer,67762.0,118
+Mon,Eastbound Right Lane,tb2,Weekday,Winter,52718.0,88
+Mon,Eastbound Right Lane,tb3,Weekday,Autumn,1681.0,109
+Mon,Eastbound Right Lane,tb3,Weekday,Spring,1867.0,112
+Mon,Eastbound Right Lane,tb3,Weekday,Summer,2099.0,118
+Mon,Eastbound Right Lane,tb3,Weekday,Winter,1375.0,88
+Mon,Eastbound Right Lane,total_flow,Weekday,Autumn,1085861.0,109
+Mon,Eastbound Right Lane,total_flow,Weekday,Spring,1229572.0,112
+Mon,Eastbound Right Lane,total_flow,Weekday,Summer,1282738.0,118
+Mon,Eastbound Right Lane,total_flow,Weekday,Winter,875985.0,88
+Mon,Eastbound Right Lane,trt,Weekday,Autumn,0.0,109
+Mon,Eastbound Right Lane,trt,Weekday,Spring,0.0,112
+Mon,Eastbound Right Lane,trt,Weekday,Summer,0.0,118
+Mon,Eastbound Right Lane,trt,Weekday,Winter,0.0,88
+Mon,Eastbound Right Lane,ucv,Weekday,Autumn,10.0,109
+Mon,Eastbound Right Lane,ucv,Weekday,Spring,11.0,112
+Mon,Eastbound Right Lane,ucv,Weekday,Summer,9.0,118
+Mon,Eastbound Right Lane,ucv,Weekday,Winter,9.0,88
+Mon,Westbound Centre Lane,art3,Weekday,Autumn,2000.0,109
+Mon,Westbound Centre Lane,art3,Weekday,Spring,2240.0,112
+Mon,Westbound Centre Lane,art3,Weekday,Summer,2169.0,118
+Mon,Westbound Centre Lane,art3,Weekday,Winter,1595.0,88
+Mon,Westbound Centre Lane,art4,Weekday,Autumn,1563.0,109
+Mon,Westbound Centre Lane,art4,Weekday,Spring,1527.0,112
+Mon,Westbound Centre Lane,art4,Weekday,Summer,1490.0,118
+Mon,Westbound Centre Lane,art4,Weekday,Winter,1185.0,88
+Mon,Westbound Centre Lane,art5,Weekday,Autumn,464.0,109
+Mon,Westbound Centre Lane,art5,Weekday,Spring,506.0,112
+Mon,Westbound Centre Lane,art5,Weekday,Summer,654.0,118
+Mon,Westbound Centre Lane,art5,Weekday,Winter,335.0,88
+Mon,Westbound Centre Lane,art6,Weekday,Autumn,917.0,109
+Mon,Westbound Centre Lane,art6,Weekday,Spring,986.0,112
+Mon,Westbound Centre Lane,art6,Weekday,Summer,993.0,118
+Mon,Westbound Centre Lane,art6,Weekday,Winter,797.0,88
+Mon,Westbound Centre Lane,bd,Weekday,Autumn,159.0,109
+Mon,Westbound Centre Lane,bd,Weekday,Spring,168.0,112
+Mon,Westbound Centre Lane,bd,Weekday,Summer,202.0,118
+Mon,Westbound Centre Lane,bd,Weekday,Winter,74.0,88
+Mon,Westbound Centre Lane,drt,Weekday,Autumn,13.0,109
+Mon,Westbound Centre Lane,drt,Weekday,Spring,9.0,112
+Mon,Westbound Centre Lane,drt,Weekday,Summer,9.0,118
+Mon,Westbound Centre Lane,drt,Weekday,Winter,6.0,88
+Mon,Westbound Centre Lane,sv,Weekday,Autumn,964029.0,109
+Mon,Westbound Centre Lane,sv,Weekday,Spring,1094378.0,112
+Mon,Westbound Centre Lane,sv,Weekday,Summer,1135377.0,118
+Mon,Westbound Centre Lane,sv,Weekday,Winter,788740.0,88
+Mon,Westbound Centre Lane,svt,Weekday,Autumn,10368.0,109
+Mon,Westbound Centre Lane,svt,Weekday,Spring,11154.0,112
+Mon,Westbound Centre Lane,svt,Weekday,Summer,12312.0,118
+Mon,Westbound Centre Lane,svt,Weekday,Winter,7485.0,88
+Mon,Westbound Centre Lane,t4,Weekday,Autumn,1211.0,109
+Mon,Westbound Centre Lane,t4,Weekday,Spring,1160.0,112
+Mon,Westbound Centre Lane,t4,Weekday,Summer,1108.0,118
+Mon,Westbound Centre Lane,t4,Weekday,Winter,928.0,88
+Mon,Westbound Centre Lane,tb2,Weekday,Autumn,79463.0,109
+Mon,Westbound Centre Lane,tb2,Weekday,Spring,86116.0,112
+Mon,Westbound Centre Lane,tb2,Weekday,Summer,84128.0,118
+Mon,Westbound Centre Lane,tb2,Weekday,Winter,65916.0,88
+Mon,Westbound Centre Lane,tb3,Weekday,Autumn,2979.0,109
+Mon,Westbound Centre Lane,tb3,Weekday,Spring,3152.0,112
+Mon,Westbound Centre Lane,tb3,Weekday,Summer,2968.0,118
+Mon,Westbound Centre Lane,tb3,Weekday,Winter,2410.0,88
+Mon,Westbound Centre Lane,total_flow,Weekday,Autumn,1063359.0,109
+Mon,Westbound Centre Lane,total_flow,Weekday,Spring,1201570.0,112
+Mon,Westbound Centre Lane,total_flow,Weekday,Summer,1241639.0,118
+Mon,Westbound Centre Lane,total_flow,Weekday,Winter,869618.0,88
+Mon,Westbound Centre Lane,trt,Weekday,Autumn,1.0,109
+Mon,Westbound Centre Lane,trt,Weekday,Spring,0.0,112
+Mon,Westbound Centre Lane,trt,Weekday,Summer,1.0,118
+Mon,Westbound Centre Lane,trt,Weekday,Winter,2.0,88
+Mon,Westbound Centre Lane,ucv,Weekday,Autumn,192.0,109
+Mon,Westbound Centre Lane,ucv,Weekday,Spring,174.0,112
+Mon,Westbound Centre Lane,ucv,Weekday,Summer,228.0,118
+Mon,Westbound Centre Lane,ucv,Weekday,Winter,145.0,88
+Mon,Westbound Left Lane,art3,Weekday,Autumn,5906.0,109
+Mon,Westbound Left Lane,art3,Weekday,Spring,6340.0,112
+Mon,Westbound Left Lane,art3,Weekday,Summer,6450.0,118
+Mon,Westbound Left Lane,art3,Weekday,Winter,4326.0,88
+Mon,Westbound Left Lane,art4,Weekday,Autumn,4227.0,109
+Mon,Westbound Left Lane,art4,Weekday,Spring,4527.0,112
+Mon,Westbound Left Lane,art4,Weekday,Summer,4505.0,118
+Mon,Westbound Left Lane,art4,Weekday,Winter,3303.0,88
+Mon,Westbound Left Lane,art5,Weekday,Autumn,1919.0,109
+Mon,Westbound Left Lane,art5,Weekday,Spring,2245.0,112
+Mon,Westbound Left Lane,art5,Weekday,Summer,2167.0,118
+Mon,Westbound Left Lane,art5,Weekday,Winter,1549.0,88
+Mon,Westbound Left Lane,art6,Weekday,Autumn,9953.0,109
+Mon,Westbound Left Lane,art6,Weekday,Spring,11777.0,112
+Mon,Westbound Left Lane,art6,Weekday,Summer,10596.0,118
+Mon,Westbound Left Lane,art6,Weekday,Winter,8331.0,88
+Mon,Westbound Left Lane,bd,Weekday,Autumn,2221.0,109
+Mon,Westbound Left Lane,bd,Weekday,Spring,2387.0,112
+Mon,Westbound Left Lane,bd,Weekday,Summer,2170.0,118
+Mon,Westbound Left Lane,bd,Weekday,Winter,1727.0,88
+Mon,Westbound Left Lane,drt,Weekday,Autumn,14.0,109
+Mon,Westbound Left Lane,drt,Weekday,Spring,12.0,112
+Mon,Westbound Left Lane,drt,Weekday,Summer,15.0,118
+Mon,Westbound Left Lane,drt,Weekday,Winter,9.0,88
+Mon,Westbound Left Lane,sv,Weekday,Autumn,2113192.0,109
+Mon,Westbound Left Lane,sv,Weekday,Spring,2347023.0,112
+Mon,Westbound Left Lane,sv,Weekday,Summer,2476848.0,118
+Mon,Westbound Left Lane,sv,Weekday,Winter,1714211.0,88
+Mon,Westbound Left Lane,svt,Weekday,Autumn,26780.0,109
+Mon,Westbound Left Lane,svt,Weekday,Spring,25262.0,112
+Mon,Westbound Left Lane,svt,Weekday,Summer,30887.0,118
+Mon,Westbound Left Lane,svt,Weekday,Winter,18134.0,88
+Mon,Westbound Left Lane,t4,Weekday,Autumn,5211.0,109
+Mon,Westbound Left Lane,t4,Weekday,Spring,6281.0,112
+Mon,Westbound Left Lane,t4,Weekday,Summer,5498.0,118
+Mon,Westbound Left Lane,t4,Weekday,Winter,4365.0,88
+Mon,Westbound Left Lane,tb2,Weekday,Autumn,209950.0,109
+Mon,Westbound Left Lane,tb2,Weekday,Spring,233357.0,112
+Mon,Westbound Left Lane,tb2,Weekday,Summer,220400.0,118
+Mon,Westbound Left Lane,tb2,Weekday,Winter,177478.0,88
+Mon,Westbound Left Lane,tb3,Weekday,Autumn,12786.0,109
+Mon,Westbound Left Lane,tb3,Weekday,Spring,15288.0,112
+Mon,Westbound Left Lane,tb3,Weekday,Summer,13192.0,118
+Mon,Westbound Left Lane,tb3,Weekday,Winter,10721.0,88
+Mon,Westbound Left Lane,total_flow,Weekday,Autumn,2392345.0,109
+Mon,Westbound Left Lane,total_flow,Weekday,Spring,2654684.0,112
+Mon,Westbound Left Lane,total_flow,Weekday,Summer,2772927.0,118
+Mon,Westbound Left Lane,total_flow,Weekday,Winter,1944314.0,88
+Mon,Westbound Left Lane,trt,Weekday,Autumn,0.0,109
+Mon,Westbound Left Lane,trt,Weekday,Spring,1.0,112
+Mon,Westbound Left Lane,trt,Weekday,Summer,0.0,118
+Mon,Westbound Left Lane,trt,Weekday,Winter,0.0,88
+Mon,Westbound Left Lane,ucv,Weekday,Autumn,186.0,109
+Mon,Westbound Left Lane,ucv,Weekday,Spring,184.0,112
+Mon,Westbound Left Lane,ucv,Weekday,Summer,199.0,118
+Mon,Westbound Left Lane,ucv,Weekday,Winter,160.0,88
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Autumn,188.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Spring,248.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Summer,170.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Winter,143.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Autumn,117.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Spring,154.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Summer,91.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Winter,80.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Autumn,14.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Spring,8.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Summer,13.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Winter,11.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Autumn,39.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Spring,32.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Summer,29.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Winter,24.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Autumn,3.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Spring,1.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Summer,1.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Winter,1.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Autumn,0.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Spring,0.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Summer,0.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Winter,1.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Autumn,210501.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Spring,259179.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Summer,199586.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Winter,180270.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Autumn,991.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Spring,1188.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Summer,971.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Winter,743.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Autumn,44.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Spring,38.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Summer,32.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Winter,20.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Autumn,13732.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Spring,16038.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Summer,12289.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Winter,11913.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Autumn,175.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Spring,185.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Summer,134.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Winter,139.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Autumn,225813.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Spring,277082.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Summer,213327.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Winter,193351.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Autumn,0.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Spring,0.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Summer,0.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Winter,0.0,87
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Autumn,9.0,109
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Spring,11.0,112
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Summer,11.0,118
+Mon,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Winter,6.0,87
+Sat,All directions,art3,Weekend,Autumn,8600.0,109
+Sat,All directions,art3,Weekend,Spring,8724.0,114
+Sat,All directions,art3,Weekend,Summer,10690.0,118
+Sat,All directions,art3,Weekend,Winter,5998.0,90
+Sat,All directions,art4,Weekend,Autumn,6072.0,109
+Sat,All directions,art4,Weekend,Spring,5743.0,114
+Sat,All directions,art4,Weekend,Summer,6505.0,118
+Sat,All directions,art4,Weekend,Winter,4473.0,90
+Sat,All directions,art5,Weekend,Autumn,1557.0,109
+Sat,All directions,art5,Weekend,Spring,1537.0,114
+Sat,All directions,art5,Weekend,Summer,1987.0,118
+Sat,All directions,art5,Weekend,Winter,1120.0,90
+Sat,All directions,art6,Weekend,Autumn,7577.0,109
+Sat,All directions,art6,Weekend,Spring,8148.0,114
+Sat,All directions,art6,Weekend,Summer,8663.0,118
+Sat,All directions,art6,Weekend,Winter,5884.0,90
+Sat,All directions,bd,Weekend,Autumn,914.0,109
+Sat,All directions,bd,Weekend,Spring,1003.0,114
+Sat,All directions,bd,Weekend,Summer,980.0,118
+Sat,All directions,bd,Weekend,Winter,721.0,90
+Sat,All directions,drt,Weekend,Autumn,1.0,109
+Sat,All directions,drt,Weekend,Spring,6.0,114
+Sat,All directions,drt,Weekend,Summer,10.0,118
+Sat,All directions,drt,Weekend,Winter,4.0,90
+Sat,All directions,sv,Weekend,Autumn,6146262.0,109
+Sat,All directions,sv,Weekend,Spring,6545867.0,114
+Sat,All directions,sv,Weekend,Summer,6920373.0,118
+Sat,All directions,sv,Weekend,Winter,5155991.0,90
+Sat,All directions,svt,Weekend,Autumn,62773.0,109
+Sat,All directions,svt,Weekend,Spring,64073.0,114
+Sat,All directions,svt,Weekend,Summer,75460.0,118
+Sat,All directions,svt,Weekend,Winter,45413.0,90
+Sat,All directions,t4,Weekend,Autumn,4934.0,109
+Sat,All directions,t4,Weekend,Spring,4810.0,114
+Sat,All directions,t4,Weekend,Summer,4920.0,118
+Sat,All directions,t4,Weekend,Winter,3859.0,90
+Sat,All directions,tb2,Weekend,Autumn,337501.0,109
+Sat,All directions,tb2,Weekend,Spring,340061.0,114
+Sat,All directions,tb2,Weekend,Summer,359676.0,118
+Sat,All directions,tb2,Weekend,Winter,277360.0,90
+Sat,All directions,tb3,Weekend,Autumn,8297.0,109
+Sat,All directions,tb3,Weekend,Spring,7587.0,114
+Sat,All directions,tb3,Weekend,Summer,9126.0,118
+Sat,All directions,tb3,Weekend,Winter,5934.0,90
+Sat,All directions,total_flow,Weekend,Autumn,6584808.0,109
+Sat,All directions,total_flow,Weekend,Spring,6987893.0,114
+Sat,All directions,total_flow,Weekend,Summer,7398822.0,118
+Sat,All directions,total_flow,Weekend,Winter,5507055.0,90
+Sat,All directions,trt,Weekend,Autumn,0.0,109
+Sat,All directions,trt,Weekend,Spring,0.0,114
+Sat,All directions,trt,Weekend,Summer,2.0,118
+Sat,All directions,trt,Weekend,Winter,2.0,90
+Sat,All directions,ucv,Weekend,Autumn,320.0,109
+Sat,All directions,ucv,Weekend,Spring,334.0,114
+Sat,All directions,ucv,Weekend,Summer,430.0,118
+Sat,All directions,ucv,Weekend,Winter,296.0,90
+Sat,Eastbound Centre Lane,art3,Weekend,Autumn,2987.0,109
+Sat,Eastbound Centre Lane,art3,Weekend,Spring,3149.0,114
+Sat,Eastbound Centre Lane,art3,Weekend,Summer,3853.0,118
+Sat,Eastbound Centre Lane,art3,Weekend,Winter,2111.0,90
+Sat,Eastbound Centre Lane,art4,Weekend,Autumn,2221.0,109
+Sat,Eastbound Centre Lane,art4,Weekend,Spring,2043.0,114
+Sat,Eastbound Centre Lane,art4,Weekend,Summer,2390.0,118
+Sat,Eastbound Centre Lane,art4,Weekend,Winter,1591.0,90
+Sat,Eastbound Centre Lane,art5,Weekend,Autumn,572.0,109
+Sat,Eastbound Centre Lane,art5,Weekend,Spring,596.0,114
+Sat,Eastbound Centre Lane,art5,Weekend,Summer,751.0,118
+Sat,Eastbound Centre Lane,art5,Weekend,Winter,420.0,90
+Sat,Eastbound Centre Lane,art6,Weekend,Autumn,3762.0,109
+Sat,Eastbound Centre Lane,art6,Weekend,Spring,4175.0,114
+Sat,Eastbound Centre Lane,art6,Weekend,Summer,4276.0,118
+Sat,Eastbound Centre Lane,art6,Weekend,Winter,3008.0,90
+Sat,Eastbound Centre Lane,bd,Weekend,Autumn,468.0,109
+Sat,Eastbound Centre Lane,bd,Weekend,Spring,506.0,114
+Sat,Eastbound Centre Lane,bd,Weekend,Summer,526.0,118
+Sat,Eastbound Centre Lane,bd,Weekend,Winter,374.0,90
+Sat,Eastbound Centre Lane,drt,Weekend,Autumn,0.0,109
+Sat,Eastbound Centre Lane,drt,Weekend,Spring,2.0,114
+Sat,Eastbound Centre Lane,drt,Weekend,Summer,3.0,118
+Sat,Eastbound Centre Lane,drt,Weekend,Winter,1.0,90
+Sat,Eastbound Centre Lane,sv,Weekend,Autumn,1833931.0,109
+Sat,Eastbound Centre Lane,sv,Weekend,Spring,1944675.0,114
+Sat,Eastbound Centre Lane,sv,Weekend,Summer,2030838.0,118
+Sat,Eastbound Centre Lane,sv,Weekend,Winter,1539860.0,90
+Sat,Eastbound Centre Lane,svt,Weekend,Autumn,21389.0,109
+Sat,Eastbound Centre Lane,svt,Weekend,Spring,21439.0,114
+Sat,Eastbound Centre Lane,svt,Weekend,Summer,25252.0,118
+Sat,Eastbound Centre Lane,svt,Weekend,Winter,15173.0,90
+Sat,Eastbound Centre Lane,t4,Weekend,Autumn,2117.0,109
+Sat,Eastbound Centre Lane,t4,Weekend,Spring,2053.0,114
+Sat,Eastbound Centre Lane,t4,Weekend,Summer,1980.0,118
+Sat,Eastbound Centre Lane,t4,Weekend,Winter,1633.0,90
+Sat,Eastbound Centre Lane,tb2,Weekend,Autumn,97454.0,109
+Sat,Eastbound Centre Lane,tb2,Weekend,Spring,100000.0,114
+Sat,Eastbound Centre Lane,tb2,Weekend,Summer,107392.0,118
+Sat,Eastbound Centre Lane,tb2,Weekend,Winter,79486.0,90
+Sat,Eastbound Centre Lane,tb3,Weekend,Autumn,2798.0,109
+Sat,Eastbound Centre Lane,tb3,Weekend,Spring,2527.0,114
+Sat,Eastbound Centre Lane,tb3,Weekend,Summer,3013.0,118
+Sat,Eastbound Centre Lane,tb3,Weekend,Winter,1898.0,90
+Sat,Eastbound Centre Lane,total_flow,Weekend,Autumn,1967713.0,109
+Sat,Eastbound Centre Lane,total_flow,Weekend,Spring,2081177.0,114
+Sat,Eastbound Centre Lane,total_flow,Weekend,Summer,2180290.0,118
+Sat,Eastbound Centre Lane,total_flow,Weekend,Winter,1645569.0,90
+Sat,Eastbound Centre Lane,trt,Weekend,Autumn,0.0,109
+Sat,Eastbound Centre Lane,trt,Weekend,Spring,0.0,114
+Sat,Eastbound Centre Lane,trt,Weekend,Summer,0.0,118
+Sat,Eastbound Centre Lane,trt,Weekend,Winter,0.0,90
+Sat,Eastbound Centre Lane,ucv,Weekend,Autumn,14.0,109
+Sat,Eastbound Centre Lane,ucv,Weekend,Spring,12.0,114
+Sat,Eastbound Centre Lane,ucv,Weekend,Summer,16.0,118
+Sat,Eastbound Centre Lane,ucv,Weekend,Winter,14.0,90
+Sat,Eastbound Left Lane,art3,Weekend,Autumn,389.0,109
+Sat,Eastbound Left Lane,art3,Weekend,Spring,445.0,114
+Sat,Eastbound Left Lane,art3,Weekend,Summer,491.0,118
+Sat,Eastbound Left Lane,art3,Weekend,Winter,341.0,90
+Sat,Eastbound Left Lane,art4,Weekend,Autumn,229.0,109
+Sat,Eastbound Left Lane,art4,Weekend,Spring,240.0,114
+Sat,Eastbound Left Lane,art4,Weekend,Summer,250.0,118
+Sat,Eastbound Left Lane,art4,Weekend,Winter,157.0,90
+Sat,Eastbound Left Lane,art5,Weekend,Autumn,108.0,109
+Sat,Eastbound Left Lane,art5,Weekend,Spring,99.0,114
+Sat,Eastbound Left Lane,art5,Weekend,Summer,114.0,118
+Sat,Eastbound Left Lane,art5,Weekend,Winter,83.0,90
+Sat,Eastbound Left Lane,art6,Weekend,Autumn,99.0,109
+Sat,Eastbound Left Lane,art6,Weekend,Spring,93.0,114
+Sat,Eastbound Left Lane,art6,Weekend,Summer,136.0,118
+Sat,Eastbound Left Lane,art6,Weekend,Winter,85.0,90
+Sat,Eastbound Left Lane,bd,Weekend,Autumn,10.0,109
+Sat,Eastbound Left Lane,bd,Weekend,Spring,13.0,114
+Sat,Eastbound Left Lane,bd,Weekend,Summer,19.0,118
+Sat,Eastbound Left Lane,bd,Weekend,Winter,0.0,90
+Sat,Eastbound Left Lane,drt,Weekend,Autumn,0.0,109
+Sat,Eastbound Left Lane,drt,Weekend,Spring,1.0,114
+Sat,Eastbound Left Lane,drt,Weekend,Summer,1.0,118
+Sat,Eastbound Left Lane,drt,Weekend,Winter,0.0,90
+Sat,Eastbound Left Lane,sv,Weekend,Autumn,470099.0,109
+Sat,Eastbound Left Lane,sv,Weekend,Spring,508453.0,114
+Sat,Eastbound Left Lane,sv,Weekend,Summer,518324.0,118
+Sat,Eastbound Left Lane,sv,Weekend,Winter,402785.0,90
+Sat,Eastbound Left Lane,svt,Weekend,Autumn,2889.0,109
+Sat,Eastbound Left Lane,svt,Weekend,Spring,3010.0,114
+Sat,Eastbound Left Lane,svt,Weekend,Summer,3440.0,118
+Sat,Eastbound Left Lane,svt,Weekend,Winter,2139.0,90
+Sat,Eastbound Left Lane,t4,Weekend,Autumn,206.0,109
+Sat,Eastbound Left Lane,t4,Weekend,Spring,236.0,114
+Sat,Eastbound Left Lane,t4,Weekend,Summer,260.0,118
+Sat,Eastbound Left Lane,t4,Weekend,Winter,175.0,90
+Sat,Eastbound Left Lane,tb2,Weekend,Autumn,19514.0,109
+Sat,Eastbound Left Lane,tb2,Weekend,Spring,20284.0,114
+Sat,Eastbound Left Lane,tb2,Weekend,Summer,20730.0,118
+Sat,Eastbound Left Lane,tb2,Weekend,Winter,16881.0,90
+Sat,Eastbound Left Lane,tb3,Weekend,Autumn,326.0,109
+Sat,Eastbound Left Lane,tb3,Weekend,Spring,308.0,114
+Sat,Eastbound Left Lane,tb3,Weekend,Summer,431.0,118
+Sat,Eastbound Left Lane,tb3,Weekend,Winter,252.0,90
+Sat,Eastbound Left Lane,total_flow,Weekend,Autumn,493870.0,109
+Sat,Eastbound Left Lane,total_flow,Weekend,Spring,533184.0,114
+Sat,Eastbound Left Lane,total_flow,Weekend,Summer,544198.0,118
+Sat,Eastbound Left Lane,total_flow,Weekend,Winter,422901.0,90
+Sat,Eastbound Left Lane,trt,Weekend,Autumn,0.0,109
+Sat,Eastbound Left Lane,trt,Weekend,Spring,0.0,114
+Sat,Eastbound Left Lane,trt,Weekend,Summer,0.0,118
+Sat,Eastbound Left Lane,trt,Weekend,Winter,0.0,90
+Sat,Eastbound Left Lane,ucv,Weekend,Autumn,1.0,109
+Sat,Eastbound Left Lane,ucv,Weekend,Spring,2.0,114
+Sat,Eastbound Left Lane,ucv,Weekend,Summer,2.0,118
+Sat,Eastbound Left Lane,ucv,Weekend,Winter,3.0,90
+Sat,Eastbound Right Lane,art3,Weekend,Autumn,732.0,109
+Sat,Eastbound Right Lane,art3,Weekend,Spring,658.0,114
+Sat,Eastbound Right Lane,art3,Weekend,Summer,915.0,118
+Sat,Eastbound Right Lane,art3,Weekend,Winter,445.0,90
+Sat,Eastbound Right Lane,art4,Weekend,Autumn,488.0,109
+Sat,Eastbound Right Lane,art4,Weekend,Spring,524.0,114
+Sat,Eastbound Right Lane,art4,Weekend,Summer,560.0,118
+Sat,Eastbound Right Lane,art4,Weekend,Winter,401.0,90
+Sat,Eastbound Right Lane,art5,Weekend,Autumn,44.0,109
+Sat,Eastbound Right Lane,art5,Weekend,Spring,55.0,114
+Sat,Eastbound Right Lane,art5,Weekend,Summer,78.0,118
+Sat,Eastbound Right Lane,art5,Weekend,Winter,38.0,90
+Sat,Eastbound Right Lane,art6,Weekend,Autumn,226.0,109
+Sat,Eastbound Right Lane,art6,Weekend,Spring,220.0,114
+Sat,Eastbound Right Lane,art6,Weekend,Summer,351.0,118
+Sat,Eastbound Right Lane,art6,Weekend,Winter,147.0,90
+Sat,Eastbound Right Lane,bd,Weekend,Autumn,31.0,109
+Sat,Eastbound Right Lane,bd,Weekend,Spring,45.0,114
+Sat,Eastbound Right Lane,bd,Weekend,Summer,29.0,118
+Sat,Eastbound Right Lane,bd,Weekend,Winter,27.0,90
+Sat,Eastbound Right Lane,drt,Weekend,Autumn,0.0,109
+Sat,Eastbound Right Lane,drt,Weekend,Spring,0.0,114
+Sat,Eastbound Right Lane,drt,Weekend,Summer,0.0,118
+Sat,Eastbound Right Lane,drt,Weekend,Winter,0.0,90
+Sat,Eastbound Right Lane,sv,Weekend,Autumn,847503.0,109
+Sat,Eastbound Right Lane,sv,Weekend,Spring,889015.0,114
+Sat,Eastbound Right Lane,sv,Weekend,Summer,997158.0,118
+Sat,Eastbound Right Lane,sv,Weekend,Winter,694119.0,90
+Sat,Eastbound Right Lane,svt,Weekend,Autumn,8758.0,109
+Sat,Eastbound Right Lane,svt,Weekend,Spring,8798.0,114
+Sat,Eastbound Right Lane,svt,Weekend,Summer,10990.0,118
+Sat,Eastbound Right Lane,svt,Weekend,Winter,6315.0,90
+Sat,Eastbound Right Lane,t4,Weekend,Autumn,169.0,109
+Sat,Eastbound Right Lane,t4,Weekend,Spring,162.0,114
+Sat,Eastbound Right Lane,t4,Weekend,Summer,251.0,118
+Sat,Eastbound Right Lane,t4,Weekend,Winter,148.0,90
+Sat,Eastbound Right Lane,tb2,Weekend,Autumn,36486.0,109
+Sat,Eastbound Right Lane,tb2,Weekend,Spring,36641.0,114
+Sat,Eastbound Right Lane,tb2,Weekend,Summer,39058.0,118
+Sat,Eastbound Right Lane,tb2,Weekend,Winter,29902.0,90
+Sat,Eastbound Right Lane,tb3,Weekend,Autumn,465.0,109
+Sat,Eastbound Right Lane,tb3,Weekend,Spring,360.0,114
+Sat,Eastbound Right Lane,tb3,Weekend,Summer,500.0,118
+Sat,Eastbound Right Lane,tb3,Weekend,Winter,308.0,90
+Sat,Eastbound Right Lane,total_flow,Weekend,Autumn,894913.0,109
+Sat,Eastbound Right Lane,total_flow,Weekend,Spring,936486.0,114
+Sat,Eastbound Right Lane,total_flow,Weekend,Summer,1049902.0,118
+Sat,Eastbound Right Lane,total_flow,Weekend,Winter,731856.0,90
+Sat,Eastbound Right Lane,trt,Weekend,Autumn,0.0,109
+Sat,Eastbound Right Lane,trt,Weekend,Spring,0.0,114
+Sat,Eastbound Right Lane,trt,Weekend,Summer,0.0,118
+Sat,Eastbound Right Lane,trt,Weekend,Winter,0.0,90
+Sat,Eastbound Right Lane,ucv,Weekend,Autumn,11.0,109
+Sat,Eastbound Right Lane,ucv,Weekend,Spring,8.0,114
+Sat,Eastbound Right Lane,ucv,Weekend,Summer,12.0,118
+Sat,Eastbound Right Lane,ucv,Weekend,Winter,6.0,90
+Sat,Westbound Centre Lane,art3,Weekend,Autumn,1021.0,109
+Sat,Westbound Centre Lane,art3,Weekend,Spring,976.0,114
+Sat,Westbound Centre Lane,art3,Weekend,Summer,1170.0,118
+Sat,Westbound Centre Lane,art3,Weekend,Winter,741.0,90
+Sat,Westbound Centre Lane,art4,Weekend,Autumn,628.0,109
+Sat,Westbound Centre Lane,art4,Weekend,Spring,561.0,114
+Sat,Westbound Centre Lane,art4,Weekend,Summer,678.0,118
+Sat,Westbound Centre Lane,art4,Weekend,Winter,501.0,90
+Sat,Westbound Centre Lane,art5,Weekend,Autumn,139.0,109
+Sat,Westbound Centre Lane,art5,Weekend,Spring,145.0,114
+Sat,Westbound Centre Lane,art5,Weekend,Summer,202.0,118
+Sat,Westbound Centre Lane,art5,Weekend,Winter,99.0,90
+Sat,Westbound Centre Lane,art6,Weekend,Autumn,206.0,109
+Sat,Westbound Centre Lane,art6,Weekend,Spring,153.0,114
+Sat,Westbound Centre Lane,art6,Weekend,Summer,282.0,118
+Sat,Westbound Centre Lane,art6,Weekend,Winter,152.0,90
+Sat,Westbound Centre Lane,bd,Weekend,Autumn,26.0,109
+Sat,Westbound Centre Lane,bd,Weekend,Spring,32.0,114
+Sat,Westbound Centre Lane,bd,Weekend,Summer,46.0,118
+Sat,Westbound Centre Lane,bd,Weekend,Winter,22.0,90
+Sat,Westbound Centre Lane,drt,Weekend,Autumn,0.0,109
+Sat,Westbound Centre Lane,drt,Weekend,Spring,2.0,114
+Sat,Westbound Centre Lane,drt,Weekend,Summer,3.0,118
+Sat,Westbound Centre Lane,drt,Weekend,Winter,0.0,90
+Sat,Westbound Centre Lane,sv,Weekend,Autumn,864032.0,109
+Sat,Westbound Centre Lane,sv,Weekend,Spring,919173.0,114
+Sat,Westbound Centre Lane,sv,Weekend,Summer,983355.0,118
+Sat,Westbound Centre Lane,sv,Weekend,Winter,733086.0,90
+Sat,Westbound Centre Lane,svt,Weekend,Autumn,7014.0,109
+Sat,Westbound Centre Lane,svt,Weekend,Spring,7080.0,114
+Sat,Westbound Centre Lane,svt,Weekend,Summer,8708.0,118
+Sat,Westbound Centre Lane,svt,Weekend,Winter,5314.0,90
+Sat,Westbound Centre Lane,t4,Weekend,Autumn,263.0,109
+Sat,Westbound Centre Lane,t4,Weekend,Spring,239.0,114
+Sat,Westbound Centre Lane,t4,Weekend,Summer,307.0,118
+Sat,Westbound Centre Lane,t4,Weekend,Winter,185.0,90
+Sat,Westbound Centre Lane,tb2,Weekend,Autumn,48288.0,109
+Sat,Westbound Centre Lane,tb2,Weekend,Spring,46590.0,114
+Sat,Westbound Centre Lane,tb2,Weekend,Summer,50833.0,118
+Sat,Westbound Centre Lane,tb2,Weekend,Winter,39292.0,90
+Sat,Westbound Centre Lane,tb3,Weekend,Autumn,1031.0,109
+Sat,Westbound Centre Lane,tb3,Weekend,Spring,997.0,114
+Sat,Westbound Centre Lane,tb3,Weekend,Summer,1147.0,118
+Sat,Westbound Centre Lane,tb3,Weekend,Winter,805.0,90
+Sat,Westbound Centre Lane,total_flow,Weekend,Autumn,922763.0,109
+Sat,Westbound Centre Lane,total_flow,Weekend,Spring,976074.0,114
+Sat,Westbound Centre Lane,total_flow,Weekend,Summer,1046941.0,118
+Sat,Westbound Centre Lane,total_flow,Weekend,Winter,780340.0,90
+Sat,Westbound Centre Lane,trt,Weekend,Autumn,0.0,109
+Sat,Westbound Centre Lane,trt,Weekend,Spring,0.0,114
+Sat,Westbound Centre Lane,trt,Weekend,Summer,2.0,118
+Sat,Westbound Centre Lane,trt,Weekend,Winter,2.0,90
+Sat,Westbound Centre Lane,ucv,Weekend,Autumn,115.0,109
+Sat,Westbound Centre Lane,ucv,Weekend,Spring,126.0,114
+Sat,Westbound Centre Lane,ucv,Weekend,Summer,208.0,118
+Sat,Westbound Centre Lane,ucv,Weekend,Winter,141.0,90
+Sat,Westbound Left Lane,art3,Weekend,Autumn,3453.0,109
+Sat,Westbound Left Lane,art3,Weekend,Spring,3486.0,114
+Sat,Westbound Left Lane,art3,Weekend,Summer,4236.0,118
+Sat,Westbound Left Lane,art3,Weekend,Winter,2349.0,90
+Sat,Westbound Left Lane,art4,Weekend,Autumn,2492.0,109
+Sat,Westbound Left Lane,art4,Weekend,Spring,2367.0,114
+Sat,Westbound Left Lane,art4,Weekend,Summer,2622.0,118
+Sat,Westbound Left Lane,art4,Weekend,Winter,1819.0,90
+Sat,Westbound Left Lane,art5,Weekend,Autumn,692.0,109
+Sat,Westbound Left Lane,art5,Weekend,Spring,642.0,114
+Sat,Westbound Left Lane,art5,Weekend,Summer,840.0,118
+Sat,Westbound Left Lane,art5,Weekend,Winter,480.0,90
+Sat,Westbound Left Lane,art6,Weekend,Autumn,3281.0,109
+Sat,Westbound Left Lane,art6,Weekend,Spring,3505.0,114
+Sat,Westbound Left Lane,art6,Weekend,Summer,3614.0,118
+Sat,Westbound Left Lane,art6,Weekend,Winter,2490.0,90
+Sat,Westbound Left Lane,bd,Weekend,Autumn,378.0,109
+Sat,Westbound Left Lane,bd,Weekend,Spring,406.0,114
+Sat,Westbound Left Lane,bd,Weekend,Summer,360.0,118
+Sat,Westbound Left Lane,bd,Weekend,Winter,298.0,90
+Sat,Westbound Left Lane,drt,Weekend,Autumn,1.0,109
+Sat,Westbound Left Lane,drt,Weekend,Spring,1.0,114
+Sat,Westbound Left Lane,drt,Weekend,Summer,3.0,118
+Sat,Westbound Left Lane,drt,Weekend,Winter,3.0,90
+Sat,Westbound Left Lane,sv,Weekend,Autumn,2097846.0,109
+Sat,Westbound Left Lane,sv,Weekend,Spring,2252874.0,114
+Sat,Westbound Left Lane,sv,Weekend,Summer,2350896.0,118
+Sat,Westbound Left Lane,sv,Weekend,Winter,1761415.0,90
+Sat,Westbound Left Lane,svt,Weekend,Autumn,22572.0,109
+Sat,Westbound Left Lane,svt,Weekend,Spring,23601.0,114
+Sat,Westbound Left Lane,svt,Weekend,Summer,26847.0,118
+Sat,Westbound Left Lane,svt,Weekend,Winter,16387.0,90
+Sat,Westbound Left Lane,t4,Weekend,Autumn,2177.0,109
+Sat,Westbound Left Lane,t4,Weekend,Spring,2119.0,114
+Sat,Westbound Left Lane,t4,Weekend,Summer,2118.0,118
+Sat,Westbound Left Lane,t4,Weekend,Winter,1716.0,90
+Sat,Westbound Left Lane,tb2,Weekend,Autumn,133768.0,109
+Sat,Westbound Left Lane,tb2,Weekend,Spring,134850.0,114
+Sat,Westbound Left Lane,tb2,Weekend,Summer,139595.0,118
+Sat,Westbound Left Lane,tb2,Weekend,Winter,110394.0,90
+Sat,Westbound Left Lane,tb3,Weekend,Autumn,3660.0,109
+Sat,Westbound Left Lane,tb3,Weekend,Spring,3382.0,114
+Sat,Westbound Left Lane,tb3,Weekend,Summer,4019.0,118
+Sat,Westbound Left Lane,tb3,Weekend,Winter,2663.0,90
+Sat,Westbound Left Lane,total_flow,Weekend,Autumn,2270495.0,109
+Sat,Westbound Left Lane,total_flow,Weekend,Spring,2427416.0,114
+Sat,Westbound Left Lane,total_flow,Weekend,Summer,2535336.0,118
+Sat,Westbound Left Lane,total_flow,Weekend,Winter,1900146.0,90
+Sat,Westbound Left Lane,trt,Weekend,Autumn,0.0,109
+Sat,Westbound Left Lane,trt,Weekend,Spring,0.0,114
+Sat,Westbound Left Lane,trt,Weekend,Summer,0.0,118
+Sat,Westbound Left Lane,trt,Weekend,Winter,0.0,90
+Sat,Westbound Left Lane,ucv,Weekend,Autumn,175.0,109
+Sat,Westbound Left Lane,ucv,Weekend,Spring,183.0,114
+Sat,Westbound Left Lane,ucv,Weekend,Summer,186.0,118
+Sat,Westbound Left Lane,ucv,Weekend,Winter,132.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Autumn,18.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Spring,10.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Summer,25.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Winter,11.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Autumn,14.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Spring,8.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Summer,5.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Winter,4.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Autumn,2.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Spring,0.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Summer,2.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Winter,0.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Autumn,3.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Spring,2.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Summer,4.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Winter,2.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Autumn,1.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Spring,1.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Summer,0.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Winter,0.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Autumn,0.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Spring,0.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Summer,0.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Winter,0.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Autumn,32851.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Spring,31677.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Summer,39802.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Winter,24726.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Autumn,151.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Spring,145.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Summer,223.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Winter,85.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Autumn,2.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Spring,1.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Summer,4.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Winter,2.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Autumn,1991.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Spring,1696.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Summer,2068.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Winter,1405.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Autumn,17.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Spring,13.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Summer,16.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Winter,8.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Autumn,35054.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Spring,33556.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Summer,42155.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Winter,26243.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Autumn,0.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Spring,0.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Summer,0.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Winter,0.0,90
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Autumn,4.0,109
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Spring,3.0,114
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Summer,6.0,118
+Sat,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Winter,0.0,90
+Sun,All directions,art3,Weekend,Autumn,6648.0,112
+Sun,All directions,art3,Weekend,Spring,6727.0,114
+Sun,All directions,art3,Weekend,Summer,8803.0,118
+Sun,All directions,art3,Weekend,Winter,4279.0,88
+Sun,All directions,art4,Weekend,Autumn,4632.0,112
+Sun,All directions,art4,Weekend,Spring,4751.0,114
+Sun,All directions,art4,Weekend,Summer,5693.0,118
+Sun,All directions,art4,Weekend,Winter,3227.0,88
+Sun,All directions,art5,Weekend,Autumn,1178.0,112
+Sun,All directions,art5,Weekend,Spring,1154.0,114
+Sun,All directions,art5,Weekend,Summer,1649.0,118
+Sun,All directions,art5,Weekend,Winter,617.0,88
+Sun,All directions,art6,Weekend,Autumn,3933.0,112
+Sun,All directions,art6,Weekend,Spring,4681.0,114
+Sun,All directions,art6,Weekend,Summer,4656.0,118
+Sun,All directions,art6,Weekend,Winter,3366.0,88
+Sun,All directions,bd,Weekend,Autumn,601.0,112
+Sun,All directions,bd,Weekend,Spring,1260.0,114
+Sun,All directions,bd,Weekend,Summer,809.0,118
+Sun,All directions,bd,Weekend,Winter,593.0,88
+Sun,All directions,drt,Weekend,Autumn,3.0,112
+Sun,All directions,drt,Weekend,Spring,4.0,114
+Sun,All directions,drt,Weekend,Summer,2.0,118
+Sun,All directions,drt,Weekend,Winter,1.0,88
+Sun,All directions,sv,Weekend,Autumn,5346156.0,112
+Sun,All directions,sv,Weekend,Spring,5651539.0,114
+Sun,All directions,sv,Weekend,Summer,6100861.0,118
+Sun,All directions,sv,Weekend,Winter,4219776.0,88
+Sun,All directions,svt,Weekend,Autumn,52318.0,112
+Sun,All directions,svt,Weekend,Spring,56510.0,114
+Sun,All directions,svt,Weekend,Summer,70138.0,118
+Sun,All directions,svt,Weekend,Winter,35089.0,88
+Sun,All directions,t4,Weekend,Autumn,1022.0,112
+Sun,All directions,t4,Weekend,Spring,793.0,114
+Sun,All directions,t4,Weekend,Summer,1099.0,118
+Sun,All directions,t4,Weekend,Winter,682.0,88
+Sun,All directions,tb2,Weekend,Autumn,270130.0,112
+Sun,All directions,tb2,Weekend,Spring,269881.0,114
+Sun,All directions,tb2,Weekend,Summer,288668.0,118
+Sun,All directions,tb2,Weekend,Winter,212441.0,88
+Sun,All directions,tb3,Weekend,Autumn,5119.0,112
+Sun,All directions,tb3,Weekend,Spring,4953.0,114
+Sun,All directions,tb3,Weekend,Summer,5665.0,118
+Sun,All directions,tb3,Weekend,Winter,3666.0,88
+Sun,All directions,total_flow,Weekend,Autumn,5692021.0,112
+Sun,All directions,total_flow,Weekend,Spring,6002561.0,114
+Sun,All directions,total_flow,Weekend,Summer,6488392.0,118
+Sun,All directions,total_flow,Weekend,Winter,4483968.0,88
+Sun,All directions,trt,Weekend,Autumn,0.0,112
+Sun,All directions,trt,Weekend,Spring,0.0,114
+Sun,All directions,trt,Weekend,Summer,0.0,118
+Sun,All directions,trt,Weekend,Winter,1.0,88
+Sun,All directions,ucv,Weekend,Autumn,281.0,112
+Sun,All directions,ucv,Weekend,Spring,308.0,114
+Sun,All directions,ucv,Weekend,Summer,349.0,118
+Sun,All directions,ucv,Weekend,Winter,230.0,88
+Sun,Eastbound Centre Lane,art3,Weekend,Autumn,2246.0,112
+Sun,Eastbound Centre Lane,art3,Weekend,Spring,2278.0,114
+Sun,Eastbound Centre Lane,art3,Weekend,Summer,2909.0,118
+Sun,Eastbound Centre Lane,art3,Weekend,Winter,1403.0,88
+Sun,Eastbound Centre Lane,art4,Weekend,Autumn,1607.0,112
+Sun,Eastbound Centre Lane,art4,Weekend,Spring,1621.0,114
+Sun,Eastbound Centre Lane,art4,Weekend,Summer,2022.0,118
+Sun,Eastbound Centre Lane,art4,Weekend,Winter,1077.0,88
+Sun,Eastbound Centre Lane,art5,Weekend,Autumn,521.0,112
+Sun,Eastbound Centre Lane,art5,Weekend,Spring,510.0,114
+Sun,Eastbound Centre Lane,art5,Weekend,Summer,668.0,118
+Sun,Eastbound Centre Lane,art5,Weekend,Winter,256.0,88
+Sun,Eastbound Centre Lane,art6,Weekend,Autumn,2007.0,112
+Sun,Eastbound Centre Lane,art6,Weekend,Spring,2464.0,114
+Sun,Eastbound Centre Lane,art6,Weekend,Summer,2320.0,118
+Sun,Eastbound Centre Lane,art6,Weekend,Winter,1695.0,88
+Sun,Eastbound Centre Lane,bd,Weekend,Autumn,295.0,112
+Sun,Eastbound Centre Lane,bd,Weekend,Spring,608.0,114
+Sun,Eastbound Centre Lane,bd,Weekend,Summer,382.0,118
+Sun,Eastbound Centre Lane,bd,Weekend,Winter,291.0,88
+Sun,Eastbound Centre Lane,drt,Weekend,Autumn,0.0,112
+Sun,Eastbound Centre Lane,drt,Weekend,Spring,0.0,114
+Sun,Eastbound Centre Lane,drt,Weekend,Summer,0.0,118
+Sun,Eastbound Centre Lane,drt,Weekend,Winter,1.0,88
+Sun,Eastbound Centre Lane,sv,Weekend,Autumn,1613633.0,112
+Sun,Eastbound Centre Lane,sv,Weekend,Spring,1700848.0,114
+Sun,Eastbound Centre Lane,sv,Weekend,Summer,1809272.0,118
+Sun,Eastbound Centre Lane,sv,Weekend,Winter,1287642.0,88
+Sun,Eastbound Centre Lane,svt,Weekend,Autumn,16724.0,112
+Sun,Eastbound Centre Lane,svt,Weekend,Spring,17532.0,114
+Sun,Eastbound Centre Lane,svt,Weekend,Summer,22010.0,118
+Sun,Eastbound Centre Lane,svt,Weekend,Winter,11023.0,88
+Sun,Eastbound Centre Lane,t4,Weekend,Autumn,361.0,112
+Sun,Eastbound Centre Lane,t4,Weekend,Spring,257.0,114
+Sun,Eastbound Centre Lane,t4,Weekend,Summer,350.0,118
+Sun,Eastbound Centre Lane,t4,Weekend,Winter,237.0,88
+Sun,Eastbound Centre Lane,tb2,Weekend,Autumn,77653.0,112
+Sun,Eastbound Centre Lane,tb2,Weekend,Spring,79340.0,114
+Sun,Eastbound Centre Lane,tb2,Weekend,Summer,85470.0,118
+Sun,Eastbound Centre Lane,tb2,Weekend,Winter,60727.0,88
+Sun,Eastbound Centre Lane,tb3,Weekend,Autumn,1598.0,112
+Sun,Eastbound Centre Lane,tb3,Weekend,Spring,1521.0,114
+Sun,Eastbound Centre Lane,tb3,Weekend,Summer,1763.0,118
+Sun,Eastbound Centre Lane,tb3,Weekend,Winter,1138.0,88
+Sun,Eastbound Centre Lane,total_flow,Weekend,Autumn,1716651.0,112
+Sun,Eastbound Centre Lane,total_flow,Weekend,Spring,1806988.0,114
+Sun,Eastbound Centre Lane,total_flow,Weekend,Summer,1927181.0,118
+Sun,Eastbound Centre Lane,total_flow,Weekend,Winter,1365492.0,88
+Sun,Eastbound Centre Lane,trt,Weekend,Autumn,0.0,112
+Sun,Eastbound Centre Lane,trt,Weekend,Spring,0.0,114
+Sun,Eastbound Centre Lane,trt,Weekend,Summer,0.0,118
+Sun,Eastbound Centre Lane,trt,Weekend,Winter,0.0,88
+Sun,Eastbound Centre Lane,ucv,Weekend,Autumn,6.0,112
+Sun,Eastbound Centre Lane,ucv,Weekend,Spring,9.0,114
+Sun,Eastbound Centre Lane,ucv,Weekend,Summer,15.0,118
+Sun,Eastbound Centre Lane,ucv,Weekend,Winter,2.0,88
+Sun,Eastbound Left Lane,art3,Weekend,Autumn,233.0,112
+Sun,Eastbound Left Lane,art3,Weekend,Spring,239.0,114
+Sun,Eastbound Left Lane,art3,Weekend,Summer,305.0,118
+Sun,Eastbound Left Lane,art3,Weekend,Winter,149.0,88
+Sun,Eastbound Left Lane,art4,Weekend,Autumn,134.0,112
+Sun,Eastbound Left Lane,art4,Weekend,Spring,147.0,114
+Sun,Eastbound Left Lane,art4,Weekend,Summer,184.0,118
+Sun,Eastbound Left Lane,art4,Weekend,Winter,92.0,88
+Sun,Eastbound Left Lane,art5,Weekend,Autumn,4.0,112
+Sun,Eastbound Left Lane,art5,Weekend,Spring,6.0,114
+Sun,Eastbound Left Lane,art5,Weekend,Summer,28.0,118
+Sun,Eastbound Left Lane,art5,Weekend,Winter,4.0,88
+Sun,Eastbound Left Lane,art6,Weekend,Autumn,30.0,112
+Sun,Eastbound Left Lane,art6,Weekend,Spring,28.0,114
+Sun,Eastbound Left Lane,art6,Weekend,Summer,56.0,118
+Sun,Eastbound Left Lane,art6,Weekend,Winter,29.0,88
+Sun,Eastbound Left Lane,bd,Weekend,Autumn,2.0,112
+Sun,Eastbound Left Lane,bd,Weekend,Spring,2.0,114
+Sun,Eastbound Left Lane,bd,Weekend,Summer,5.0,118
+Sun,Eastbound Left Lane,bd,Weekend,Winter,1.0,88
+Sun,Eastbound Left Lane,drt,Weekend,Autumn,0.0,112
+Sun,Eastbound Left Lane,drt,Weekend,Spring,0.0,114
+Sun,Eastbound Left Lane,drt,Weekend,Summer,0.0,118
+Sun,Eastbound Left Lane,drt,Weekend,Winter,0.0,88
+Sun,Eastbound Left Lane,sv,Weekend,Autumn,397997.0,112
+Sun,Eastbound Left Lane,sv,Weekend,Spring,425345.0,114
+Sun,Eastbound Left Lane,sv,Weekend,Summer,443497.0,118
+Sun,Eastbound Left Lane,sv,Weekend,Winter,316202.0,88
+Sun,Eastbound Left Lane,svt,Weekend,Autumn,2457.0,112
+Sun,Eastbound Left Lane,svt,Weekend,Spring,2585.0,114
+Sun,Eastbound Left Lane,svt,Weekend,Summer,3128.0,118
+Sun,Eastbound Left Lane,svt,Weekend,Winter,1493.0,88
+Sun,Eastbound Left Lane,t4,Weekend,Autumn,52.0,112
+Sun,Eastbound Left Lane,t4,Weekend,Spring,48.0,114
+Sun,Eastbound Left Lane,t4,Weekend,Summer,61.0,118
+Sun,Eastbound Left Lane,t4,Weekend,Winter,28.0,88
+Sun,Eastbound Left Lane,tb2,Weekend,Autumn,14799.0,112
+Sun,Eastbound Left Lane,tb2,Weekend,Spring,14821.0,114
+Sun,Eastbound Left Lane,tb2,Weekend,Summer,15903.0,118
+Sun,Eastbound Left Lane,tb2,Weekend,Winter,11860.0,88
+Sun,Eastbound Left Lane,tb3,Weekend,Autumn,163.0,112
+Sun,Eastbound Left Lane,tb3,Weekend,Spring,190.0,114
+Sun,Eastbound Left Lane,tb3,Weekend,Summer,135.0,118
+Sun,Eastbound Left Lane,tb3,Weekend,Winter,99.0,88
+Sun,Eastbound Left Lane,total_flow,Weekend,Autumn,415872.0,112
+Sun,Eastbound Left Lane,total_flow,Weekend,Spring,443412.0,114
+Sun,Eastbound Left Lane,total_flow,Weekend,Summer,463305.0,118
+Sun,Eastbound Left Lane,total_flow,Weekend,Winter,329957.0,88
+Sun,Eastbound Left Lane,trt,Weekend,Autumn,0.0,112
+Sun,Eastbound Left Lane,trt,Weekend,Spring,0.0,114
+Sun,Eastbound Left Lane,trt,Weekend,Summer,0.0,118
+Sun,Eastbound Left Lane,trt,Weekend,Winter,0.0,88
+Sun,Eastbound Left Lane,ucv,Weekend,Autumn,1.0,112
+Sun,Eastbound Left Lane,ucv,Weekend,Spring,1.0,114
+Sun,Eastbound Left Lane,ucv,Weekend,Summer,3.0,118
+Sun,Eastbound Left Lane,ucv,Weekend,Winter,0.0,88
+Sun,Eastbound Right Lane,art3,Weekend,Autumn,586.0,112
+Sun,Eastbound Right Lane,art3,Weekend,Spring,525.0,114
+Sun,Eastbound Right Lane,art3,Weekend,Summer,783.0,118
+Sun,Eastbound Right Lane,art3,Weekend,Winter,346.0,88
+Sun,Eastbound Right Lane,art4,Weekend,Autumn,394.0,112
+Sun,Eastbound Right Lane,art4,Weekend,Spring,358.0,114
+Sun,Eastbound Right Lane,art4,Weekend,Summer,413.0,118
+Sun,Eastbound Right Lane,art4,Weekend,Winter,285.0,88
+Sun,Eastbound Right Lane,art5,Weekend,Autumn,53.0,112
+Sun,Eastbound Right Lane,art5,Weekend,Spring,75.0,114
+Sun,Eastbound Right Lane,art5,Weekend,Summer,113.0,118
+Sun,Eastbound Right Lane,art5,Weekend,Winter,23.0,88
+Sun,Eastbound Right Lane,art6,Weekend,Autumn,72.0,112
+Sun,Eastbound Right Lane,art6,Weekend,Spring,66.0,114
+Sun,Eastbound Right Lane,art6,Weekend,Summer,122.0,118
+Sun,Eastbound Right Lane,art6,Weekend,Winter,50.0,88
+Sun,Eastbound Right Lane,bd,Weekend,Autumn,27.0,112
+Sun,Eastbound Right Lane,bd,Weekend,Spring,52.0,114
+Sun,Eastbound Right Lane,bd,Weekend,Summer,39.0,118
+Sun,Eastbound Right Lane,bd,Weekend,Winter,20.0,88
+Sun,Eastbound Right Lane,drt,Weekend,Autumn,0.0,112
+Sun,Eastbound Right Lane,drt,Weekend,Spring,0.0,114
+Sun,Eastbound Right Lane,drt,Weekend,Summer,0.0,118
+Sun,Eastbound Right Lane,drt,Weekend,Winter,0.0,88
+Sun,Eastbound Right Lane,sv,Weekend,Autumn,713927.0,112
+Sun,Eastbound Right Lane,sv,Weekend,Spring,746699.0,114
+Sun,Eastbound Right Lane,sv,Weekend,Summer,851498.0,118
+Sun,Eastbound Right Lane,sv,Weekend,Winter,552918.0,88
+Sun,Eastbound Right Lane,svt,Weekend,Autumn,6557.0,112
+Sun,Eastbound Right Lane,svt,Weekend,Spring,6941.0,114
+Sun,Eastbound Right Lane,svt,Weekend,Summer,9182.0,118
+Sun,Eastbound Right Lane,svt,Weekend,Winter,4398.0,88
+Sun,Eastbound Right Lane,t4,Weekend,Autumn,29.0,112
+Sun,Eastbound Right Lane,t4,Weekend,Spring,18.0,114
+Sun,Eastbound Right Lane,t4,Weekend,Summer,28.0,118
+Sun,Eastbound Right Lane,t4,Weekend,Winter,20.0,88
+Sun,Eastbound Right Lane,tb2,Weekend,Autumn,27788.0,112
+Sun,Eastbound Right Lane,tb2,Weekend,Spring,27857.0,114
+Sun,Eastbound Right Lane,tb2,Weekend,Summer,30007.0,118
+Sun,Eastbound Right Lane,tb2,Weekend,Winter,22349.0,88
+Sun,Eastbound Right Lane,tb3,Weekend,Autumn,227.0,112
+Sun,Eastbound Right Lane,tb3,Weekend,Spring,212.0,114
+Sun,Eastbound Right Lane,tb3,Weekend,Summer,276.0,118
+Sun,Eastbound Right Lane,tb3,Weekend,Winter,158.0,88
+Sun,Eastbound Right Lane,total_flow,Weekend,Autumn,749667.0,112
+Sun,Eastbound Right Lane,total_flow,Weekend,Spring,782809.0,114
+Sun,Eastbound Right Lane,total_flow,Weekend,Summer,892469.0,118
+Sun,Eastbound Right Lane,total_flow,Weekend,Winter,580570.0,88
+Sun,Eastbound Right Lane,trt,Weekend,Autumn,0.0,112
+Sun,Eastbound Right Lane,trt,Weekend,Spring,0.0,114
+Sun,Eastbound Right Lane,trt,Weekend,Summer,0.0,118
+Sun,Eastbound Right Lane,trt,Weekend,Winter,0.0,88
+Sun,Eastbound Right Lane,ucv,Weekend,Autumn,7.0,112
+Sun,Eastbound Right Lane,ucv,Weekend,Spring,6.0,114
+Sun,Eastbound Right Lane,ucv,Weekend,Summer,8.0,118
+Sun,Eastbound Right Lane,ucv,Weekend,Winter,3.0,88
+Sun,Westbound Centre Lane,art3,Weekend,Autumn,680.0,112
+Sun,Westbound Centre Lane,art3,Weekend,Spring,685.0,114
+Sun,Westbound Centre Lane,art3,Weekend,Summer,979.0,118
+Sun,Westbound Centre Lane,art3,Weekend,Winter,494.0,88
+Sun,Westbound Centre Lane,art4,Weekend,Autumn,469.0,112
+Sun,Westbound Centre Lane,art4,Weekend,Spring,464.0,114
+Sun,Westbound Centre Lane,art4,Weekend,Summer,600.0,118
+Sun,Westbound Centre Lane,art4,Weekend,Winter,338.0,88
+Sun,Westbound Centre Lane,art5,Weekend,Autumn,156.0,112
+Sun,Westbound Centre Lane,art5,Weekend,Spring,165.0,114
+Sun,Westbound Centre Lane,art5,Weekend,Summer,281.0,118
+Sun,Westbound Centre Lane,art5,Weekend,Winter,64.0,88
+Sun,Westbound Centre Lane,art6,Weekend,Autumn,106.0,112
+Sun,Westbound Centre Lane,art6,Weekend,Spring,86.0,114
+Sun,Westbound Centre Lane,art6,Weekend,Summer,161.0,118
+Sun,Westbound Centre Lane,art6,Weekend,Winter,70.0,88
+Sun,Westbound Centre Lane,bd,Weekend,Autumn,14.0,112
+Sun,Westbound Centre Lane,bd,Weekend,Spring,34.0,114
+Sun,Westbound Centre Lane,bd,Weekend,Summer,30.0,118
+Sun,Westbound Centre Lane,bd,Weekend,Winter,7.0,88
+Sun,Westbound Centre Lane,drt,Weekend,Autumn,1.0,112
+Sun,Westbound Centre Lane,drt,Weekend,Spring,1.0,114
+Sun,Westbound Centre Lane,drt,Weekend,Summer,0.0,118
+Sun,Westbound Centre Lane,drt,Weekend,Winter,0.0,88
+Sun,Westbound Centre Lane,sv,Weekend,Autumn,696932.0,112
+Sun,Westbound Centre Lane,sv,Weekend,Spring,733341.0,114
+Sun,Westbound Centre Lane,sv,Weekend,Summer,820517.0,118
+Sun,Westbound Centre Lane,sv,Weekend,Winter,549026.0,88
+Sun,Westbound Centre Lane,svt,Weekend,Autumn,5597.0,112
+Sun,Westbound Centre Lane,svt,Weekend,Spring,5868.0,114
+Sun,Westbound Centre Lane,svt,Weekend,Summer,7673.0,118
+Sun,Westbound Centre Lane,svt,Weekend,Winter,3685.0,88
+Sun,Westbound Centre Lane,t4,Weekend,Autumn,115.0,112
+Sun,Westbound Centre Lane,t4,Weekend,Spring,85.0,114
+Sun,Westbound Centre Lane,t4,Weekend,Summer,174.0,118
+Sun,Westbound Centre Lane,t4,Weekend,Winter,61.0,88
+Sun,Westbound Centre Lane,tb2,Weekend,Autumn,36402.0,112
+Sun,Westbound Centre Lane,tb2,Weekend,Spring,35229.0,114
+Sun,Westbound Centre Lane,tb2,Weekend,Summer,39345.0,118
+Sun,Westbound Centre Lane,tb2,Weekend,Winter,28505.0,88
+Sun,Westbound Centre Lane,tb3,Weekend,Autumn,710.0,112
+Sun,Westbound Centre Lane,tb3,Weekend,Spring,706.0,114
+Sun,Westbound Centre Lane,tb3,Weekend,Summer,844.0,118
+Sun,Westbound Centre Lane,tb3,Weekend,Winter,514.0,88
+Sun,Westbound Centre Lane,total_flow,Weekend,Autumn,741291.0,112
+Sun,Westbound Centre Lane,total_flow,Weekend,Spring,776775.0,114
+Sun,Westbound Centre Lane,total_flow,Weekend,Summer,870764.0,118
+Sun,Westbound Centre Lane,total_flow,Weekend,Winter,582856.0,88
+Sun,Westbound Centre Lane,trt,Weekend,Autumn,0.0,112
+Sun,Westbound Centre Lane,trt,Weekend,Spring,0.0,114
+Sun,Westbound Centre Lane,trt,Weekend,Summer,0.0,118
+Sun,Westbound Centre Lane,trt,Weekend,Winter,0.0,88
+Sun,Westbound Centre Lane,ucv,Weekend,Autumn,109.0,112
+Sun,Westbound Centre Lane,ucv,Weekend,Spring,111.0,114
+Sun,Westbound Centre Lane,ucv,Weekend,Summer,160.0,118
+Sun,Westbound Centre Lane,ucv,Weekend,Winter,92.0,88
+Sun,Westbound Left Lane,art3,Weekend,Autumn,2891.0,112
+Sun,Westbound Left Lane,art3,Weekend,Spring,2983.0,114
+Sun,Westbound Left Lane,art3,Weekend,Summer,3811.0,118
+Sun,Westbound Left Lane,art3,Weekend,Winter,1876.0,88
+Sun,Westbound Left Lane,art4,Weekend,Autumn,2021.0,112
+Sun,Westbound Left Lane,art4,Weekend,Spring,2157.0,114
+Sun,Westbound Left Lane,art4,Weekend,Summer,2462.0,118
+Sun,Westbound Left Lane,art4,Weekend,Winter,1432.0,88
+Sun,Westbound Left Lane,art5,Weekend,Autumn,443.0,112
+Sun,Westbound Left Lane,art5,Weekend,Spring,397.0,114
+Sun,Westbound Left Lane,art5,Weekend,Summer,556.0,118
+Sun,Westbound Left Lane,art5,Weekend,Winter,270.0,88
+Sun,Westbound Left Lane,art6,Weekend,Autumn,1718.0,112
+Sun,Westbound Left Lane,art6,Weekend,Spring,2037.0,114
+Sun,Westbound Left Lane,art6,Weekend,Summer,1991.0,118
+Sun,Westbound Left Lane,art6,Weekend,Winter,1521.0,88
+Sun,Westbound Left Lane,bd,Weekend,Autumn,263.0,112
+Sun,Westbound Left Lane,bd,Weekend,Spring,564.0,114
+Sun,Westbound Left Lane,bd,Weekend,Summer,353.0,118
+Sun,Westbound Left Lane,bd,Weekend,Winter,274.0,88
+Sun,Westbound Left Lane,drt,Weekend,Autumn,2.0,112
+Sun,Westbound Left Lane,drt,Weekend,Spring,3.0,114
+Sun,Westbound Left Lane,drt,Weekend,Summer,2.0,118
+Sun,Westbound Left Lane,drt,Weekend,Winter,0.0,88
+Sun,Westbound Left Lane,sv,Weekend,Autumn,1899100.0,112
+Sun,Westbound Left Lane,sv,Weekend,Spring,2021699.0,114
+Sun,Westbound Left Lane,sv,Weekend,Summer,2141555.0,118
+Sun,Westbound Left Lane,sv,Weekend,Winter,1496620.0,88
+Sun,Westbound Left Lane,svt,Weekend,Autumn,20861.0,112
+Sun,Westbound Left Lane,svt,Weekend,Spring,23466.0,114
+Sun,Westbound Left Lane,svt,Weekend,Summer,27947.0,118
+Sun,Westbound Left Lane,svt,Weekend,Winter,14424.0,88
+Sun,Westbound Left Lane,t4,Weekend,Autumn,465.0,112
+Sun,Westbound Left Lane,t4,Weekend,Spring,385.0,114
+Sun,Westbound Left Lane,t4,Weekend,Summer,482.0,118
+Sun,Westbound Left Lane,t4,Weekend,Winter,336.0,88
+Sun,Westbound Left Lane,tb2,Weekend,Autumn,112097.0,112
+Sun,Westbound Left Lane,tb2,Weekend,Spring,111353.0,114
+Sun,Westbound Left Lane,tb2,Weekend,Summer,116159.0,118
+Sun,Westbound Left Lane,tb2,Weekend,Winter,88023.0,88
+Sun,Westbound Left Lane,tb3,Weekend,Autumn,2410.0,112
+Sun,Westbound Left Lane,tb3,Weekend,Spring,2320.0,114
+Sun,Westbound Left Lane,tb3,Weekend,Summer,2633.0,118
+Sun,Westbound Left Lane,tb3,Weekend,Winter,1753.0,88
+Sun,Westbound Left Lane,total_flow,Weekend,Autumn,2042426.0,112
+Sun,Westbound Left Lane,total_flow,Weekend,Spring,2167545.0,114
+Sun,Westbound Left Lane,total_flow,Weekend,Summer,2298113.0,118
+Sun,Westbound Left Lane,total_flow,Weekend,Winter,1606663.0,88
+Sun,Westbound Left Lane,trt,Weekend,Autumn,0.0,112
+Sun,Westbound Left Lane,trt,Weekend,Spring,0.0,114
+Sun,Westbound Left Lane,trt,Weekend,Summer,0.0,118
+Sun,Westbound Left Lane,trt,Weekend,Winter,1.0,88
+Sun,Westbound Left Lane,ucv,Weekend,Autumn,155.0,112
+Sun,Westbound Left Lane,ucv,Weekend,Spring,181.0,114
+Sun,Westbound Left Lane,ucv,Weekend,Summer,162.0,118
+Sun,Westbound Left Lane,ucv,Weekend,Winter,133.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Autumn,12.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Spring,17.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Summer,16.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekend,Winter,11.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Autumn,7.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Spring,4.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Summer,12.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekend,Winter,3.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Autumn,1.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Spring,1.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Summer,3.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekend,Winter,0.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Autumn,0.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Spring,0.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Summer,6.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekend,Winter,1.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Autumn,0.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Spring,0.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Summer,0.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekend,Winter,0.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Autumn,0.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Spring,0.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Summer,0.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekend,Winter,0.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Autumn,24567.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Spring,23607.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Summer,34522.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekend,Winter,17368.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Autumn,122.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Spring,118.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Summer,198.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekend,Winter,66.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Autumn,0.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Spring,0.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Summer,4.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekend,Winter,0.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Autumn,1391.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Spring,1281.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Summer,1784.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekend,Winter,977.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Autumn,11.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Spring,4.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Summer,14.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekend,Winter,4.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Autumn,26114.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Spring,25032.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Summer,36560.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekend,Winter,18430.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Autumn,0.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Spring,0.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Summer,0.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekend,Winter,0.0,88
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Autumn,3.0,112
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Spring,0.0,114
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Summer,1.0,118
+Sun,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekend,Winter,0.0,88
+Thu,All directions,art3,Weekday,Autumn,16514.0,108
+Thu,All directions,art3,Weekday,Spring,16427.0,112
+Thu,All directions,art3,Weekday,Summer,17759.0,118
+Thu,All directions,art3,Weekday,Winter,12303.0,88
+Thu,All directions,art4,Weekday,Autumn,12250.0,108
+Thu,All directions,art4,Weekday,Spring,11603.0,112
+Thu,All directions,art4,Weekday,Summer,11811.0,118
+Thu,All directions,art4,Weekday,Winter,8808.0,88
+Thu,All directions,art5,Weekday,Autumn,5049.0,108
+Thu,All directions,art5,Weekday,Spring,5095.0,112
+Thu,All directions,art5,Weekday,Summer,5465.0,118
+Thu,All directions,art5,Weekday,Winter,3978.0,88
+Thu,All directions,art6,Weekday,Autumn,27781.0,108
+Thu,All directions,art6,Weekday,Spring,26896.0,112
+Thu,All directions,art6,Weekday,Summer,28269.0,118
+Thu,All directions,art6,Weekday,Winter,21166.0,88
+Thu,All directions,bd,Weekday,Autumn,5240.0,108
+Thu,All directions,bd,Weekday,Spring,5010.0,112
+Thu,All directions,bd,Weekday,Summer,5405.0,118
+Thu,All directions,bd,Weekday,Winter,3763.0,88
+Thu,All directions,drt,Weekday,Autumn,25.0,108
+Thu,All directions,drt,Weekday,Spring,31.0,112
+Thu,All directions,drt,Weekday,Summer,36.0,118
+Thu,All directions,drt,Weekday,Winter,25.0,88
+Thu,All directions,sv,Weekday,Autumn,7578024.0,108
+Thu,All directions,sv,Weekday,Spring,7811782.0,112
+Thu,All directions,sv,Weekday,Summer,8460005.0,118
+Thu,All directions,sv,Weekday,Winter,6089471.0,88
+Thu,All directions,svt,Weekday,Autumn,75756.0,108
+Thu,All directions,svt,Weekday,Spring,75400.0,112
+Thu,All directions,svt,Weekday,Summer,87165.0,118
+Thu,All directions,svt,Weekday,Winter,53000.0,88
+Thu,All directions,t4,Weekday,Autumn,15547.0,108
+Thu,All directions,t4,Weekday,Spring,14587.0,112
+Thu,All directions,t4,Weekday,Summer,14326.0,118
+Thu,All directions,t4,Weekday,Winter,11990.0,88
+Thu,All directions,tb2,Weekday,Autumn,652095.0,108
+Thu,All directions,tb2,Weekday,Spring,640010.0,112
+Thu,All directions,tb2,Weekday,Summer,667928.0,118
+Thu,All directions,tb2,Weekday,Winter,524135.0,88
+Thu,All directions,tb3,Weekday,Autumn,37621.0,108
+Thu,All directions,tb3,Weekday,Spring,36206.0,112
+Thu,All directions,tb3,Weekday,Summer,37706.0,118
+Thu,All directions,tb3,Weekday,Winter,28914.0,88
+Thu,All directions,total_flow,Weekday,Autumn,8426398.0,108
+Thu,All directions,total_flow,Weekday,Spring,8643474.0,112
+Thu,All directions,total_flow,Weekday,Summer,9336404.0,118
+Thu,All directions,total_flow,Weekday,Winter,6757915.0,88
+Thu,All directions,trt,Weekday,Autumn,1.0,108
+Thu,All directions,trt,Weekday,Spring,1.0,112
+Thu,All directions,trt,Weekday,Summer,1.0,118
+Thu,All directions,trt,Weekday,Winter,1.0,88
+Thu,All directions,ucv,Weekday,Autumn,495.0,108
+Thu,All directions,ucv,Weekday,Spring,426.0,112
+Thu,All directions,ucv,Weekday,Summer,528.0,118
+Thu,All directions,ucv,Weekday,Winter,361.0,88
+Thu,Eastbound Centre Lane,art3,Weekday,Autumn,5956.0,108
+Thu,Eastbound Centre Lane,art3,Weekday,Spring,5912.0,112
+Thu,Eastbound Centre Lane,art3,Weekday,Summer,6256.0,118
+Thu,Eastbound Centre Lane,art3,Weekday,Winter,4425.0,88
+Thu,Eastbound Centre Lane,art4,Weekday,Autumn,4383.0,108
+Thu,Eastbound Centre Lane,art4,Weekday,Spring,4285.0,112
+Thu,Eastbound Centre Lane,art4,Weekday,Summer,4324.0,118
+Thu,Eastbound Centre Lane,art4,Weekday,Winter,3150.0,88
+Thu,Eastbound Centre Lane,art5,Weekday,Autumn,2246.0,108
+Thu,Eastbound Centre Lane,art5,Weekday,Spring,2245.0,112
+Thu,Eastbound Centre Lane,art5,Weekday,Summer,2346.0,118
+Thu,Eastbound Centre Lane,art5,Weekday,Winter,1821.0,88
+Thu,Eastbound Centre Lane,art6,Weekday,Autumn,13767.0,108
+Thu,Eastbound Centre Lane,art6,Weekday,Spring,13487.0,112
+Thu,Eastbound Centre Lane,art6,Weekday,Summer,13765.0,118
+Thu,Eastbound Centre Lane,art6,Weekday,Winter,10495.0,88
+Thu,Eastbound Centre Lane,bd,Weekday,Autumn,2448.0,108
+Thu,Eastbound Centre Lane,bd,Weekday,Spring,2449.0,112
+Thu,Eastbound Centre Lane,bd,Weekday,Summer,2564.0,118
+Thu,Eastbound Centre Lane,bd,Weekday,Winter,1736.0,88
+Thu,Eastbound Centre Lane,drt,Weekday,Autumn,5.0,108
+Thu,Eastbound Centre Lane,drt,Weekday,Spring,9.0,112
+Thu,Eastbound Centre Lane,drt,Weekday,Summer,8.0,118
+Thu,Eastbound Centre Lane,drt,Weekday,Winter,7.0,88
+Thu,Eastbound Centre Lane,sv,Weekday,Autumn,2127852.0,108
+Thu,Eastbound Centre Lane,sv,Weekday,Spring,2198158.0,112
+Thu,Eastbound Centre Lane,sv,Weekday,Summer,2356137.0,118
+Thu,Eastbound Centre Lane,sv,Weekday,Winter,1713623.0,88
+Thu,Eastbound Centre Lane,svt,Weekday,Autumn,23683.0,108
+Thu,Eastbound Centre Lane,svt,Weekday,Spring,23585.0,112
+Thu,Eastbound Centre Lane,svt,Weekday,Summer,26947.0,118
+Thu,Eastbound Centre Lane,svt,Weekday,Winter,16076.0,88
+Thu,Eastbound Centre Lane,t4,Weekday,Autumn,6577.0,108
+Thu,Eastbound Centre Lane,t4,Weekday,Spring,6186.0,112
+Thu,Eastbound Centre Lane,t4,Weekday,Summer,5928.0,118
+Thu,Eastbound Centre Lane,t4,Weekday,Winter,5067.0,88
+Thu,Eastbound Centre Lane,tb2,Weekday,Autumn,198578.0,108
+Thu,Eastbound Centre Lane,tb2,Weekday,Spring,196274.0,112
+Thu,Eastbound Centre Lane,tb2,Weekday,Summer,202827.0,118
+Thu,Eastbound Centre Lane,tb2,Weekday,Winter,159307.0,88
+Thu,Eastbound Centre Lane,tb3,Weekday,Autumn,15548.0,108
+Thu,Eastbound Centre Lane,tb3,Weekday,Spring,14922.0,112
+Thu,Eastbound Centre Lane,tb3,Weekday,Summer,14984.0,118
+Thu,Eastbound Centre Lane,tb3,Weekday,Winter,11788.0,88
+Thu,Eastbound Centre Lane,total_flow,Weekday,Autumn,2401070.0,108
+Thu,Eastbound Centre Lane,total_flow,Weekday,Spring,2467531.0,112
+Thu,Eastbound Centre Lane,total_flow,Weekday,Summer,2636118.0,118
+Thu,Eastbound Centre Lane,total_flow,Weekday,Winter,1927514.0,88
+Thu,Eastbound Centre Lane,trt,Weekday,Autumn,0.0,108
+Thu,Eastbound Centre Lane,trt,Weekday,Spring,0.0,112
+Thu,Eastbound Centre Lane,trt,Weekday,Summer,0.0,118
+Thu,Eastbound Centre Lane,trt,Weekday,Winter,0.0,88
+Thu,Eastbound Centre Lane,ucv,Weekday,Autumn,27.0,108
+Thu,Eastbound Centre Lane,ucv,Weekday,Spring,19.0,112
+Thu,Eastbound Centre Lane,ucv,Weekday,Summer,32.0,118
+Thu,Eastbound Centre Lane,ucv,Weekday,Winter,19.0,88
+Thu,Eastbound Left Lane,art3,Weekday,Autumn,774.0,108
+Thu,Eastbound Left Lane,art3,Weekday,Spring,867.0,112
+Thu,Eastbound Left Lane,art3,Weekday,Summer,902.0,118
+Thu,Eastbound Left Lane,art3,Weekday,Winter,667.0,88
+Thu,Eastbound Left Lane,art4,Weekday,Autumn,595.0,108
+Thu,Eastbound Left Lane,art4,Weekday,Spring,535.0,112
+Thu,Eastbound Left Lane,art4,Weekday,Summer,593.0,118
+Thu,Eastbound Left Lane,art4,Weekday,Winter,462.0,88
+Thu,Eastbound Left Lane,art5,Weekday,Autumn,125.0,108
+Thu,Eastbound Left Lane,art5,Weekday,Spring,141.0,112
+Thu,Eastbound Left Lane,art5,Weekday,Summer,156.0,118
+Thu,Eastbound Left Lane,art5,Weekday,Winter,89.0,88
+Thu,Eastbound Left Lane,art6,Weekday,Autumn,394.0,108
+Thu,Eastbound Left Lane,art6,Weekday,Spring,380.0,112
+Thu,Eastbound Left Lane,art6,Weekday,Summer,460.0,118
+Thu,Eastbound Left Lane,art6,Weekday,Winter,262.0,88
+Thu,Eastbound Left Lane,bd,Weekday,Autumn,47.0,108
+Thu,Eastbound Left Lane,bd,Weekday,Spring,43.0,112
+Thu,Eastbound Left Lane,bd,Weekday,Summer,38.0,118
+Thu,Eastbound Left Lane,bd,Weekday,Winter,22.0,88
+Thu,Eastbound Left Lane,drt,Weekday,Autumn,0.0,108
+Thu,Eastbound Left Lane,drt,Weekday,Spring,0.0,112
+Thu,Eastbound Left Lane,drt,Weekday,Summer,1.0,118
+Thu,Eastbound Left Lane,drt,Weekday,Winter,0.0,88
+Thu,Eastbound Left Lane,sv,Weekday,Autumn,605703.0,108
+Thu,Eastbound Left Lane,sv,Weekday,Spring,621506.0,112
+Thu,Eastbound Left Lane,sv,Weekday,Summer,659455.0,118
+Thu,Eastbound Left Lane,sv,Weekday,Winter,487575.0,88
+Thu,Eastbound Left Lane,svt,Weekday,Autumn,4195.0,108
+Thu,Eastbound Left Lane,svt,Weekday,Spring,4166.0,112
+Thu,Eastbound Left Lane,svt,Weekday,Summer,4627.0,118
+Thu,Eastbound Left Lane,svt,Weekday,Winter,2992.0,88
+Thu,Eastbound Left Lane,t4,Weekday,Autumn,642.0,108
+Thu,Eastbound Left Lane,t4,Weekday,Spring,570.0,112
+Thu,Eastbound Left Lane,t4,Weekday,Summer,618.0,118
+Thu,Eastbound Left Lane,t4,Weekday,Winter,515.0,88
+Thu,Eastbound Left Lane,tb2,Weekday,Autumn,38153.0,108
+Thu,Eastbound Left Lane,tb2,Weekday,Spring,37662.0,112
+Thu,Eastbound Left Lane,tb2,Weekday,Summer,39552.0,118
+Thu,Eastbound Left Lane,tb2,Weekday,Winter,31399.0,88
+Thu,Eastbound Left Lane,tb3,Weekday,Autumn,1395.0,108
+Thu,Eastbound Left Lane,tb3,Weekday,Spring,1338.0,112
+Thu,Eastbound Left Lane,tb3,Weekday,Summer,1379.0,118
+Thu,Eastbound Left Lane,tb3,Weekday,Winter,1101.0,88
+Thu,Eastbound Left Lane,total_flow,Weekday,Autumn,652026.0,108
+Thu,Eastbound Left Lane,total_flow,Weekday,Spring,667213.0,112
+Thu,Eastbound Left Lane,total_flow,Weekday,Summer,707785.0,118
+Thu,Eastbound Left Lane,total_flow,Weekday,Winter,525087.0,88
+Thu,Eastbound Left Lane,trt,Weekday,Autumn,0.0,108
+Thu,Eastbound Left Lane,trt,Weekday,Spring,0.0,112
+Thu,Eastbound Left Lane,trt,Weekday,Summer,0.0,118
+Thu,Eastbound Left Lane,trt,Weekday,Winter,0.0,88
+Thu,Eastbound Left Lane,ucv,Weekday,Autumn,3.0,108
+Thu,Eastbound Left Lane,ucv,Weekday,Spring,5.0,112
+Thu,Eastbound Left Lane,ucv,Weekday,Summer,4.0,118
+Thu,Eastbound Left Lane,ucv,Weekday,Winter,3.0,88
+Thu,Eastbound Right Lane,art3,Weekday,Autumn,1165.0,108
+Thu,Eastbound Right Lane,art3,Weekday,Spring,1174.0,112
+Thu,Eastbound Right Lane,art3,Weekday,Summer,1487.0,118
+Thu,Eastbound Right Lane,art3,Weekday,Winter,838.0,88
+Thu,Eastbound Right Lane,art4,Weekday,Autumn,1118.0,108
+Thu,Eastbound Right Lane,art4,Weekday,Spring,1035.0,112
+Thu,Eastbound Right Lane,art4,Weekday,Summer,1084.0,118
+Thu,Eastbound Right Lane,art4,Weekday,Winter,802.0,88
+Thu,Eastbound Right Lane,art5,Weekday,Autumn,209.0,108
+Thu,Eastbound Right Lane,art5,Weekday,Spring,212.0,112
+Thu,Eastbound Right Lane,art5,Weekday,Summer,287.0,118
+Thu,Eastbound Right Lane,art5,Weekday,Winter,146.0,88
+Thu,Eastbound Right Lane,art6,Weekday,Autumn,1042.0,108
+Thu,Eastbound Right Lane,art6,Weekday,Spring,948.0,112
+Thu,Eastbound Right Lane,art6,Weekday,Summer,1353.0,118
+Thu,Eastbound Right Lane,art6,Weekday,Winter,674.0,88
+Thu,Eastbound Right Lane,bd,Weekday,Autumn,151.0,108
+Thu,Eastbound Right Lane,bd,Weekday,Spring,149.0,112
+Thu,Eastbound Right Lane,bd,Weekday,Summer,231.0,118
+Thu,Eastbound Right Lane,bd,Weekday,Winter,113.0,88
+Thu,Eastbound Right Lane,drt,Weekday,Autumn,2.0,108
+Thu,Eastbound Right Lane,drt,Weekday,Spring,1.0,112
+Thu,Eastbound Right Lane,drt,Weekday,Summer,2.0,118
+Thu,Eastbound Right Lane,drt,Weekday,Winter,1.0,88
+Thu,Eastbound Right Lane,sv,Weekday,Autumn,1167362.0,108
+Thu,Eastbound Right Lane,sv,Weekday,Spring,1193436.0,112
+Thu,Eastbound Right Lane,sv,Weekday,Summer,1326759.0,118
+Thu,Eastbound Right Lane,sv,Weekday,Winter,919203.0,88
+Thu,Eastbound Right Lane,svt,Weekday,Autumn,11457.0,108
+Thu,Eastbound Right Lane,svt,Weekday,Spring,11334.0,112
+Thu,Eastbound Right Lane,svt,Weekday,Summer,13514.0,118
+Thu,Eastbound Right Lane,svt,Weekday,Winter,7896.0,88
+Thu,Eastbound Right Lane,t4,Weekday,Autumn,759.0,108
+Thu,Eastbound Right Lane,t4,Weekday,Spring,684.0,112
+Thu,Eastbound Right Lane,t4,Weekday,Summer,807.0,118
+Thu,Eastbound Right Lane,t4,Weekday,Winter,600.0,88
+Thu,Eastbound Right Lane,tb2,Weekday,Autumn,74484.0,108
+Thu,Eastbound Right Lane,tb2,Weekday,Spring,72889.0,112
+Thu,Eastbound Right Lane,tb2,Weekday,Summer,78313.0,118
+Thu,Eastbound Right Lane,tb2,Weekday,Winter,59418.0,88
+Thu,Eastbound Right Lane,tb3,Weekday,Autumn,2014.0,108
+Thu,Eastbound Right Lane,tb3,Weekday,Spring,1930.0,112
+Thu,Eastbound Right Lane,tb3,Weekday,Summer,2473.0,118
+Thu,Eastbound Right Lane,tb3,Weekday,Winter,1554.0,88
+Thu,Eastbound Right Lane,total_flow,Weekday,Autumn,1259775.0,108
+Thu,Eastbound Right Lane,total_flow,Weekday,Spring,1283799.0,112
+Thu,Eastbound Right Lane,total_flow,Weekday,Summer,1426319.0,118
+Thu,Eastbound Right Lane,total_flow,Weekday,Winter,991251.0,88
+Thu,Eastbound Right Lane,trt,Weekday,Autumn,0.0,108
+Thu,Eastbound Right Lane,trt,Weekday,Spring,0.0,112
+Thu,Eastbound Right Lane,trt,Weekday,Summer,0.0,118
+Thu,Eastbound Right Lane,trt,Weekday,Winter,0.0,88
+Thu,Eastbound Right Lane,ucv,Weekday,Autumn,12.0,108
+Thu,Eastbound Right Lane,ucv,Weekday,Spring,7.0,112
+Thu,Eastbound Right Lane,ucv,Weekday,Summer,9.0,118
+Thu,Eastbound Right Lane,ucv,Weekday,Winter,6.0,88
+Thu,Westbound Centre Lane,art3,Weekday,Autumn,2258.0,108
+Thu,Westbound Centre Lane,art3,Weekday,Spring,2196.0,112
+Thu,Westbound Centre Lane,art3,Weekday,Summer,2463.0,118
+Thu,Westbound Centre Lane,art3,Weekday,Winter,1669.0,88
+Thu,Westbound Centre Lane,art4,Weekday,Autumn,1713.0,108
+Thu,Westbound Centre Lane,art4,Weekday,Spring,1450.0,112
+Thu,Westbound Centre Lane,art4,Weekday,Summer,1612.0,118
+Thu,Westbound Centre Lane,art4,Weekday,Winter,1198.0,88
+Thu,Westbound Centre Lane,art5,Weekday,Autumn,440.0,108
+Thu,Westbound Centre Lane,art5,Weekday,Spring,383.0,112
+Thu,Westbound Centre Lane,art5,Weekday,Summer,454.0,118
+Thu,Westbound Centre Lane,art5,Weekday,Winter,312.0,88
+Thu,Westbound Centre Lane,art6,Weekday,Autumn,1074.0,108
+Thu,Westbound Centre Lane,art6,Weekday,Spring,1060.0,112
+Thu,Westbound Centre Lane,art6,Weekday,Summer,1126.0,118
+Thu,Westbound Centre Lane,art6,Weekday,Winter,836.0,88
+Thu,Westbound Centre Lane,bd,Weekday,Autumn,223.0,108
+Thu,Westbound Centre Lane,bd,Weekday,Spring,191.0,112
+Thu,Westbound Centre Lane,bd,Weekday,Summer,211.0,118
+Thu,Westbound Centre Lane,bd,Weekday,Winter,127.0,88
+Thu,Westbound Centre Lane,drt,Weekday,Autumn,6.0,108
+Thu,Westbound Centre Lane,drt,Weekday,Spring,4.0,112
+Thu,Westbound Centre Lane,drt,Weekday,Summer,10.0,118
+Thu,Westbound Centre Lane,drt,Weekday,Winter,7.0,88
+Thu,Westbound Centre Lane,sv,Weekday,Autumn,1131222.0,108
+Thu,Westbound Centre Lane,sv,Weekday,Spring,1152289.0,112
+Thu,Westbound Centre Lane,sv,Weekday,Summer,1278850.0,118
+Thu,Westbound Centre Lane,sv,Weekday,Winter,901995.0,88
+Thu,Westbound Centre Lane,svt,Weekday,Autumn,11348.0,108
+Thu,Westbound Centre Lane,svt,Weekday,Spring,10821.0,112
+Thu,Westbound Centre Lane,svt,Weekday,Summer,12930.0,118
+Thu,Westbound Centre Lane,svt,Weekday,Winter,7850.0,88
+Thu,Westbound Centre Lane,t4,Weekday,Autumn,1343.0,108
+Thu,Westbound Centre Lane,t4,Weekday,Spring,1222.0,112
+Thu,Westbound Centre Lane,t4,Weekday,Summer,1212.0,118
+Thu,Westbound Centre Lane,t4,Weekday,Winter,1007.0,88
+Thu,Westbound Centre Lane,tb2,Weekday,Autumn,92776.0,108
+Thu,Westbound Centre Lane,tb2,Weekday,Spring,88336.0,112
+Thu,Westbound Centre Lane,tb2,Weekday,Summer,95195.0,118
+Thu,Westbound Centre Lane,tb2,Weekday,Winter,72647.0,88
+Thu,Westbound Centre Lane,tb3,Weekday,Autumn,3307.0,108
+Thu,Westbound Centre Lane,tb3,Weekday,Spring,3078.0,112
+Thu,Westbound Centre Lane,tb3,Weekday,Summer,3468.0,118
+Thu,Westbound Centre Lane,tb3,Weekday,Winter,2644.0,88
+Thu,Westbound Centre Lane,total_flow,Weekday,Autumn,1245926.0,108
+Thu,Westbound Centre Lane,total_flow,Weekday,Spring,1261233.0,112
+Thu,Westbound Centre Lane,total_flow,Weekday,Summer,1397790.0,118
+Thu,Westbound Centre Lane,total_flow,Weekday,Winter,990466.0,88
+Thu,Westbound Centre Lane,trt,Weekday,Autumn,1.0,108
+Thu,Westbound Centre Lane,trt,Weekday,Spring,1.0,112
+Thu,Westbound Centre Lane,trt,Weekday,Summer,1.0,118
+Thu,Westbound Centre Lane,trt,Weekday,Winter,1.0,88
+Thu,Westbound Centre Lane,ucv,Weekday,Autumn,215.0,108
+Thu,Westbound Centre Lane,ucv,Weekday,Spring,202.0,112
+Thu,Westbound Centre Lane,ucv,Weekday,Summer,258.0,118
+Thu,Westbound Centre Lane,ucv,Weekday,Winter,173.0,88
+Thu,Westbound Left Lane,art3,Weekday,Autumn,6152.0,108
+Thu,Westbound Left Lane,art3,Weekday,Spring,6080.0,112
+Thu,Westbound Left Lane,art3,Weekday,Summer,6477.0,118
+Thu,Westbound Left Lane,art3,Weekday,Winter,4562.0,88
+Thu,Westbound Left Lane,art4,Weekday,Autumn,4307.0,108
+Thu,Westbound Left Lane,art4,Weekday,Spring,4200.0,112
+Thu,Westbound Left Lane,art4,Weekday,Summer,4108.0,118
+Thu,Westbound Left Lane,art4,Weekday,Winter,3120.0,88
+Thu,Westbound Left Lane,art5,Weekday,Autumn,2007.0,108
+Thu,Westbound Left Lane,art5,Weekday,Spring,2094.0,112
+Thu,Westbound Left Lane,art5,Weekday,Summer,2209.0,118
+Thu,Westbound Left Lane,art5,Weekday,Winter,1590.0,88
+Thu,Westbound Left Lane,art6,Weekday,Autumn,11453.0,108
+Thu,Westbound Left Lane,art6,Weekday,Spring,10984.0,112
+Thu,Westbound Left Lane,art6,Weekday,Summer,11538.0,118
+Thu,Westbound Left Lane,art6,Weekday,Winter,8862.0,88
+Thu,Westbound Left Lane,bd,Weekday,Autumn,2365.0,108
+Thu,Westbound Left Lane,bd,Weekday,Spring,2173.0,112
+Thu,Westbound Left Lane,bd,Weekday,Summer,2361.0,118
+Thu,Westbound Left Lane,bd,Weekday,Winter,1763.0,88
+Thu,Westbound Left Lane,drt,Weekday,Autumn,12.0,108
+Thu,Westbound Left Lane,drt,Weekday,Spring,17.0,112
+Thu,Westbound Left Lane,drt,Weekday,Summer,15.0,118
+Thu,Westbound Left Lane,drt,Weekday,Winter,10.0,88
+Thu,Westbound Left Lane,sv,Weekday,Autumn,2293473.0,108
+Thu,Westbound Left Lane,sv,Weekday,Spring,2399874.0,112
+Thu,Westbound Left Lane,sv,Weekday,Summer,2610222.0,118
+Thu,Westbound Left Lane,sv,Weekday,Winter,1863276.0,88
+Thu,Westbound Left Lane,svt,Weekday,Autumn,23983.0,108
+Thu,Westbound Left Lane,svt,Weekday,Spring,24514.0,112
+Thu,Westbound Left Lane,svt,Weekday,Summer,28172.0,118
+Thu,Westbound Left Lane,svt,Weekday,Winter,17369.0,88
+Thu,Westbound Left Lane,t4,Weekday,Autumn,6165.0,108
+Thu,Westbound Left Lane,t4,Weekday,Spring,5884.0,112
+Thu,Westbound Left Lane,t4,Weekday,Summer,5723.0,118
+Thu,Westbound Left Lane,t4,Weekday,Winter,4754.0,88
+Thu,Westbound Left Lane,tb2,Weekday,Autumn,231797.0,108
+Thu,Westbound Left Lane,tb2,Weekday,Spring,229232.0,112
+Thu,Westbound Left Lane,tb2,Weekday,Summer,238282.0,118
+Thu,Westbound Left Lane,tb2,Weekday,Winter,188366.0,88
+Thu,Westbound Left Lane,tb3,Weekday,Autumn,15156.0,108
+Thu,Westbound Left Lane,tb3,Weekday,Spring,14756.0,112
+Thu,Westbound Left Lane,tb3,Weekday,Summer,15252.0,118
+Thu,Westbound Left Lane,tb3,Weekday,Winter,11662.0,88
+Thu,Westbound Left Lane,total_flow,Weekday,Autumn,2597091.0,108
+Thu,Westbound Left Lane,total_flow,Weekday,Spring,2699989.0,112
+Thu,Westbound Left Lane,total_flow,Weekday,Summer,2924574.0,118
+Thu,Westbound Left Lane,total_flow,Weekday,Winter,2105485.0,88
+Thu,Westbound Left Lane,trt,Weekday,Autumn,0.0,108
+Thu,Westbound Left Lane,trt,Weekday,Spring,0.0,112
+Thu,Westbound Left Lane,trt,Weekday,Summer,0.0,118
+Thu,Westbound Left Lane,trt,Weekday,Winter,0.0,88
+Thu,Westbound Left Lane,ucv,Weekday,Autumn,221.0,108
+Thu,Westbound Left Lane,ucv,Weekday,Spring,181.0,112
+Thu,Westbound Left Lane,ucv,Weekday,Summer,215.0,118
+Thu,Westbound Left Lane,ucv,Weekday,Winter,151.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Autumn,209.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Spring,198.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Summer,174.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Winter,142.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Autumn,134.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Spring,98.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Summer,90.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Winter,76.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Autumn,22.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Spring,20.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Summer,13.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Winter,20.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Autumn,51.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Spring,37.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Summer,27.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Winter,37.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Autumn,6.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Spring,5.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Summer,0.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Winter,2.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Autumn,0.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Spring,0.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Summer,0.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Winter,0.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Autumn,252412.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Spring,246519.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Summer,228582.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Winter,203799.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Autumn,1090.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Spring,980.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Summer,975.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Winter,817.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Autumn,61.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Spring,41.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Summer,38.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Winter,47.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Autumn,16307.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Spring,15617.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Summer,13759.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Winter,12998.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Autumn,201.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Spring,182.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Summer,150.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Winter,165.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Autumn,270510.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Spring,263709.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Summer,243818.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Winter,218112.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Autumn,0.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Spring,0.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Summer,0.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Winter,0.0,88
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Autumn,17.0,108
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Spring,12.0,111
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Summer,10.0,118
+Thu,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Winter,9.0,88
+Tue,All directions,art3,Weekday,Autumn,15987.0,111
+Tue,All directions,art3,Weekday,Spring,16439.0,110
+Tue,All directions,art3,Weekday,Summer,17139.0,118
+Tue,All directions,art3,Weekday,Winter,11866.0,87
+Tue,All directions,art4,Weekday,Autumn,11971.0,111
+Tue,All directions,art4,Weekday,Spring,11876.0,110
+Tue,All directions,art4,Weekday,Summer,12265.0,118
+Tue,All directions,art4,Weekday,Winter,8837.0,87
+Tue,All directions,art5,Weekday,Autumn,5410.0,111
+Tue,All directions,art5,Weekday,Spring,5559.0,110
+Tue,All directions,art5,Weekday,Summer,5857.0,118
+Tue,All directions,art5,Weekday,Winter,4026.0,87
+Tue,All directions,art6,Weekday,Autumn,27620.0,111
+Tue,All directions,art6,Weekday,Spring,28715.0,110
+Tue,All directions,art6,Weekday,Summer,28780.0,118
+Tue,All directions,art6,Weekday,Winter,20927.0,87
+Tue,All directions,bd,Weekday,Autumn,5649.0,111
+Tue,All directions,bd,Weekday,Spring,5643.0,110
+Tue,All directions,bd,Weekday,Summer,5424.0,118
+Tue,All directions,bd,Weekday,Winter,3865.0,87
+Tue,All directions,drt,Weekday,Autumn,42.0,111
+Tue,All directions,drt,Weekday,Spring,37.0,110
+Tue,All directions,drt,Weekday,Summer,39.0,118
+Tue,All directions,drt,Weekday,Winter,19.0,87
+Tue,All directions,sv,Weekday,Autumn,7384939.0,111
+Tue,All directions,sv,Weekday,Spring,7752859.0,110
+Tue,All directions,sv,Weekday,Summer,8304550.0,118
+Tue,All directions,sv,Weekday,Winter,5847213.0,87
+Tue,All directions,svt,Weekday,Autumn,73703.0,111
+Tue,All directions,svt,Weekday,Spring,72960.0,110
+Tue,All directions,svt,Weekday,Summer,86241.0,118
+Tue,All directions,svt,Weekday,Winter,51527.0,87
+Tue,All directions,t4,Weekday,Autumn,15503.0,111
+Tue,All directions,t4,Weekday,Spring,15811.0,110
+Tue,All directions,t4,Weekday,Summer,14810.0,118
+Tue,All directions,t4,Weekday,Winter,11998.0,87
+Tue,All directions,tb2,Weekday,Autumn,646101.0,111
+Tue,All directions,tb2,Weekday,Spring,656305.0,110
+Tue,All directions,tb2,Weekday,Summer,664691.0,118
+Tue,All directions,tb2,Weekday,Winter,514929.0,87
+Tue,All directions,tb3,Weekday,Autumn,37633.0,111
+Tue,All directions,tb3,Weekday,Spring,38142.0,110
+Tue,All directions,tb3,Weekday,Summer,38452.0,118
+Tue,All directions,tb3,Weekday,Winter,29003.0,87
+Tue,All directions,total_flow,Weekday,Autumn,8225024.0,111
+Tue,All directions,total_flow,Weekday,Spring,8604789.0,110
+Tue,All directions,total_flow,Weekday,Summer,9178730.0,118
+Tue,All directions,total_flow,Weekday,Winter,6504556.0,87
+Tue,All directions,trt,Weekday,Autumn,3.0,111
+Tue,All directions,trt,Weekday,Spring,4.0,110
+Tue,All directions,trt,Weekday,Summer,3.0,118
+Tue,All directions,trt,Weekday,Winter,1.0,87
+Tue,All directions,ucv,Weekday,Autumn,463.0,111
+Tue,All directions,ucv,Weekday,Spring,439.0,110
+Tue,All directions,ucv,Weekday,Summer,479.0,118
+Tue,All directions,ucv,Weekday,Winter,345.0,87
+Tue,Eastbound Centre Lane,art3,Weekday,Autumn,5800.0,111
+Tue,Eastbound Centre Lane,art3,Weekday,Spring,6068.0,110
+Tue,Eastbound Centre Lane,art3,Weekday,Summer,6185.0,118
+Tue,Eastbound Centre Lane,art3,Weekday,Winter,4414.0,87
+Tue,Eastbound Centre Lane,art4,Weekday,Autumn,4310.0,111
+Tue,Eastbound Centre Lane,art4,Weekday,Spring,4358.0,110
+Tue,Eastbound Centre Lane,art4,Weekday,Summer,4389.0,118
+Tue,Eastbound Centre Lane,art4,Weekday,Winter,3251.0,87
+Tue,Eastbound Centre Lane,art5,Weekday,Autumn,2433.0,111
+Tue,Eastbound Centre Lane,art5,Weekday,Spring,2564.0,110
+Tue,Eastbound Centre Lane,art5,Weekday,Summer,2514.0,118
+Tue,Eastbound Centre Lane,art5,Weekday,Winter,1854.0,87
+Tue,Eastbound Centre Lane,art6,Weekday,Autumn,13896.0,111
+Tue,Eastbound Centre Lane,art6,Weekday,Spring,14416.0,110
+Tue,Eastbound Centre Lane,art6,Weekday,Summer,14080.0,118
+Tue,Eastbound Centre Lane,art6,Weekday,Winter,10625.0,87
+Tue,Eastbound Centre Lane,bd,Weekday,Autumn,2690.0,111
+Tue,Eastbound Centre Lane,bd,Weekday,Spring,2770.0,110
+Tue,Eastbound Centre Lane,bd,Weekday,Summer,2596.0,118
+Tue,Eastbound Centre Lane,bd,Weekday,Winter,1813.0,87
+Tue,Eastbound Centre Lane,drt,Weekday,Autumn,12.0,111
+Tue,Eastbound Centre Lane,drt,Weekday,Spring,10.0,110
+Tue,Eastbound Centre Lane,drt,Weekday,Summer,8.0,118
+Tue,Eastbound Centre Lane,drt,Weekday,Winter,6.0,87
+Tue,Eastbound Centre Lane,sv,Weekday,Autumn,2077649.0,111
+Tue,Eastbound Centre Lane,sv,Weekday,Spring,2171308.0,110
+Tue,Eastbound Centre Lane,sv,Weekday,Summer,2307786.0,118
+Tue,Eastbound Centre Lane,sv,Weekday,Winter,1653863.0,87
+Tue,Eastbound Centre Lane,svt,Weekday,Autumn,22976.0,111
+Tue,Eastbound Centre Lane,svt,Weekday,Spring,22344.0,110
+Tue,Eastbound Centre Lane,svt,Weekday,Summer,26296.0,118
+Tue,Eastbound Centre Lane,svt,Weekday,Winter,15892.0,87
+Tue,Eastbound Centre Lane,t4,Weekday,Autumn,6665.0,111
+Tue,Eastbound Centre Lane,t4,Weekday,Spring,6836.0,110
+Tue,Eastbound Centre Lane,t4,Weekday,Summer,6155.0,118
+Tue,Eastbound Centre Lane,t4,Weekday,Winter,5120.0,87
+Tue,Eastbound Centre Lane,tb2,Weekday,Autumn,197814.0,111
+Tue,Eastbound Centre Lane,tb2,Weekday,Spring,202428.0,110
+Tue,Eastbound Centre Lane,tb2,Weekday,Summer,202709.0,118
+Tue,Eastbound Centre Lane,tb2,Weekday,Winter,158725.0,87
+Tue,Eastbound Centre Lane,tb3,Weekday,Autumn,15705.0,111
+Tue,Eastbound Centre Lane,tb3,Weekday,Spring,15900.0,110
+Tue,Eastbound Centre Lane,tb3,Weekday,Summer,15339.0,118
+Tue,Eastbound Centre Lane,tb3,Weekday,Winter,12010.0,87
+Tue,Eastbound Centre Lane,total_flow,Weekday,Autumn,2349976.0,111
+Tue,Eastbound Centre Lane,total_flow,Weekday,Spring,2449028.0,110
+Tue,Eastbound Centre Lane,total_flow,Weekday,Summer,2588084.0,118
+Tue,Eastbound Centre Lane,total_flow,Weekday,Winter,1867582.0,87
+Tue,Eastbound Centre Lane,trt,Weekday,Autumn,0.0,111
+Tue,Eastbound Centre Lane,trt,Weekday,Spring,0.0,110
+Tue,Eastbound Centre Lane,trt,Weekday,Summer,0.0,118
+Tue,Eastbound Centre Lane,trt,Weekday,Winter,0.0,87
+Tue,Eastbound Centre Lane,ucv,Weekday,Autumn,26.0,111
+Tue,Eastbound Centre Lane,ucv,Weekday,Spring,26.0,110
+Tue,Eastbound Centre Lane,ucv,Weekday,Summer,27.0,118
+Tue,Eastbound Centre Lane,ucv,Weekday,Winter,9.0,87
+Tue,Eastbound Left Lane,art3,Weekday,Autumn,779.0,111
+Tue,Eastbound Left Lane,art3,Weekday,Spring,908.0,110
+Tue,Eastbound Left Lane,art3,Weekday,Summer,894.0,118
+Tue,Eastbound Left Lane,art3,Weekday,Winter,688.0,87
+Tue,Eastbound Left Lane,art4,Weekday,Autumn,580.0,111
+Tue,Eastbound Left Lane,art4,Weekday,Spring,567.0,110
+Tue,Eastbound Left Lane,art4,Weekday,Summer,606.0,118
+Tue,Eastbound Left Lane,art4,Weekday,Winter,418.0,87
+Tue,Eastbound Left Lane,art5,Weekday,Autumn,109.0,111
+Tue,Eastbound Left Lane,art5,Weekday,Spring,78.0,110
+Tue,Eastbound Left Lane,art5,Weekday,Summer,126.0,118
+Tue,Eastbound Left Lane,art5,Weekday,Winter,77.0,87
+Tue,Eastbound Left Lane,art6,Weekday,Autumn,382.0,111
+Tue,Eastbound Left Lane,art6,Weekday,Spring,384.0,110
+Tue,Eastbound Left Lane,art6,Weekday,Summer,470.0,118
+Tue,Eastbound Left Lane,art6,Weekday,Winter,268.0,87
+Tue,Eastbound Left Lane,bd,Weekday,Autumn,40.0,111
+Tue,Eastbound Left Lane,bd,Weekday,Spring,33.0,110
+Tue,Eastbound Left Lane,bd,Weekday,Summer,53.0,118
+Tue,Eastbound Left Lane,bd,Weekday,Winter,32.0,87
+Tue,Eastbound Left Lane,drt,Weekday,Autumn,0.0,111
+Tue,Eastbound Left Lane,drt,Weekday,Spring,0.0,110
+Tue,Eastbound Left Lane,drt,Weekday,Summer,0.0,118
+Tue,Eastbound Left Lane,drt,Weekday,Winter,0.0,87
+Tue,Eastbound Left Lane,sv,Weekday,Autumn,593347.0,111
+Tue,Eastbound Left Lane,sv,Weekday,Spring,627402.0,110
+Tue,Eastbound Left Lane,sv,Weekday,Summer,650318.0,118
+Tue,Eastbound Left Lane,sv,Weekday,Winter,477029.0,87
+Tue,Eastbound Left Lane,svt,Weekday,Autumn,4044.0,111
+Tue,Eastbound Left Lane,svt,Weekday,Spring,4245.0,110
+Tue,Eastbound Left Lane,svt,Weekday,Summer,4685.0,118
+Tue,Eastbound Left Lane,svt,Weekday,Winter,2931.0,87
+Tue,Eastbound Left Lane,t4,Weekday,Autumn,715.0,111
+Tue,Eastbound Left Lane,t4,Weekday,Spring,677.0,110
+Tue,Eastbound Left Lane,t4,Weekday,Summer,639.0,118
+Tue,Eastbound Left Lane,t4,Weekday,Winter,586.0,87
+Tue,Eastbound Left Lane,tb2,Weekday,Autumn,38052.0,111
+Tue,Eastbound Left Lane,tb2,Weekday,Spring,39081.0,110
+Tue,Eastbound Left Lane,tb2,Weekday,Summer,39351.0,118
+Tue,Eastbound Left Lane,tb2,Weekday,Winter,30879.0,87
+Tue,Eastbound Left Lane,tb3,Weekday,Autumn,1434.0,111
+Tue,Eastbound Left Lane,tb3,Weekday,Spring,1484.0,110
+Tue,Eastbound Left Lane,tb3,Weekday,Summer,1465.0,118
+Tue,Eastbound Left Lane,tb3,Weekday,Winter,1141.0,87
+Tue,Eastbound Left Lane,total_flow,Weekday,Autumn,639483.0,111
+Tue,Eastbound Left Lane,total_flow,Weekday,Spring,674862.0,110
+Tue,Eastbound Left Lane,total_flow,Weekday,Summer,698610.0,118
+Tue,Eastbound Left Lane,total_flow,Weekday,Winter,514053.0,87
+Tue,Eastbound Left Lane,trt,Weekday,Autumn,0.0,111
+Tue,Eastbound Left Lane,trt,Weekday,Spring,0.0,110
+Tue,Eastbound Left Lane,trt,Weekday,Summer,0.0,118
+Tue,Eastbound Left Lane,trt,Weekday,Winter,0.0,87
+Tue,Eastbound Left Lane,ucv,Weekday,Autumn,1.0,111
+Tue,Eastbound Left Lane,ucv,Weekday,Spring,3.0,110
+Tue,Eastbound Left Lane,ucv,Weekday,Summer,3.0,118
+Tue,Eastbound Left Lane,ucv,Weekday,Winter,4.0,87
+Tue,Eastbound Right Lane,art3,Weekday,Autumn,1071.0,111
+Tue,Eastbound Right Lane,art3,Weekday,Spring,1046.0,110
+Tue,Eastbound Right Lane,art3,Weekday,Summer,1244.0,118
+Tue,Eastbound Right Lane,art3,Weekday,Winter,688.0,87
+Tue,Eastbound Right Lane,art4,Weekday,Autumn,1016.0,111
+Tue,Eastbound Right Lane,art4,Weekday,Spring,977.0,110
+Tue,Eastbound Right Lane,art4,Weekday,Summer,1058.0,118
+Tue,Eastbound Right Lane,art4,Weekday,Winter,805.0,87
+Tue,Eastbound Right Lane,art5,Weekday,Autumn,221.0,111
+Tue,Eastbound Right Lane,art5,Weekday,Spring,217.0,110
+Tue,Eastbound Right Lane,art5,Weekday,Summer,323.0,118
+Tue,Eastbound Right Lane,art5,Weekday,Winter,160.0,87
+Tue,Eastbound Right Lane,art6,Weekday,Autumn,938.0,111
+Tue,Eastbound Right Lane,art6,Weekday,Spring,1021.0,110
+Tue,Eastbound Right Lane,art6,Weekday,Summer,1381.0,118
+Tue,Eastbound Right Lane,art6,Weekday,Winter,657.0,87
+Tue,Eastbound Right Lane,bd,Weekday,Autumn,135.0,111
+Tue,Eastbound Right Lane,bd,Weekday,Spring,145.0,110
+Tue,Eastbound Right Lane,bd,Weekday,Summer,188.0,118
+Tue,Eastbound Right Lane,bd,Weekday,Winter,132.0,87
+Tue,Eastbound Right Lane,drt,Weekday,Autumn,1.0,111
+Tue,Eastbound Right Lane,drt,Weekday,Spring,1.0,110
+Tue,Eastbound Right Lane,drt,Weekday,Summer,2.0,118
+Tue,Eastbound Right Lane,drt,Weekday,Winter,1.0,87
+Tue,Eastbound Right Lane,sv,Weekday,Autumn,1124650.0,111
+Tue,Eastbound Right Lane,sv,Weekday,Spring,1178375.0,110
+Tue,Eastbound Right Lane,sv,Weekday,Summer,1293440.0,118
+Tue,Eastbound Right Lane,sv,Weekday,Winter,872823.0,87
+Tue,Eastbound Right Lane,svt,Weekday,Autumn,10562.0,111
+Tue,Eastbound Right Lane,svt,Weekday,Spring,10520.0,110
+Tue,Eastbound Right Lane,svt,Weekday,Summer,12879.0,118
+Tue,Eastbound Right Lane,svt,Weekday,Winter,7288.0,87
+Tue,Eastbound Right Lane,t4,Weekday,Autumn,699.0,111
+Tue,Eastbound Right Lane,t4,Weekday,Spring,655.0,110
+Tue,Eastbound Right Lane,t4,Weekday,Summer,830.0,118
+Tue,Eastbound Right Lane,t4,Weekday,Winter,495.0,87
+Tue,Eastbound Right Lane,tb2,Weekday,Autumn,71537.0,111
+Tue,Eastbound Right Lane,tb2,Weekday,Spring,73445.0,110
+Tue,Eastbound Right Lane,tb2,Weekday,Summer,76661.0,118
+Tue,Eastbound Right Lane,tb2,Weekday,Winter,57173.0,87
+Tue,Eastbound Right Lane,tb3,Weekday,Autumn,1923.0,111
+Tue,Eastbound Right Lane,tb3,Weekday,Spring,1950.0,110
+Tue,Eastbound Right Lane,tb3,Weekday,Summer,2421.0,118
+Tue,Eastbound Right Lane,tb3,Weekday,Winter,1401.0,87
+Tue,Eastbound Right Lane,total_flow,Weekday,Autumn,1212762.0,111
+Tue,Eastbound Right Lane,total_flow,Weekday,Spring,1268357.0,110
+Tue,Eastbound Right Lane,total_flow,Weekday,Summer,1390441.0,118
+Tue,Eastbound Right Lane,total_flow,Weekday,Winter,941630.0,87
+Tue,Eastbound Right Lane,trt,Weekday,Autumn,0.0,111
+Tue,Eastbound Right Lane,trt,Weekday,Spring,0.0,110
+Tue,Eastbound Right Lane,trt,Weekday,Summer,1.0,118
+Tue,Eastbound Right Lane,trt,Weekday,Winter,0.0,87
+Tue,Eastbound Right Lane,ucv,Weekday,Autumn,9.0,111
+Tue,Eastbound Right Lane,ucv,Weekday,Spring,5.0,110
+Tue,Eastbound Right Lane,ucv,Weekday,Summer,13.0,118
+Tue,Eastbound Right Lane,ucv,Weekday,Winter,7.0,87
+Tue,Westbound Centre Lane,art3,Weekday,Autumn,2195.0,111
+Tue,Westbound Centre Lane,art3,Weekday,Spring,2220.0,110
+Tue,Westbound Centre Lane,art3,Weekday,Summer,2266.0,118
+Tue,Westbound Centre Lane,art3,Weekday,Winter,1573.0,87
+Tue,Westbound Centre Lane,art4,Weekday,Autumn,1696.0,111
+Tue,Westbound Centre Lane,art4,Weekday,Spring,1617.0,110
+Tue,Westbound Centre Lane,art4,Weekday,Summer,1728.0,118
+Tue,Westbound Centre Lane,art4,Weekday,Winter,1199.0,87
+Tue,Westbound Centre Lane,art5,Weekday,Autumn,495.0,111
+Tue,Westbound Centre Lane,art5,Weekday,Spring,466.0,110
+Tue,Westbound Centre Lane,art5,Weekday,Summer,633.0,118
+Tue,Westbound Centre Lane,art5,Weekday,Winter,352.0,87
+Tue,Westbound Centre Lane,art6,Weekday,Autumn,1080.0,111
+Tue,Westbound Centre Lane,art6,Weekday,Spring,1201.0,110
+Tue,Westbound Centre Lane,art6,Weekday,Summer,1167.0,118
+Tue,Westbound Centre Lane,art6,Weekday,Winter,874.0,87
+Tue,Westbound Centre Lane,bd,Weekday,Autumn,214.0,111
+Tue,Westbound Centre Lane,bd,Weekday,Spring,213.0,110
+Tue,Westbound Centre Lane,bd,Weekday,Summer,217.0,118
+Tue,Westbound Centre Lane,bd,Weekday,Winter,118.0,87
+Tue,Westbound Centre Lane,drt,Weekday,Autumn,9.0,111
+Tue,Westbound Centre Lane,drt,Weekday,Spring,11.0,110
+Tue,Westbound Centre Lane,drt,Weekday,Summer,8.0,118
+Tue,Westbound Centre Lane,drt,Weekday,Winter,1.0,87
+Tue,Westbound Centre Lane,sv,Weekday,Autumn,1089768.0,111
+Tue,Westbound Centre Lane,sv,Weekday,Spring,1139122.0,110
+Tue,Westbound Centre Lane,sv,Weekday,Summer,1240887.0,118
+Tue,Westbound Centre Lane,sv,Weekday,Winter,854670.0,87
+Tue,Westbound Centre Lane,svt,Weekday,Autumn,11313.0,111
+Tue,Westbound Centre Lane,svt,Weekday,Spring,11191.0,110
+Tue,Westbound Centre Lane,svt,Weekday,Summer,12802.0,118
+Tue,Westbound Centre Lane,svt,Weekday,Winter,7739.0,87
+Tue,Westbound Centre Lane,t4,Weekday,Autumn,1358.0,111
+Tue,Westbound Centre Lane,t4,Weekday,Spring,1371.0,110
+Tue,Westbound Centre Lane,t4,Weekday,Summer,1329.0,118
+Tue,Westbound Centre Lane,t4,Weekday,Winter,1113.0,87
+Tue,Westbound Centre Lane,tb2,Weekday,Autumn,90177.0,111
+Tue,Westbound Centre Lane,tb2,Weekday,Spring,90001.0,110
+Tue,Westbound Centre Lane,tb2,Weekday,Summer,94187.0,118
+Tue,Westbound Centre Lane,tb2,Weekday,Winter,70858.0,87
+Tue,Westbound Centre Lane,tb3,Weekday,Autumn,3293.0,111
+Tue,Westbound Centre Lane,tb3,Weekday,Spring,3239.0,110
+Tue,Westbound Centre Lane,tb3,Weekday,Summer,3532.0,118
+Tue,Westbound Centre Lane,tb3,Weekday,Winter,2642.0,87
+Tue,Westbound Centre Lane,total_flow,Weekday,Autumn,1201812.0,111
+Tue,Westbound Centre Lane,total_flow,Weekday,Spring,1250851.0,110
+Tue,Westbound Centre Lane,total_flow,Weekday,Summer,1358972.0,118
+Tue,Westbound Centre Lane,total_flow,Weekday,Winter,941309.0,87
+Tue,Westbound Centre Lane,trt,Weekday,Autumn,2.0,111
+Tue,Westbound Centre Lane,trt,Weekday,Spring,2.0,110
+Tue,Westbound Centre Lane,trt,Weekday,Summer,2.0,118
+Tue,Westbound Centre Lane,trt,Weekday,Winter,1.0,87
+Tue,Westbound Centre Lane,ucv,Weekday,Autumn,212.0,111
+Tue,Westbound Centre Lane,ucv,Weekday,Spring,197.0,110
+Tue,Westbound Centre Lane,ucv,Weekday,Summer,214.0,118
+Tue,Westbound Centre Lane,ucv,Weekday,Winter,169.0,87
+Tue,Westbound Left Lane,art3,Weekday,Autumn,5910.0,111
+Tue,Westbound Left Lane,art3,Weekday,Spring,5992.0,110
+Tue,Westbound Left Lane,art3,Weekday,Summer,6322.0,118
+Tue,Westbound Left Lane,art3,Weekday,Winter,4350.0,87
+Tue,Westbound Left Lane,art4,Weekday,Autumn,4247.0,111
+Tue,Westbound Left Lane,art4,Weekday,Spring,4228.0,110
+Tue,Westbound Left Lane,art4,Weekday,Summer,4374.0,118
+Tue,Westbound Left Lane,art4,Weekday,Winter,3085.0,87
+Tue,Westbound Left Lane,art5,Weekday,Autumn,2125.0,111
+Tue,Westbound Left Lane,art5,Weekday,Spring,2218.0,110
+Tue,Westbound Left Lane,art5,Weekday,Summer,2245.0,118
+Tue,Westbound Left Lane,art5,Weekday,Winter,1574.0,87
+Tue,Westbound Left Lane,art6,Weekday,Autumn,11291.0,111
+Tue,Westbound Left Lane,art6,Weekday,Spring,11660.0,110
+Tue,Westbound Left Lane,art6,Weekday,Summer,11651.0,118
+Tue,Westbound Left Lane,art6,Weekday,Winter,8480.0,87
+Tue,Westbound Left Lane,bd,Weekday,Autumn,2567.0,111
+Tue,Westbound Left Lane,bd,Weekday,Spring,2477.0,110
+Tue,Westbound Left Lane,bd,Weekday,Summer,2364.0,118
+Tue,Westbound Left Lane,bd,Weekday,Winter,1769.0,87
+Tue,Westbound Left Lane,drt,Weekday,Autumn,19.0,111
+Tue,Westbound Left Lane,drt,Weekday,Spring,12.0,110
+Tue,Westbound Left Lane,drt,Weekday,Summer,21.0,118
+Tue,Westbound Left Lane,drt,Weekday,Winter,11.0,87
+Tue,Westbound Left Lane,sv,Weekday,Autumn,2248443.0,111
+Tue,Westbound Left Lane,sv,Weekday,Spring,2363404.0,110
+Tue,Westbound Left Lane,sv,Weekday,Summer,2570884.0,118
+Tue,Westbound Left Lane,sv,Weekday,Winter,1778976.0,87
+Tue,Westbound Left Lane,svt,Weekday,Autumn,23772.0,111
+Tue,Westbound Left Lane,svt,Weekday,Spring,23556.0,110
+Tue,Westbound Left Lane,svt,Weekday,Summer,28489.0,118
+Tue,Westbound Left Lane,svt,Weekday,Winter,16888.0,87
+Tue,Westbound Left Lane,t4,Weekday,Autumn,5990.0,111
+Tue,Westbound Left Lane,t4,Weekday,Spring,6228.0,110
+Tue,Westbound Left Lane,t4,Weekday,Summer,5813.0,118
+Tue,Westbound Left Lane,t4,Weekday,Winter,4652.0,87
+Tue,Westbound Left Lane,tb2,Weekday,Autumn,232250.0,111
+Tue,Westbound Left Lane,tb2,Weekday,Spring,234449.0,110
+Tue,Westbound Left Lane,tb2,Weekday,Summer,237101.0,118
+Tue,Westbound Left Lane,tb2,Weekday,Winter,184018.0,87
+Tue,Westbound Left Lane,tb3,Weekday,Autumn,15095.0,111
+Tue,Westbound Left Lane,tb3,Weekday,Spring,15382.0,110
+Tue,Westbound Left Lane,tb3,Weekday,Summer,15525.0,118
+Tue,Westbound Left Lane,tb3,Weekday,Winter,11645.0,87
+Tue,Westbound Left Lane,total_flow,Weekday,Autumn,2551902.0,111
+Tue,Westbound Left Lane,total_flow,Weekday,Spring,2669802.0,110
+Tue,Westbound Left Lane,total_flow,Weekday,Summer,2884996.0,118
+Tue,Westbound Left Lane,total_flow,Weekday,Winter,2015596.0,87
+Tue,Westbound Left Lane,trt,Weekday,Autumn,1.0,111
+Tue,Westbound Left Lane,trt,Weekday,Spring,1.0,110
+Tue,Westbound Left Lane,trt,Weekday,Summer,0.0,118
+Tue,Westbound Left Lane,trt,Weekday,Winter,0.0,87
+Tue,Westbound Left Lane,ucv,Weekday,Autumn,192.0,111
+Tue,Westbound Left Lane,ucv,Weekday,Spring,195.0,110
+Tue,Westbound Left Lane,ucv,Weekday,Summer,207.0,118
+Tue,Westbound Left Lane,ucv,Weekday,Winter,148.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Autumn,232.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Spring,205.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Summer,228.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Winter,153.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Autumn,122.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Spring,129.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Summer,110.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Winter,79.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Autumn,27.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Spring,16.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Summer,16.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Winter,9.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Autumn,33.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Spring,33.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Summer,31.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Winter,23.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Autumn,3.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Spring,5.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Summer,6.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Winter,1.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Autumn,1.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Spring,3.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Summer,0.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Winter,0.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Autumn,251082.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Spring,273248.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Summer,241235.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Winter,209852.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Autumn,1036.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Spring,1104.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Summer,1090.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Winter,789.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Autumn,76.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Spring,44.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Summer,44.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Winter,32.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Autumn,16271.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Spring,16901.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Summer,14682.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Winter,13276.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Autumn,183.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Spring,187.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Summer,170.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Winter,164.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Autumn,269089.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Spring,291889.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Summer,257627.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Winter,224386.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Autumn,0.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Spring,1.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Summer,0.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Winter,0.0,87
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Autumn,23.0,111
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Spring,13.0,110
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Summer,15.0,118
+Tue,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Winter,8.0,87
+Wed,All directions,art3,Weekday,Autumn,16300.0,110
+Wed,All directions,art3,Weekday,Spring,16953.0,112
+Wed,All directions,art3,Weekday,Summer,16926.0,116
+Wed,All directions,art3,Weekday,Winter,12029.0,87
+Wed,All directions,art4,Weekday,Autumn,12246.0,110
+Wed,All directions,art4,Weekday,Spring,12207.0,112
+Wed,All directions,art4,Weekday,Summer,11876.0,116
+Wed,All directions,art4,Weekday,Winter,8542.0,87
+Wed,All directions,art5,Weekday,Autumn,5352.0,110
+Wed,All directions,art5,Weekday,Spring,5323.0,112
+Wed,All directions,art5,Weekday,Summer,5271.0,116
+Wed,All directions,art5,Weekday,Winter,3730.0,87
+Wed,All directions,art6,Weekday,Autumn,28103.0,110
+Wed,All directions,art6,Weekday,Spring,29086.0,112
+Wed,All directions,art6,Weekday,Summer,28639.0,116
+Wed,All directions,art6,Weekday,Winter,20514.0,87
+Wed,All directions,bd,Weekday,Autumn,5424.0,110
+Wed,All directions,bd,Weekday,Spring,5679.0,112
+Wed,All directions,bd,Weekday,Summer,5275.0,116
+Wed,All directions,bd,Weekday,Winter,3698.0,87
+Wed,All directions,drt,Weekday,Autumn,50.0,110
+Wed,All directions,drt,Weekday,Spring,32.0,112
+Wed,All directions,drt,Weekday,Summer,37.0,116
+Wed,All directions,drt,Weekday,Winter,21.0,87
+Wed,All directions,sv,Weekday,Autumn,7626217.0,110
+Wed,All directions,sv,Weekday,Spring,7992938.0,112
+Wed,All directions,sv,Weekday,Summer,8288719.0,116
+Wed,All directions,sv,Weekday,Winter,5972774.0,87
+Wed,All directions,svt,Weekday,Autumn,74103.0,110
+Wed,All directions,svt,Weekday,Spring,76188.0,112
+Wed,All directions,svt,Weekday,Summer,85129.0,116
+Wed,All directions,svt,Weekday,Winter,51787.0,87
+Wed,All directions,t4,Weekday,Autumn,16107.0,110
+Wed,All directions,t4,Weekday,Spring,16312.0,112
+Wed,All directions,t4,Weekday,Summer,15263.0,116
+Wed,All directions,t4,Weekday,Winter,12348.0,87
+Wed,All directions,tb2,Weekday,Autumn,656292.0,110
+Wed,All directions,tb2,Weekday,Spring,666883.0,112
+Wed,All directions,tb2,Weekday,Summer,655931.0,116
+Wed,All directions,tb2,Weekday,Winter,518951.0,87
+Wed,All directions,tb3,Weekday,Autumn,37461.0,110
+Wed,All directions,tb3,Weekday,Spring,37575.0,112
+Wed,All directions,tb3,Weekday,Summer,37130.0,116
+Wed,All directions,tb3,Weekday,Winter,28056.0,87
+Wed,All directions,total_flow,Weekday,Autumn,8478137.0,110
+Wed,All directions,total_flow,Weekday,Spring,8859575.0,112
+Wed,All directions,total_flow,Weekday,Summer,9150699.0,116
+Wed,All directions,total_flow,Weekday,Winter,6632774.0,87
+Wed,All directions,trt,Weekday,Autumn,1.0,110
+Wed,All directions,trt,Weekday,Spring,2.0,112
+Wed,All directions,trt,Weekday,Summer,2.0,116
+Wed,All directions,trt,Weekday,Winter,0.0,87
+Wed,All directions,ucv,Weekday,Autumn,481.0,110
+Wed,All directions,ucv,Weekday,Spring,397.0,112
+Wed,All directions,ucv,Weekday,Summer,501.0,116
+Wed,All directions,ucv,Weekday,Winter,324.0,87
+Wed,Eastbound Centre Lane,art3,Weekday,Autumn,5878.0,110
+Wed,Eastbound Centre Lane,art3,Weekday,Spring,6167.0,112
+Wed,Eastbound Centre Lane,art3,Weekday,Summer,6089.0,116
+Wed,Eastbound Centre Lane,art3,Weekday,Winter,4397.0,87
+Wed,Eastbound Centre Lane,art4,Weekday,Autumn,4419.0,110
+Wed,Eastbound Centre Lane,art4,Weekday,Spring,4429.0,112
+Wed,Eastbound Centre Lane,art4,Weekday,Summer,4120.0,116
+Wed,Eastbound Centre Lane,art4,Weekday,Winter,3053.0,87
+Wed,Eastbound Centre Lane,art5,Weekday,Autumn,2421.0,110
+Wed,Eastbound Centre Lane,art5,Weekday,Spring,2405.0,112
+Wed,Eastbound Centre Lane,art5,Weekday,Summer,2296.0,116
+Wed,Eastbound Centre Lane,art5,Weekday,Winter,1721.0,87
+Wed,Eastbound Centre Lane,art6,Weekday,Autumn,13955.0,110
+Wed,Eastbound Centre Lane,art6,Weekday,Spring,14675.0,112
+Wed,Eastbound Centre Lane,art6,Weekday,Summer,13856.0,116
+Wed,Eastbound Centre Lane,art6,Weekday,Winter,10373.0,87
+Wed,Eastbound Centre Lane,bd,Weekday,Autumn,2543.0,110
+Wed,Eastbound Centre Lane,bd,Weekday,Spring,2707.0,112
+Wed,Eastbound Centre Lane,bd,Weekday,Summer,2489.0,116
+Wed,Eastbound Centre Lane,bd,Weekday,Winter,1706.0,87
+Wed,Eastbound Centre Lane,drt,Weekday,Autumn,11.0,110
+Wed,Eastbound Centre Lane,drt,Weekday,Spring,6.0,112
+Wed,Eastbound Centre Lane,drt,Weekday,Summer,3.0,116
+Wed,Eastbound Centre Lane,drt,Weekday,Winter,2.0,87
+Wed,Eastbound Centre Lane,sv,Weekday,Autumn,2141312.0,110
+Wed,Eastbound Centre Lane,sv,Weekday,Spring,2237611.0,112
+Wed,Eastbound Centre Lane,sv,Weekday,Summer,2301244.0,116
+Wed,Eastbound Centre Lane,sv,Weekday,Winter,1690518.0,87
+Wed,Eastbound Centre Lane,svt,Weekday,Autumn,22881.0,110
+Wed,Eastbound Centre Lane,svt,Weekday,Spring,23311.0,112
+Wed,Eastbound Centre Lane,svt,Weekday,Summer,25717.0,116
+Wed,Eastbound Centre Lane,svt,Weekday,Winter,15826.0,87
+Wed,Eastbound Centre Lane,t4,Weekday,Autumn,6948.0,110
+Wed,Eastbound Centre Lane,t4,Weekday,Spring,7154.0,112
+Wed,Eastbound Centre Lane,t4,Weekday,Summer,6331.0,116
+Wed,Eastbound Centre Lane,t4,Weekday,Winter,5266.0,87
+Wed,Eastbound Centre Lane,tb2,Weekday,Autumn,200444.0,110
+Wed,Eastbound Centre Lane,tb2,Weekday,Spring,206176.0,112
+Wed,Eastbound Centre Lane,tb2,Weekday,Summer,199630.0,116
+Wed,Eastbound Centre Lane,tb2,Weekday,Winter,159608.0,87
+Wed,Eastbound Centre Lane,tb3,Weekday,Autumn,15242.0,110
+Wed,Eastbound Centre Lane,tb3,Weekday,Spring,15496.0,112
+Wed,Eastbound Centre Lane,tb3,Weekday,Summer,14578.0,116
+Wed,Eastbound Centre Lane,tb3,Weekday,Winter,11366.0,87
+Wed,Eastbound Centre Lane,total_flow,Weekday,Autumn,2416081.0,110
+Wed,Eastbound Centre Lane,total_flow,Weekday,Spring,2520152.0,112
+Wed,Eastbound Centre Lane,total_flow,Weekday,Summer,2576383.0,116
+Wed,Eastbound Centre Lane,total_flow,Weekday,Winter,1903846.0,87
+Wed,Eastbound Centre Lane,trt,Weekday,Autumn,0.0,110
+Wed,Eastbound Centre Lane,trt,Weekday,Spring,1.0,112
+Wed,Eastbound Centre Lane,trt,Weekday,Summer,0.0,116
+Wed,Eastbound Centre Lane,trt,Weekday,Winter,0.0,87
+Wed,Eastbound Centre Lane,ucv,Weekday,Autumn,27.0,110
+Wed,Eastbound Centre Lane,ucv,Weekday,Spring,14.0,112
+Wed,Eastbound Centre Lane,ucv,Weekday,Summer,30.0,116
+Wed,Eastbound Centre Lane,ucv,Weekday,Winter,10.0,87
+Wed,Eastbound Left Lane,art3,Weekday,Autumn,811.0,110
+Wed,Eastbound Left Lane,art3,Weekday,Spring,970.0,112
+Wed,Eastbound Left Lane,art3,Weekday,Summer,900.0,116
+Wed,Eastbound Left Lane,art3,Weekday,Winter,724.0,87
+Wed,Eastbound Left Lane,art4,Weekday,Autumn,571.0,110
+Wed,Eastbound Left Lane,art4,Weekday,Spring,625.0,112
+Wed,Eastbound Left Lane,art4,Weekday,Summer,587.0,116
+Wed,Eastbound Left Lane,art4,Weekday,Winter,451.0,87
+Wed,Eastbound Left Lane,art5,Weekday,Autumn,144.0,110
+Wed,Eastbound Left Lane,art5,Weekday,Spring,125.0,112
+Wed,Eastbound Left Lane,art5,Weekday,Summer,114.0,116
+Wed,Eastbound Left Lane,art5,Weekday,Winter,75.0,87
+Wed,Eastbound Left Lane,art6,Weekday,Autumn,477.0,110
+Wed,Eastbound Left Lane,art6,Weekday,Spring,319.0,112
+Wed,Eastbound Left Lane,art6,Weekday,Summer,510.0,116
+Wed,Eastbound Left Lane,art6,Weekday,Winter,248.0,87
+Wed,Eastbound Left Lane,bd,Weekday,Autumn,38.0,110
+Wed,Eastbound Left Lane,bd,Weekday,Spring,23.0,112
+Wed,Eastbound Left Lane,bd,Weekday,Summer,53.0,116
+Wed,Eastbound Left Lane,bd,Weekday,Winter,38.0,87
+Wed,Eastbound Left Lane,drt,Weekday,Autumn,0.0,110
+Wed,Eastbound Left Lane,drt,Weekday,Spring,0.0,112
+Wed,Eastbound Left Lane,drt,Weekday,Summer,0.0,116
+Wed,Eastbound Left Lane,drt,Weekday,Winter,0.0,87
+Wed,Eastbound Left Lane,sv,Weekday,Autumn,613100.0,110
+Wed,Eastbound Left Lane,sv,Weekday,Spring,641748.0,112
+Wed,Eastbound Left Lane,sv,Weekday,Summer,647432.0,116
+Wed,Eastbound Left Lane,sv,Weekday,Winter,482673.0,87
+Wed,Eastbound Left Lane,svt,Weekday,Autumn,4196.0,110
+Wed,Eastbound Left Lane,svt,Weekday,Spring,4485.0,112
+Wed,Eastbound Left Lane,svt,Weekday,Summer,4783.0,116
+Wed,Eastbound Left Lane,svt,Weekday,Winter,2886.0,87
+Wed,Eastbound Left Lane,t4,Weekday,Autumn,641.0,110
+Wed,Eastbound Left Lane,t4,Weekday,Spring,571.0,112
+Wed,Eastbound Left Lane,t4,Weekday,Summer,604.0,116
+Wed,Eastbound Left Lane,t4,Weekday,Winter,612.0,87
+Wed,Eastbound Left Lane,tb2,Weekday,Autumn,38352.0,110
+Wed,Eastbound Left Lane,tb2,Weekday,Spring,39233.0,112
+Wed,Eastbound Left Lane,tb2,Weekday,Summer,38615.0,116
+Wed,Eastbound Left Lane,tb2,Weekday,Winter,30724.0,87
+Wed,Eastbound Left Lane,tb3,Weekday,Autumn,1483.0,110
+Wed,Eastbound Left Lane,tb3,Weekday,Spring,1390.0,112
+Wed,Eastbound Left Lane,tb3,Weekday,Summer,1420.0,116
+Wed,Eastbound Left Lane,tb3,Weekday,Winter,1136.0,87
+Wed,Eastbound Left Lane,total_flow,Weekday,Autumn,659815.0,110
+Wed,Eastbound Left Lane,total_flow,Weekday,Spring,689491.0,112
+Wed,Eastbound Left Lane,total_flow,Weekday,Summer,695021.0,116
+Wed,Eastbound Left Lane,total_flow,Weekday,Winter,519567.0,87
+Wed,Eastbound Left Lane,trt,Weekday,Autumn,0.0,110
+Wed,Eastbound Left Lane,trt,Weekday,Spring,0.0,112
+Wed,Eastbound Left Lane,trt,Weekday,Summer,0.0,116
+Wed,Eastbound Left Lane,trt,Weekday,Winter,0.0,87
+Wed,Eastbound Left Lane,ucv,Weekday,Autumn,2.0,110
+Wed,Eastbound Left Lane,ucv,Weekday,Spring,2.0,112
+Wed,Eastbound Left Lane,ucv,Weekday,Summer,3.0,116
+Wed,Eastbound Left Lane,ucv,Weekday,Winter,0.0,87
+Wed,Eastbound Right Lane,art3,Weekday,Autumn,1146.0,110
+Wed,Eastbound Right Lane,art3,Weekday,Spring,1124.0,112
+Wed,Eastbound Right Lane,art3,Weekday,Summer,1315.0,116
+Wed,Eastbound Right Lane,art3,Weekday,Winter,732.0,87
+Wed,Eastbound Right Lane,art4,Weekday,Autumn,1143.0,110
+Wed,Eastbound Right Lane,art4,Weekday,Spring,1035.0,112
+Wed,Eastbound Right Lane,art4,Weekday,Summer,1120.0,116
+Wed,Eastbound Right Lane,art4,Weekday,Winter,747.0,87
+Wed,Eastbound Right Lane,art5,Weekday,Autumn,243.0,110
+Wed,Eastbound Right Lane,art5,Weekday,Spring,243.0,112
+Wed,Eastbound Right Lane,art5,Weekday,Summer,323.0,116
+Wed,Eastbound Right Lane,art5,Weekday,Winter,144.0,87
+Wed,Eastbound Right Lane,art6,Weekday,Autumn,1037.0,110
+Wed,Eastbound Right Lane,art6,Weekday,Spring,1078.0,112
+Wed,Eastbound Right Lane,art6,Weekday,Summer,1388.0,116
+Wed,Eastbound Right Lane,art6,Weekday,Winter,622.0,87
+Wed,Eastbound Right Lane,bd,Weekday,Autumn,142.0,110
+Wed,Eastbound Right Lane,bd,Weekday,Spring,164.0,112
+Wed,Eastbound Right Lane,bd,Weekday,Summer,185.0,116
+Wed,Eastbound Right Lane,bd,Weekday,Winter,114.0,87
+Wed,Eastbound Right Lane,drt,Weekday,Autumn,1.0,110
+Wed,Eastbound Right Lane,drt,Weekday,Spring,0.0,112
+Wed,Eastbound Right Lane,drt,Weekday,Summer,3.0,116
+Wed,Eastbound Right Lane,drt,Weekday,Winter,3.0,87
+Wed,Eastbound Right Lane,sv,Weekday,Autumn,1169344.0,110
+Wed,Eastbound Right Lane,sv,Weekday,Spring,1221325.0,112
+Wed,Eastbound Right Lane,sv,Weekday,Summer,1294195.0,116
+Wed,Eastbound Right Lane,sv,Weekday,Winter,894545.0,87
+Wed,Eastbound Right Lane,svt,Weekday,Autumn,10783.0,110
+Wed,Eastbound Right Lane,svt,Weekday,Spring,11156.0,112
+Wed,Eastbound Right Lane,svt,Weekday,Summer,12812.0,116
+Wed,Eastbound Right Lane,svt,Weekday,Winter,7483.0,87
+Wed,Eastbound Right Lane,t4,Weekday,Autumn,742.0,110
+Wed,Eastbound Right Lane,t4,Weekday,Spring,711.0,112
+Wed,Eastbound Right Lane,t4,Weekday,Summer,916.0,116
+Wed,Eastbound Right Lane,t4,Weekday,Winter,556.0,87
+Wed,Eastbound Right Lane,tb2,Weekday,Autumn,73706.0,110
+Wed,Eastbound Right Lane,tb2,Weekday,Spring,76190.0,112
+Wed,Eastbound Right Lane,tb2,Weekday,Summer,76672.0,116
+Wed,Eastbound Right Lane,tb2,Weekday,Winter,58803.0,87
+Wed,Eastbound Right Lane,tb3,Weekday,Autumn,2028.0,110
+Wed,Eastbound Right Lane,tb3,Weekday,Spring,2059.0,112
+Wed,Eastbound Right Lane,tb3,Weekday,Summer,2470.0,116
+Wed,Eastbound Right Lane,tb3,Weekday,Winter,1500.0,87
+Wed,Eastbound Right Lane,total_flow,Weekday,Autumn,1260324.0,110
+Wed,Eastbound Right Lane,total_flow,Weekday,Spring,1315095.0,112
+Wed,Eastbound Right Lane,total_flow,Weekday,Summer,1391414.0,116
+Wed,Eastbound Right Lane,total_flow,Weekday,Winter,965257.0,87
+Wed,Eastbound Right Lane,trt,Weekday,Autumn,0.0,110
+Wed,Eastbound Right Lane,trt,Weekday,Spring,0.0,112
+Wed,Eastbound Right Lane,trt,Weekday,Summer,0.0,116
+Wed,Eastbound Right Lane,trt,Weekday,Winter,0.0,87
+Wed,Eastbound Right Lane,ucv,Weekday,Autumn,9.0,110
+Wed,Eastbound Right Lane,ucv,Weekday,Spring,10.0,112
+Wed,Eastbound Right Lane,ucv,Weekday,Summer,15.0,116
+Wed,Eastbound Right Lane,ucv,Weekday,Winter,8.0,87
+Wed,Westbound Centre Lane,art3,Weekday,Autumn,2282.0,110
+Wed,Westbound Centre Lane,art3,Weekday,Spring,2360.0,112
+Wed,Westbound Centre Lane,art3,Weekday,Summer,2333.0,116
+Wed,Westbound Centre Lane,art3,Weekday,Winter,1639.0,87
+Wed,Westbound Centre Lane,art4,Weekday,Autumn,1699.0,110
+Wed,Westbound Centre Lane,art4,Weekday,Spring,1632.0,112
+Wed,Westbound Centre Lane,art4,Weekday,Summer,1725.0,116
+Wed,Westbound Centre Lane,art4,Weekday,Winter,1149.0,87
+Wed,Westbound Centre Lane,art5,Weekday,Autumn,474.0,110
+Wed,Westbound Centre Lane,art5,Weekday,Spring,432.0,112
+Wed,Westbound Centre Lane,art5,Weekday,Summer,496.0,116
+Wed,Westbound Centre Lane,art5,Weekday,Winter,301.0,87
+Wed,Westbound Centre Lane,art6,Weekday,Autumn,1124.0,110
+Wed,Westbound Centre Lane,art6,Weekday,Spring,1093.0,112
+Wed,Westbound Centre Lane,art6,Weekday,Summer,1175.0,116
+Wed,Westbound Centre Lane,art6,Weekday,Winter,772.0,87
+Wed,Westbound Centre Lane,bd,Weekday,Autumn,222.0,110
+Wed,Westbound Centre Lane,bd,Weekday,Spring,233.0,112
+Wed,Westbound Centre Lane,bd,Weekday,Summer,214.0,116
+Wed,Westbound Centre Lane,bd,Weekday,Winter,104.0,87
+Wed,Westbound Centre Lane,drt,Weekday,Autumn,12.0,110
+Wed,Westbound Centre Lane,drt,Weekday,Spring,14.0,112
+Wed,Westbound Centre Lane,drt,Weekday,Summer,7.0,116
+Wed,Westbound Centre Lane,drt,Weekday,Winter,4.0,87
+Wed,Westbound Centre Lane,sv,Weekday,Autumn,1130549.0,110
+Wed,Westbound Centre Lane,sv,Weekday,Spring,1183467.0,112
+Wed,Westbound Centre Lane,sv,Weekday,Summer,1249976.0,116
+Wed,Westbound Centre Lane,sv,Weekday,Winter,877240.0,87
+Wed,Westbound Centre Lane,svt,Weekday,Autumn,11599.0,110
+Wed,Westbound Centre Lane,svt,Weekday,Spring,11658.0,112
+Wed,Westbound Centre Lane,svt,Weekday,Summer,12965.0,116
+Wed,Westbound Centre Lane,svt,Weekday,Winter,7905.0,87
+Wed,Westbound Centre Lane,t4,Weekday,Autumn,1407.0,110
+Wed,Westbound Centre Lane,t4,Weekday,Spring,1335.0,112
+Wed,Westbound Centre Lane,t4,Weekday,Summer,1275.0,116
+Wed,Westbound Centre Lane,t4,Weekday,Winter,1062.0,87
+Wed,Westbound Centre Lane,tb2,Weekday,Autumn,93040.0,110
+Wed,Westbound Centre Lane,tb2,Weekday,Spring,92686.0,112
+Wed,Westbound Centre Lane,tb2,Weekday,Summer,92819.0,116
+Wed,Westbound Centre Lane,tb2,Weekday,Winter,71490.0,87
+Wed,Westbound Centre Lane,tb3,Weekday,Autumn,3478.0,110
+Wed,Westbound Centre Lane,tb3,Weekday,Spring,3292.0,112
+Wed,Westbound Centre Lane,tb3,Weekday,Summer,3467.0,116
+Wed,Westbound Centre Lane,tb3,Weekday,Winter,2655.0,87
+Wed,Westbound Centre Lane,total_flow,Weekday,Autumn,1246097.0,110
+Wed,Westbound Centre Lane,total_flow,Weekday,Spring,1298396.0,112
+Wed,Westbound Centre Lane,total_flow,Weekday,Summer,1366684.0,116
+Wed,Westbound Centre Lane,total_flow,Weekday,Winter,964471.0,87
+Wed,Westbound Centre Lane,trt,Weekday,Autumn,1.0,110
+Wed,Westbound Centre Lane,trt,Weekday,Spring,0.0,112
+Wed,Westbound Centre Lane,trt,Weekday,Summer,1.0,116
+Wed,Westbound Centre Lane,trt,Weekday,Winter,0.0,87
+Wed,Westbound Centre Lane,ucv,Weekday,Autumn,210.0,110
+Wed,Westbound Centre Lane,ucv,Weekday,Spring,194.0,112
+Wed,Westbound Centre Lane,ucv,Weekday,Summer,231.0,116
+Wed,Westbound Centre Lane,ucv,Weekday,Winter,150.0,87
+Wed,Westbound Left Lane,art3,Weekday,Autumn,5968.0,110
+Wed,Westbound Left Lane,art3,Weekday,Spring,6109.0,112
+Wed,Westbound Left Lane,art3,Weekday,Summer,6120.0,116
+Wed,Westbound Left Lane,art3,Weekday,Winter,4378.0,87
+Wed,Westbound Left Lane,art4,Weekday,Autumn,4285.0,110
+Wed,Westbound Left Lane,art4,Weekday,Spring,4370.0,112
+Wed,Westbound Left Lane,art4,Weekday,Summer,4242.0,116
+Wed,Westbound Left Lane,art4,Weekday,Winter,3054.0,87
+Wed,Westbound Left Lane,art5,Weekday,Autumn,2052.0,110
+Wed,Westbound Left Lane,art5,Weekday,Spring,2098.0,112
+Wed,Westbound Left Lane,art5,Weekday,Summer,2031.0,116
+Wed,Westbound Left Lane,art5,Weekday,Winter,1477.0,87
+Wed,Westbound Left Lane,art6,Weekday,Autumn,11466.0,110
+Wed,Westbound Left Lane,art6,Weekday,Spring,11883.0,112
+Wed,Westbound Left Lane,art6,Weekday,Summer,11676.0,116
+Wed,Westbound Left Lane,art6,Weekday,Winter,8478.0,87
+Wed,Westbound Left Lane,bd,Weekday,Autumn,2476.0,110
+Wed,Westbound Left Lane,bd,Weekday,Spring,2544.0,112
+Wed,Westbound Left Lane,bd,Weekday,Summer,2330.0,116
+Wed,Westbound Left Lane,bd,Weekday,Winter,1735.0,87
+Wed,Westbound Left Lane,drt,Weekday,Autumn,26.0,110
+Wed,Westbound Left Lane,drt,Weekday,Spring,12.0,112
+Wed,Westbound Left Lane,drt,Weekday,Summer,24.0,116
+Wed,Westbound Left Lane,drt,Weekday,Winter,11.0,87
+Wed,Westbound Left Lane,sv,Weekday,Autumn,2311642.0,110
+Wed,Westbound Left Lane,sv,Weekday,Spring,2438197.0,112
+Wed,Westbound Left Lane,sv,Weekday,Summer,2563838.0,116
+Wed,Westbound Left Lane,sv,Weekday,Winter,1823810.0,87
+Wed,Westbound Left Lane,svt,Weekday,Autumn,23503.0,110
+Wed,Westbound Left Lane,svt,Weekday,Spring,24459.0,112
+Wed,Westbound Left Lane,svt,Weekday,Summer,27740.0,116
+Wed,Westbound Left Lane,svt,Weekday,Winter,16890.0,87
+Wed,Westbound Left Lane,t4,Weekday,Autumn,6301.0,110
+Wed,Westbound Left Lane,t4,Weekday,Spring,6488.0,112
+Wed,Westbound Left Lane,t4,Weekday,Summer,6084.0,116
+Wed,Westbound Left Lane,t4,Weekday,Winter,4814.0,87
+Wed,Westbound Left Lane,tb2,Weekday,Autumn,233970.0,110
+Wed,Westbound Left Lane,tb2,Weekday,Spring,236067.0,112
+Wed,Westbound Left Lane,tb2,Weekday,Summer,234178.0,116
+Wed,Westbound Left Lane,tb2,Weekday,Winter,185525.0,87
+Wed,Westbound Left Lane,tb3,Weekday,Autumn,15034.0,110
+Wed,Westbound Left Lane,tb3,Weekday,Spring,15134.0,112
+Wed,Westbound Left Lane,tb3,Weekday,Summer,15031.0,116
+Wed,Westbound Left Lane,tb3,Weekday,Winter,11257.0,87
+Wed,Westbound Left Lane,total_flow,Weekday,Autumn,2616936.0,110
+Wed,Westbound Left Lane,total_flow,Weekday,Spring,2747521.0,112
+Wed,Westbound Left Lane,total_flow,Weekday,Summer,2873505.0,116
+Wed,Westbound Left Lane,total_flow,Weekday,Winter,2061580.0,87
+Wed,Westbound Left Lane,trt,Weekday,Autumn,0.0,110
+Wed,Westbound Left Lane,trt,Weekday,Spring,1.0,112
+Wed,Westbound Left Lane,trt,Weekday,Summer,1.0,116
+Wed,Westbound Left Lane,trt,Weekday,Winter,0.0,87
+Wed,Westbound Left Lane,ucv,Weekday,Autumn,213.0,110
+Wed,Westbound Left Lane,ucv,Weekday,Spring,159.0,112
+Wed,Westbound Left Lane,ucv,Weekday,Summer,210.0,116
+Wed,Westbound Left Lane,ucv,Weekday,Winter,151.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Autumn,215.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Spring,223.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Summer,169.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art3,Weekday,Winter,159.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Autumn,129.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Spring,116.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Summer,82.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art4,Weekday,Winter,88.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Autumn,18.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Spring,20.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Summer,11.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art5,Weekday,Winter,12.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Autumn,44.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Spring,38.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Summer,34.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,art6,Weekday,Winter,21.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Autumn,3.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Spring,8.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Summer,4.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,bd,Weekday,Winter,1.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Autumn,0.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Spring,0.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Summer,0.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,drt,Weekday,Winter,1.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Autumn,260270.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Spring,270590.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Summer,232034.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,sv,Weekday,Winter,203988.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Autumn,1141.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Spring,1119.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Summer,1112.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,svt,Weekday,Winter,797.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Autumn,68.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Spring,53.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Summer,53.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,t4,Weekday,Winter,38.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Autumn,16780.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Spring,16531.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Summer,14017.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb2,Weekday,Winter,12801.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Autumn,196.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Spring,204.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Summer,164.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,tb3,Weekday,Winter,142.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Autumn,278884.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Spring,288920.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Summer,247692.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,total_flow,Weekday,Winter,218053.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Autumn,0.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Spring,0.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Summer,0.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,trt,Weekday,Winter,0.0,87
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Autumn,20.0,110
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Spring,18.0,111
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Summer,12.0,116
+Wed,Westbound Right Lane (Tidal Flow 7:00am - 9:00am W,ucv,Weekday,Winter,5.0,87

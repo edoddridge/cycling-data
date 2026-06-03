@@ -1,0 +1,181 @@
+month,direction,metric,weekpart,season,sum_flow,sample_count
+Apr,All directions,pcl,All weeks,Autumn,4833.0,5
+Apr,All directions,ped,All weeks,Autumn,1548.0,5
+Apr,All directions,total_flow,All weeks,Autumn,6381.0,5
+Apr,Northern Shared Path Eastbound,pcl,All weeks,Autumn,1346.0,5
+Apr,Northern Shared Path Eastbound,ped,All weeks,Autumn,355.0,5
+Apr,Northern Shared Path Eastbound,total_flow,All weeks,Autumn,1701.0,5
+Apr,Northern Shared Path Westbound,pcl,All weeks,Autumn,887.0,5
+Apr,Northern Shared Path Westbound,ped,All weeks,Autumn,317.0,5
+Apr,Northern Shared Path Westbound,total_flow,All weeks,Autumn,1204.0,5
+Apr,Southern Shared Path Eastbound,pcl,All weeks,Autumn,1055.0,5
+Apr,Southern Shared Path Eastbound,ped,All weeks,Autumn,376.0,5
+Apr,Southern Shared Path Eastbound,total_flow,All weeks,Autumn,1431.0,5
+Apr,Southern Shared Path Westbound,pcl,All weeks,Autumn,1545.0,5
+Apr,Southern Shared Path Westbound,ped,All weeks,Autumn,500.0,5
+Apr,Southern Shared Path Westbound,total_flow,All weeks,Autumn,2045.0,5
+Aug,All directions,pcl,All weeks,Winter,4134.0,5
+Aug,All directions,ped,All weeks,Winter,1159.0,5
+Aug,All directions,total_flow,All weeks,Winter,5293.0,5
+Aug,Northern Shared Path Eastbound,pcl,All weeks,Winter,1009.0,5
+Aug,Northern Shared Path Eastbound,ped,All weeks,Winter,222.0,5
+Aug,Northern Shared Path Eastbound,total_flow,All weeks,Winter,1231.0,5
+Aug,Northern Shared Path Westbound,pcl,All weeks,Winter,677.0,5
+Aug,Northern Shared Path Westbound,ped,All weeks,Winter,218.0,5
+Aug,Northern Shared Path Westbound,total_flow,All weeks,Winter,895.0,5
+Aug,Southern Shared Path Eastbound,pcl,All weeks,Winter,998.0,5
+Aug,Southern Shared Path Eastbound,ped,All weeks,Winter,355.0,5
+Aug,Southern Shared Path Eastbound,total_flow,All weeks,Winter,1353.0,5
+Aug,Southern Shared Path Westbound,pcl,All weeks,Winter,1450.0,5
+Aug,Southern Shared Path Westbound,ped,All weeks,Winter,364.0,5
+Aug,Southern Shared Path Westbound,total_flow,All weeks,Winter,1814.0,5
+Dec,All directions,pcl,All weeks,Summer,15285.0,14
+Dec,All directions,ped,All weeks,Summer,5317.0,14
+Dec,All directions,total_flow,All weeks,Summer,20602.0,14
+Dec,Northern Shared Path Eastbound,pcl,All weeks,Summer,4004.0,14
+Dec,Northern Shared Path Eastbound,ped,All weeks,Summer,892.0,14
+Dec,Northern Shared Path Eastbound,total_flow,All weeks,Summer,4896.0,14
+Dec,Northern Shared Path Westbound,pcl,All weeks,Summer,2520.0,14
+Dec,Northern Shared Path Westbound,ped,All weeks,Summer,1051.0,14
+Dec,Northern Shared Path Westbound,total_flow,All weeks,Summer,3571.0,14
+Dec,Southern Shared Path Eastbound,pcl,All weeks,Summer,3288.0,14
+Dec,Southern Shared Path Eastbound,ped,All weeks,Summer,1558.0,14
+Dec,Southern Shared Path Eastbound,total_flow,All weeks,Summer,4846.0,14
+Dec,Southern Shared Path Westbound,pcl,All weeks,Summer,5473.0,14
+Dec,Southern Shared Path Westbound,ped,All weeks,Summer,1816.0,14
+Dec,Southern Shared Path Westbound,total_flow,All weeks,Summer,7289.0,14
+Feb,All directions,pcl,All weeks,Summer,6891.0,5
+Feb,All directions,ped,All weeks,Summer,3313.0,5
+Feb,All directions,total_flow,All weeks,Summer,10204.0,5
+Feb,Northern Shared Path Eastbound,pcl,All weeks,Summer,1765.0,5
+Feb,Northern Shared Path Eastbound,ped,All weeks,Summer,709.0,5
+Feb,Northern Shared Path Eastbound,total_flow,All weeks,Summer,2474.0,5
+Feb,Northern Shared Path Westbound,pcl,All weeks,Summer,1156.0,5
+Feb,Northern Shared Path Westbound,ped,All weeks,Summer,642.0,5
+Feb,Northern Shared Path Westbound,total_flow,All weeks,Summer,1798.0,5
+Feb,Southern Shared Path Eastbound,pcl,All weeks,Summer,1590.0,5
+Feb,Southern Shared Path Eastbound,ped,All weeks,Summer,915.0,5
+Feb,Southern Shared Path Eastbound,total_flow,All weeks,Summer,2505.0,5
+Feb,Southern Shared Path Westbound,pcl,All weeks,Summer,2380.0,5
+Feb,Southern Shared Path Westbound,ped,All weeks,Summer,1047.0,5
+Feb,Southern Shared Path Westbound,total_flow,All weeks,Summer,3427.0,5
+Jan,All directions,pcl,All weeks,Summer,11326.0,9
+Jan,All directions,ped,All weeks,Summer,3781.0,9
+Jan,All directions,total_flow,All weeks,Summer,15107.0,9
+Jan,Northern Shared Path Eastbound,pcl,All weeks,Summer,2887.0,9
+Jan,Northern Shared Path Eastbound,ped,All weeks,Summer,808.0,9
+Jan,Northern Shared Path Eastbound,total_flow,All weeks,Summer,3695.0,9
+Jan,Northern Shared Path Westbound,pcl,All weeks,Summer,1737.0,9
+Jan,Northern Shared Path Westbound,ped,All weeks,Summer,830.0,9
+Jan,Northern Shared Path Westbound,total_flow,All weeks,Summer,2567.0,9
+Jan,Southern Shared Path Eastbound,pcl,All weeks,Summer,2642.0,9
+Jan,Southern Shared Path Eastbound,ped,All weeks,Summer,994.0,9
+Jan,Southern Shared Path Eastbound,total_flow,All weeks,Summer,3636.0,9
+Jan,Southern Shared Path Westbound,pcl,All weeks,Summer,4060.0,9
+Jan,Southern Shared Path Westbound,ped,All weeks,Summer,1149.0,9
+Jan,Southern Shared Path Westbound,total_flow,All weeks,Summer,5209.0,9
+Jul,All directions,pcl,All weeks,Winter,5017.0,5
+Jul,All directions,ped,All weeks,Winter,1343.0,5
+Jul,All directions,total_flow,All weeks,Winter,6360.0,5
+Jul,Northern Shared Path Eastbound,pcl,All weeks,Winter,1359.0,5
+Jul,Northern Shared Path Eastbound,ped,All weeks,Winter,211.0,5
+Jul,Northern Shared Path Eastbound,total_flow,All weeks,Winter,1570.0,5
+Jul,Northern Shared Path Westbound,pcl,All weeks,Winter,914.0,5
+Jul,Northern Shared Path Westbound,ped,All weeks,Winter,229.0,5
+Jul,Northern Shared Path Westbound,total_flow,All weeks,Winter,1143.0,5
+Jul,Southern Shared Path Eastbound,pcl,All weeks,Winter,1107.0,5
+Jul,Southern Shared Path Eastbound,ped,All weeks,Winter,415.0,5
+Jul,Southern Shared Path Eastbound,total_flow,All weeks,Winter,1522.0,5
+Jul,Southern Shared Path Westbound,pcl,All weeks,Winter,1637.0,5
+Jul,Southern Shared Path Westbound,ped,All weeks,Winter,488.0,5
+Jul,Southern Shared Path Westbound,total_flow,All weeks,Winter,2125.0,5
+Jun,All directions,pcl,All weeks,Winter,4489.0,4
+Jun,All directions,ped,All weeks,Winter,1262.0,4
+Jun,All directions,total_flow,All weeks,Winter,5751.0,4
+Jun,Northern Shared Path Eastbound,pcl,All weeks,Winter,1184.0,4
+Jun,Northern Shared Path Eastbound,ped,All weeks,Winter,261.0,4
+Jun,Northern Shared Path Eastbound,total_flow,All weeks,Winter,1445.0,4
+Jun,Northern Shared Path Westbound,pcl,All weeks,Winter,837.0,4
+Jun,Northern Shared Path Westbound,ped,All weeks,Winter,226.0,4
+Jun,Northern Shared Path Westbound,total_flow,All weeks,Winter,1063.0,4
+Jun,Southern Shared Path Eastbound,pcl,All weeks,Winter,1002.0,4
+Jun,Southern Shared Path Eastbound,ped,All weeks,Winter,322.0,4
+Jun,Southern Shared Path Eastbound,total_flow,All weeks,Winter,1324.0,4
+Jun,Southern Shared Path Westbound,pcl,All weeks,Winter,1466.0,4
+Jun,Southern Shared Path Westbound,ped,All weeks,Winter,453.0,4
+Jun,Southern Shared Path Westbound,total_flow,All weeks,Winter,1919.0,4
+Mar,All directions,pcl,All weeks,Autumn,6797.0,5
+Mar,All directions,ped,All weeks,Autumn,2919.0,5
+Mar,All directions,total_flow,All weeks,Autumn,9716.0,5
+Mar,Northern Shared Path Eastbound,pcl,All weeks,Autumn,1763.0,5
+Mar,Northern Shared Path Eastbound,ped,All weeks,Autumn,568.0,5
+Mar,Northern Shared Path Eastbound,total_flow,All weeks,Autumn,2331.0,5
+Mar,Northern Shared Path Westbound,pcl,All weeks,Autumn,1190.0,5
+Mar,Northern Shared Path Westbound,ped,All weeks,Autumn,597.0,5
+Mar,Northern Shared Path Westbound,total_flow,All weeks,Autumn,1787.0,5
+Mar,Southern Shared Path Eastbound,pcl,All weeks,Autumn,1569.0,5
+Mar,Southern Shared Path Eastbound,ped,All weeks,Autumn,845.0,5
+Mar,Southern Shared Path Eastbound,total_flow,All weeks,Autumn,2414.0,5
+Mar,Southern Shared Path Westbound,pcl,All weeks,Autumn,2275.0,5
+Mar,Southern Shared Path Westbound,ped,All weeks,Autumn,909.0,5
+Mar,Southern Shared Path Westbound,total_flow,All weeks,Autumn,3184.0,5
+May,All directions,pcl,All weeks,Autumn,5125.0,4
+May,All directions,ped,All weeks,Autumn,1216.0,4
+May,All directions,total_flow,All weeks,Autumn,6341.0,4
+May,Northern Shared Path Eastbound,pcl,All weeks,Autumn,1376.0,4
+May,Northern Shared Path Eastbound,ped,All weeks,Autumn,241.0,4
+May,Northern Shared Path Eastbound,total_flow,All weeks,Autumn,1617.0,4
+May,Northern Shared Path Westbound,pcl,All weeks,Autumn,913.0,4
+May,Northern Shared Path Westbound,ped,All weeks,Autumn,238.0,4
+May,Northern Shared Path Westbound,total_flow,All weeks,Autumn,1151.0,4
+May,Southern Shared Path Eastbound,pcl,All weeks,Autumn,1159.0,4
+May,Southern Shared Path Eastbound,ped,All weeks,Autumn,346.0,4
+May,Southern Shared Path Eastbound,total_flow,All weeks,Autumn,1505.0,4
+May,Southern Shared Path Westbound,pcl,All weeks,Autumn,1677.0,4
+May,Southern Shared Path Westbound,ped,All weeks,Autumn,391.0,4
+May,Southern Shared Path Westbound,total_flow,All weeks,Autumn,2068.0,4
+Nov,All directions,pcl,All weeks,Spring,14922.0,12
+Nov,All directions,ped,All weeks,Spring,4122.0,12
+Nov,All directions,total_flow,All weeks,Spring,19044.0,12
+Nov,Northern Shared Path Eastbound,pcl,All weeks,Spring,4001.0,12
+Nov,Northern Shared Path Eastbound,ped,All weeks,Spring,704.0,12
+Nov,Northern Shared Path Eastbound,total_flow,All weeks,Spring,4705.0,12
+Nov,Northern Shared Path Westbound,pcl,All weeks,Spring,2582.0,12
+Nov,Northern Shared Path Westbound,ped,All weeks,Spring,860.0,12
+Nov,Northern Shared Path Westbound,total_flow,All weeks,Spring,3442.0,12
+Nov,Southern Shared Path Eastbound,pcl,All weeks,Spring,3185.0,12
+Nov,Southern Shared Path Eastbound,ped,All weeks,Spring,1302.0,12
+Nov,Southern Shared Path Eastbound,total_flow,All weeks,Spring,4487.0,12
+Nov,Southern Shared Path Westbound,pcl,All weeks,Spring,5154.0,12
+Nov,Southern Shared Path Westbound,ped,All weeks,Spring,1256.0,12
+Nov,Southern Shared Path Westbound,total_flow,All weeks,Spring,6410.0,12
+Oct,All directions,pcl,All weeks,Spring,12710.0,11
+Oct,All directions,ped,All weeks,Spring,4176.0,11
+Oct,All directions,total_flow,All weeks,Spring,16886.0,11
+Oct,Northern Shared Path Eastbound,pcl,All weeks,Spring,3457.0,11
+Oct,Northern Shared Path Eastbound,ped,All weeks,Spring,861.0,11
+Oct,Northern Shared Path Eastbound,total_flow,All weeks,Spring,4318.0,11
+Oct,Northern Shared Path Westbound,pcl,All weeks,Spring,2306.0,11
+Oct,Northern Shared Path Westbound,ped,All weeks,Spring,995.0,11
+Oct,Northern Shared Path Westbound,total_flow,All weeks,Spring,3301.0,11
+Oct,Southern Shared Path Eastbound,pcl,All weeks,Spring,2724.0,11
+Oct,Southern Shared Path Eastbound,ped,All weeks,Spring,1127.0,11
+Oct,Southern Shared Path Eastbound,total_flow,All weeks,Spring,3851.0,11
+Oct,Southern Shared Path Westbound,pcl,All weeks,Spring,4223.0,11
+Oct,Southern Shared Path Westbound,ped,All weeks,Spring,1193.0,11
+Oct,Southern Shared Path Westbound,total_flow,All weeks,Spring,5416.0,11
+Sep,All directions,pcl,All weeks,Spring,9599.0,9
+Sep,All directions,ped,All weeks,Spring,3057.0,9
+Sep,All directions,total_flow,All weeks,Spring,12656.0,9
+Sep,Northern Shared Path Eastbound,pcl,All weeks,Spring,2479.0,9
+Sep,Northern Shared Path Eastbound,ped,All weeks,Spring,613.0,9
+Sep,Northern Shared Path Eastbound,total_flow,All weeks,Spring,3092.0,9
+Sep,Northern Shared Path Westbound,pcl,All weeks,Spring,1635.0,9
+Sep,Northern Shared Path Westbound,ped,All weeks,Spring,697.0,9
+Sep,Northern Shared Path Westbound,total_flow,All weeks,Spring,2332.0,9
+Sep,Southern Shared Path Eastbound,pcl,All weeks,Spring,2240.0,9
+Sep,Southern Shared Path Eastbound,ped,All weeks,Spring,861.0,9
+Sep,Southern Shared Path Eastbound,total_flow,All weeks,Spring,3101.0,9
+Sep,Southern Shared Path Westbound,pcl,All weeks,Spring,3245.0,9
+Sep,Southern Shared Path Westbound,ped,All weeks,Spring,886.0,9
+Sep,Southern Shared Path Westbound,total_flow,All weeks,Spring,4131.0,9
