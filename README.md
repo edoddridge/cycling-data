@@ -75,7 +75,7 @@ git push
 
 ## How to use
 
-1. The Other Data dashboard now runs on a single **Active layer** (Tasman Bridge + Sydney bicycle surveys + Melbourne cycling network).
+1. The Other Data dashboard now runs on a single **Active layer** (Tasman Bridge shared path + Tasman Highway traffic + Sydney bicycle surveys + Melbourne cycling network).
 2. Use **Find Site** to jump to a site by `site_id` or council name.
 3. Click a map marker to open site details.
 4. Adjust **Inset zoom** to change the background map scale.
@@ -134,15 +134,36 @@ Sydney bicycle survey data can be pulled from ArcGIS and converted into active-l
 /opt/miniconda3/bin/python scripts/process_sydney_cycling_data.py
 ```
 
-By default, Melbourne events are aggregated to **60-minute bins** and exported as **All directions** totals for browser performance. You can change bin size with `--bin-minutes` (must divide 60), and include per-direction rows with `--include-directional` if needed.
+Tasmanian Drakewell active and permanent sites can be compressed into monthly trend files plus climatology cubes with:
+
+```bash
+/opt/miniconda3/bin/python scripts/process_tasmanian_drakewell_data.py
+```
+
+By default, Melbourne events are aggregated to **60-minute bins** and exported as **All directions** totals for browser performance. You can change bin size with `--bin-minutes` (must divide 60), include per-direction rows with `--include-directional`, and set trend compression with `--date-granularity` (`daily`, `weekly`, or `monthly`).
 
 Outputs are written to:
 
 - `data/external/drakewell/TAS_ACTIVE/00A0113113AT/timeseries.csv`
 - `data/external/drakewell/TAS_ACTIVE/00A0113113AT/download_log.csv`
 - `data/external/drakewell/TAS_ACTIVE/00A0113113AT/raw/`
+- `data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/timeseries_monthly.csv`
+- `data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/climatology_intraday.csv`
+- `data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/climatology_weekly.csv`
+- `data/external/drakewell/TAS_ACTIVE/00A0113113AT/processed/climatology_annual.csv`
+- `data/external/drakewell/TAS_PERM/0000A0113112/timeseries.csv`
+- `data/external/drakewell/TAS_PERM/0000A0113112/download_log.csv`
+- `data/external/drakewell/TAS_PERM/0000A0113112/raw/`
+- `data/external/drakewell/TAS_PERM/0000A0113112/processed/timeseries_monthly.csv`
+- `data/external/drakewell/TAS_PERM/0000A0113112/processed/climatology_intraday.csv`
+- `data/external/drakewell/TAS_PERM/0000A0113112/processed/climatology_weekly.csv`
+- `data/external/drakewell/TAS_PERM/0000A0113112/processed/climatology_annual.csv`
 - `data/external/Sydney/processed/sydney_active_timeseries.csv`
 - `data/external/Melbourne/processed/melbourne_network_timeseries.csv`
+- `data/external/Melbourne/processed/melbourne_site_metadata.csv`
+- `data/external/Melbourne/processed/melbourne_climatology_intraday.csv`
+- `data/external/Melbourne/processed/melbourne_climatology_weekly.csv`
+- `data/external/Melbourne/processed/melbourne_climatology_annual.csv`
 
 Useful options:
 
