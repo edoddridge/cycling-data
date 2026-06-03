@@ -3,3 +3,12 @@
 
 # local tooling artifacts
 *.log
+
+# raw external data dumps (keep processed outputs commit-friendly)
+data/external/**/raw/
+data/external/Melbourne/**/*.zip
+data/external/Melbourne/**
+!data/external/Melbourne/processed/
+!data/external/Melbourne/processed/**
+data/external/drakewell/**/timeseries.csv
+data/external/drakewell/**/download_log.csv
