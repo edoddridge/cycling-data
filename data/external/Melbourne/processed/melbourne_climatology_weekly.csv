@@ -1,0 +1,4033 @@
+site_xn_route,weekday,direction,weekpart,season,sum_flow,sample_count
+10223,Fri,All directions,Weekday,Autumn,45102,130
+10223,Fri,All directions,Weekday,Spring,38494,115
+10223,Fri,All directions,Weekday,Summer,36536,121
+10223,Fri,All directions,Weekday,Winter,31653,117
+10223,Fri,Northbound,Weekday,Autumn,22908,130
+10223,Fri,Northbound,Weekday,Spring,19472,115
+10223,Fri,Northbound,Weekday,Summer,18489,121
+10223,Fri,Northbound,Weekday,Winter,15861,117
+10223,Fri,Southbound,Weekday,Autumn,22194,130
+10223,Fri,Southbound,Weekday,Spring,19022,115
+10223,Fri,Southbound,Weekday,Summer,18047,121
+10223,Fri,Southbound,Weekday,Winter,15792,117
+10223,Mon,All directions,Weekday,Autumn,46120,129
+10223,Mon,All directions,Weekday,Spring,36537,114
+10223,Mon,All directions,Weekday,Summer,39050,121
+10223,Mon,All directions,Weekday,Winter,32060,118
+10223,Mon,Northbound,Weekday,Autumn,23452,129
+10223,Mon,Northbound,Weekday,Spring,18439,114
+10223,Mon,Northbound,Weekday,Summer,19846,121
+10223,Mon,Northbound,Weekday,Winter,16134,118
+10223,Mon,Southbound,Weekday,Autumn,22668,129
+10223,Mon,Southbound,Weekday,Spring,18098,114
+10223,Mon,Southbound,Weekday,Summer,19204,121
+10223,Mon,Southbound,Weekday,Winter,15926,118
+10223,Sat,All directions,Weekend,Autumn,46991,128
+10223,Sat,All directions,Weekend,Spring,42551,115
+10223,Sat,All directions,Weekend,Summer,42831,122
+10223,Sat,All directions,Weekend,Winter,40362,118
+10223,Sat,Northbound,Weekend,Autumn,24345,128
+10223,Sat,Northbound,Weekend,Spring,22005,115
+10223,Sat,Northbound,Weekend,Summer,22394,122
+10223,Sat,Northbound,Weekend,Winter,20822,118
+10223,Sat,Southbound,Weekend,Autumn,22646,128
+10223,Sat,Southbound,Weekend,Spring,20546,115
+10223,Sat,Southbound,Weekend,Summer,20437,122
+10223,Sat,Southbound,Weekend,Winter,19540,118
+10223,Sun,All directions,Weekend,Autumn,63517,130
+10223,Sun,All directions,Weekend,Spring,63872,115
+10223,Sun,All directions,Weekend,Summer,59636,121
+10223,Sun,All directions,Weekend,Winter,53698,117
+10223,Sun,Northbound,Weekend,Autumn,33086,130
+10223,Sun,Northbound,Weekend,Spring,33232,115
+10223,Sun,Northbound,Weekend,Summer,30920,121
+10223,Sun,Northbound,Weekend,Winter,27621,117
+10223,Sun,Southbound,Weekend,Autumn,30431,130
+10223,Sun,Southbound,Weekend,Spring,30640,115
+10223,Sun,Southbound,Weekend,Summer,28716,121
+10223,Sun,Southbound,Weekend,Winter,26077,117
+10223,Thu,All directions,Weekday,Autumn,42426,129
+10223,Thu,All directions,Weekday,Spring,38518,114
+10223,Thu,All directions,Weekday,Summer,42465,122
+10223,Thu,All directions,Weekday,Winter,31991,118
+10223,Thu,Northbound,Weekday,Autumn,21444,129
+10223,Thu,Northbound,Weekday,Spring,19257,114
+10223,Thu,Northbound,Weekday,Summer,21457,122
+10223,Thu,Northbound,Weekday,Winter,16064,118
+10223,Thu,Southbound,Weekday,Autumn,20982,129
+10223,Thu,Southbound,Weekday,Spring,19261,114
+10223,Thu,Southbound,Weekday,Summer,21008,122
+10223,Thu,Southbound,Weekday,Winter,15927,118
+10223,Tue,All directions,Weekday,Autumn,45720,130
+10223,Tue,All directions,Weekday,Spring,40526,114
+10223,Tue,All directions,Weekday,Summer,45345,121
+10223,Tue,All directions,Weekday,Winter,31532,117
+10223,Tue,Northbound,Weekday,Autumn,23073,130
+10223,Tue,Northbound,Weekday,Spring,20570,114
+10223,Tue,Northbound,Weekday,Summer,23160,121
+10223,Tue,Northbound,Weekday,Winter,15655,117
+10223,Tue,Southbound,Weekday,Autumn,22647,130
+10223,Tue,Southbound,Weekday,Spring,19956,114
+10223,Tue,Southbound,Weekday,Summer,22185,121
+10223,Tue,Southbound,Weekday,Winter,15877,117
+10223,Wed,All directions,Weekday,Autumn,44666,130
+10223,Wed,All directions,Weekday,Spring,39824,114
+10223,Wed,All directions,Weekday,Summer,43448,121
+10223,Wed,All directions,Weekday,Winter,31939,118
+10223,Wed,Northbound,Weekday,Autumn,22756,130
+10223,Wed,Northbound,Weekday,Spring,20311,114
+10223,Wed,Northbound,Weekday,Summer,22356,121
+10223,Wed,Northbound,Weekday,Winter,16183,118
+10223,Wed,Southbound,Weekday,Autumn,21910,130
+10223,Wed,Southbound,Weekday,Spring,19513,114
+10223,Wed,Southbound,Weekday,Summer,21092,121
+10223,Wed,Southbound,Weekday,Winter,15756,118
+10225,Fri,All directions,Weekday,Autumn,93583,131
+10225,Fri,All directions,Weekday,Spring,71118,114
+10225,Fri,All directions,Weekday,Summer,73860,121
+10225,Fri,All directions,Weekday,Winter,66096,117
+10225,Fri,Northbound,Weekday,Autumn,42888,130
+10225,Fri,Northbound,Weekday,Spring,32578,114
+10225,Fri,Northbound,Weekday,Summer,34408,121
+10225,Fri,Northbound,Weekday,Winter,30357,117
+10225,Fri,Southbound,Weekday,Autumn,50695,131
+10225,Fri,Southbound,Weekday,Spring,38540,114
+10225,Fri,Southbound,Weekday,Summer,39452,121
+10225,Fri,Southbound,Weekday,Winter,35739,117
+10225,Mon,All directions,Weekday,Autumn,100502,130
+10225,Mon,All directions,Weekday,Spring,80539,113
+10225,Mon,All directions,Weekday,Summer,83629,121
+10225,Mon,All directions,Weekday,Winter,71051,118
+10225,Mon,Northbound,Weekday,Autumn,46927,129
+10225,Mon,Northbound,Weekday,Spring,37518,113
+10225,Mon,Northbound,Weekday,Summer,39462,121
+10225,Mon,Northbound,Weekday,Winter,33035,118
+10225,Mon,Southbound,Weekday,Autumn,53575,130
+10225,Mon,Southbound,Weekday,Spring,43021,113
+10225,Mon,Southbound,Weekday,Summer,44167,121
+10225,Mon,Southbound,Weekday,Winter,38016,118
+10225,Sat,All directions,Weekend,Autumn,42979,129
+10225,Sat,All directions,Weekend,Spring,35954,114
+10225,Sat,All directions,Weekend,Summer,38079,122
+10225,Sat,All directions,Weekend,Winter,32912,118
+10225,Sat,Northbound,Weekend,Autumn,20540,128
+10225,Sat,Northbound,Weekend,Spring,17021,114
+10225,Sat,Northbound,Weekend,Summer,18215,122
+10225,Sat,Northbound,Weekend,Winter,15741,118
+10225,Sat,Southbound,Weekend,Autumn,22439,129
+10225,Sat,Southbound,Weekend,Spring,18933,114
+10225,Sat,Southbound,Weekend,Summer,19864,122
+10225,Sat,Southbound,Weekend,Winter,17171,118
+10225,Sun,All directions,Weekend,Autumn,39966,131
+10225,Sun,All directions,Weekend,Spring,34043,114
+10225,Sun,All directions,Weekend,Summer,34963,121
+10225,Sun,All directions,Weekend,Winter,29013,117
+10225,Sun,Northbound,Weekend,Autumn,19228,130
+10225,Sun,Northbound,Weekend,Spring,16005,114
+10225,Sun,Northbound,Weekend,Summer,16931,121
+10225,Sun,Northbound,Weekend,Winter,13934,117
+10225,Sun,Southbound,Weekend,Autumn,20738,131
+10225,Sun,Southbound,Weekend,Spring,18038,114
+10225,Sun,Southbound,Weekend,Summer,18032,121
+10225,Sun,Southbound,Weekend,Winter,15079,117
+10225,Thu,All directions,Weekday,Autumn,111221,130
+10225,Thu,All directions,Weekday,Spring,82067,113
+10225,Thu,All directions,Weekday,Summer,87742,122
+10225,Thu,All directions,Weekday,Winter,77260,118
+10225,Thu,Northbound,Weekday,Autumn,51482,129
+10225,Thu,Northbound,Weekday,Spring,38244,113
+10225,Thu,Northbound,Weekday,Summer,41461,122
+10225,Thu,Northbound,Weekday,Winter,36297,118
+10225,Thu,Southbound,Weekday,Autumn,59739,130
+10225,Thu,Southbound,Weekday,Spring,43823,113
+10225,Thu,Southbound,Weekday,Summer,46281,122
+10225,Thu,Southbound,Weekday,Winter,40963,118
+10225,Tue,All directions,Weekday,Autumn,115245,131
+10225,Tue,All directions,Weekday,Spring,83798,113
+10225,Tue,All directions,Weekday,Summer,93488,121
+10225,Tue,All directions,Weekday,Winter,79730,117
+10225,Tue,Northbound,Weekday,Autumn,53562,130
+10225,Tue,Northbound,Weekday,Spring,38810,113
+10225,Tue,Northbound,Weekday,Summer,44032,121
+10225,Tue,Northbound,Weekday,Winter,37200,117
+10225,Tue,Southbound,Weekday,Autumn,61683,131
+10225,Tue,Southbound,Weekday,Spring,44988,113
+10225,Tue,Southbound,Weekday,Summer,49456,121
+10225,Tue,Southbound,Weekday,Winter,42530,117
+10225,Wed,All directions,Weekday,Autumn,115618,131
+10225,Wed,All directions,Weekday,Spring,84628,113
+10225,Wed,All directions,Weekday,Summer,89210,121
+10225,Wed,All directions,Weekday,Winter,77760,118
+10225,Wed,Northbound,Weekday,Autumn,53310,130
+10225,Wed,Northbound,Weekday,Spring,39240,113
+10225,Wed,Northbound,Weekday,Summer,41950,121
+10225,Wed,Northbound,Weekday,Winter,36129,118
+10225,Wed,Southbound,Weekday,Autumn,62308,131
+10225,Wed,Southbound,Weekday,Spring,45388,113
+10225,Wed,Southbound,Weekday,Summer,47260,121
+10225,Wed,Southbound,Weekday,Winter,41631,118
+10484,Fri,All directions,Weekday,Autumn,134521,130
+10484,Fri,All directions,Weekday,Spring,111268,115
+10484,Fri,All directions,Weekday,Summer,127240,121
+10484,Fri,All directions,Weekday,Winter,90169,117
+10484,Fri,Northbound,Weekday,Autumn,69978,130
+10484,Fri,Northbound,Weekday,Spring,56775,115
+10484,Fri,Northbound,Weekday,Summer,66451,121
+10484,Fri,Northbound,Weekday,Winter,46384,117
+10484,Fri,Southbound,Weekday,Autumn,64543,130
+10484,Fri,Southbound,Weekday,Spring,54493,115
+10484,Fri,Southbound,Weekday,Summer,60789,121
+10484,Fri,Southbound,Weekday,Winter,43785,117
+10484,Mon,All directions,Weekday,Autumn,144895,129
+10484,Mon,All directions,Weekday,Spring,123839,114
+10484,Mon,All directions,Weekday,Summer,144846,121
+10484,Mon,All directions,Weekday,Winter,100438,118
+10484,Mon,Northbound,Weekday,Autumn,75794,129
+10484,Mon,Northbound,Weekday,Spring,63327,114
+10484,Mon,Northbound,Weekday,Summer,75353,121
+10484,Mon,Northbound,Weekday,Winter,52066,118
+10484,Mon,Southbound,Weekday,Autumn,69101,129
+10484,Mon,Southbound,Weekday,Spring,60512,114
+10484,Mon,Southbound,Weekday,Summer,69493,121
+10484,Mon,Southbound,Weekday,Winter,48372,118
+10484,Sat,All directions,Weekend,Autumn,90416,128
+10484,Sat,All directions,Weekend,Spring,80788,115
+10484,Sat,All directions,Weekend,Summer,94096,122
+10484,Sat,All directions,Weekend,Winter,67240,118
+10484,Sat,Northbound,Weekend,Autumn,47652,128
+10484,Sat,Northbound,Weekend,Spring,42319,115
+10484,Sat,Northbound,Weekend,Summer,49853,122
+10484,Sat,Northbound,Weekend,Winter,35001,118
+10484,Sat,Southbound,Weekend,Autumn,42764,128
+10484,Sat,Southbound,Weekend,Spring,38469,115
+10484,Sat,Southbound,Weekend,Summer,44243,122
+10484,Sat,Southbound,Weekend,Winter,32239,118
+10484,Sun,All directions,Weekend,Autumn,95203,130
+10484,Sun,All directions,Weekend,Spring,99542,115
+10484,Sun,All directions,Weekend,Summer,103376,121
+10484,Sun,All directions,Weekend,Winter,71602,117
+10484,Sun,Northbound,Weekend,Autumn,49607,130
+10484,Sun,Northbound,Weekend,Spring,51784,115
+10484,Sun,Northbound,Weekend,Summer,54104,121
+10484,Sun,Northbound,Weekend,Winter,36721,117
+10484,Sun,Southbound,Weekend,Autumn,45596,130
+10484,Sun,Southbound,Weekend,Spring,47758,115
+10484,Sun,Southbound,Weekend,Summer,49272,121
+10484,Sun,Southbound,Weekend,Winter,34881,117
+10484,Thu,All directions,Weekday,Autumn,150203,129
+10484,Thu,All directions,Weekday,Spring,123482,114
+10484,Thu,All directions,Weekday,Summer,151327,122
+10484,Thu,All directions,Weekday,Winter,105559,118
+10484,Thu,Northbound,Weekday,Autumn,78440,129
+10484,Thu,Northbound,Weekday,Spring,63164,114
+10484,Thu,Northbound,Weekday,Summer,78543,122
+10484,Thu,Northbound,Weekday,Winter,54438,118
+10484,Thu,Southbound,Weekday,Autumn,71763,129
+10484,Thu,Southbound,Weekday,Spring,60318,114
+10484,Thu,Southbound,Weekday,Summer,72784,122
+10484,Thu,Southbound,Weekday,Winter,51121,118
+10484,Tue,All directions,Weekday,Autumn,160165,130
+10484,Tue,All directions,Weekday,Spring,129455,114
+10484,Tue,All directions,Weekday,Summer,159480,121
+10484,Tue,All directions,Weekday,Winter,107376,117
+10484,Tue,Northbound,Weekday,Autumn,83504,130
+10484,Tue,Northbound,Weekday,Spring,66270,114
+10484,Tue,Northbound,Weekday,Summer,83064,121
+10484,Tue,Northbound,Weekday,Winter,55619,117
+10484,Tue,Southbound,Weekday,Autumn,76661,130
+10484,Tue,Southbound,Weekday,Spring,63185,114
+10484,Tue,Southbound,Weekday,Summer,76416,121
+10484,Tue,Southbound,Weekday,Winter,51757,117
+10484,Wed,All directions,Weekday,Autumn,159528,130
+10484,Wed,All directions,Weekday,Spring,132066,114
+10484,Wed,All directions,Weekday,Summer,155501,121
+10484,Wed,All directions,Weekday,Winter,108763,118
+10484,Wed,Northbound,Weekday,Autumn,82847,130
+10484,Wed,Northbound,Weekday,Spring,67490,114
+10484,Wed,Northbound,Weekday,Summer,80519,121
+10484,Wed,Northbound,Weekday,Winter,56070,118
+10484,Wed,Southbound,Weekday,Autumn,76681,130
+10484,Wed,Southbound,Weekday,Spring,64576,114
+10484,Wed,Southbound,Weekday,Summer,74982,121
+10484,Wed,Southbound,Weekday,Winter,52693,118
+10486,Fri,All directions,Weekday,Autumn,238766,130
+10486,Fri,All directions,Weekday,Spring,187182,115
+10486,Fri,All directions,Weekday,Summer,194291,121
+10486,Fri,All directions,Weekday,Winter,163939,117
+10486,Fri,Northbound,Weekday,Autumn,119814,129
+10486,Fri,Northbound,Weekday,Spring,88038,115
+10486,Fri,Northbound,Weekday,Summer,94164,121
+10486,Fri,Northbound,Weekday,Winter,80826,117
+10486,Fri,Southbound,Weekday,Autumn,118952,114
+10486,Fri,Southbound,Weekday,Spring,99144,110
+10486,Fri,Southbound,Weekday,Summer,100127,113
+10486,Fri,Southbound,Weekday,Winter,83113,100
+10486,Mon,All directions,Weekday,Autumn,261370,129
+10486,Mon,All directions,Weekday,Spring,210481,114
+10486,Mon,All directions,Weekday,Summer,221009,121
+10486,Mon,All directions,Weekday,Winter,177801,118
+10486,Mon,Northbound,Weekday,Autumn,132214,128
+10486,Mon,Northbound,Weekday,Spring,102519,114
+10486,Mon,Northbound,Weekday,Summer,108117,121
+10486,Mon,Northbound,Weekday,Winter,89104,118
+10486,Mon,Southbound,Weekday,Autumn,129156,114
+10486,Mon,Southbound,Weekday,Spring,107962,110
+10486,Mon,Southbound,Weekday,Summer,112892,115
+10486,Mon,Southbound,Weekday,Winter,88697,100
+10486,Sat,All directions,Weekend,Autumn,101084,128
+10486,Sat,All directions,Weekend,Spring,84267,115
+10486,Sat,All directions,Weekend,Summer,91237,122
+10486,Sat,All directions,Weekend,Winter,73572,118
+10486,Sat,Northbound,Weekend,Autumn,50954,127
+10486,Sat,Northbound,Weekend,Spring,40601,115
+10486,Sat,Northbound,Weekend,Summer,44034,122
+10486,Sat,Northbound,Weekend,Winter,37364,118
+10486,Sat,Southbound,Weekend,Autumn,50130,113
+10486,Sat,Southbound,Weekend,Spring,43666,106
+10486,Sat,Southbound,Weekend,Summer,47203,115
+10486,Sat,Southbound,Weekend,Winter,36208,100
+10486,Sun,All directions,Weekend,Autumn,91063,130
+10486,Sun,All directions,Weekend,Spring,80406,115
+10486,Sun,All directions,Weekend,Summer,83817,121
+10486,Sun,All directions,Weekend,Winter,65915,117
+10486,Sun,Northbound,Weekend,Autumn,47716,129
+10486,Sun,Northbound,Weekend,Spring,39604,115
+10486,Sun,Northbound,Weekend,Summer,42894,121
+10486,Sun,Northbound,Weekend,Winter,33474,117
+10486,Sun,Southbound,Weekend,Autumn,43347,112
+10486,Sun,Southbound,Weekend,Spring,40802,108
+10486,Sun,Southbound,Weekend,Summer,40923,115
+10486,Sun,Southbound,Weekend,Winter,32441,99
+10486,Thu,All directions,Weekday,Autumn,291935,129
+10486,Thu,All directions,Weekday,Spring,217244,114
+10486,Thu,All directions,Weekday,Summer,234615,122
+10486,Thu,All directions,Weekday,Winter,196345,118
+10486,Thu,Northbound,Weekday,Autumn,145663,128
+10486,Thu,Northbound,Weekday,Spring,106243,114
+10486,Thu,Northbound,Weekday,Summer,116240,122
+10486,Thu,Northbound,Weekday,Winter,97966,118
+10486,Thu,Southbound,Weekday,Autumn,146272,111
+10486,Thu,Southbound,Weekday,Spring,111001,111
+10486,Thu,Southbound,Weekday,Summer,118375,115
+10486,Thu,Southbound,Weekday,Winter,98379,99
+10486,Tue,All directions,Weekday,Autumn,301281,130
+10486,Tue,All directions,Weekday,Spring,218775,114
+10486,Tue,All directions,Weekday,Summer,246678,121
+10486,Tue,All directions,Weekday,Winter,201069,117
+10486,Tue,Northbound,Weekday,Autumn,153037,129
+10486,Tue,Northbound,Weekday,Spring,107289,114
+10486,Tue,Northbound,Weekday,Summer,121737,121
+10486,Tue,Northbound,Weekday,Winter,101847,117
+10486,Tue,Southbound,Weekday,Autumn,148244,115
+10486,Tue,Southbound,Weekday,Spring,111486,109
+10486,Tue,Southbound,Weekday,Summer,124941,117
+10486,Tue,Southbound,Weekday,Winter,99222,101
+10486,Wed,All directions,Weekday,Autumn,302574,130
+10486,Wed,All directions,Weekday,Spring,223710,114
+10486,Wed,All directions,Weekday,Summer,242015,121
+10486,Wed,All directions,Weekday,Winter,201013,118
+10486,Wed,Northbound,Weekday,Autumn,151691,129
+10486,Wed,Northbound,Weekday,Spring,109242,114
+10486,Wed,Northbound,Weekday,Summer,119282,121
+10486,Wed,Northbound,Weekday,Winter,100453,118
+10486,Wed,Southbound,Weekday,Autumn,150883,115
+10486,Wed,Southbound,Weekday,Spring,114468,109
+10486,Wed,Southbound,Weekday,Summer,122733,114
+10486,Wed,Southbound,Weekday,Winter,100560,103
+10488,Fri,All directions,Weekday,Autumn,65616,130
+10488,Fri,All directions,Weekday,Spring,51785,115
+10488,Fri,All directions,Weekday,Summer,59013,121
+10488,Fri,All directions,Weekday,Winter,46706,117
+10488,Fri,Northbound,Weekday,Autumn,33798,129
+10488,Fri,Northbound,Weekday,Spring,26277,115
+10488,Fri,Northbound,Weekday,Summer,29736,121
+10488,Fri,Northbound,Weekday,Winter,23782,117
+10488,Fri,Southbound,Weekday,Autumn,31818,129
+10488,Fri,Southbound,Weekday,Spring,25508,115
+10488,Fri,Southbound,Weekday,Summer,29277,121
+10488,Fri,Southbound,Weekday,Winter,22924,117
+10488,Mon,All directions,Weekday,Autumn,72953,129
+10488,Mon,All directions,Weekday,Spring,61414,114
+10488,Mon,All directions,Weekday,Summer,70989,121
+10488,Mon,All directions,Weekday,Winter,53213,118
+10488,Mon,Northbound,Weekday,Autumn,37214,128
+10488,Mon,Northbound,Weekday,Spring,30753,114
+10488,Mon,Northbound,Weekday,Summer,35196,121
+10488,Mon,Northbound,Weekday,Winter,26911,118
+10488,Mon,Southbound,Weekday,Autumn,35739,129
+10488,Mon,Southbound,Weekday,Spring,30661,114
+10488,Mon,Southbound,Weekday,Summer,35793,121
+10488,Mon,Southbound,Weekday,Winter,26302,118
+10488,Sat,All directions,Weekend,Autumn,31689,128
+10488,Sat,All directions,Weekend,Spring,27380,115
+10488,Sat,All directions,Weekend,Summer,31531,122
+10488,Sat,All directions,Weekend,Winter,24245,118
+10488,Sat,Northbound,Weekend,Autumn,16789,127
+10488,Sat,Northbound,Weekend,Spring,14641,115
+10488,Sat,Northbound,Weekend,Summer,16480,122
+10488,Sat,Northbound,Weekend,Winter,13100,118
+10488,Sat,Southbound,Weekend,Autumn,14900,128
+10488,Sat,Southbound,Weekend,Spring,12739,115
+10488,Sat,Southbound,Weekend,Summer,15051,122
+10488,Sat,Southbound,Weekend,Winter,11145,118
+10488,Sun,All directions,Weekend,Autumn,30466,130
+10488,Sun,All directions,Weekend,Spring,29019,115
+10488,Sun,All directions,Weekend,Summer,32370,121
+10488,Sun,All directions,Weekend,Winter,21530,117
+10488,Sun,Northbound,Weekend,Autumn,16650,129
+10488,Sun,Northbound,Weekend,Spring,15979,115
+10488,Sun,Northbound,Weekend,Summer,17349,121
+10488,Sun,Northbound,Weekend,Winter,11652,117
+10488,Sun,Southbound,Weekend,Autumn,13816,129
+10488,Sun,Southbound,Weekend,Spring,13040,115
+10488,Sun,Southbound,Weekend,Summer,15021,121
+10488,Sun,Southbound,Weekend,Winter,9878,116
+10488,Thu,All directions,Weekday,Autumn,80109,129
+10488,Thu,All directions,Weekday,Spring,63318,114
+10488,Thu,All directions,Weekday,Summer,75073,122
+10488,Thu,All directions,Weekday,Winter,58512,118
+10488,Thu,Northbound,Weekday,Autumn,40388,128
+10488,Thu,Northbound,Weekday,Spring,31371,114
+10488,Thu,Northbound,Weekday,Summer,37052,122
+10488,Thu,Northbound,Weekday,Winter,29367,118
+10488,Thu,Southbound,Weekday,Autumn,39721,128
+10488,Thu,Southbound,Weekday,Spring,31947,114
+10488,Thu,Southbound,Weekday,Summer,38021,122
+10488,Thu,Southbound,Weekday,Winter,29145,118
+10488,Tue,All directions,Weekday,Autumn,86449,130
+10488,Tue,All directions,Weekday,Spring,64713,114
+10488,Tue,All directions,Weekday,Summer,80785,121
+10488,Tue,All directions,Weekday,Winter,60024,117
+10488,Tue,Northbound,Weekday,Autumn,43860,129
+10488,Tue,Northbound,Weekday,Spring,32147,114
+10488,Tue,Northbound,Weekday,Summer,39631,121
+10488,Tue,Northbound,Weekday,Winter,30077,117
+10488,Tue,Southbound,Weekday,Autumn,42589,130
+10488,Tue,Southbound,Weekday,Spring,32566,114
+10488,Tue,Southbound,Weekday,Summer,41154,121
+10488,Tue,Southbound,Weekday,Winter,29947,117
+10488,Wed,All directions,Weekday,Autumn,85247,130
+10488,Wed,All directions,Weekday,Spring,66334,114
+10488,Wed,All directions,Weekday,Summer,77558,121
+10488,Wed,All directions,Weekday,Winter,59331,118
+10488,Wed,Northbound,Weekday,Autumn,43113,129
+10488,Wed,Northbound,Weekday,Spring,33144,114
+10488,Wed,Northbound,Weekday,Summer,38373,121
+10488,Wed,Northbound,Weekday,Winter,29792,118
+10488,Wed,Southbound,Weekday,Autumn,42134,130
+10488,Wed,Southbound,Weekday,Spring,33190,114
+10488,Wed,Southbound,Weekday,Summer,39185,121
+10488,Wed,Southbound,Weekday,Winter,29539,118
+31602,Fri,All directions,Weekday,Autumn,22279,130
+31602,Fri,All directions,Weekday,Spring,19864,115
+31602,Fri,All directions,Weekday,Summer,16750,121
+31602,Fri,All directions,Weekday,Winter,15647,117
+31602,Fri,Northbound,Weekday,Autumn,11384,130
+31602,Fri,Northbound,Weekday,Spring,10526,115
+31602,Fri,Northbound,Weekday,Summer,8782,121
+31602,Fri,Northbound,Weekday,Winter,8153,117
+31602,Fri,Southbound,Weekday,Autumn,10895,130
+31602,Fri,Southbound,Weekday,Spring,9338,115
+31602,Fri,Southbound,Weekday,Summer,7968,121
+31602,Fri,Southbound,Weekday,Winter,7494,117
+31602,Mon,All directions,Weekday,Autumn,22577,129
+31602,Mon,All directions,Weekday,Spring,18101,114
+31602,Mon,All directions,Weekday,Summer,17832,121
+31602,Mon,All directions,Weekday,Winter,16371,118
+31602,Mon,Northbound,Weekday,Autumn,11725,129
+31602,Mon,Northbound,Weekday,Spring,9493,114
+31602,Mon,Northbound,Weekday,Summer,9177,121
+31602,Mon,Northbound,Weekday,Winter,8598,118
+31602,Mon,Southbound,Weekday,Autumn,10852,129
+31602,Mon,Southbound,Weekday,Spring,8608,114
+31602,Mon,Southbound,Weekday,Summer,8655,121
+31602,Mon,Southbound,Weekday,Winter,7773,118
+31602,Sat,All directions,Weekend,Autumn,23727,128
+31602,Sat,All directions,Weekend,Spring,22359,115
+31602,Sat,All directions,Weekend,Summer,20132,122
+31602,Sat,All directions,Weekend,Winter,22220,118
+31602,Sat,Northbound,Weekend,Autumn,12373,128
+31602,Sat,Northbound,Weekend,Spring,11670,115
+31602,Sat,Northbound,Weekend,Summer,10439,122
+31602,Sat,Northbound,Weekend,Winter,11757,118
+31602,Sat,Southbound,Weekend,Autumn,11354,128
+31602,Sat,Southbound,Weekend,Spring,10689,115
+31602,Sat,Southbound,Weekend,Summer,9693,122
+31602,Sat,Southbound,Weekend,Winter,10463,118
+31602,Sun,All directions,Weekend,Autumn,31523,130
+31602,Sun,All directions,Weekend,Spring,32873,115
+31602,Sun,All directions,Weekend,Summer,27878,121
+31602,Sun,All directions,Weekend,Winter,29853,117
+31602,Sun,Northbound,Weekend,Autumn,16419,130
+31602,Sun,Northbound,Weekend,Spring,17210,115
+31602,Sun,Northbound,Weekend,Summer,14606,121
+31602,Sun,Northbound,Weekend,Winter,14664,117
+31602,Sun,Southbound,Weekend,Autumn,15104,130
+31602,Sun,Southbound,Weekend,Spring,15663,115
+31602,Sun,Southbound,Weekend,Summer,13272,121
+31602,Sun,Southbound,Weekend,Winter,15189,117
+31602,Thu,All directions,Weekday,Autumn,20498,129
+31602,Thu,All directions,Weekday,Spring,18550,114
+31602,Thu,All directions,Weekday,Summer,18655,122
+31602,Thu,All directions,Weekday,Winter,15960,118
+31602,Thu,Northbound,Weekday,Autumn,10604,129
+31602,Thu,Northbound,Weekday,Spring,9740,114
+31602,Thu,Northbound,Weekday,Summer,9656,122
+31602,Thu,Northbound,Weekday,Winter,8412,118
+31602,Thu,Southbound,Weekday,Autumn,9894,129
+31602,Thu,Southbound,Weekday,Spring,8810,114
+31602,Thu,Southbound,Weekday,Summer,8999,122
+31602,Thu,Southbound,Weekday,Winter,7548,118
+31602,Tue,All directions,Weekday,Autumn,22362,130
+31602,Tue,All directions,Weekday,Spring,20163,114
+31602,Tue,All directions,Weekday,Summer,20070,121
+31602,Tue,All directions,Weekday,Winter,15712,117
+31602,Tue,Northbound,Weekday,Autumn,11810,130
+31602,Tue,Northbound,Weekday,Spring,10629,114
+31602,Tue,Northbound,Weekday,Summer,10489,121
+31602,Tue,Northbound,Weekday,Winter,8377,117
+31602,Tue,Southbound,Weekday,Autumn,10552,130
+31602,Tue,Southbound,Weekday,Spring,9534,114
+31602,Tue,Southbound,Weekday,Summer,9581,121
+31602,Tue,Southbound,Weekday,Winter,7335,117
+31602,Wed,All directions,Weekday,Autumn,21967,130
+31602,Wed,All directions,Weekday,Spring,19897,114
+31602,Wed,All directions,Weekday,Summer,20441,121
+31602,Wed,All directions,Weekday,Winter,16027,118
+31602,Wed,Northbound,Weekday,Autumn,11439,130
+31602,Wed,Northbound,Weekday,Spring,10307,114
+31602,Wed,Northbound,Weekday,Summer,10658,121
+31602,Wed,Northbound,Weekday,Winter,8355,118
+31602,Wed,Southbound,Weekday,Autumn,10528,130
+31602,Wed,Southbound,Weekday,Spring,9590,114
+31602,Wed,Southbound,Weekday,Summer,9783,121
+31602,Wed,Southbound,Weekday,Winter,7672,118
+31747,Fri,All directions,Weekday,Autumn,4858,130
+31747,Fri,All directions,Weekday,Spring,4576,115
+31747,Fri,All directions,Weekday,Summer,4950,121
+31747,Fri,All directions,Weekday,Winter,3276,117
+31747,Fri,Eastbound,Weekday,Autumn,2620,130
+31747,Fri,Eastbound,Weekday,Spring,2494,115
+31747,Fri,Eastbound,Weekday,Summer,2614,121
+31747,Fri,Eastbound,Weekday,Winter,1755,117
+31747,Fri,Westbound,Weekday,Autumn,2238,130
+31747,Fri,Westbound,Weekday,Spring,2082,114
+31747,Fri,Westbound,Weekday,Summer,2336,121
+31747,Fri,Westbound,Weekday,Winter,1521,115
+31747,Mon,All directions,Weekday,Autumn,5094,129
+31747,Mon,All directions,Weekday,Spring,4908,114
+31747,Mon,All directions,Weekday,Summer,5168,121
+31747,Mon,All directions,Weekday,Winter,3856,118
+31747,Mon,Eastbound,Weekday,Autumn,2738,129
+31747,Mon,Eastbound,Weekday,Spring,2635,114
+31747,Mon,Eastbound,Weekday,Summer,2744,121
+31747,Mon,Eastbound,Weekday,Winter,2014,117
+31747,Mon,Westbound,Weekday,Autumn,2356,129
+31747,Mon,Westbound,Weekday,Spring,2273,114
+31747,Mon,Westbound,Weekday,Summer,2424,121
+31747,Mon,Westbound,Weekday,Winter,1842,116
+31747,Sat,All directions,Weekend,Autumn,5122,128
+31747,Sat,All directions,Weekend,Spring,5492,115
+31747,Sat,All directions,Weekend,Summer,5225,122
+31747,Sat,All directions,Weekend,Winter,4731,118
+31747,Sat,Eastbound,Weekend,Autumn,2716,128
+31747,Sat,Eastbound,Weekend,Spring,2859,115
+31747,Sat,Eastbound,Weekend,Summer,2785,122
+31747,Sat,Eastbound,Weekend,Winter,2502,118
+31747,Sat,Westbound,Weekend,Autumn,2406,127
+31747,Sat,Westbound,Weekend,Spring,2633,115
+31747,Sat,Westbound,Weekend,Summer,2440,121
+31747,Sat,Westbound,Weekend,Winter,2229,116
+31747,Sun,All directions,Weekend,Autumn,5993,129
+31747,Sun,All directions,Weekend,Spring,6792,115
+31747,Sun,All directions,Weekend,Summer,6245,121
+31747,Sun,All directions,Weekend,Winter,5210,117
+31747,Sun,Eastbound,Weekend,Autumn,3074,129
+31747,Sun,Eastbound,Weekend,Spring,3431,115
+31747,Sun,Eastbound,Weekend,Summer,3220,121
+31747,Sun,Eastbound,Weekend,Winter,2555,116
+31747,Sun,Westbound,Weekend,Autumn,2919,128
+31747,Sun,Westbound,Weekend,Spring,3361,115
+31747,Sun,Westbound,Weekend,Summer,3025,121
+31747,Sun,Westbound,Weekend,Winter,2655,115
+31747,Thu,All directions,Weekday,Autumn,5060,129
+31747,Thu,All directions,Weekday,Spring,4927,114
+31747,Thu,All directions,Weekday,Summer,5605,122
+31747,Thu,All directions,Weekday,Winter,4064,118
+31747,Thu,Eastbound,Weekday,Autumn,2857,129
+31747,Thu,Eastbound,Weekday,Spring,2668,113
+31747,Thu,Eastbound,Weekday,Summer,3071,122
+31747,Thu,Eastbound,Weekday,Winter,2244,118
+31747,Thu,Westbound,Weekday,Autumn,2203,128
+31747,Thu,Westbound,Weekday,Spring,2259,113
+31747,Thu,Westbound,Weekday,Summer,2534,122
+31747,Thu,Westbound,Weekday,Winter,1820,116
+31747,Tue,All directions,Weekday,Autumn,5193,130
+31747,Tue,All directions,Weekday,Spring,5028,114
+31747,Tue,All directions,Weekday,Summer,5742,121
+31747,Tue,All directions,Weekday,Winter,3507,117
+31747,Tue,Eastbound,Weekday,Autumn,2786,129
+31747,Tue,Eastbound,Weekday,Spring,2692,114
+31747,Tue,Eastbound,Weekday,Summer,3032,121
+31747,Tue,Eastbound,Weekday,Winter,1919,117
+31747,Tue,Westbound,Weekday,Autumn,2407,130
+31747,Tue,Westbound,Weekday,Spring,2336,114
+31747,Tue,Westbound,Weekday,Summer,2710,121
+31747,Tue,Westbound,Weekday,Winter,1588,117
+31747,Wed,All directions,Weekday,Autumn,4397,130
+31747,Wed,All directions,Weekday,Spring,4705,114
+31747,Wed,All directions,Weekday,Summer,5144,121
+31747,Wed,All directions,Weekday,Winter,3300,118
+31747,Wed,Eastbound,Weekday,Autumn,2337,130
+31747,Wed,Eastbound,Weekday,Spring,2462,114
+31747,Wed,Eastbound,Weekday,Summer,2703,121
+31747,Wed,Eastbound,Weekday,Winter,1708,116
+31747,Wed,Westbound,Weekday,Autumn,2060,128
+31747,Wed,Westbound,Weekday,Spring,2243,114
+31747,Wed,Westbound,Weekday,Summer,2441,121
+31747,Wed,Westbound,Weekday,Winter,1592,118
+32493,Fri,All directions,Weekday,Autumn,81106,104
+32493,Fri,All directions,Weekday,Spring,68123,102
+32493,Fri,All directions,Weekday,Summer,70094,98
+32493,Fri,All directions,Weekday,Winter,57703,94
+32493,Fri,Northbound,Weekday,Autumn,35972,103
+32493,Fri,Northbound,Weekday,Spring,33214,102
+32493,Fri,Northbound,Weekday,Summer,32690,98
+32493,Fri,Northbound,Weekday,Winter,27233,94
+32493,Fri,Southbound,Weekday,Autumn,45134,101
+32493,Fri,Southbound,Weekday,Spring,34909,101
+32493,Fri,Southbound,Weekday,Summer,37404,97
+32493,Fri,Southbound,Weekday,Winter,30470,93
+32493,Mon,All directions,Weekday,Autumn,86617,103
+32493,Mon,All directions,Weekday,Spring,76000,101
+32493,Mon,All directions,Weekday,Summer,80523,99
+32493,Mon,All directions,Weekday,Winter,63197,94
+32493,Mon,Northbound,Weekday,Autumn,38363,103
+32493,Mon,Northbound,Weekday,Spring,37806,101
+32493,Mon,Northbound,Weekday,Summer,37242,99
+32493,Mon,Northbound,Weekday,Winter,29969,94
+32493,Mon,Southbound,Weekday,Autumn,48254,101
+32493,Mon,Southbound,Weekday,Spring,38194,100
+32493,Mon,Southbound,Weekday,Summer,43281,99
+32493,Mon,Southbound,Weekday,Winter,33228,90
+32493,Sat,All directions,Weekend,Autumn,42740,102
+32493,Sat,All directions,Weekend,Spring,37864,102
+32493,Sat,All directions,Weekend,Summer,39602,99
+32493,Sat,All directions,Weekend,Winter,31547,95
+32493,Sat,Northbound,Weekend,Autumn,19176,102
+32493,Sat,Northbound,Weekend,Spring,18003,102
+32493,Sat,Northbound,Weekend,Summer,17727,99
+32493,Sat,Northbound,Weekend,Winter,14888,95
+32493,Sat,Southbound,Weekend,Autumn,23564,100
+32493,Sat,Southbound,Weekend,Spring,19861,100
+32493,Sat,Southbound,Weekend,Summer,21875,97
+32493,Sat,Southbound,Weekend,Winter,16659,93
+32493,Sun,All directions,Weekend,Autumn,38577,103
+32493,Sun,All directions,Weekend,Spring,36728,102
+32493,Sun,All directions,Weekend,Summer,37844,99
+32493,Sun,All directions,Weekend,Winter,29534,94
+32493,Sun,Northbound,Weekend,Autumn,18048,103
+32493,Sun,Northbound,Weekend,Spring,17542,102
+32493,Sun,Northbound,Weekend,Summer,17850,99
+32493,Sun,Northbound,Weekend,Winter,13749,94
+32493,Sun,Southbound,Weekend,Autumn,20529,97
+32493,Sun,Southbound,Weekend,Spring,19186,98
+32493,Sun,Southbound,Weekend,Summer,19994,94
+32493,Sun,Southbound,Weekend,Winter,15785,88
+32493,Thu,All directions,Weekday,Autumn,100272,103
+32493,Thu,All directions,Weekday,Spring,80978,101
+32493,Thu,All directions,Weekday,Summer,87942,99
+32493,Thu,All directions,Weekday,Winter,70917,95
+32493,Thu,Northbound,Weekday,Autumn,43855,103
+32493,Thu,Northbound,Weekday,Spring,40305,101
+32493,Thu,Northbound,Weekday,Summer,41273,99
+32493,Thu,Northbound,Weekday,Winter,34137,95
+32493,Thu,Southbound,Weekday,Autumn,56417,102
+32493,Thu,Southbound,Weekday,Spring,40673,100
+32493,Thu,Southbound,Weekday,Summer,46669,99
+32493,Thu,Southbound,Weekday,Winter,36780,95
+32493,Tue,All directions,Weekday,Autumn,104856,103
+32493,Tue,All directions,Weekday,Spring,80236,101
+32493,Tue,All directions,Weekday,Summer,94165,99
+32493,Tue,All directions,Weekday,Winter,72283,94
+32493,Tue,Northbound,Weekday,Autumn,45777,103
+32493,Tue,Northbound,Weekday,Spring,40382,101
+32493,Tue,Northbound,Weekday,Summer,43421,99
+32493,Tue,Northbound,Weekday,Winter,34100,94
+32493,Tue,Southbound,Weekday,Autumn,59079,101
+32493,Tue,Southbound,Weekday,Spring,39854,100
+32493,Tue,Southbound,Weekday,Summer,50744,97
+32493,Tue,Southbound,Weekday,Winter,38183,93
+32493,Wed,All directions,Weekday,Autumn,103380,104
+32493,Wed,All directions,Weekday,Spring,82711,101
+32493,Wed,All directions,Weekday,Summer,90434,98
+32493,Wed,All directions,Weekday,Winter,68615,94
+32493,Wed,Northbound,Weekday,Autumn,44880,104
+32493,Wed,Northbound,Weekday,Spring,41683,101
+32493,Wed,Northbound,Weekday,Summer,42103,98
+32493,Wed,Northbound,Weekday,Winter,32713,94
+32493,Wed,Southbound,Weekday,Autumn,58500,102
+32493,Wed,Southbound,Weekday,Spring,41028,100
+32493,Wed,Southbound,Weekday,Summer,48331,96
+32493,Wed,Southbound,Weekday,Winter,35902,90
+32612,Fri,All directions,Weekday,Autumn,48071,105
+32612,Fri,All directions,Weekday,Spring,40747,87
+32612,Fri,All directions,Weekday,Summer,45131,103
+32612,Fri,All directions,Weekday,Winter,29830,95
+32612,Fri,Northbound,Weekday,Autumn,22767,105
+32612,Fri,Northbound,Weekday,Spring,19488,87
+32612,Fri,Northbound,Weekday,Summer,21681,103
+32612,Fri,Northbound,Weekday,Winter,14135,95
+32612,Fri,Southbound,Weekday,Autumn,25304,105
+32612,Fri,Southbound,Weekday,Spring,21259,87
+32612,Fri,Southbound,Weekday,Summer,23450,103
+32612,Fri,Southbound,Weekday,Winter,15695,95
+32612,Mon,All directions,Weekday,Autumn,50365,104
+32612,Mon,All directions,Weekday,Spring,40878,87
+32612,Mon,All directions,Weekday,Summer,48522,103
+32612,Mon,All directions,Weekday,Winter,34264,96
+32612,Mon,Northbound,Weekday,Autumn,24178,104
+32612,Mon,Northbound,Weekday,Spring,19431,87
+32612,Mon,Northbound,Weekday,Summer,23310,103
+32612,Mon,Northbound,Weekday,Winter,16486,96
+32612,Mon,Southbound,Weekday,Autumn,26187,104
+32612,Mon,Southbound,Weekday,Spring,21447,87
+32612,Mon,Southbound,Weekday,Summer,25212,103
+32612,Mon,Southbound,Weekday,Winter,17778,96
+32612,Sat,All directions,Weekend,Autumn,51540,103
+32612,Sat,All directions,Weekend,Spring,49365,87
+32612,Sat,All directions,Weekend,Summer,57083,104
+32612,Sat,All directions,Weekend,Winter,43093,96
+32612,Sat,Northbound,Weekend,Autumn,24847,103
+32612,Sat,Northbound,Weekend,Spring,23908,87
+32612,Sat,Northbound,Weekend,Summer,27691,104
+32612,Sat,Northbound,Weekend,Winter,20625,96
+32612,Sat,Southbound,Weekend,Autumn,26693,103
+32612,Sat,Southbound,Weekend,Spring,25457,87
+32612,Sat,Southbound,Weekend,Summer,29392,104
+32612,Sat,Southbound,Weekend,Winter,22468,96
+32612,Sun,All directions,Weekend,Autumn,62309,104
+32612,Sun,All directions,Weekend,Spring,68602,87
+32612,Sun,All directions,Weekend,Summer,71103,103
+32612,Sun,All directions,Weekend,Winter,53813,96
+32612,Sun,Northbound,Weekend,Autumn,30241,104
+32612,Sun,Northbound,Weekend,Spring,34249,87
+32612,Sun,Northbound,Weekend,Summer,34753,103
+32612,Sun,Northbound,Weekend,Winter,25710,96
+32612,Sun,Southbound,Weekend,Autumn,32068,104
+32612,Sun,Southbound,Weekend,Spring,34353,87
+32612,Sun,Southbound,Weekend,Summer,36350,103
+32612,Sun,Southbound,Weekend,Winter,28103,96
+32612,Thu,All directions,Weekday,Autumn,42264,104
+32612,Thu,All directions,Weekday,Spring,40581,86
+32612,Thu,All directions,Weekday,Summer,49315,103
+32612,Thu,All directions,Weekday,Winter,31551,97
+32612,Thu,Northbound,Weekday,Autumn,20239,104
+32612,Thu,Northbound,Weekday,Spring,19728,86
+32612,Thu,Northbound,Weekday,Summer,23591,103
+32612,Thu,Northbound,Weekday,Winter,15391,97
+32612,Thu,Southbound,Weekday,Autumn,22025,104
+32612,Thu,Southbound,Weekday,Spring,20853,86
+32612,Thu,Southbound,Weekday,Summer,25724,103
+32612,Thu,Southbound,Weekday,Winter,16160,97
+32612,Tue,All directions,Weekday,Autumn,48406,104
+32612,Tue,All directions,Weekday,Spring,45028,87
+32612,Tue,All directions,Weekday,Summer,53359,103
+32612,Tue,All directions,Weekday,Winter,31093,96
+32612,Tue,Northbound,Weekday,Autumn,23205,104
+32612,Tue,Northbound,Weekday,Spring,21604,87
+32612,Tue,Northbound,Weekday,Summer,25699,103
+32612,Tue,Northbound,Weekday,Winter,15027,96
+32612,Tue,Southbound,Weekday,Autumn,25201,104
+32612,Tue,Southbound,Weekday,Spring,23424,87
+32612,Tue,Southbound,Weekday,Summer,27660,103
+32612,Tue,Southbound,Weekday,Winter,16066,96
+32612,Wed,All directions,Weekday,Autumn,45402,105
+32612,Wed,All directions,Weekday,Spring,42507,87
+32612,Wed,All directions,Weekday,Summer,52095,102
+32612,Wed,All directions,Weekday,Winter,31467,97
+32612,Wed,Northbound,Weekday,Autumn,21613,105
+32612,Wed,Northbound,Weekday,Spring,20383,87
+32612,Wed,Northbound,Weekday,Summer,24973,102
+32612,Wed,Northbound,Weekday,Winter,15081,97
+32612,Wed,Southbound,Weekday,Autumn,23789,105
+32612,Wed,Southbound,Weekday,Spring,22124,87
+32612,Wed,Southbound,Weekday,Summer,27122,102
+32612,Wed,Southbound,Weekday,Winter,16386,97
+32614,Fri,All directions,Weekday,Autumn,77779,98
+32614,Fri,All directions,Weekday,Spring,48526,67
+32614,Fri,All directions,Weekday,Summer,52511,77
+32614,Fri,All directions,Weekday,Winter,41752,92
+32614,Fri,Northbound,Weekday,Autumn,37757,98
+32614,Fri,Northbound,Weekday,Spring,23268,67
+32614,Fri,Northbound,Weekday,Summer,25353,77
+32614,Fri,Northbound,Weekday,Winter,20654,92
+32614,Fri,Southbound,Weekday,Autumn,40022,98
+32614,Fri,Southbound,Weekday,Spring,25258,67
+32614,Fri,Southbound,Weekday,Summer,27158,77
+32614,Fri,Southbound,Weekday,Winter,21098,92
+32614,Mon,All directions,Weekday,Autumn,86918,98
+32614,Mon,All directions,Weekday,Spring,50631,66
+32614,Mon,All directions,Weekday,Summer,60592,78
+32614,Mon,All directions,Weekday,Winter,50005,92
+32614,Mon,Northbound,Weekday,Autumn,42232,98
+32614,Mon,Northbound,Weekday,Spring,24392,66
+32614,Mon,Northbound,Weekday,Summer,29462,78
+32614,Mon,Northbound,Weekday,Winter,24945,92
+32614,Mon,Southbound,Weekday,Autumn,44686,98
+32614,Mon,Southbound,Weekday,Spring,26239,66
+32614,Mon,Southbound,Weekday,Summer,31130,78
+32614,Mon,Southbound,Weekday,Winter,25060,92
+32614,Sat,All directions,Weekend,Autumn,79238,97
+32614,Sat,All directions,Weekend,Spring,54048,67
+32614,Sat,All directions,Weekend,Summer,58968,78
+32614,Sat,All directions,Weekend,Winter,54456,92
+32614,Sat,Northbound,Weekend,Autumn,37929,97
+32614,Sat,Northbound,Weekend,Spring,26015,67
+32614,Sat,Northbound,Weekend,Summer,28807,78
+32614,Sat,Northbound,Weekend,Winter,26933,92
+32614,Sat,Southbound,Weekend,Autumn,41309,97
+32614,Sat,Southbound,Weekend,Spring,28033,67
+32614,Sat,Southbound,Weekend,Summer,30161,78
+32614,Sat,Southbound,Weekend,Winter,27523,92
+32614,Sun,All directions,Weekend,Autumn,92887,98
+32614,Sun,All directions,Weekend,Spring,72083,67
+32614,Sun,All directions,Weekend,Summer,74078,77
+32614,Sun,All directions,Weekend,Winter,70853,92
+32614,Sun,Northbound,Weekend,Autumn,44965,98
+32614,Sun,Northbound,Weekend,Spring,35446,67
+32614,Sun,Northbound,Weekend,Summer,36341,77
+32614,Sun,Northbound,Weekend,Winter,34653,92
+32614,Sun,Southbound,Weekend,Autumn,47922,98
+32614,Sun,Southbound,Weekend,Spring,36637,67
+32614,Sun,Southbound,Weekend,Summer,37737,77
+32614,Sun,Southbound,Weekend,Winter,36200,92
+32614,Thu,All directions,Weekday,Autumn,72250,98
+32614,Thu,All directions,Weekday,Spring,50766,65
+32614,Thu,All directions,Weekday,Summer,59143,77
+32614,Thu,All directions,Weekday,Winter,48040,94
+32614,Thu,Northbound,Weekday,Autumn,35001,98
+32614,Thu,Northbound,Weekday,Spring,24453,65
+32614,Thu,Northbound,Weekday,Summer,28679,77
+32614,Thu,Northbound,Weekday,Winter,24076,94
+32614,Thu,Southbound,Weekday,Autumn,37249,98
+32614,Thu,Southbound,Weekday,Spring,26313,65
+32614,Thu,Southbound,Weekday,Summer,30464,77
+32614,Thu,Southbound,Weekday,Winter,23964,94
+32614,Tue,All directions,Weekday,Autumn,81830,98
+32614,Tue,All directions,Weekday,Spring,54309,66
+32614,Tue,All directions,Weekday,Summer,65004,77
+32614,Tue,All directions,Weekday,Winter,45522,92
+32614,Tue,Northbound,Weekday,Autumn,39548,98
+32614,Tue,Northbound,Weekday,Spring,26065,66
+32614,Tue,Northbound,Weekday,Summer,31641,77
+32614,Tue,Northbound,Weekday,Winter,22640,92
+32614,Tue,Southbound,Weekday,Autumn,42282,98
+32614,Tue,Southbound,Weekday,Spring,28244,66
+32614,Tue,Southbound,Weekday,Summer,33363,77
+32614,Tue,Southbound,Weekday,Winter,22882,92
+32614,Wed,All directions,Weekday,Autumn,76259,98
+32614,Wed,All directions,Weekday,Spring,54048,66
+32614,Wed,All directions,Weekday,Summer,60311,76
+32614,Wed,All directions,Weekday,Winter,47532,94
+32614,Wed,Northbound,Weekday,Autumn,37200,98
+32614,Wed,Northbound,Weekday,Spring,26233,66
+32614,Wed,Northbound,Weekday,Summer,29532,76
+32614,Wed,Northbound,Weekday,Winter,23736,94
+32614,Wed,Southbound,Weekday,Autumn,39059,98
+32614,Wed,Southbound,Weekday,Spring,27815,66
+32614,Wed,Southbound,Weekday,Summer,30779,76
+32614,Wed,Southbound,Weekday,Winter,23796,94
+32615,Fri,All directions,Weekday,Autumn,100307,103
+32615,Fri,All directions,Weekday,Spring,84864,87
+32615,Fri,All directions,Weekday,Summer,93915,99
+32615,Fri,All directions,Weekday,Winter,62678,94
+32615,Fri,Northbound,Weekday,Autumn,49301,103
+32615,Fri,Northbound,Weekday,Spring,40768,87
+32615,Fri,Northbound,Weekday,Summer,46096,99
+32615,Fri,Northbound,Weekday,Winter,30343,94
+32615,Fri,Southbound,Weekday,Autumn,51006,103
+32615,Fri,Southbound,Weekday,Spring,44096,87
+32615,Fri,Southbound,Weekday,Summer,47819,99
+32615,Fri,Southbound,Weekday,Winter,32335,94
+32615,Mon,All directions,Weekday,Autumn,106647,103
+32615,Mon,All directions,Weekday,Spring,90545,87
+32615,Mon,All directions,Weekday,Summer,103270,99
+32615,Mon,All directions,Weekday,Winter,74719,95
+32615,Mon,Northbound,Weekday,Autumn,52618,103
+32615,Mon,Northbound,Weekday,Spring,44219,87
+32615,Mon,Northbound,Weekday,Summer,51294,99
+32615,Mon,Northbound,Weekday,Winter,36524,95
+32615,Mon,Southbound,Weekday,Autumn,54029,102
+32615,Mon,Southbound,Weekday,Spring,46326,87
+32615,Mon,Southbound,Weekday,Summer,51976,99
+32615,Mon,Southbound,Weekday,Winter,38195,95
+32615,Sat,All directions,Weekend,Autumn,104602,102
+32615,Sat,All directions,Weekend,Spring,97619,87
+32615,Sat,All directions,Weekend,Summer,111264,100
+32615,Sat,All directions,Weekend,Winter,87799,95
+32615,Sat,Northbound,Weekend,Autumn,50585,102
+32615,Sat,Northbound,Weekend,Spring,47235,87
+32615,Sat,Northbound,Weekend,Summer,54716,100
+32615,Sat,Northbound,Weekend,Winter,41784,95
+32615,Sat,Southbound,Weekend,Autumn,54017,102
+32615,Sat,Southbound,Weekend,Spring,50384,87
+32615,Sat,Southbound,Weekend,Summer,56548,100
+32615,Sat,Southbound,Weekend,Winter,46015,95
+32615,Sun,All directions,Weekend,Autumn,125081,102
+32615,Sun,All directions,Weekend,Spring,128991,87
+32615,Sun,All directions,Weekend,Summer,139818,99
+32615,Sun,All directions,Weekend,Winter,104530,95
+32615,Sun,Northbound,Weekend,Autumn,60714,102
+32615,Sun,Northbound,Weekend,Spring,62298,87
+32615,Sun,Northbound,Weekend,Summer,67700,99
+32615,Sun,Northbound,Weekend,Winter,50037,95
+32615,Sun,Southbound,Weekend,Autumn,64367,102
+32615,Sun,Southbound,Weekend,Spring,66693,87
+32615,Sun,Southbound,Weekend,Summer,72118,99
+32615,Sun,Southbound,Weekend,Winter,54493,95
+32615,Thu,All directions,Weekday,Autumn,92355,102
+32615,Thu,All directions,Weekday,Spring,86576,86
+32615,Thu,All directions,Weekday,Summer,102995,99
+32615,Thu,All directions,Weekday,Winter,69818,96
+32615,Thu,Northbound,Weekday,Autumn,45692,102
+32615,Thu,Northbound,Weekday,Spring,41990,86
+32615,Thu,Northbound,Weekday,Summer,50610,99
+32615,Thu,Northbound,Weekday,Winter,34283,96
+32615,Thu,Southbound,Weekday,Autumn,46663,102
+32615,Thu,Southbound,Weekday,Spring,44586,86
+32615,Thu,Southbound,Weekday,Summer,52385,99
+32615,Thu,Southbound,Weekday,Winter,35535,96
+32615,Tue,All directions,Weekday,Autumn,104037,102
+32615,Tue,All directions,Weekday,Spring,96594,87
+32615,Tue,All directions,Weekday,Summer,113496,99
+32615,Tue,All directions,Weekday,Winter,66560,94
+32615,Tue,Northbound,Weekday,Autumn,51469,102
+32615,Tue,Northbound,Weekday,Spring,46904,87
+32615,Tue,Northbound,Weekday,Summer,56491,99
+32615,Tue,Northbound,Weekday,Winter,32694,94
+32615,Tue,Southbound,Weekday,Autumn,52568,102
+32615,Tue,Southbound,Weekday,Spring,49690,87
+32615,Tue,Southbound,Weekday,Summer,57005,99
+32615,Tue,Southbound,Weekday,Winter,33866,94
+32615,Wed,All directions,Weekday,Autumn,98834,103
+32615,Wed,All directions,Weekday,Spring,94693,87
+32615,Wed,All directions,Weekday,Summer,108916,98
+32615,Wed,All directions,Weekday,Winter,68628,95
+32615,Wed,Northbound,Weekday,Autumn,49200,103
+32615,Wed,Northbound,Weekday,Spring,46559,87
+32615,Wed,Northbound,Weekday,Summer,54257,98
+32615,Wed,Northbound,Weekday,Winter,33914,95
+32615,Wed,Southbound,Weekday,Autumn,49634,103
+32615,Wed,Southbound,Weekday,Spring,48134,87
+32615,Wed,Southbound,Weekday,Summer,54659,98
+32615,Wed,Southbound,Weekday,Winter,34714,95
+32616,Fri,All directions,Weekday,Autumn,19775,101
+32616,Fri,All directions,Weekday,Spring,15449,76
+32616,Fri,All directions,Weekday,Summer,20144,99
+32616,Fri,All directions,Weekday,Winter,12479,86
+32616,Fri,Northbound,Weekday,Autumn,9916,101
+32616,Fri,Northbound,Weekday,Spring,7733,76
+32616,Fri,Northbound,Weekday,Summer,9663,99
+32616,Fri,Northbound,Weekday,Winter,6487,86
+32616,Fri,Southbound,Weekday,Autumn,9859,101
+32616,Fri,Southbound,Weekday,Spring,7716,76
+32616,Fri,Southbound,Weekday,Summer,10481,99
+32616,Fri,Southbound,Weekday,Winter,5992,86
+32616,Mon,All directions,Weekday,Autumn,21632,100
+32616,Mon,All directions,Weekday,Spring,16650,76
+32616,Mon,All directions,Weekday,Summer,22782,99
+32616,Mon,All directions,Weekday,Winter,14568,87
+32616,Mon,Northbound,Weekday,Autumn,10734,100
+32616,Mon,Northbound,Weekday,Spring,8357,76
+32616,Mon,Northbound,Weekday,Summer,10910,99
+32616,Mon,Northbound,Weekday,Winter,7391,87
+32616,Mon,Southbound,Weekday,Autumn,10898,100
+32616,Mon,Southbound,Weekday,Spring,8293,76
+32616,Mon,Southbound,Weekday,Summer,11872,99
+32616,Mon,Southbound,Weekday,Winter,7177,87
+32616,Sat,All directions,Weekend,Autumn,23962,99
+32616,Sat,All directions,Weekend,Spring,20818,76
+32616,Sat,All directions,Weekend,Summer,27223,100
+32616,Sat,All directions,Weekend,Winter,19875,87
+32616,Sat,Northbound,Weekend,Autumn,11990,99
+32616,Sat,Northbound,Weekend,Spring,10348,76
+32616,Sat,Northbound,Weekend,Summer,12920,100
+32616,Sat,Northbound,Weekend,Winter,10145,87
+32616,Sat,Southbound,Weekend,Autumn,11972,99
+32616,Sat,Southbound,Weekend,Spring,10470,76
+32616,Sat,Southbound,Weekend,Summer,14303,100
+32616,Sat,Southbound,Weekend,Winter,9730,87
+32616,Sun,All directions,Weekend,Autumn,31054,100
+32616,Sun,All directions,Weekend,Spring,31076,76
+32616,Sun,All directions,Weekend,Summer,35019,99
+32616,Sun,All directions,Weekend,Winter,23980,87
+32616,Sun,Northbound,Weekend,Autumn,15558,100
+32616,Sun,Northbound,Weekend,Spring,15442,76
+32616,Sun,Northbound,Weekend,Summer,16565,99
+32616,Sun,Northbound,Weekend,Winter,12294,87
+32616,Sun,Southbound,Weekend,Autumn,15496,100
+32616,Sun,Southbound,Weekend,Spring,15634,76
+32616,Sun,Southbound,Weekend,Summer,18454,99
+32616,Sun,Southbound,Weekend,Winter,11686,87
+32616,Thu,All directions,Weekday,Autumn,16644,99
+32616,Thu,All directions,Weekday,Spring,14671,74
+32616,Thu,All directions,Weekday,Summer,21185,99
+32616,Thu,All directions,Weekday,Winter,12824,88
+32616,Thu,Northbound,Weekday,Autumn,8336,99
+32616,Thu,Northbound,Weekday,Spring,7394,74
+32616,Thu,Northbound,Weekday,Summer,10111,99
+32616,Thu,Northbound,Weekday,Winter,6516,88
+32616,Thu,Southbound,Weekday,Autumn,8308,99
+32616,Thu,Southbound,Weekday,Spring,7277,74
+32616,Thu,Southbound,Weekday,Summer,11074,99
+32616,Thu,Southbound,Weekday,Winter,6308,88
+32616,Tue,All directions,Weekday,Autumn,18630,100
+32616,Tue,All directions,Weekday,Spring,17556,76
+32616,Tue,All directions,Weekday,Summer,25380,99
+32616,Tue,All directions,Weekday,Winter,12158,86
+32616,Tue,Northbound,Weekday,Autumn,9293,100
+32616,Tue,Northbound,Weekday,Spring,8923,76
+32616,Tue,Northbound,Weekday,Summer,12317,99
+32616,Tue,Northbound,Weekday,Winter,6227,86
+32616,Tue,Southbound,Weekday,Autumn,9337,100
+32616,Tue,Southbound,Weekday,Spring,8633,76
+32616,Tue,Southbound,Weekday,Summer,13063,99
+32616,Tue,Southbound,Weekday,Winter,5931,86
+32616,Wed,All directions,Weekday,Autumn,18229,101
+32616,Wed,All directions,Weekday,Spring,16155,76
+32616,Wed,All directions,Weekday,Summer,22389,98
+32616,Wed,All directions,Weekday,Winter,12831,87
+32616,Wed,Northbound,Weekday,Autumn,9113,101
+32616,Wed,Northbound,Weekday,Spring,8154,76
+32616,Wed,Northbound,Weekday,Summer,10674,98
+32616,Wed,Northbound,Weekday,Winter,6642,87
+32616,Wed,Southbound,Weekday,Autumn,9116,101
+32616,Wed,Southbound,Weekday,Spring,8001,76
+32616,Wed,Southbound,Weekday,Summer,11715,98
+32616,Wed,Southbound,Weekday,Winter,6189,87
+33179,Fri,All directions,Weekday,Autumn,122100,91
+33179,Fri,All directions,Weekday,Spring,111845,89
+33179,Fri,All directions,Weekday,Summer,114149,85
+33179,Fri,All directions,Weekday,Winter,86434,87
+33179,Fri,Northbound,Weekday,Autumn,64354,91
+33179,Fri,Northbound,Weekday,Spring,59033,89
+33179,Fri,Northbound,Weekday,Summer,59821,85
+33179,Fri,Northbound,Weekday,Winter,45070,87
+33179,Fri,Southbound,Weekday,Autumn,57746,91
+33179,Fri,Southbound,Weekday,Spring,52812,89
+33179,Fri,Southbound,Weekday,Summer,54328,85
+33179,Fri,Southbound,Weekday,Winter,41364,87
+33179,Mon,All directions,Weekday,Autumn,140687,90
+33179,Mon,All directions,Weekday,Spring,136250,88
+33179,Mon,All directions,Weekday,Summer,141470,86
+33179,Mon,All directions,Weekday,Winter,102758,88
+33179,Mon,Northbound,Weekday,Autumn,72694,90
+33179,Mon,Northbound,Weekday,Spring,70703,88
+33179,Mon,Northbound,Weekday,Summer,73201,86
+33179,Mon,Northbound,Weekday,Winter,53014,88
+33179,Mon,Southbound,Weekday,Autumn,67993,90
+33179,Mon,Southbound,Weekday,Spring,65547,88
+33179,Mon,Southbound,Weekday,Summer,68269,86
+33179,Mon,Southbound,Weekday,Winter,49744,88
+33179,Sat,All directions,Weekend,Autumn,83656,89
+33179,Sat,All directions,Weekend,Spring,87009,89
+33179,Sat,All directions,Weekend,Summer,86974,86
+33179,Sat,All directions,Weekend,Winter,74571,88
+33179,Sat,Northbound,Weekend,Autumn,45118,89
+33179,Sat,Northbound,Weekend,Spring,46455,89
+33179,Sat,Northbound,Weekend,Summer,46271,86
+33179,Sat,Northbound,Weekend,Winter,40175,88
+33179,Sat,Southbound,Weekend,Autumn,38538,89
+33179,Sat,Southbound,Weekend,Spring,40554,89
+33179,Sat,Southbound,Weekend,Summer,40703,86
+33179,Sat,Southbound,Weekend,Winter,34396,88
+33179,Sun,All directions,Weekend,Autumn,96508,90
+33179,Sun,All directions,Weekend,Spring,110609,89
+33179,Sun,All directions,Weekend,Summer,100906,86
+33179,Sun,All directions,Weekend,Winter,80024,87
+33179,Sun,Northbound,Weekend,Autumn,52202,90
+33179,Sun,Northbound,Weekend,Spring,59879,89
+33179,Sun,Northbound,Weekend,Summer,54225,86
+33179,Sun,Northbound,Weekend,Winter,43417,87
+33179,Sun,Southbound,Weekend,Autumn,44306,90
+33179,Sun,Southbound,Weekend,Spring,50730,89
+33179,Sun,Southbound,Weekend,Summer,46681,86
+33179,Sun,Southbound,Weekend,Winter,36607,87
+33179,Thu,All directions,Weekday,Autumn,140784,90
+33179,Thu,All directions,Weekday,Spring,134075,88
+33179,Thu,All directions,Weekday,Summer,147470,86
+33179,Thu,All directions,Weekday,Winter,106586,88
+33179,Thu,Northbound,Weekday,Autumn,73345,90
+33179,Thu,Northbound,Weekday,Spring,70237,88
+33179,Thu,Northbound,Weekday,Summer,76709,86
+33179,Thu,Northbound,Weekday,Winter,55288,88
+33179,Thu,Southbound,Weekday,Autumn,67439,90
+33179,Thu,Southbound,Weekday,Spring,63838,88
+33179,Thu,Southbound,Weekday,Summer,70761,86
+33179,Thu,Southbound,Weekday,Winter,51298,88
+33179,Tue,All directions,Weekday,Autumn,159231,90
+33179,Tue,All directions,Weekday,Spring,145487,88
+33179,Tue,All directions,Weekday,Summer,160292,86
+33179,Tue,All directions,Weekday,Winter,111317,88
+33179,Tue,Northbound,Weekday,Autumn,82846,90
+33179,Tue,Northbound,Weekday,Spring,75993,88
+33179,Tue,Northbound,Weekday,Summer,82911,86
+33179,Tue,Northbound,Weekday,Winter,58034,88
+33179,Tue,Southbound,Weekday,Autumn,76385,90
+33179,Tue,Southbound,Weekday,Spring,69494,88
+33179,Tue,Southbound,Weekday,Summer,77381,86
+33179,Tue,Southbound,Weekday,Winter,53283,88
+33179,Wed,All directions,Weekday,Autumn,150314,90
+33179,Wed,All directions,Weekday,Spring,141549,88
+33179,Wed,All directions,Weekday,Summer,153367,86
+33179,Wed,All directions,Weekday,Winter,107050,88
+33179,Wed,Northbound,Weekday,Autumn,78191,90
+33179,Wed,Northbound,Weekday,Spring,73525,88
+33179,Wed,Northbound,Weekday,Summer,79740,86
+33179,Wed,Northbound,Weekday,Winter,55653,88
+33179,Wed,Southbound,Weekday,Autumn,72123,90
+33179,Wed,Southbound,Weekday,Spring,68024,88
+33179,Wed,Southbound,Weekday,Summer,73627,86
+33179,Wed,Southbound,Weekday,Winter,51397,88
+34215,Fri,All directions,Weekday,Autumn,44518,79
+34215,Fri,All directions,Weekday,Spring,41721,78
+34215,Fri,All directions,Weekday,Summer,41018,77
+34215,Fri,All directions,Weekday,Winter,33464,74
+34215,Fri,Northbound,Weekday,Autumn,21083,79
+34215,Fri,Northbound,Weekday,Spring,20022,78
+34215,Fri,Northbound,Weekday,Summer,19475,77
+34215,Fri,Northbound,Weekday,Winter,16166,74
+34215,Fri,Southbound,Weekday,Autumn,23435,79
+34215,Fri,Southbound,Weekday,Spring,21699,78
+34215,Fri,Southbound,Weekday,Summer,21543,77
+34215,Fri,Southbound,Weekday,Winter,17298,74
+34215,Mon,All directions,Weekday,Autumn,47673,79
+34215,Mon,All directions,Weekday,Spring,50032,78
+34215,Mon,All directions,Weekday,Summer,47591,77
+34215,Mon,All directions,Weekday,Winter,37067,74
+34215,Mon,Northbound,Weekday,Autumn,22893,79
+34215,Mon,Northbound,Weekday,Spring,24231,78
+34215,Mon,Northbound,Weekday,Summer,22776,77
+34215,Mon,Northbound,Weekday,Winter,17837,74
+34215,Mon,Southbound,Weekday,Autumn,24780,79
+34215,Mon,Southbound,Weekday,Spring,25801,78
+34215,Mon,Southbound,Weekday,Summer,24815,77
+34215,Mon,Southbound,Weekday,Winter,19230,74
+34215,Sat,All directions,Weekend,Autumn,22749,77
+34215,Sat,All directions,Weekend,Spring,25860,78
+34215,Sat,All directions,Weekend,Summer,24596,78
+34215,Sat,All directions,Weekend,Winter,20835,75
+34215,Sat,Northbound,Weekend,Autumn,10849,77
+34215,Sat,Northbound,Weekend,Spring,12474,78
+34215,Sat,Northbound,Weekend,Summer,11753,78
+34215,Sat,Northbound,Weekend,Winter,10013,75
+34215,Sat,Southbound,Weekend,Autumn,11900,77
+34215,Sat,Southbound,Weekend,Spring,13386,78
+34215,Sat,Southbound,Weekend,Summer,12843,78
+34215,Sat,Southbound,Weekend,Winter,10822,75
+34215,Sun,All directions,Weekend,Autumn,22803,78
+34215,Sun,All directions,Weekend,Spring,25936,78
+34215,Sun,All directions,Weekend,Summer,24903,78
+34215,Sun,All directions,Weekend,Winter,19181,74
+34215,Sun,Northbound,Weekend,Autumn,11237,78
+34215,Sun,Northbound,Weekend,Spring,13009,78
+34215,Sun,Northbound,Weekend,Summer,12038,78
+34215,Sun,Northbound,Weekend,Winter,9569,74
+34215,Sun,Southbound,Weekend,Autumn,11566,78
+34215,Sun,Southbound,Weekend,Spring,12927,78
+34215,Sun,Southbound,Weekend,Summer,12865,78
+34215,Sun,Southbound,Weekend,Winter,9612,74
+34215,Thu,All directions,Weekday,Autumn,52274,77
+34215,Thu,All directions,Weekday,Spring,50474,78
+34215,Thu,All directions,Weekday,Summer,51275,78
+34215,Thu,All directions,Weekday,Winter,41229,75
+34215,Thu,Northbound,Weekday,Autumn,24990,77
+34215,Thu,Northbound,Weekday,Spring,24378,78
+34215,Thu,Northbound,Weekday,Summer,24579,78
+34215,Thu,Northbound,Weekday,Winter,19978,75
+34215,Thu,Southbound,Weekday,Autumn,27284,77
+34215,Thu,Southbound,Weekday,Spring,26096,78
+34215,Thu,Southbound,Weekday,Summer,26696,78
+34215,Thu,Southbound,Weekday,Winter,21251,75
+34215,Tue,All directions,Weekday,Autumn,58474,78
+34215,Tue,All directions,Weekday,Spring,53202,78
+34215,Tue,All directions,Weekday,Summer,55060,77
+34215,Tue,All directions,Weekday,Winter,42029,74
+34215,Tue,Northbound,Weekday,Autumn,28066,78
+34215,Tue,Northbound,Weekday,Spring,25817,78
+34215,Tue,Northbound,Weekday,Summer,26386,77
+34215,Tue,Northbound,Weekday,Winter,20461,74
+34215,Tue,Southbound,Weekday,Autumn,30408,78
+34215,Tue,Southbound,Weekday,Spring,27385,78
+34215,Tue,Southbound,Weekday,Summer,28674,77
+34215,Tue,Southbound,Weekday,Winter,21568,74
+34215,Wed,All directions,Weekday,Autumn,53916,78
+34215,Wed,All directions,Weekday,Spring,51245,78
+34215,Wed,All directions,Weekday,Summer,51263,77
+34215,Wed,All directions,Weekday,Winter,38786,74
+34215,Wed,Northbound,Weekday,Autumn,25916,78
+34215,Wed,Northbound,Weekday,Spring,24969,78
+34215,Wed,Northbound,Weekday,Summer,24721,77
+34215,Wed,Northbound,Weekday,Winter,18731,74
+34215,Wed,Southbound,Weekday,Autumn,28000,78
+34215,Wed,Southbound,Weekday,Spring,26276,78
+34215,Wed,Southbound,Weekday,Summer,26542,77
+34215,Wed,Southbound,Weekday,Winter,20055,74
+34216,Fri,All directions,Weekday,Autumn,17363,79
+34216,Fri,All directions,Weekday,Spring,18503,78
+34216,Fri,All directions,Weekday,Summer,15960,77
+34216,Fri,All directions,Weekday,Winter,14309,78
+34216,Fri,Northbound,Weekday,Autumn,9421,79
+34216,Fri,Northbound,Weekday,Spring,9708,78
+34216,Fri,Northbound,Weekday,Summer,9007,77
+34216,Fri,Northbound,Weekday,Winter,7635,78
+34216,Fri,Southbound,Weekday,Autumn,7942,79
+34216,Fri,Southbound,Weekday,Spring,8795,78
+34216,Fri,Southbound,Weekday,Summer,6953,74
+34216,Fri,Southbound,Weekday,Winter,6674,78
+34216,Mon,All directions,Weekday,Autumn,16631,79
+34216,Mon,All directions,Weekday,Spring,18831,78
+34216,Mon,All directions,Weekday,Summer,15556,77
+34216,Mon,All directions,Weekday,Winter,14222,78
+34216,Mon,Northbound,Weekday,Autumn,8811,78
+34216,Mon,Northbound,Weekday,Spring,9946,78
+34216,Mon,Northbound,Weekday,Summer,8619,77
+34216,Mon,Northbound,Weekday,Winter,7623,78
+34216,Mon,Southbound,Weekday,Autumn,7820,79
+34216,Mon,Southbound,Weekday,Spring,8885,78
+34216,Mon,Southbound,Weekday,Summer,6937,75
+34216,Mon,Southbound,Weekday,Winter,6599,78
+34216,Sat,All directions,Weekend,Autumn,10639,77
+34216,Sat,All directions,Weekend,Spring,13096,78
+34216,Sat,All directions,Weekend,Summer,11677,78
+34216,Sat,All directions,Weekend,Winter,9790,79
+34216,Sat,Northbound,Weekend,Autumn,5712,77
+34216,Sat,Northbound,Weekend,Spring,6625,78
+34216,Sat,Northbound,Weekend,Summer,6461,78
+34216,Sat,Northbound,Weekend,Winter,5113,79
+34216,Sat,Southbound,Weekend,Autumn,4927,77
+34216,Sat,Southbound,Weekend,Spring,6471,78
+34216,Sat,Southbound,Weekend,Summer,5216,77
+34216,Sat,Southbound,Weekend,Winter,4677,79
+34216,Sun,All directions,Weekend,Autumn,9543,78
+34216,Sun,All directions,Weekend,Spring,11811,78
+34216,Sun,All directions,Weekend,Summer,10086,78
+34216,Sun,All directions,Weekend,Winter,8339,78
+34216,Sun,Northbound,Weekend,Autumn,4959,78
+34216,Sun,Northbound,Weekend,Spring,6141,78
+34216,Sun,Northbound,Weekend,Summer,5606,78
+34216,Sun,Northbound,Weekend,Winter,4426,78
+34216,Sun,Southbound,Weekend,Autumn,4584,78
+34216,Sun,Southbound,Weekend,Spring,5670,78
+34216,Sun,Southbound,Weekend,Summer,4480,75
+34216,Sun,Southbound,Weekend,Winter,3913,78
+34216,Thu,All directions,Weekday,Autumn,17678,77
+34216,Thu,All directions,Weekday,Spring,19609,78
+34216,Thu,All directions,Weekday,Summer,17261,78
+34216,Thu,All directions,Weekday,Winter,15244,78
+34216,Thu,Northbound,Weekday,Autumn,9427,77
+34216,Thu,Northbound,Weekday,Spring,10173,78
+34216,Thu,Northbound,Weekday,Summer,9666,78
+34216,Thu,Northbound,Weekday,Winter,8090,78
+34216,Thu,Southbound,Weekday,Autumn,8251,77
+34216,Thu,Southbound,Weekday,Spring,9436,78
+34216,Thu,Southbound,Weekday,Summer,7595,76
+34216,Thu,Southbound,Weekday,Winter,7154,78
+34216,Tue,All directions,Weekday,Autumn,18686,78
+34216,Tue,All directions,Weekday,Spring,19097,78
+34216,Tue,All directions,Weekday,Summer,17343,77
+34216,Tue,All directions,Weekday,Winter,14931,78
+34216,Tue,Northbound,Weekday,Autumn,9928,78
+34216,Tue,Northbound,Weekday,Spring,10234,78
+34216,Tue,Northbound,Weekday,Summer,9612,77
+34216,Tue,Northbound,Weekday,Winter,8137,78
+34216,Tue,Southbound,Weekday,Autumn,8758,78
+34216,Tue,Southbound,Weekday,Spring,8863,78
+34216,Tue,Southbound,Weekday,Summer,7731,75
+34216,Tue,Southbound,Weekday,Winter,6794,78
+34216,Wed,All directions,Weekday,Autumn,18910,78
+34216,Wed,All directions,Weekday,Spring,19897,78
+34216,Wed,All directions,Weekday,Summer,17611,77
+34216,Wed,All directions,Weekday,Winter,14935,78
+34216,Wed,Northbound,Weekday,Autumn,10011,78
+34216,Wed,Northbound,Weekday,Spring,10336,78
+34216,Wed,Northbound,Weekday,Summer,9966,77
+34216,Wed,Northbound,Weekday,Winter,7909,78
+34216,Wed,Southbound,Weekday,Autumn,8899,78
+34216,Wed,Southbound,Weekday,Spring,9561,78
+34216,Wed,Southbound,Weekday,Summer,7645,76
+34216,Wed,Southbound,Weekday,Winter,7026,78
+34217,Fri,All directions,Weekday,Autumn,8779,79
+34217,Fri,All directions,Weekday,Spring,8122,78
+34217,Fri,All directions,Weekday,Summer,8552,77
+34217,Fri,All directions,Weekday,Winter,6488,74
+34217,Fri,Eastbound,Weekday,Autumn,4164,79
+34217,Fri,Eastbound,Weekday,Spring,3631,78
+34217,Fri,Eastbound,Weekday,Summer,3968,77
+34217,Fri,Eastbound,Weekday,Winter,2943,74
+34217,Fri,Westbound,Weekday,Autumn,4615,79
+34217,Fri,Westbound,Weekday,Spring,4491,78
+34217,Fri,Westbound,Weekday,Summer,4584,77
+34217,Fri,Westbound,Weekday,Winter,3545,74
+34217,Mon,All directions,Weekday,Autumn,8136,79
+34217,Mon,All directions,Weekday,Spring,8289,78
+34217,Mon,All directions,Weekday,Summer,8316,77
+34217,Mon,All directions,Weekday,Winter,6354,74
+34217,Mon,Eastbound,Weekday,Autumn,3965,79
+34217,Mon,Eastbound,Weekday,Spring,3865,78
+34217,Mon,Eastbound,Weekday,Summer,4022,77
+34217,Mon,Eastbound,Weekday,Winter,2974,74
+34217,Mon,Westbound,Weekday,Autumn,4171,78
+34217,Mon,Westbound,Weekday,Spring,4424,78
+34217,Mon,Westbound,Weekday,Summer,4294,77
+34217,Mon,Westbound,Weekday,Winter,3380,74
+34217,Sat,All directions,Weekend,Autumn,7307,77
+34217,Sat,All directions,Weekend,Spring,7401,78
+34217,Sat,All directions,Weekend,Summer,7645,78
+34217,Sat,All directions,Weekend,Winter,6390,75
+34217,Sat,Eastbound,Weekend,Autumn,3344,77
+34217,Sat,Eastbound,Weekend,Spring,3191,78
+34217,Sat,Eastbound,Weekend,Summer,3489,78
+34217,Sat,Eastbound,Weekend,Winter,2750,75
+34217,Sat,Westbound,Weekend,Autumn,3963,77
+34217,Sat,Westbound,Weekend,Spring,4210,78
+34217,Sat,Westbound,Weekend,Summer,4156,78
+34217,Sat,Westbound,Weekend,Winter,3640,75
+34217,Sun,All directions,Weekend,Autumn,7189,78
+34217,Sun,All directions,Weekend,Spring,7500,78
+34217,Sun,All directions,Weekend,Summer,7629,78
+34217,Sun,All directions,Weekend,Winter,6263,74
+34217,Sun,Eastbound,Weekend,Autumn,3320,78
+34217,Sun,Eastbound,Weekend,Spring,3333,78
+34217,Sun,Eastbound,Weekend,Summer,3581,78
+34217,Sun,Eastbound,Weekend,Winter,2782,74
+34217,Sun,Westbound,Weekend,Autumn,3869,78
+34217,Sun,Westbound,Weekend,Spring,4167,78
+34217,Sun,Westbound,Weekend,Summer,4048,78
+34217,Sun,Westbound,Weekend,Winter,3481,74
+34217,Thu,All directions,Weekday,Autumn,8789,77
+34217,Thu,All directions,Weekday,Spring,8632,78
+34217,Thu,All directions,Weekday,Summer,9470,78
+34217,Thu,All directions,Weekday,Winter,6947,74
+34217,Thu,Eastbound,Weekday,Autumn,4218,77
+34217,Thu,Eastbound,Weekday,Spring,3977,78
+34217,Thu,Eastbound,Weekday,Summer,4567,78
+34217,Thu,Eastbound,Weekday,Winter,3271,74
+34217,Thu,Westbound,Weekday,Autumn,4571,77
+34217,Thu,Westbound,Weekday,Spring,4655,78
+34217,Thu,Westbound,Weekday,Summer,4903,78
+34217,Thu,Westbound,Weekday,Winter,3676,74
+34217,Tue,All directions,Weekday,Autumn,8912,78
+34217,Tue,All directions,Weekday,Spring,8729,78
+34217,Tue,All directions,Weekday,Summer,9252,77
+34217,Tue,All directions,Weekday,Winter,6778,74
+34217,Tue,Eastbound,Weekday,Autumn,4286,78
+34217,Tue,Eastbound,Weekday,Spring,4000,78
+34217,Tue,Eastbound,Weekday,Summer,4424,77
+34217,Tue,Eastbound,Weekday,Winter,3201,74
+34217,Tue,Westbound,Weekday,Autumn,4626,78
+34217,Tue,Westbound,Weekday,Spring,4729,78
+34217,Tue,Westbound,Weekday,Summer,4828,77
+34217,Tue,Westbound,Weekday,Winter,3577,74
+34217,Wed,All directions,Weekday,Autumn,9441,78
+34217,Wed,All directions,Weekday,Spring,8749,78
+34217,Wed,All directions,Weekday,Summer,9541,77
+34217,Wed,All directions,Weekday,Winter,6972,74
+34217,Wed,Eastbound,Weekday,Autumn,4521,78
+34217,Wed,Eastbound,Weekday,Spring,4014,78
+34217,Wed,Eastbound,Weekday,Summer,4558,77
+34217,Wed,Eastbound,Weekday,Winter,3261,74
+34217,Wed,Westbound,Weekday,Autumn,4920,78
+34217,Wed,Westbound,Weekday,Spring,4735,78
+34217,Wed,Westbound,Weekday,Summer,4983,77
+34217,Wed,Westbound,Weekday,Winter,3711,74
+34271,Fri,All directions,Weekday,Autumn,11698,79
+34271,Fri,All directions,Weekday,Spring,8065,65
+34271,Fri,All directions,Weekday,Summer,9960,69
+34271,Fri,All directions,Weekday,Winter,7536,68
+34271,Fri,Northbound,Weekday,Autumn,153,70
+34271,Fri,Northbound,Weekday,Spring,147,56
+34271,Fri,Northbound,Weekday,Summer,132,56
+34271,Fri,Northbound,Weekday,Winter,135,56
+34271,Fri,Southbound,Weekday,Autumn,11545,79
+34271,Fri,Southbound,Weekday,Spring,7918,65
+34271,Fri,Southbound,Weekday,Summer,9828,69
+34271,Fri,Southbound,Weekday,Winter,7401,68
+34271,Mon,All directions,Weekday,Autumn,13652,78
+34271,Mon,All directions,Weekday,Spring,10205,65
+34271,Mon,All directions,Weekday,Summer,11174,68
+34271,Mon,All directions,Weekday,Winter,9472,69
+34271,Mon,Northbound,Weekday,Autumn,156,66
+34271,Mon,Northbound,Weekday,Spring,139,59
+34271,Mon,Northbound,Weekday,Summer,148,55
+34271,Mon,Northbound,Weekday,Winter,129,58
+34271,Mon,Southbound,Weekday,Autumn,13496,78
+34271,Mon,Southbound,Weekday,Spring,10066,65
+34271,Mon,Southbound,Weekday,Summer,11026,68
+34271,Mon,Southbound,Weekday,Winter,9343,69
+34271,Sat,All directions,Weekend,Autumn,8678,77
+34271,Sat,All directions,Weekend,Spring,7094,65
+34271,Sat,All directions,Weekend,Summer,8575,69
+34271,Sat,All directions,Weekend,Winter,6809,70
+34271,Sat,Northbound,Weekend,Autumn,130,61
+34271,Sat,Northbound,Weekend,Spring,119,51
+34271,Sat,Northbound,Weekend,Summer,139,58
+34271,Sat,Northbound,Weekend,Winter,89,47
+34271,Sat,Southbound,Weekend,Autumn,8548,77
+34271,Sat,Southbound,Weekend,Spring,6975,65
+34271,Sat,Southbound,Weekend,Summer,8436,69
+34271,Sat,Southbound,Weekend,Winter,6720,70
+34271,Sun,All directions,Weekend,Autumn,10318,78
+34271,Sun,All directions,Weekend,Spring,9697,65
+34271,Sun,All directions,Weekend,Summer,10241,69
+34271,Sun,All directions,Weekend,Winter,7717,69
+34271,Sun,Northbound,Weekend,Autumn,132,55
+34271,Sun,Northbound,Weekend,Spring,134,55
+34271,Sun,Northbound,Weekend,Summer,151,56
+34271,Sun,Northbound,Weekend,Winter,99,51
+34271,Sun,Southbound,Weekend,Autumn,10186,78
+34271,Sun,Southbound,Weekend,Spring,9563,65
+34271,Sun,Southbound,Weekend,Summer,10090,69
+34271,Sun,Southbound,Weekend,Winter,7618,69
+34271,Thu,All directions,Weekday,Autumn,14062,77
+34271,Thu,All directions,Weekday,Spring,9796,65
+34271,Thu,All directions,Weekday,Summer,12037,69
+34271,Thu,All directions,Weekday,Winter,9966,69
+34271,Thu,Northbound,Weekday,Autumn,154,65
+34271,Thu,Northbound,Weekday,Spring,99,51
+34271,Thu,Northbound,Weekday,Summer,172,63
+34271,Thu,Northbound,Weekday,Winter,157,59
+34271,Thu,Southbound,Weekday,Autumn,13908,77
+34271,Thu,Southbound,Weekday,Spring,9697,65
+34271,Thu,Southbound,Weekday,Summer,11865,69
+34271,Thu,Southbound,Weekday,Winter,9809,69
+34271,Tue,All directions,Weekday,Autumn,16286,78
+34271,Tue,All directions,Weekday,Spring,11553,65
+34271,Tue,All directions,Weekday,Summer,12878,68
+34271,Tue,All directions,Weekday,Winter,10293,69
+34271,Tue,Northbound,Weekday,Autumn,154,61
+34271,Tue,Northbound,Weekday,Spring,142,56
+34271,Tue,Northbound,Weekday,Summer,159,62
+34271,Tue,Northbound,Weekday,Winter,164,62
+34271,Tue,Southbound,Weekday,Autumn,16132,78
+34271,Tue,Southbound,Weekday,Spring,11411,65
+34271,Tue,Southbound,Weekday,Summer,12719,68
+34271,Tue,Southbound,Weekday,Winter,10129,69
+34271,Wed,All directions,Weekday,Autumn,15799,78
+34271,Wed,All directions,Weekday,Spring,11169,65
+34271,Wed,All directions,Weekday,Summer,12675,68
+34271,Wed,All directions,Weekday,Winter,10120,69
+34271,Wed,Northbound,Weekday,Autumn,174,71
+34271,Wed,Northbound,Weekday,Spring,126,56
+34271,Wed,Northbound,Weekday,Summer,147,62
+34271,Wed,Northbound,Weekday,Winter,130,56
+34271,Wed,Southbound,Weekday,Autumn,15625,78
+34271,Wed,Southbound,Weekday,Spring,11043,65
+34271,Wed,Southbound,Weekday,Summer,12528,68
+34271,Wed,Southbound,Weekday,Winter,9990,69
+34314,Fri,All directions,Weekday,Autumn,115085,79
+34314,Fri,All directions,Weekday,Spring,77695,65
+34314,Fri,All directions,Weekday,Summer,88204,69
+34314,Fri,All directions,Weekday,Winter,74887,68
+34314,Fri,Northbound,Weekday,Autumn,59013,79
+34314,Fri,Northbound,Weekday,Spring,40676,65
+34314,Fri,Northbound,Weekday,Summer,47361,69
+34314,Fri,Northbound,Weekday,Winter,38331,68
+34314,Fri,Southbound,Weekday,Autumn,56072,79
+34314,Fri,Southbound,Weekday,Spring,37019,61
+34314,Fri,Southbound,Weekday,Summer,40843,68
+34314,Fri,Southbound,Weekday,Winter,36556,67
+34314,Mon,All directions,Weekday,Autumn,121339,79
+34314,Mon,All directions,Weekday,Spring,88855,65
+34314,Mon,All directions,Weekday,Summer,95911,68
+34314,Mon,All directions,Weekday,Winter,83508,70
+34314,Mon,Northbound,Weekday,Autumn,61675,79
+34314,Mon,Northbound,Weekday,Spring,45632,65
+34314,Mon,Northbound,Weekday,Summer,50119,68
+34314,Mon,Northbound,Weekday,Winter,42742,70
+34314,Mon,Southbound,Weekday,Autumn,59664,78
+34314,Mon,Southbound,Weekday,Spring,43223,60
+34314,Mon,Southbound,Weekday,Summer,45792,68
+34314,Mon,Southbound,Weekday,Winter,40766,69
+34314,Sat,All directions,Weekend,Autumn,57686,77
+34314,Sat,All directions,Weekend,Spring,45434,65
+34314,Sat,All directions,Weekend,Summer,52392,69
+34314,Sat,All directions,Weekend,Winter,44864,70
+34314,Sat,Northbound,Weekend,Autumn,31654,77
+34314,Sat,Northbound,Weekend,Spring,25915,65
+34314,Sat,Northbound,Weekend,Summer,28667,69
+34314,Sat,Northbound,Weekend,Winter,25332,70
+34314,Sat,Southbound,Weekend,Autumn,26032,76
+34314,Sat,Southbound,Weekend,Spring,19519,62
+34314,Sat,Southbound,Weekend,Summer,23725,69
+34314,Sat,Southbound,Weekend,Winter,19532,68
+34314,Sun,All directions,Weekend,Autumn,50806,78
+34314,Sun,All directions,Weekend,Spring,42818,65
+34314,Sun,All directions,Weekend,Summer,47622,69
+34314,Sun,All directions,Weekend,Winter,37449,69
+34314,Sun,Northbound,Weekend,Autumn,28447,78
+34314,Sun,Northbound,Weekend,Spring,24855,65
+34314,Sun,Northbound,Weekend,Summer,26152,69
+34314,Sun,Northbound,Weekend,Winter,20965,69
+34314,Sun,Southbound,Weekend,Autumn,22359,78
+34314,Sun,Southbound,Weekend,Spring,17963,61
+34314,Sun,Southbound,Weekend,Summer,21470,68
+34314,Sun,Southbound,Weekend,Winter,16484,64
+34314,Thu,All directions,Weekday,Autumn,136681,77
+34314,Thu,All directions,Weekday,Spring,90704,65
+34314,Thu,All directions,Weekday,Summer,105652,69
+34314,Thu,All directions,Weekday,Winter,92930,69
+34314,Thu,Northbound,Weekday,Autumn,68638,77
+34314,Thu,Northbound,Weekday,Spring,46977,65
+34314,Thu,Northbound,Weekday,Summer,55726,69
+34314,Thu,Northbound,Weekday,Winter,47126,69
+34314,Thu,Southbound,Weekday,Autumn,68043,77
+34314,Thu,Southbound,Weekday,Spring,43727,61
+34314,Thu,Southbound,Weekday,Summer,49926,68
+34314,Thu,Southbound,Weekday,Winter,45804,67
+34314,Tue,All directions,Weekday,Autumn,143796,78
+34314,Tue,All directions,Weekday,Spring,96052,65
+34314,Tue,All directions,Weekday,Summer,107340,68
+34314,Tue,All directions,Weekday,Winter,93526,69
+34314,Tue,Northbound,Weekday,Autumn,71813,78
+34314,Tue,Northbound,Weekday,Spring,49241,65
+34314,Tue,Northbound,Weekday,Summer,56086,68
+34314,Tue,Northbound,Weekday,Winter,46828,69
+34314,Tue,Southbound,Weekday,Autumn,71983,77
+34314,Tue,Southbound,Weekday,Spring,46811,60
+34314,Tue,Southbound,Weekday,Summer,51254,67
+34314,Tue,Southbound,Weekday,Winter,46698,67
+34314,Wed,All directions,Weekday,Autumn,142867,78
+34314,Wed,All directions,Weekday,Spring,94421,65
+34314,Wed,All directions,Weekday,Summer,102857,68
+34314,Wed,All directions,Weekday,Winter,89091,69
+34314,Wed,Northbound,Weekday,Autumn,71779,78
+34314,Wed,Northbound,Weekday,Spring,48424,65
+34314,Wed,Northbound,Weekday,Summer,54137,68
+34314,Wed,Northbound,Weekday,Winter,44774,69
+34314,Wed,Southbound,Weekday,Autumn,71088,78
+34314,Wed,Southbound,Weekday,Spring,45997,60
+34314,Wed,Southbound,Weekday,Summer,48720,68
+34314,Wed,Southbound,Weekday,Winter,44317,68
+34315,Fri,All directions,Weekday,Autumn,39623,79
+34315,Fri,All directions,Weekday,Spring,36425,78
+34315,Fri,All directions,Weekday,Summer,33272,77
+34315,Fri,All directions,Weekday,Winter,25946,68
+34315,Fri,Eastbound,Weekday,Autumn,21423,79
+34315,Fri,Eastbound,Weekday,Spring,19503,78
+34315,Fri,Eastbound,Weekday,Summer,17868,77
+34315,Fri,Eastbound,Weekday,Winter,14007,68
+34315,Fri,Westbound,Weekday,Autumn,18200,79
+34315,Fri,Westbound,Weekday,Spring,16922,78
+34315,Fri,Westbound,Weekday,Summer,15404,77
+34315,Fri,Westbound,Weekday,Winter,11939,68
+34315,Mon,All directions,Weekday,Autumn,38691,78
+34315,Mon,All directions,Weekday,Spring,35850,77
+34315,Mon,All directions,Weekday,Summer,34427,77
+34315,Mon,All directions,Weekday,Winter,27178,69
+34315,Mon,Eastbound,Weekday,Autumn,20432,78
+34315,Mon,Eastbound,Weekday,Spring,18772,77
+34315,Mon,Eastbound,Weekday,Summer,18026,77
+34315,Mon,Eastbound,Weekday,Winter,14236,69
+34315,Mon,Westbound,Weekday,Autumn,18259,78
+34315,Mon,Westbound,Weekday,Spring,17078,77
+34315,Mon,Westbound,Weekday,Summer,16401,77
+34315,Mon,Westbound,Weekday,Winter,12942,69
+34315,Sat,All directions,Weekend,Autumn,40442,77
+34315,Sat,All directions,Weekend,Spring,41424,77
+34315,Sat,All directions,Weekend,Summer,38857,78
+34315,Sat,All directions,Weekend,Winter,38291,70
+34315,Sat,Eastbound,Weekend,Autumn,21850,77
+34315,Sat,Eastbound,Weekend,Spring,22099,77
+34315,Sat,Eastbound,Weekend,Summer,20763,78
+34315,Sat,Eastbound,Weekend,Winter,20357,70
+34315,Sat,Westbound,Weekend,Autumn,18592,77
+34315,Sat,Westbound,Weekend,Spring,19325,77
+34315,Sat,Westbound,Weekend,Summer,18094,78
+34315,Sat,Westbound,Weekend,Winter,17934,70
+34315,Sun,All directions,Weekend,Autumn,52173,78
+34315,Sun,All directions,Weekend,Spring,59425,77
+34315,Sun,All directions,Weekend,Summer,50209,78
+34315,Sun,All directions,Weekend,Winter,46811,69
+34315,Sun,Eastbound,Weekend,Autumn,28042,78
+34315,Sun,Eastbound,Weekend,Spring,31879,77
+34315,Sun,Eastbound,Weekend,Summer,27005,78
+34315,Sun,Eastbound,Weekend,Winter,25646,69
+34315,Sun,Westbound,Weekend,Autumn,24131,78
+34315,Sun,Westbound,Weekend,Spring,27546,77
+34315,Sun,Westbound,Weekend,Summer,23204,78
+34315,Sun,Westbound,Weekend,Winter,21165,69
+34315,Thu,All directions,Weekday,Autumn,36802,77
+34315,Thu,All directions,Weekday,Spring,37442,77
+34315,Thu,All directions,Weekday,Summer,37097,78
+34315,Thu,All directions,Weekday,Winter,27451,69
+34315,Thu,Eastbound,Weekday,Autumn,19421,77
+34315,Thu,Eastbound,Weekday,Spring,19949,77
+34315,Thu,Eastbound,Weekday,Summer,19658,78
+34315,Thu,Eastbound,Weekday,Winter,14267,69
+34315,Thu,Westbound,Weekday,Autumn,17381,77
+34315,Thu,Westbound,Weekday,Spring,17493,77
+34315,Thu,Westbound,Weekday,Summer,17439,78
+34315,Thu,Westbound,Weekday,Winter,13184,69
+34315,Tue,All directions,Weekday,Autumn,41156,78
+34315,Tue,All directions,Weekday,Spring,41027,77
+34315,Tue,All directions,Weekday,Summer,39331,77
+34315,Tue,All directions,Weekday,Winter,26716,69
+34315,Tue,Eastbound,Weekday,Autumn,21927,78
+34315,Tue,Eastbound,Weekday,Spring,21820,77
+34315,Tue,Eastbound,Weekday,Summer,20756,77
+34315,Tue,Eastbound,Weekday,Winter,14072,69
+34315,Tue,Westbound,Weekday,Autumn,19229,78
+34315,Tue,Westbound,Weekday,Spring,19207,77
+34315,Tue,Westbound,Weekday,Summer,18575,77
+34315,Tue,Westbound,Weekday,Winter,12644,69
+34315,Wed,All directions,Weekday,Autumn,38638,78
+34315,Wed,All directions,Weekday,Spring,39783,77
+34315,Wed,All directions,Weekday,Summer,39140,77
+34315,Wed,All directions,Weekday,Winter,26559,69
+34315,Wed,Eastbound,Weekday,Autumn,20786,78
+34315,Wed,Eastbound,Weekday,Spring,21245,77
+34315,Wed,Eastbound,Weekday,Summer,21121,77
+34315,Wed,Eastbound,Weekday,Winter,14078,69
+34315,Wed,Westbound,Weekday,Autumn,17852,78
+34315,Wed,Westbound,Weekday,Spring,18538,77
+34315,Wed,Westbound,Weekday,Summer,18019,77
+34315,Wed,Westbound,Weekday,Winter,12481,69
+34556,Fri,All directions,Weekday,Autumn,10061,79
+34556,Fri,All directions,Weekday,Spring,7916,65
+34556,Fri,All directions,Weekday,Summer,8727,70
+34556,Fri,All directions,Weekday,Winter,6042,68
+34556,Fri,Eastbound,Weekday,Autumn,4712,79
+34556,Fri,Eastbound,Weekday,Spring,3729,65
+34556,Fri,Eastbound,Weekday,Summer,4178,70
+34556,Fri,Eastbound,Weekday,Winter,2649,68
+34556,Fri,Westbound,Weekday,Autumn,5349,79
+34556,Fri,Westbound,Weekday,Spring,4187,65
+34556,Fri,Westbound,Weekday,Summer,4549,70
+34556,Fri,Westbound,Weekday,Winter,3393,68
+34556,Mon,All directions,Weekday,Autumn,10656,78
+34556,Mon,All directions,Weekday,Spring,9112,65
+34556,Mon,All directions,Weekday,Summer,9645,69
+34556,Mon,All directions,Weekday,Winter,7546,69
+34556,Mon,Eastbound,Weekday,Autumn,4922,78
+34556,Mon,Eastbound,Weekday,Spring,4186,65
+34556,Mon,Eastbound,Weekday,Summer,4608,69
+34556,Mon,Eastbound,Weekday,Winter,3384,69
+34556,Mon,Westbound,Weekday,Autumn,5734,78
+34556,Mon,Westbound,Weekday,Spring,4926,65
+34556,Mon,Westbound,Weekday,Summer,5037,69
+34556,Mon,Westbound,Weekday,Winter,4162,69
+34556,Sat,All directions,Weekend,Autumn,10489,77
+34556,Sat,All directions,Weekend,Spring,9675,65
+34556,Sat,All directions,Weekend,Summer,10282,70
+34556,Sat,All directions,Weekend,Winter,9228,70
+34556,Sat,Eastbound,Weekend,Autumn,4946,77
+34556,Sat,Eastbound,Weekend,Spring,4578,65
+34556,Sat,Eastbound,Weekend,Summer,5042,70
+34556,Sat,Eastbound,Weekend,Winter,4163,70
+34556,Sat,Westbound,Weekend,Autumn,5543,77
+34556,Sat,Westbound,Weekend,Spring,5097,65
+34556,Sat,Westbound,Weekend,Summer,5240,70
+34556,Sat,Westbound,Weekend,Winter,5065,70
+34556,Sun,All directions,Weekend,Autumn,11509,78
+34556,Sun,All directions,Weekend,Spring,12045,65
+34556,Sun,All directions,Weekend,Summer,11012,70
+34556,Sun,All directions,Weekend,Winter,10078,69
+34556,Sun,Eastbound,Weekend,Autumn,5263,78
+34556,Sun,Eastbound,Weekend,Spring,5684,65
+34556,Sun,Eastbound,Weekend,Summer,5241,70
+34556,Sun,Eastbound,Weekend,Winter,4545,69
+34556,Sun,Westbound,Weekend,Autumn,6246,78
+34556,Sun,Westbound,Weekend,Spring,6361,65
+34556,Sun,Westbound,Weekend,Summer,5771,70
+34556,Sun,Westbound,Weekend,Winter,5533,69
+34556,Thu,All directions,Weekday,Autumn,9806,77
+34556,Thu,All directions,Weekday,Spring,8574,65
+34556,Thu,All directions,Weekday,Summer,10046,70
+34556,Thu,All directions,Weekday,Winter,7181,69
+34556,Thu,Eastbound,Weekday,Autumn,4455,77
+34556,Thu,Eastbound,Weekday,Spring,3943,65
+34556,Thu,Eastbound,Weekday,Summer,4755,70
+34556,Thu,Eastbound,Weekday,Winter,3093,69
+34556,Thu,Westbound,Weekday,Autumn,5351,77
+34556,Thu,Westbound,Weekday,Spring,4631,65
+34556,Thu,Westbound,Weekday,Summer,5291,70
+34556,Thu,Westbound,Weekday,Winter,4088,69
+34556,Tue,All directions,Weekday,Autumn,10521,78
+34556,Tue,All directions,Weekday,Spring,9823,65
+34556,Tue,All directions,Weekday,Summer,10544,69
+34556,Tue,All directions,Weekday,Winter,6683,69
+34556,Tue,Eastbound,Weekday,Autumn,4785,78
+34556,Tue,Eastbound,Weekday,Spring,4488,65
+34556,Tue,Eastbound,Weekday,Summer,5000,69
+34556,Tue,Eastbound,Weekday,Winter,2950,69
+34556,Tue,Westbound,Weekday,Autumn,5736,78
+34556,Tue,Westbound,Weekday,Spring,5335,65
+34556,Tue,Westbound,Weekday,Summer,5544,69
+34556,Tue,Westbound,Weekday,Winter,3733,69
+34556,Wed,All directions,Weekday,Autumn,9949,78
+34556,Wed,All directions,Weekday,Spring,9661,65
+34556,Wed,All directions,Weekday,Summer,10153,69
+34556,Wed,All directions,Weekday,Winter,6420,69
+34556,Wed,Eastbound,Weekday,Autumn,4481,78
+34556,Wed,Eastbound,Weekday,Spring,4405,65
+34556,Wed,Eastbound,Weekday,Summer,4778,69
+34556,Wed,Eastbound,Weekday,Winter,2835,69
+34556,Wed,Westbound,Weekday,Autumn,5468,78
+34556,Wed,Westbound,Weekday,Spring,5256,65
+34556,Wed,Westbound,Weekday,Summer,5375,69
+34556,Wed,Westbound,Weekday,Winter,3585,69
+40003,Fri,All directions,Weekday,Autumn,1924,13
+40003,Fri,All directions,Weekday,Summer,977,7
+40003,Fri,All directions,Weekday,Winter,555,6
+40003,Fri,Northbound,Weekday,Autumn,1129,13
+40003,Fri,Northbound,Weekday,Summer,534,7
+40003,Fri,Northbound,Weekday,Winter,313,6
+40003,Fri,Southbound,Weekday,Autumn,795,13
+40003,Fri,Southbound,Weekday,Summer,443,7
+40003,Fri,Southbound,Weekday,Winter,242,6
+40003,Mon,All directions,Weekday,Autumn,1906,14
+40003,Mon,All directions,Weekday,Summer,1040,7
+40003,Mon,All directions,Weekday,Winter,610,5
+40003,Mon,Northbound,Weekday,Autumn,1172,14
+40003,Mon,Northbound,Weekday,Summer,532,6
+40003,Mon,Northbound,Weekday,Winter,355,5
+40003,Mon,Southbound,Weekday,Autumn,734,14
+40003,Mon,Southbound,Weekday,Summer,508,7
+40003,Mon,Southbound,Weekday,Winter,255,5
+40003,Sat,All directions,Weekend,Autumn,1475,13
+40003,Sat,All directions,Weekend,Summer,1025,8
+40003,Sat,All directions,Weekend,Winter,804,6
+40003,Sat,Northbound,Weekend,Autumn,902,13
+40003,Sat,Northbound,Weekend,Summer,550,7
+40003,Sat,Northbound,Weekend,Winter,435,6
+40003,Sat,Southbound,Weekend,Autumn,573,13
+40003,Sat,Southbound,Weekend,Summer,475,8
+40003,Sat,Southbound,Weekend,Winter,369,6
+40003,Sun,All directions,Weekend,Autumn,1146,12
+40003,Sun,All directions,Weekend,Summer,1205,8
+40003,Sun,All directions,Weekend,Winter,869,6
+40003,Sun,Northbound,Weekend,Autumn,707,12
+40003,Sun,Northbound,Weekend,Summer,637,8
+40003,Sun,Northbound,Weekend,Winter,498,6
+40003,Sun,Southbound,Weekend,Autumn,439,12
+40003,Sun,Southbound,Weekend,Summer,568,8
+40003,Sun,Southbound,Weekend,Winter,371,6
+40003,Thu,All directions,Weekday,Autumn,2122,13
+40003,Thu,All directions,Weekday,Summer,1468,7
+40003,Thu,All directions,Weekday,Winter,749,6
+40003,Thu,Northbound,Weekday,Autumn,1261,13
+40003,Thu,Northbound,Weekday,Summer,851,7
+40003,Thu,Northbound,Weekday,Winter,407,6
+40003,Thu,Southbound,Weekday,Autumn,861,13
+40003,Thu,Southbound,Weekday,Summer,617,7
+40003,Thu,Southbound,Weekday,Winter,342,6
+40003,Tue,All directions,Weekday,Autumn,1890,12
+40003,Tue,All directions,Weekday,Summer,1217,7
+40003,Tue,All directions,Weekday,Winter,787,6
+40003,Tue,Northbound,Weekday,Autumn,1181,12
+40003,Tue,Northbound,Weekday,Summer,694,7
+40003,Tue,Northbound,Weekday,Winter,443,6
+40003,Tue,Southbound,Weekday,Autumn,709,12
+40003,Tue,Southbound,Weekday,Summer,523,7
+40003,Tue,Southbound,Weekday,Winter,344,6
+40003,Wed,All directions,Weekday,Autumn,2187,13
+40003,Wed,All directions,Weekday,Summer,1427,7
+40003,Wed,All directions,Weekday,Winter,724,6
+40003,Wed,Northbound,Weekday,Autumn,1341,12
+40003,Wed,Northbound,Weekday,Summer,803,7
+40003,Wed,Northbound,Weekday,Winter,421,6
+40003,Wed,Southbound,Weekday,Autumn,846,13
+40003,Wed,Southbound,Weekday,Summer,624,7
+40003,Wed,Southbound,Weekday,Winter,303,6
+40004,Fri,All directions,Weekday,Autumn,26135,33
+40004,Fri,All directions,Weekday,Spring,13402,22
+40004,Fri,All directions,Weekday,Summer,18449,27
+40004,Fri,All directions,Weekday,Winter,12178,23
+40004,Fri,Eastbound,Weekday,Autumn,12762,33
+40004,Fri,Eastbound,Weekday,Spring,6140,22
+40004,Fri,Eastbound,Weekday,Summer,8553,27
+40004,Fri,Eastbound,Weekday,Winter,5903,23
+40004,Fri,Westbound,Weekday,Autumn,13373,33
+40004,Fri,Westbound,Weekday,Spring,7262,22
+40004,Fri,Westbound,Weekday,Summer,9896,27
+40004,Fri,Westbound,Weekday,Winter,6275,23
+40004,Mon,All directions,Weekday,Autumn,26374,33
+40004,Mon,All directions,Weekday,Spring,14561,22
+40004,Mon,All directions,Weekday,Summer,18291,26
+40004,Mon,All directions,Weekday,Winter,13947,24
+40004,Mon,Eastbound,Weekday,Autumn,12803,33
+40004,Mon,Eastbound,Weekday,Spring,6802,22
+40004,Mon,Eastbound,Weekday,Summer,8486,25
+40004,Mon,Eastbound,Weekday,Winter,6658,24
+40004,Mon,Westbound,Weekday,Autumn,13571,33
+40004,Mon,Westbound,Weekday,Spring,7759,22
+40004,Mon,Westbound,Weekday,Summer,9805,26
+40004,Mon,Westbound,Weekday,Winter,7289,24
+40004,Sat,All directions,Weekend,Autumn,23241,33
+40004,Sat,All directions,Weekend,Spring,16006,22
+40004,Sat,All directions,Weekend,Summer,19873,28
+40004,Sat,All directions,Weekend,Winter,16677,23
+40004,Sat,Eastbound,Weekend,Autumn,10738,33
+40004,Sat,Eastbound,Weekend,Spring,7051,22
+40004,Sat,Eastbound,Weekend,Summer,8736,28
+40004,Sat,Eastbound,Weekend,Winter,7556,23
+40004,Sat,Westbound,Weekend,Autumn,12503,33
+40004,Sat,Westbound,Weekend,Spring,8955,22
+40004,Sat,Westbound,Weekend,Summer,11137,28
+40004,Sat,Westbound,Weekend,Winter,9121,23
+40004,Sun,All directions,Weekend,Autumn,23192,33
+40004,Sun,All directions,Weekend,Spring,19535,22
+40004,Sun,All directions,Weekend,Summer,22305,28
+40004,Sun,All directions,Weekend,Winter,18830,23
+40004,Sun,Eastbound,Weekend,Autumn,10421,33
+40004,Sun,Eastbound,Weekend,Spring,8462,22
+40004,Sun,Eastbound,Weekend,Summer,9648,28
+40004,Sun,Eastbound,Weekend,Winter,8525,23
+40004,Sun,Westbound,Weekend,Autumn,12771,33
+40004,Sun,Westbound,Weekend,Spring,11073,22
+40004,Sun,Westbound,Weekend,Summer,12657,28
+40004,Sun,Westbound,Weekend,Winter,10305,23
+40004,Thu,All directions,Weekday,Autumn,31752,33
+40004,Thu,All directions,Weekday,Spring,15778,22
+40004,Thu,All directions,Weekday,Summer,21559,27
+40004,Thu,All directions,Weekday,Winter,15353,23
+40004,Thu,Eastbound,Weekday,Autumn,15500,33
+40004,Thu,Eastbound,Weekday,Spring,7318,22
+40004,Thu,Eastbound,Weekday,Summer,10213,25
+40004,Thu,Eastbound,Weekday,Winter,7404,23
+40004,Thu,Westbound,Weekday,Autumn,16252,33
+40004,Thu,Westbound,Weekday,Spring,8460,22
+40004,Thu,Westbound,Weekday,Summer,11346,27
+40004,Thu,Westbound,Weekday,Winter,7949,23
+40004,Tue,All directions,Weekday,Autumn,32148,32
+40004,Tue,All directions,Weekday,Spring,19218,22
+40004,Tue,All directions,Weekday,Summer,22892,26
+40004,Tue,All directions,Weekday,Winter,16497,25
+40004,Tue,Eastbound,Weekday,Autumn,15629,32
+40004,Tue,Eastbound,Weekday,Spring,8922,22
+40004,Tue,Eastbound,Weekday,Summer,10630,26
+40004,Tue,Eastbound,Weekday,Winter,8050,25
+40004,Tue,Westbound,Weekday,Autumn,16519,32
+40004,Tue,Westbound,Weekday,Spring,10296,22
+40004,Tue,Westbound,Weekday,Summer,12262,26
+40004,Tue,Westbound,Weekday,Winter,8447,25
+40004,Wed,All directions,Weekday,Autumn,33295,33
+40004,Wed,All directions,Weekday,Spring,16813,22
+40004,Wed,All directions,Weekday,Summer,22097,26
+40004,Wed,All directions,Weekday,Winter,14624,24
+40004,Wed,Eastbound,Weekday,Autumn,16133,33
+40004,Wed,Eastbound,Weekday,Spring,7752,21
+40004,Wed,Eastbound,Weekday,Summer,10250,26
+40004,Wed,Eastbound,Weekday,Winter,7003,24
+40004,Wed,Westbound,Weekday,Autumn,17162,33
+40004,Wed,Westbound,Weekday,Spring,9061,22
+40004,Wed,Westbound,Weekday,Summer,11847,26
+40004,Wed,Westbound,Weekday,Winter,7621,24
+40005,Fri,All directions,Weekday,Autumn,23036,32
+40005,Fri,All directions,Weekday,Spring,13666,22
+40005,Fri,All directions,Weekday,Summer,19426,27
+40005,Fri,All directions,Weekday,Winter,11582,23
+40005,Fri,Eastbound,Weekday,Autumn,11394,31
+40005,Fri,Eastbound,Weekday,Spring,6395,21
+40005,Fri,Eastbound,Weekday,Summer,8776,27
+40005,Fri,Eastbound,Weekday,Winter,5195,20
+40005,Fri,Westbound,Weekday,Autumn,11642,30
+40005,Fri,Westbound,Weekday,Spring,7271,21
+40005,Fri,Westbound,Weekday,Summer,10650,27
+40005,Fri,Westbound,Weekday,Winter,6387,23
+40005,Mon,All directions,Weekday,Autumn,22038,32
+40005,Mon,All directions,Weekday,Spring,13618,22
+40005,Mon,All directions,Weekday,Summer,17828,26
+40005,Mon,All directions,Weekday,Winter,13191,24
+40005,Mon,Eastbound,Weekday,Autumn,11131,31
+40005,Mon,Eastbound,Weekday,Spring,6718,21
+40005,Mon,Eastbound,Weekday,Summer,8132,24
+40005,Mon,Eastbound,Weekday,Winter,6003,21
+40005,Mon,Westbound,Weekday,Autumn,10907,30
+40005,Mon,Westbound,Weekday,Spring,6900,20
+40005,Mon,Westbound,Weekday,Summer,9696,26
+40005,Mon,Westbound,Weekday,Winter,7188,24
+40005,Sat,All directions,Weekend,Autumn,21243,32
+40005,Sat,All directions,Weekend,Spring,17206,22
+40005,Sat,All directions,Weekend,Summer,22085,28
+40005,Sat,All directions,Weekend,Winter,18912,23
+40005,Sat,Eastbound,Weekend,Autumn,10512,31
+40005,Sat,Eastbound,Weekend,Spring,7996,22
+40005,Sat,Eastbound,Weekend,Summer,10311,28
+40005,Sat,Eastbound,Weekend,Winter,8686,22
+40005,Sat,Westbound,Weekend,Autumn,10731,30
+40005,Sat,Westbound,Weekend,Spring,9210,21
+40005,Sat,Westbound,Weekend,Summer,11774,28
+40005,Sat,Westbound,Weekend,Winter,10226,23
+40005,Sun,All directions,Weekend,Autumn,22881,32
+40005,Sun,All directions,Weekend,Spring,22477,22
+40005,Sun,All directions,Weekend,Summer,25001,28
+40005,Sun,All directions,Weekend,Winter,21448,23
+40005,Sun,Eastbound,Weekend,Autumn,11371,32
+40005,Sun,Eastbound,Weekend,Spring,10426,22
+40005,Sun,Eastbound,Weekend,Summer,11415,28
+40005,Sun,Eastbound,Weekend,Winter,9912,21
+40005,Sun,Westbound,Weekend,Autumn,11510,31
+40005,Sun,Westbound,Weekend,Spring,12051,21
+40005,Sun,Westbound,Weekend,Summer,13586,27
+40005,Sun,Westbound,Weekend,Winter,11536,23
+40005,Thu,All directions,Weekday,Autumn,26776,32
+40005,Thu,All directions,Weekday,Spring,15376,22
+40005,Thu,All directions,Weekday,Summer,21149,27
+40005,Thu,All directions,Weekday,Winter,14384,23
+40005,Thu,Eastbound,Weekday,Autumn,13147,31
+40005,Thu,Eastbound,Weekday,Spring,7618,21
+40005,Thu,Eastbound,Weekday,Summer,9869,26
+40005,Thu,Eastbound,Weekday,Winter,6624,23
+40005,Thu,Westbound,Weekday,Autumn,13629,31
+40005,Thu,Westbound,Weekday,Spring,7758,22
+40005,Thu,Westbound,Weekday,Summer,11280,27
+40005,Thu,Westbound,Weekday,Winter,7760,23
+40005,Tue,All directions,Weekday,Autumn,26869,31
+40005,Tue,All directions,Weekday,Spring,18504,22
+40005,Tue,All directions,Weekday,Summer,23001,26
+40005,Tue,All directions,Weekday,Winter,15027,25
+40005,Tue,Eastbound,Weekday,Autumn,13246,30
+40005,Tue,Eastbound,Weekday,Spring,9042,21
+40005,Tue,Eastbound,Weekday,Summer,10473,24
+40005,Tue,Eastbound,Weekday,Winter,6902,22
+40005,Tue,Westbound,Weekday,Autumn,13623,29
+40005,Tue,Westbound,Weekday,Spring,9462,22
+40005,Tue,Westbound,Weekday,Summer,12528,26
+40005,Tue,Westbound,Weekday,Winter,8125,25
+40005,Wed,All directions,Weekday,Autumn,27891,32
+40005,Wed,All directions,Weekday,Spring,16417,22
+40005,Wed,All directions,Weekday,Summer,21402,26
+40005,Wed,All directions,Weekday,Winter,13221,24
+40005,Wed,Eastbound,Weekday,Autumn,13483,30
+40005,Wed,Eastbound,Weekday,Spring,7999,22
+40005,Wed,Eastbound,Weekday,Summer,9564,24
+40005,Wed,Eastbound,Weekday,Winter,5908,23
+40005,Wed,Westbound,Weekday,Autumn,14408,31
+40005,Wed,Westbound,Weekday,Spring,8418,21
+40005,Wed,Westbound,Weekday,Summer,11838,25
+40005,Wed,Westbound,Weekday,Winter,7313,24
+40430,Fri,All directions,Weekday,Autumn,9898,20
+40430,Fri,All directions,Weekday,Spring,3062,8
+40430,Fri,All directions,Weekday,Summer,5614,14
+40430,Fri,All directions,Weekday,Winter,4360,12
+40430,Fri,Northbound,Weekday,Autumn,159,19
+40430,Fri,Northbound,Weekday,Spring,51,8
+40430,Fri,Northbound,Weekday,Summer,86,14
+40430,Fri,Northbound,Weekday,Winter,43,11
+40430,Fri,Southbound,Weekday,Autumn,9739,20
+40430,Fri,Southbound,Weekday,Spring,3011,8
+40430,Fri,Southbound,Weekday,Summer,5528,14
+40430,Fri,Southbound,Weekday,Winter,4317,12
+40430,Mon,All directions,Weekday,Autumn,9180,20
+40430,Mon,All directions,Weekday,Spring,3250,7
+40430,Mon,All directions,Weekday,Summer,5914,14
+40430,Mon,All directions,Weekday,Winter,4248,12
+40430,Mon,Northbound,Weekday,Autumn,112,20
+40430,Mon,Northbound,Weekday,Spring,38,7
+40430,Mon,Northbound,Weekday,Summer,76,14
+40430,Mon,Northbound,Weekday,Winter,35,12
+40430,Mon,Southbound,Weekday,Autumn,9068,20
+40430,Mon,Southbound,Weekday,Spring,3212,7
+40430,Mon,Southbound,Weekday,Summer,5838,14
+40430,Mon,Southbound,Weekday,Winter,4213,12
+40430,Sat,All directions,Weekend,Autumn,6390,20
+40430,Sat,All directions,Weekend,Spring,2355,8
+40430,Sat,All directions,Weekend,Summer,3981,14
+40430,Sat,All directions,Weekend,Winter,2858,12
+40430,Sat,Northbound,Weekend,Autumn,136,20
+40430,Sat,Northbound,Weekend,Spring,61,8
+40430,Sat,Northbound,Weekend,Summer,78,12
+40430,Sat,Northbound,Weekend,Winter,43,10
+40430,Sat,Southbound,Weekend,Autumn,6254,20
+40430,Sat,Southbound,Weekend,Spring,2294,8
+40430,Sat,Southbound,Weekend,Summer,3903,14
+40430,Sat,Southbound,Weekend,Winter,2815,12
+40430,Sun,All directions,Weekend,Autumn,5623,20
+40430,Sun,All directions,Weekend,Spring,2002,8
+40430,Sun,All directions,Weekend,Summer,3693,14
+40430,Sun,All directions,Weekend,Winter,2532,12
+40430,Sun,Northbound,Weekend,Autumn,104,20
+40430,Sun,Northbound,Weekend,Spring,20,6
+40430,Sun,Northbound,Weekend,Summer,72,12
+40430,Sun,Northbound,Weekend,Winter,35,11
+40430,Sun,Southbound,Weekend,Autumn,5519,20
+40430,Sun,Southbound,Weekend,Spring,1982,8
+40430,Sun,Southbound,Weekend,Summer,3621,14
+40430,Sun,Southbound,Weekend,Winter,2497,12
+40430,Thu,All directions,Weekday,Autumn,12346,20
+40430,Thu,All directions,Weekday,Spring,2947,8
+40430,Thu,All directions,Weekday,Summer,6319,14
+40430,Thu,All directions,Weekday,Winter,4843,12
+40430,Thu,Northbound,Weekday,Autumn,223,20
+40430,Thu,Northbound,Weekday,Spring,50,8
+40430,Thu,Northbound,Weekday,Summer,77,13
+40430,Thu,Northbound,Weekday,Winter,41,11
+40430,Thu,Southbound,Weekday,Autumn,12123,20
+40430,Thu,Southbound,Weekday,Spring,2897,8
+40430,Thu,Southbound,Weekday,Summer,6242,14
+40430,Thu,Southbound,Weekday,Winter,4802,12
+40430,Tue,All directions,Weekday,Autumn,11907,20
+40430,Tue,All directions,Weekday,Spring,3525,7
+40430,Tue,All directions,Weekday,Summer,7749,15
+40430,Tue,All directions,Weekday,Winter,5150,12
+40430,Tue,Northbound,Weekday,Autumn,150,20
+40430,Tue,Northbound,Weekday,Spring,51,7
+40430,Tue,Northbound,Weekday,Summer,94,15
+40430,Tue,Northbound,Weekday,Winter,49,12
+40430,Tue,Southbound,Weekday,Autumn,11757,20
+40430,Tue,Southbound,Weekday,Spring,3474,7
+40430,Tue,Southbound,Weekday,Summer,7655,15
+40430,Tue,Southbound,Weekday,Winter,5101,12
+40430,Wed,All directions,Weekday,Autumn,12376,20
+40430,Wed,All directions,Weekday,Spring,2736,7
+40430,Wed,All directions,Weekday,Summer,6781,14
+40430,Wed,All directions,Weekday,Winter,5418,13
+40430,Wed,Northbound,Weekday,Autumn,202,20
+40430,Wed,Northbound,Weekday,Spring,32,7
+40430,Wed,Northbound,Weekday,Summer,67,14
+40430,Wed,Northbound,Weekday,Winter,49,12
+40430,Wed,Southbound,Weekday,Autumn,12174,20
+40430,Wed,Southbound,Weekday,Spring,2704,7
+40430,Wed,Southbound,Weekday,Summer,6714,14
+40430,Wed,Southbound,Weekday,Winter,5369,13
+404305,Fri,All directions,Weekday,Spring,1346,4
+404305,Fri,Northbound,Weekday,Spring,6,4
+404305,Fri,Southbound,Weekday,Spring,1340,4
+404305,Mon,All directions,Weekday,Spring,1460,4
+404305,Mon,Northbound,Weekday,Spring,12,4
+404305,Mon,Southbound,Weekday,Spring,1448,4
+404305,Sat,All directions,Weekend,Spring,907,4
+404305,Sat,Northbound,Weekend,Spring,10,4
+404305,Sat,Southbound,Weekend,Spring,897,4
+404305,Sun,All directions,Weekend,Spring,734,4
+404305,Sun,Northbound,Weekend,Spring,3,3
+404305,Sun,Southbound,Weekend,Spring,731,4
+404305,Thu,All directions,Weekday,Spring,1562,4
+404305,Thu,Northbound,Weekday,Spring,11,3
+404305,Thu,Southbound,Weekday,Spring,1551,4
+404305,Tue,All directions,Weekday,Spring,1511,4
+404305,Tue,Northbound,Weekday,Spring,10,3
+404305,Tue,Southbound,Weekday,Spring,1501,4
+404305,Wed,All directions,Weekday,Spring,1258,4
+404305,Wed,Northbound,Weekday,Spring,9,4
+404305,Wed,Southbound,Weekday,Spring,1249,4
+6411,Fri,All directions,Weekday,Autumn,222635,129
+6411,Fri,All directions,Weekday,Spring,161019,104
+6411,Fri,All directions,Weekday,Summer,167945,108
+6411,Fri,All directions,Weekday,Winter,142200,114
+6411,Fri,Northbound,Weekday,Autumn,111425,129
+6411,Fri,Northbound,Weekday,Spring,78670,104
+6411,Fri,Northbound,Weekday,Summer,83223,108
+6411,Fri,Northbound,Weekday,Winter,69455,114
+6411,Fri,Southbound,Weekday,Autumn,111210,129
+6411,Fri,Southbound,Weekday,Spring,82349,104
+6411,Fri,Southbound,Weekday,Summer,84722,108
+6411,Fri,Southbound,Weekday,Winter,72745,114
+6411,Mon,All directions,Weekday,Autumn,240501,129
+6411,Mon,All directions,Weekday,Spring,178324,102
+6411,Mon,All directions,Weekday,Summer,195835,108
+6411,Mon,All directions,Weekday,Winter,158764,115
+6411,Mon,Northbound,Weekday,Autumn,122099,129
+6411,Mon,Northbound,Weekday,Spring,89020,102
+6411,Mon,Northbound,Weekday,Summer,98745,108
+6411,Mon,Northbound,Weekday,Winter,79039,115
+6411,Mon,Southbound,Weekday,Autumn,118402,129
+6411,Mon,Southbound,Weekday,Spring,89304,102
+6411,Mon,Southbound,Weekday,Summer,97090,108
+6411,Mon,Southbound,Weekday,Winter,79725,115
+6411,Sat,All directions,Weekend,Autumn,123160,127
+6411,Sat,All directions,Weekend,Spring,98478,104
+6411,Sat,All directions,Weekend,Summer,107207,109
+6411,Sat,All directions,Weekend,Winter,88392,115
+6411,Sat,Northbound,Weekend,Autumn,61091,127
+6411,Sat,Northbound,Weekend,Spring,47786,104
+6411,Sat,Northbound,Weekend,Summer,53085,109
+6411,Sat,Northbound,Weekend,Winter,42593,115
+6411,Sat,Southbound,Weekend,Autumn,62069,127
+6411,Sat,Southbound,Weekend,Spring,50692,104
+6411,Sat,Southbound,Weekend,Summer,54122,109
+6411,Sat,Southbound,Weekend,Winter,45799,115
+6411,Sun,All directions,Weekend,Autumn,114378,129
+6411,Sun,All directions,Weekend,Spring,99422,104
+6411,Sun,All directions,Weekend,Summer,99954,108
+6411,Sun,All directions,Weekend,Winter,80776,114
+6411,Sun,Northbound,Weekend,Autumn,57466,129
+6411,Sun,Northbound,Weekend,Spring,48858,104
+6411,Sun,Northbound,Weekend,Summer,50104,108
+6411,Sun,Northbound,Weekend,Winter,39202,114
+6411,Sun,Southbound,Weekend,Autumn,56912,129
+6411,Sun,Southbound,Weekend,Spring,50564,104
+6411,Sun,Southbound,Weekend,Summer,49850,108
+6411,Sun,Southbound,Weekend,Winter,41574,114
+6411,Thu,All directions,Weekday,Autumn,261227,128
+6411,Thu,All directions,Weekday,Spring,182583,103
+6411,Thu,All directions,Weekday,Summer,204428,109
+6411,Thu,All directions,Weekday,Winter,170916,115
+6411,Thu,Northbound,Weekday,Autumn,132330,128
+6411,Thu,Northbound,Weekday,Spring,90180,103
+6411,Thu,Northbound,Weekday,Summer,102840,109
+6411,Thu,Northbound,Weekday,Winter,84250,115
+6411,Thu,Southbound,Weekday,Autumn,128897,128
+6411,Thu,Southbound,Weekday,Spring,92403,103
+6411,Thu,Southbound,Weekday,Summer,101588,109
+6411,Thu,Southbound,Weekday,Winter,86666,115
+6411,Tue,All directions,Weekday,Autumn,277948,130
+6411,Tue,All directions,Weekday,Spring,185394,102
+6411,Tue,All directions,Weekday,Summer,216731,108
+6411,Tue,All directions,Weekday,Winter,174394,115
+6411,Tue,Northbound,Weekday,Autumn,141051,130
+6411,Tue,Northbound,Weekday,Spring,91931,102
+6411,Tue,Northbound,Weekday,Summer,109486,108
+6411,Tue,Northbound,Weekday,Winter,86995,115
+6411,Tue,Southbound,Weekday,Autumn,136897,130
+6411,Tue,Southbound,Weekday,Spring,93463,102
+6411,Tue,Southbound,Weekday,Summer,107245,108
+6411,Tue,Southbound,Weekday,Winter,87399,115
+6411,Wed,All directions,Weekday,Autumn,273712,129
+6411,Wed,All directions,Weekday,Spring,191610,102
+6411,Wed,All directions,Weekday,Summer,212769,109
+6411,Wed,All directions,Weekday,Winter,173895,115
+6411,Wed,Northbound,Weekday,Autumn,138292,129
+6411,Wed,Northbound,Weekday,Spring,94569,102
+6411,Wed,Northbound,Weekday,Summer,106673,109
+6411,Wed,Northbound,Weekday,Winter,85821,115
+6411,Wed,Southbound,Weekday,Autumn,135420,129
+6411,Wed,Southbound,Weekday,Spring,97041,102
+6411,Wed,Southbound,Weekday,Summer,106096,109
+6411,Wed,Southbound,Weekday,Winter,88074,115
+6415,Fri,All directions,Weekday,Autumn,171870,112
+6415,Fri,All directions,Weekday,Spring,131311,102
+6415,Fri,All directions,Weekday,Summer,151529,108
+6415,Fri,All directions,Weekday,Winter,109891,104
+6415,Fri,Eastbound,Weekday,Autumn,81017,112
+6415,Fri,Eastbound,Weekday,Spring,62124,102
+6415,Fri,Eastbound,Weekday,Summer,71742,108
+6415,Fri,Eastbound,Weekday,Winter,52369,104
+6415,Fri,Westbound,Weekday,Autumn,90853,112
+6415,Fri,Westbound,Weekday,Spring,69187,102
+6415,Fri,Westbound,Weekday,Summer,79787,108
+6415,Fri,Westbound,Weekday,Winter,57522,104
+6415,Mon,All directions,Weekday,Autumn,201899,110
+6415,Mon,All directions,Weekday,Spring,162464,101
+6415,Mon,All directions,Weekday,Summer,196054,109
+6415,Mon,All directions,Weekday,Winter,134071,105
+6415,Mon,Eastbound,Weekday,Autumn,95467,109
+6415,Mon,Eastbound,Weekday,Spring,77850,101
+6415,Mon,Eastbound,Weekday,Summer,93549,109
+6415,Mon,Eastbound,Weekday,Winter,63504,105
+6415,Mon,Westbound,Weekday,Autumn,106432,110
+6415,Mon,Westbound,Weekday,Spring,84614,101
+6415,Mon,Westbound,Weekday,Summer,102505,109
+6415,Mon,Westbound,Weekday,Winter,70567,105
+6415,Sat,All directions,Weekend,Autumn,95749,110
+6415,Sat,All directions,Weekend,Spring,90824,102
+6415,Sat,All directions,Weekend,Summer,103315,109
+6415,Sat,All directions,Weekend,Winter,71252,105
+6415,Sat,Eastbound,Weekend,Autumn,43316,109
+6415,Sat,Eastbound,Weekend,Spring,40445,102
+6415,Sat,Eastbound,Weekend,Summer,47228,109
+6415,Sat,Eastbound,Weekend,Winter,32559,105
+6415,Sat,Westbound,Weekend,Autumn,52433,110
+6415,Sat,Westbound,Weekend,Spring,50379,102
+6415,Sat,Westbound,Weekend,Summer,56087,109
+6415,Sat,Westbound,Weekend,Winter,38693,105
+6415,Sun,All directions,Weekend,Autumn,107786,112
+6415,Sun,All directions,Weekend,Spring,104893,102
+6415,Sun,All directions,Weekend,Summer,116601,108
+6415,Sun,All directions,Weekend,Winter,83738,104
+6415,Sun,Eastbound,Weekend,Autumn,47561,112
+6415,Sun,Eastbound,Weekend,Spring,46528,102
+6415,Sun,Eastbound,Weekend,Summer,50817,108
+6415,Sun,Eastbound,Weekend,Winter,38204,104
+6415,Sun,Westbound,Weekend,Autumn,60225,111
+6415,Sun,Westbound,Weekend,Spring,58365,102
+6415,Sun,Westbound,Weekend,Summer,65784,108
+6415,Sun,Westbound,Weekend,Winter,45534,104
+6415,Thu,All directions,Weekday,Autumn,204894,111
+6415,Thu,All directions,Weekday,Spring,158744,101
+6415,Thu,All directions,Weekday,Summer,192655,109
+6415,Thu,All directions,Weekday,Winter,138105,105
+6415,Thu,Eastbound,Weekday,Autumn,98288,111
+6415,Thu,Eastbound,Weekday,Spring,76135,101
+6415,Thu,Eastbound,Weekday,Summer,91995,109
+6415,Thu,Eastbound,Weekday,Winter,65933,105
+6415,Thu,Westbound,Weekday,Autumn,106606,111
+6415,Thu,Westbound,Weekday,Spring,82609,101
+6415,Thu,Westbound,Weekday,Summer,100660,109
+6415,Thu,Westbound,Weekday,Winter,72172,105
+6415,Tue,All directions,Weekday,Autumn,228851,113
+6415,Tue,All directions,Weekday,Spring,165325,101
+6415,Tue,All directions,Weekday,Summer,215156,109
+6415,Tue,All directions,Weekday,Winter,146332,104
+6415,Tue,Eastbound,Weekday,Autumn,108884,112
+6415,Tue,Eastbound,Weekday,Spring,78564,101
+6415,Tue,Eastbound,Weekday,Summer,102407,109
+6415,Tue,Eastbound,Weekday,Winter,69784,104
+6415,Tue,Westbound,Weekday,Autumn,119967,113
+6415,Tue,Westbound,Weekday,Spring,86761,101
+6415,Tue,Westbound,Weekday,Summer,112749,109
+6415,Tue,Westbound,Weekday,Winter,76548,104
+6415,Wed,All directions,Weekday,Autumn,224235,114
+6415,Wed,All directions,Weekday,Spring,167004,101
+6415,Wed,All directions,Weekday,Summer,202988,109
+6415,Wed,All directions,Weekday,Winter,142932,104
+6415,Wed,Eastbound,Weekday,Autumn,107339,113
+6415,Wed,Eastbound,Weekday,Spring,79747,101
+6415,Wed,Eastbound,Weekday,Summer,96362,109
+6415,Wed,Eastbound,Weekday,Winter,68150,104
+6415,Wed,Westbound,Weekday,Autumn,116896,113
+6415,Wed,Westbound,Weekday,Spring,87257,101
+6415,Wed,Westbound,Weekday,Summer,106626,109
+6415,Wed,Westbound,Weekday,Winter,74782,104
+6419,Fri,All directions,Weekday,Autumn,74231,113
+6419,Fri,All directions,Weekday,Spring,64705,102
+6419,Fri,All directions,Weekday,Summer,60067,101
+6419,Fri,All directions,Weekday,Winter,50441,99
+6419,Fri,Northbound,Weekday,Autumn,39749,113
+6419,Fri,Northbound,Weekday,Spring,33019,102
+6419,Fri,Northbound,Weekday,Summer,31781,101
+6419,Fri,Northbound,Weekday,Winter,25682,99
+6419,Fri,Southbound,Weekday,Autumn,34482,113
+6419,Fri,Southbound,Weekday,Spring,31686,102
+6419,Fri,Southbound,Weekday,Summer,28286,101
+6419,Fri,Southbound,Weekday,Winter,24759,99
+6419,Mon,All directions,Weekday,Autumn,80642,112
+6419,Mon,All directions,Weekday,Spring,69745,101
+6419,Mon,All directions,Weekday,Summer,71108,100
+6419,Mon,All directions,Weekday,Winter,55802,101
+6419,Mon,Northbound,Weekday,Autumn,43788,112
+6419,Mon,Northbound,Weekday,Spring,36142,101
+6419,Mon,Northbound,Weekday,Summer,38394,100
+6419,Mon,Northbound,Weekday,Winter,27938,101
+6419,Mon,Southbound,Weekday,Autumn,36854,112
+6419,Mon,Southbound,Weekday,Spring,33603,101
+6419,Mon,Southbound,Weekday,Summer,32714,100
+6419,Mon,Southbound,Weekday,Winter,27864,101
+6419,Sat,All directions,Weekend,Autumn,72577,112
+6419,Sat,All directions,Weekend,Spring,64957,102
+6419,Sat,All directions,Weekend,Summer,61798,102
+6419,Sat,All directions,Weekend,Winter,59178,100
+6419,Sat,Northbound,Weekend,Autumn,41436,112
+6419,Sat,Northbound,Weekend,Spring,34910,102
+6419,Sat,Northbound,Weekend,Summer,34064,102
+6419,Sat,Northbound,Weekend,Winter,31321,100
+6419,Sat,Southbound,Weekend,Autumn,31141,112
+6419,Sat,Southbound,Weekend,Spring,30047,102
+6419,Sat,Southbound,Weekend,Summer,27734,102
+6419,Sat,Southbound,Weekend,Winter,27857,100
+6419,Sun,All directions,Weekend,Autumn,80324,114
+6419,Sun,All directions,Weekend,Spring,77699,102
+6419,Sun,All directions,Weekend,Summer,69334,101
+6419,Sun,All directions,Weekend,Winter,67543,99
+6419,Sun,Northbound,Weekend,Autumn,45531,114
+6419,Sun,Northbound,Weekend,Spring,41634,102
+6419,Sun,Northbound,Weekend,Summer,38590,101
+6419,Sun,Northbound,Weekend,Winter,35450,99
+6419,Sun,Southbound,Weekend,Autumn,34793,114
+6419,Sun,Southbound,Weekend,Spring,36065,102
+6419,Sun,Southbound,Weekend,Summer,30744,101
+6419,Sun,Southbound,Weekend,Winter,32093,99
+6419,Thu,All directions,Weekday,Autumn,74760,112
+6419,Thu,All directions,Weekday,Spring,69689,101
+6419,Thu,All directions,Weekday,Summer,73021,103
+6419,Thu,All directions,Weekday,Winter,55594,100
+6419,Thu,Northbound,Weekday,Autumn,39817,112
+6419,Thu,Northbound,Weekday,Spring,35713,101
+6419,Thu,Northbound,Weekday,Summer,38672,103
+6419,Thu,Northbound,Weekday,Winter,27857,100
+6419,Thu,Southbound,Weekday,Autumn,34943,112
+6419,Thu,Southbound,Weekday,Spring,33976,101
+6419,Thu,Southbound,Weekday,Summer,34349,103
+6419,Thu,Southbound,Weekday,Winter,27737,100
+6419,Tue,All directions,Weekday,Autumn,81551,112
+6419,Tue,All directions,Weekday,Spring,72801,101
+6419,Tue,All directions,Weekday,Summer,77867,102
+6419,Tue,All directions,Weekday,Winter,56515,100
+6419,Tue,Northbound,Weekday,Autumn,43657,112
+6419,Tue,Northbound,Weekday,Spring,37623,101
+6419,Tue,Northbound,Weekday,Summer,41440,102
+6419,Tue,Northbound,Weekday,Winter,28261,100
+6419,Tue,Southbound,Weekday,Autumn,37894,112
+6419,Tue,Southbound,Weekday,Spring,35178,101
+6419,Tue,Southbound,Weekday,Summer,36427,102
+6419,Tue,Southbound,Weekday,Winter,28254,100
+6419,Wed,All directions,Weekday,Autumn,80638,112
+6419,Wed,All directions,Weekday,Spring,73467,101
+6419,Wed,All directions,Weekday,Summer,76529,103
+6419,Wed,All directions,Weekday,Winter,55855,100
+6419,Wed,Northbound,Weekday,Autumn,43235,112
+6419,Wed,Northbound,Weekday,Spring,37782,101
+6419,Wed,Northbound,Weekday,Summer,40210,103
+6419,Wed,Northbound,Weekday,Winter,27958,100
+6419,Wed,Southbound,Weekday,Autumn,37403,112
+6419,Wed,Southbound,Weekday,Spring,35685,101
+6419,Wed,Southbound,Weekday,Summer,36319,103
+6419,Wed,Southbound,Weekday,Winter,27897,100
+6423,Fri,All directions,Weekday,Autumn,12778,130
+6423,Fri,All directions,Weekday,Spring,10470,115
+6423,Fri,All directions,Weekday,Summer,11347,121
+6423,Fri,All directions,Weekday,Winter,9064,117
+6423,Fri,Northbound,Weekday,Autumn,5517,130
+6423,Fri,Northbound,Weekday,Spring,4431,115
+6423,Fri,Northbound,Weekday,Summer,4895,121
+6423,Fri,Northbound,Weekday,Winter,3869,117
+6423,Fri,Southbound,Weekday,Autumn,7261,130
+6423,Fri,Southbound,Weekday,Spring,6039,115
+6423,Fri,Southbound,Weekday,Summer,6452,121
+6423,Fri,Southbound,Weekday,Winter,5195,117
+6423,Mon,All directions,Weekday,Autumn,13870,129
+6423,Mon,All directions,Weekday,Spring,11377,114
+6423,Mon,All directions,Weekday,Summer,12972,121
+6423,Mon,All directions,Weekday,Winter,9855,118
+6423,Mon,Northbound,Weekday,Autumn,6080,129
+6423,Mon,Northbound,Weekday,Spring,4788,114
+6423,Mon,Northbound,Weekday,Summer,5656,121
+6423,Mon,Northbound,Weekday,Winter,4064,118
+6423,Mon,Southbound,Weekday,Autumn,7790,129
+6423,Mon,Southbound,Weekday,Spring,6589,114
+6423,Mon,Southbound,Weekday,Summer,7316,121
+6423,Mon,Southbound,Weekday,Winter,5791,118
+6423,Sat,All directions,Weekend,Autumn,13828,128
+6423,Sat,All directions,Weekend,Spring,12047,115
+6423,Sat,All directions,Weekend,Summer,13031,122
+6423,Sat,All directions,Weekend,Winter,11484,118
+6423,Sat,Northbound,Weekend,Autumn,6026,128
+6423,Sat,Northbound,Weekend,Spring,5085,115
+6423,Sat,Northbound,Weekend,Summer,5618,122
+6423,Sat,Northbound,Weekend,Winter,4862,118
+6423,Sat,Southbound,Weekend,Autumn,7802,128
+6423,Sat,Southbound,Weekend,Spring,6962,115
+6423,Sat,Southbound,Weekend,Summer,7413,122
+6423,Sat,Southbound,Weekend,Winter,6622,118
+6423,Sun,All directions,Weekend,Autumn,14206,130
+6423,Sun,All directions,Weekend,Spring,14175,115
+6423,Sun,All directions,Weekend,Summer,13419,121
+6423,Sun,All directions,Weekend,Winter,13145,117
+6423,Sun,Northbound,Weekend,Autumn,6244,130
+6423,Sun,Northbound,Weekend,Spring,5994,115
+6423,Sun,Northbound,Weekend,Summer,5886,121
+6423,Sun,Northbound,Weekend,Winter,5466,117
+6423,Sun,Southbound,Weekend,Autumn,7962,130
+6423,Sun,Southbound,Weekend,Spring,8181,115
+6423,Sun,Southbound,Weekend,Summer,7533,121
+6423,Sun,Southbound,Weekend,Winter,7679,117
+6423,Thu,All directions,Weekday,Autumn,12540,129
+6423,Thu,All directions,Weekday,Spring,10534,114
+6423,Thu,All directions,Weekday,Summer,12584,122
+6423,Thu,All directions,Weekday,Winter,9872,118
+6423,Thu,Northbound,Weekday,Autumn,5500,129
+6423,Thu,Northbound,Weekday,Spring,4354,114
+6423,Thu,Northbound,Weekday,Summer,5471,122
+6423,Thu,Northbound,Weekday,Winter,4079,118
+6423,Thu,Southbound,Weekday,Autumn,7040,129
+6423,Thu,Southbound,Weekday,Spring,6180,114
+6423,Thu,Southbound,Weekday,Summer,7113,122
+6423,Thu,Southbound,Weekday,Winter,5793,118
+6423,Tue,All directions,Weekday,Autumn,13998,130
+6423,Tue,All directions,Weekday,Spring,12131,114
+6423,Tue,All directions,Weekday,Summer,13905,121
+6423,Tue,All directions,Weekday,Winter,10113,117
+6423,Tue,Northbound,Weekday,Autumn,6142,130
+6423,Tue,Northbound,Weekday,Spring,5238,114
+6423,Tue,Northbound,Weekday,Summer,6137,121
+6423,Tue,Northbound,Weekday,Winter,4228,117
+6423,Tue,Southbound,Weekday,Autumn,7856,130
+6423,Tue,Southbound,Weekday,Spring,6893,114
+6423,Tue,Southbound,Weekday,Summer,7768,121
+6423,Tue,Southbound,Weekday,Winter,5885,117
+6423,Wed,All directions,Weekday,Autumn,13627,130
+6423,Wed,All directions,Weekday,Spring,11923,114
+6423,Wed,All directions,Weekday,Summer,13551,121
+6423,Wed,All directions,Weekday,Winter,9740,118
+6423,Wed,Northbound,Weekday,Autumn,6084,130
+6423,Wed,Northbound,Weekday,Spring,5043,114
+6423,Wed,Northbound,Weekday,Summer,6033,121
+6423,Wed,Northbound,Weekday,Winter,4067,118
+6423,Wed,Southbound,Weekday,Autumn,7543,130
+6423,Wed,Southbound,Weekday,Spring,6880,114
+6423,Wed,Southbound,Weekday,Summer,7518,121
+6423,Wed,Southbound,Weekday,Winter,5673,118
+6588,Fri,All directions,Weekday,Autumn,159429,65
+6588,Fri,All directions,Weekday,Spring,114862,50
+6588,Fri,All directions,Weekday,Summer,113218,58
+6588,Fri,All directions,Weekday,Winter,106816,52
+6588,Fri,Northbound,Weekday,Autumn,89179,65
+6588,Fri,Northbound,Weekday,Spring,67860,50
+6588,Fri,Northbound,Weekday,Summer,63581,58
+6588,Fri,Northbound,Weekday,Winter,64770,52
+6588,Fri,Southbound,Weekday,Autumn,70250,65
+6588,Fri,Southbound,Weekday,Spring,47002,50
+6588,Fri,Southbound,Weekday,Summer,49637,58
+6588,Fri,Southbound,Weekday,Winter,42046,52
+6588,Mon,All directions,Weekday,Autumn,176832,64
+6588,Mon,All directions,Weekday,Spring,129653,49
+6588,Mon,All directions,Weekday,Summer,142341,59
+6588,Mon,All directions,Weekday,Winter,113286,52
+6588,Mon,Northbound,Weekday,Autumn,97768,64
+6588,Mon,Northbound,Weekday,Spring,76068,49
+6588,Mon,Northbound,Weekday,Summer,78757,59
+6588,Mon,Northbound,Weekday,Winter,67543,52
+6588,Mon,Southbound,Weekday,Autumn,79064,64
+6588,Mon,Southbound,Weekday,Spring,53585,49
+6588,Mon,Southbound,Weekday,Summer,63584,59
+6588,Mon,Southbound,Weekday,Winter,45743,52
+6588,Sat,All directions,Weekend,Autumn,71961,64
+6588,Sat,All directions,Weekend,Spring,52340,50
+6588,Sat,All directions,Weekend,Summer,60608,59
+6588,Sat,All directions,Weekend,Winter,47239,52
+6588,Sat,Northbound,Weekend,Autumn,40879,64
+6588,Sat,Northbound,Weekend,Spring,31665,50
+6588,Sat,Northbound,Weekend,Summer,33831,59
+6588,Sat,Northbound,Weekend,Winter,30160,52
+6588,Sat,Southbound,Weekend,Autumn,31082,64
+6588,Sat,Southbound,Weekend,Spring,20675,50
+6588,Sat,Southbound,Weekend,Summer,26777,59
+6588,Sat,Southbound,Weekend,Winter,17079,52
+6588,Sun,All directions,Weekend,Autumn,61809,65
+6588,Sun,All directions,Weekend,Spring,45642,50
+6588,Sun,All directions,Weekend,Summer,52771,58
+6588,Sun,All directions,Weekend,Winter,41259,52
+6588,Sun,Northbound,Weekend,Autumn,35751,65
+6588,Sun,Northbound,Weekend,Spring,27901,50
+6588,Sun,Northbound,Weekend,Summer,30668,58
+6588,Sun,Northbound,Weekend,Winter,26607,52
+6588,Sun,Southbound,Weekend,Autumn,26058,65
+6588,Sun,Southbound,Weekend,Spring,17741,50
+6588,Sun,Southbound,Weekend,Summer,22103,58
+6588,Sun,Southbound,Weekend,Winter,14652,52
+6588,Thu,All directions,Weekday,Autumn,190949,65
+6588,Thu,All directions,Weekday,Spring,132042,49
+6588,Thu,All directions,Weekday,Summer,137904,59
+6588,Thu,All directions,Weekday,Winter,123585,52
+6588,Thu,Northbound,Weekday,Autumn,105746,65
+6588,Thu,Northbound,Weekday,Spring,79122,49
+6588,Thu,Northbound,Weekday,Summer,77662,59
+6588,Thu,Northbound,Weekday,Winter,73689,52
+6588,Thu,Southbound,Weekday,Autumn,85203,65
+6588,Thu,Southbound,Weekday,Spring,52920,49
+6588,Thu,Southbound,Weekday,Summer,60242,59
+6588,Thu,Southbound,Weekday,Winter,49896,52
+6588,Tue,All directions,Weekday,Autumn,198078,65
+6588,Tue,All directions,Weekday,Spring,126072,49
+6588,Tue,All directions,Weekday,Summer,149081,59
+6588,Tue,All directions,Weekday,Winter,126989,51
+6588,Tue,Northbound,Weekday,Autumn,108014,65
+6588,Tue,Northbound,Weekday,Spring,73523,49
+6588,Tue,Northbound,Weekday,Summer,82235,59
+6588,Tue,Northbound,Weekday,Winter,75391,51
+6588,Tue,Southbound,Weekday,Autumn,90064,65
+6588,Tue,Southbound,Weekday,Spring,52549,49
+6588,Tue,Southbound,Weekday,Summer,66846,59
+6588,Tue,Southbound,Weekday,Winter,51598,51
+6588,Wed,All directions,Weekday,Autumn,198733,65
+6588,Wed,All directions,Weekday,Spring,135773,49
+6588,Wed,All directions,Weekday,Summer,144889,59
+6588,Wed,All directions,Weekday,Winter,128825,52
+6588,Wed,Northbound,Weekday,Autumn,109435,65
+6588,Wed,Northbound,Weekday,Spring,80037,49
+6588,Wed,Northbound,Weekday,Summer,80495,59
+6588,Wed,Northbound,Weekday,Winter,76965,52
+6588,Wed,Southbound,Weekday,Autumn,89298,65
+6588,Wed,Southbound,Weekday,Spring,55736,49
+6588,Wed,Southbound,Weekday,Summer,64394,59
+6588,Wed,Southbound,Weekday,Winter,51860,52
+6592,Fri,All directions,Weekday,Autumn,265729,130
+6592,Fri,All directions,Weekday,Spring,193754,110
+6592,Fri,All directions,Weekday,Summer,215963,118
+6592,Fri,All directions,Weekday,Winter,176675,117
+6592,Fri,Northbound,Weekday,Autumn,132639,130
+6592,Fri,Northbound,Weekday,Spring,96201,109
+6592,Fri,Northbound,Weekday,Summer,107979,117
+6592,Fri,Northbound,Weekday,Winter,88770,117
+6592,Fri,Southbound,Weekday,Autumn,133090,130
+6592,Fri,Southbound,Weekday,Spring,97553,109
+6592,Fri,Southbound,Weekday,Summer,107984,116
+6592,Fri,Southbound,Weekday,Winter,87905,117
+6592,Mon,All directions,Weekday,Autumn,311075,130
+6592,Mon,All directions,Weekday,Spring,238315,107
+6592,Mon,All directions,Weekday,Summer,277334,118
+6592,Mon,All directions,Weekday,Winter,211654,118
+6592,Mon,Northbound,Weekday,Autumn,155988,130
+6592,Mon,Northbound,Weekday,Spring,119881,107
+6592,Mon,Northbound,Weekday,Summer,139626,116
+6592,Mon,Northbound,Weekday,Winter,105912,118
+6592,Mon,Southbound,Weekday,Autumn,155087,129
+6592,Mon,Southbound,Weekday,Spring,118434,107
+6592,Mon,Southbound,Weekday,Summer,137708,116
+6592,Mon,Southbound,Weekday,Winter,105742,118
+6592,Sat,All directions,Weekend,Autumn,143005,128
+6592,Sat,All directions,Weekend,Spring,110138,110
+6592,Sat,All directions,Weekend,Summer,128982,120
+6592,Sat,All directions,Weekend,Winter,106063,118
+6592,Sat,Northbound,Weekend,Autumn,71593,128
+6592,Sat,Northbound,Weekend,Spring,54822,109
+6592,Sat,Northbound,Weekend,Summer,64874,119
+6592,Sat,Northbound,Weekend,Winter,52922,118
+6592,Sat,Southbound,Weekend,Autumn,71412,128
+6592,Sat,Southbound,Weekend,Spring,55316,110
+6592,Sat,Southbound,Weekend,Summer,64108,120
+6592,Sat,Southbound,Weekend,Winter,53141,118
+6592,Sun,All directions,Weekend,Autumn,156850,130
+6592,Sun,All directions,Weekend,Spring,137865,106
+6592,Sun,All directions,Weekend,Summer,144591,119
+6592,Sun,All directions,Weekend,Winter,116388,117
+6592,Sun,Northbound,Weekend,Autumn,76630,130
+6592,Sun,Northbound,Weekend,Spring,68496,105
+6592,Sun,Northbound,Weekend,Summer,72321,116
+6592,Sun,Northbound,Weekend,Winter,57735,117
+6592,Sun,Southbound,Weekend,Autumn,80220,130
+6592,Sun,Southbound,Weekend,Spring,69369,105
+6592,Sun,Southbound,Weekend,Summer,72270,118
+6592,Sun,Southbound,Weekend,Winter,58653,117
+6592,Thu,All directions,Weekday,Autumn,320281,129
+6592,Thu,All directions,Weekday,Spring,228859,110
+6592,Thu,All directions,Weekday,Summer,276825,121
+6592,Thu,All directions,Weekday,Winter,221265,118
+6592,Thu,Northbound,Weekday,Autumn,160101,129
+6592,Thu,Northbound,Weekday,Spring,114045,109
+6592,Thu,Northbound,Weekday,Summer,138923,121
+6592,Thu,Northbound,Weekday,Winter,110224,118
+6592,Thu,Southbound,Weekday,Autumn,160180,129
+6592,Thu,Southbound,Weekday,Spring,114814,108
+6592,Thu,Southbound,Weekday,Summer,137902,118
+6592,Thu,Southbound,Weekday,Winter,111041,118
+6592,Tue,All directions,Weekday,Autumn,355948,130
+6592,Tue,All directions,Weekday,Spring,246099,109
+6592,Tue,All directions,Weekday,Summer,305595,118
+6592,Tue,All directions,Weekday,Winter,233724,117
+6592,Tue,Northbound,Weekday,Autumn,178144,130
+6592,Tue,Northbound,Weekday,Spring,122457,108
+6592,Tue,Northbound,Weekday,Summer,153873,117
+6592,Tue,Northbound,Weekday,Winter,116941,117
+6592,Tue,Southbound,Weekday,Autumn,177804,130
+6592,Tue,Southbound,Weekday,Spring,123642,108
+6592,Tue,Southbound,Weekday,Summer,151722,115
+6592,Tue,Southbound,Weekday,Winter,116783,117
+6592,Wed,All directions,Weekday,Autumn,345563,130
+6592,Wed,All directions,Weekday,Spring,247763,106
+6592,Wed,All directions,Weekday,Summer,291314,118
+6592,Wed,All directions,Weekday,Winter,229125,118
+6592,Wed,Northbound,Weekday,Autumn,172855,130
+6592,Wed,Northbound,Weekday,Spring,123498,106
+6592,Wed,Northbound,Weekday,Summer,145793,116
+6592,Wed,Northbound,Weekday,Winter,114431,118
+6592,Wed,Southbound,Weekday,Autumn,172708,130
+6592,Wed,Southbound,Weekday,Spring,124265,105
+6592,Wed,Southbound,Weekday,Summer,145521,117
+6592,Wed,Southbound,Weekday,Winter,114694,118
+6596,Fri,All directions,Weekday,Autumn,148593,114
+6596,Fri,All directions,Weekday,Spring,125751,108
+6596,Fri,All directions,Weekday,Summer,154861,111
+6596,Fri,All directions,Weekday,Winter,94245,104
+6596,Fri,Northbound,Weekday,Autumn,76245,111
+6596,Fri,Northbound,Weekday,Spring,63959,104
+6596,Fri,Northbound,Weekday,Summer,80896,110
+6596,Fri,Northbound,Weekday,Winter,47072,104
+6596,Fri,Southbound,Weekday,Autumn,72348,114
+6596,Fri,Southbound,Weekday,Spring,61792,108
+6596,Fri,Southbound,Weekday,Summer,73965,110
+6596,Fri,Southbound,Weekday,Winter,47173,104
+6596,Mon,All directions,Weekday,Autumn,162265,115
+6596,Mon,All directions,Weekday,Spring,144365,104
+6596,Mon,All directions,Weekday,Summer,176254,113
+6596,Mon,All directions,Weekday,Winter,108005,108
+6596,Mon,Northbound,Weekday,Autumn,82780,113
+6596,Mon,Northbound,Weekday,Spring,73169,101
+6596,Mon,Northbound,Weekday,Summer,92043,108
+6596,Mon,Northbound,Weekday,Winter,54237,105
+6596,Mon,Southbound,Weekday,Autumn,79485,113
+6596,Mon,Southbound,Weekday,Spring,71196,104
+6596,Mon,Southbound,Weekday,Summer,84211,113
+6596,Mon,Southbound,Weekday,Winter,53768,108
+6596,Sat,All directions,Weekend,Autumn,148092,116
+6596,Sat,All directions,Weekend,Spring,141291,107
+6596,Sat,All directions,Weekend,Summer,179775,116
+6596,Sat,All directions,Weekend,Winter,114863,110
+6596,Sat,Northbound,Weekend,Autumn,75302,109
+6596,Sat,Northbound,Weekend,Spring,72598,104
+6596,Sat,Northbound,Weekend,Summer,93164,110
+6596,Sat,Northbound,Weekend,Winter,57974,105
+6596,Sat,Southbound,Weekend,Autumn,72790,116
+6596,Sat,Southbound,Weekend,Spring,68693,107
+6596,Sat,Southbound,Weekend,Summer,86611,116
+6596,Sat,Southbound,Weekend,Winter,56889,110
+6596,Sun,All directions,Weekend,Autumn,176835,122
+6596,Sun,All directions,Weekend,Spring,200573,108
+6596,Sun,All directions,Weekend,Summer,222509,117
+6596,Sun,All directions,Weekend,Winter,134834,108
+6596,Sun,Northbound,Weekend,Autumn,89613,114
+6596,Sun,Northbound,Weekend,Spring,102924,104
+6596,Sun,Northbound,Weekend,Summer,115116,113
+6596,Sun,Northbound,Weekend,Winter,68094,104
+6596,Sun,Southbound,Weekend,Autumn,87222,122
+6596,Sun,Southbound,Weekend,Spring,97649,107
+6596,Sun,Southbound,Weekend,Summer,107393,115
+6596,Sun,Southbound,Weekend,Winter,66740,108
+6596,Thu,All directions,Weekday,Autumn,139089,113
+6596,Thu,All directions,Weekday,Spring,130180,106
+6596,Thu,All directions,Weekday,Summer,173518,115
+6596,Thu,All directions,Weekday,Winter,100623,107
+6596,Thu,Northbound,Weekday,Autumn,70604,110
+6596,Thu,Northbound,Weekday,Spring,66214,101
+6596,Thu,Northbound,Weekday,Summer,90110,111
+6596,Thu,Northbound,Weekday,Winter,50477,105
+6596,Thu,Southbound,Weekday,Autumn,68485,113
+6596,Thu,Southbound,Weekday,Spring,63966,106
+6596,Thu,Southbound,Weekday,Summer,83408,115
+6596,Thu,Southbound,Weekday,Winter,50146,107
+6596,Tue,All directions,Weekday,Autumn,154586,113
+6596,Tue,All directions,Weekday,Spring,147378,107
+6596,Tue,All directions,Weekday,Summer,187029,117
+6596,Tue,All directions,Weekday,Winter,100650,105
+6596,Tue,Northbound,Weekday,Autumn,78462,111
+6596,Tue,Northbound,Weekday,Spring,75298,101
+6596,Tue,Northbound,Weekday,Summer,97210,109
+6596,Tue,Northbound,Weekday,Winter,50384,104
+6596,Tue,Southbound,Weekday,Autumn,76124,113
+6596,Tue,Southbound,Weekday,Spring,72080,107
+6596,Tue,Southbound,Weekday,Summer,89819,117
+6596,Tue,Southbound,Weekday,Winter,50266,105
+6596,Wed,All directions,Weekday,Autumn,153936,115
+6596,Wed,All directions,Weekday,Spring,151024,106
+6596,Wed,All directions,Weekday,Summer,184500,114
+6596,Wed,All directions,Weekday,Winter,106202,107
+6596,Wed,Northbound,Weekday,Autumn,78251,111
+6596,Wed,Northbound,Weekday,Spring,76749,102
+6596,Wed,Northbound,Weekday,Summer,96038,111
+6596,Wed,Northbound,Weekday,Winter,53055,106
+6596,Wed,Southbound,Weekday,Autumn,75685,115
+6596,Wed,Southbound,Weekday,Spring,74275,105
+6596,Wed,Southbound,Weekday,Summer,88462,114
+6596,Wed,Southbound,Weekday,Winter,53147,106
+6600,Fri,All directions,Weekday,Autumn,28536,128
+6600,Fri,All directions,Weekday,Spring,25032,115
+6600,Fri,All directions,Weekday,Summer,26027,121
+6600,Fri,All directions,Weekday,Winter,19171,117
+6600,Fri,Eastbound,Weekday,Autumn,14391,127
+6600,Fri,Eastbound,Weekday,Spring,12581,115
+6600,Fri,Eastbound,Weekday,Summer,13004,121
+6600,Fri,Eastbound,Weekday,Winter,9599,117
+6600,Fri,Westbound,Weekday,Autumn,14145,127
+6600,Fri,Westbound,Weekday,Spring,12451,115
+6600,Fri,Westbound,Weekday,Summer,13023,121
+6600,Fri,Westbound,Weekday,Winter,9572,117
+6600,Mon,All directions,Weekday,Autumn,29657,129
+6600,Mon,All directions,Weekday,Spring,24480,114
+6600,Mon,All directions,Weekday,Summer,28025,121
+6600,Mon,All directions,Weekday,Winter,20773,118
+6600,Mon,Eastbound,Weekday,Autumn,14955,129
+6600,Mon,Eastbound,Weekday,Spring,12461,114
+6600,Mon,Eastbound,Weekday,Summer,14204,121
+6600,Mon,Eastbound,Weekday,Winter,10493,118
+6600,Mon,Westbound,Weekday,Autumn,14702,127
+6600,Mon,Westbound,Weekday,Spring,12019,114
+6600,Mon,Westbound,Weekday,Summer,13821,121
+6600,Mon,Westbound,Weekday,Winter,10280,118
+6600,Sat,All directions,Weekend,Autumn,28887,126
+6600,Sat,All directions,Weekend,Spring,29863,115
+6600,Sat,All directions,Weekend,Summer,28783,122
+6600,Sat,All directions,Weekend,Winter,26372,118
+6600,Sat,Eastbound,Weekend,Autumn,14464,125
+6600,Sat,Eastbound,Weekend,Spring,14667,115
+6600,Sat,Eastbound,Weekend,Summer,14383,122
+6600,Sat,Eastbound,Weekend,Winter,13019,118
+6600,Sat,Westbound,Weekend,Autumn,14423,126
+6600,Sat,Westbound,Weekend,Spring,15196,115
+6600,Sat,Westbound,Weekend,Summer,14400,122
+6600,Sat,Westbound,Weekend,Winter,13353,118
+6600,Sun,All directions,Weekend,Autumn,35262,127
+6600,Sun,All directions,Weekend,Spring,40245,115
+6600,Sun,All directions,Weekend,Summer,35949,121
+6600,Sun,All directions,Weekend,Winter,31693,117
+6600,Sun,Eastbound,Weekend,Autumn,17657,126
+6600,Sun,Eastbound,Weekend,Spring,19873,115
+6600,Sun,Eastbound,Weekend,Summer,18007,121
+6600,Sun,Eastbound,Weekend,Winter,15696,117
+6600,Sun,Westbound,Weekend,Autumn,17605,126
+6600,Sun,Westbound,Weekend,Spring,20372,115
+6600,Sun,Westbound,Weekend,Summer,17942,121
+6600,Sun,Westbound,Weekend,Winter,15997,117
+6600,Thu,All directions,Weekday,Autumn,29531,125
+6600,Thu,All directions,Weekday,Spring,26405,114
+6600,Thu,All directions,Weekday,Summer,33481,122
+6600,Thu,All directions,Weekday,Winter,21636,118
+6600,Thu,Eastbound,Weekday,Autumn,14930,125
+6600,Thu,Eastbound,Weekday,Spring,13290,114
+6600,Thu,Eastbound,Weekday,Summer,16737,122
+6600,Thu,Eastbound,Weekday,Winter,10916,118
+6600,Thu,Westbound,Weekday,Autumn,14601,125
+6600,Thu,Westbound,Weekday,Spring,13115,114
+6600,Thu,Westbound,Weekday,Summer,16744,122
+6600,Thu,Westbound,Weekday,Winter,10720,118
+6600,Tue,All directions,Weekday,Autumn,31694,128
+6600,Tue,All directions,Weekday,Spring,27818,114
+6600,Tue,All directions,Weekday,Summer,34925,120
+6600,Tue,All directions,Weekday,Winter,20096,117
+6600,Tue,Eastbound,Weekday,Autumn,16229,128
+6600,Tue,Eastbound,Weekday,Spring,14038,114
+6600,Tue,Eastbound,Weekday,Summer,17742,120
+6600,Tue,Eastbound,Weekday,Winter,10349,117
+6600,Tue,Westbound,Weekday,Autumn,15465,127
+6600,Tue,Westbound,Weekday,Spring,13780,114
+6600,Tue,Westbound,Weekday,Summer,17183,120
+6600,Tue,Westbound,Weekday,Winter,9747,117
+6600,Wed,All directions,Weekday,Autumn,29418,128
+6600,Wed,All directions,Weekday,Spring,27180,114
+6600,Wed,All directions,Weekday,Summer,31200,121
+6600,Wed,All directions,Weekday,Winter,20381,118
+6600,Wed,Eastbound,Weekday,Autumn,14983,128
+6600,Wed,Eastbound,Weekday,Spring,13778,114
+6600,Wed,Eastbound,Weekday,Summer,15711,121
+6600,Wed,Eastbound,Weekday,Winter,10378,118
+6600,Wed,Westbound,Weekday,Autumn,14435,128
+6600,Wed,Westbound,Weekday,Spring,13402,114
+6600,Wed,Westbound,Weekday,Summer,15489,121
+6600,Wed,Westbound,Weekday,Winter,10003,118
+7584,Fri,All directions,Weekday,Autumn,72555,130
+7584,Fri,All directions,Weekday,Spring,65346,115
+7584,Fri,All directions,Weekday,Summer,66862,120
+7584,Fri,All directions,Weekday,Winter,47552,117
+7584,Fri,Northbound,Weekday,Autumn,37136,130
+7584,Fri,Northbound,Weekday,Spring,33439,115
+7584,Fri,Northbound,Weekday,Summer,34229,120
+7584,Fri,Northbound,Weekday,Winter,24485,117
+7584,Fri,Southbound,Weekday,Autumn,35419,130
+7584,Fri,Southbound,Weekday,Spring,31907,115
+7584,Fri,Southbound,Weekday,Summer,32633,120
+7584,Fri,Southbound,Weekday,Winter,23067,117
+7584,Mon,All directions,Weekday,Autumn,75938,129
+7584,Mon,All directions,Weekday,Spring,63473,114
+7584,Mon,All directions,Weekday,Summer,71498,119
+7584,Mon,All directions,Weekday,Winter,50774,118
+7584,Mon,Northbound,Weekday,Autumn,39225,129
+7584,Mon,Northbound,Weekday,Spring,32607,114
+7584,Mon,Northbound,Weekday,Summer,36929,119
+7584,Mon,Northbound,Weekday,Winter,26348,118
+7584,Mon,Southbound,Weekday,Autumn,36713,129
+7584,Mon,Southbound,Weekday,Spring,30866,114
+7584,Mon,Southbound,Weekday,Summer,34569,119
+7584,Mon,Southbound,Weekday,Winter,24426,118
+7584,Sat,All directions,Weekend,Autumn,88588,128
+7584,Sat,All directions,Weekend,Spring,81440,115
+7584,Sat,All directions,Weekend,Summer,86364,121
+7584,Sat,All directions,Weekend,Winter,73238,118
+7584,Sat,Northbound,Weekend,Autumn,46564,128
+7584,Sat,Northbound,Weekend,Spring,42573,115
+7584,Sat,Northbound,Weekend,Summer,45171,121
+7584,Sat,Northbound,Weekend,Winter,38706,118
+7584,Sat,Southbound,Weekend,Autumn,42024,128
+7584,Sat,Southbound,Weekend,Spring,38867,115
+7584,Sat,Southbound,Weekend,Summer,41193,121
+7584,Sat,Southbound,Weekend,Winter,34532,118
+7584,Sun,All directions,Weekend,Autumn,103922,130
+7584,Sun,All directions,Weekend,Spring,110376,115
+7584,Sun,All directions,Weekend,Summer,101789,120
+7584,Sun,All directions,Weekend,Winter,86930,117
+7584,Sun,Northbound,Weekend,Autumn,54647,130
+7584,Sun,Northbound,Weekend,Spring,57672,115
+7584,Sun,Northbound,Weekend,Summer,53229,120
+7584,Sun,Northbound,Weekend,Winter,46036,117
+7584,Sun,Southbound,Weekend,Autumn,49275,130
+7584,Sun,Southbound,Weekend,Spring,52704,115
+7584,Sun,Southbound,Weekend,Summer,48560,120
+7584,Sun,Southbound,Weekend,Winter,40894,117
+7584,Thu,All directions,Weekday,Autumn,71163,129
+7584,Thu,All directions,Weekday,Spring,66505,114
+7584,Thu,All directions,Weekday,Summer,77940,121
+7584,Thu,All directions,Weekday,Winter,52896,118
+7584,Thu,Northbound,Weekday,Autumn,36444,129
+7584,Thu,Northbound,Weekday,Spring,34107,114
+7584,Thu,Northbound,Weekday,Summer,40083,121
+7584,Thu,Northbound,Weekday,Winter,27653,118
+7584,Thu,Southbound,Weekday,Autumn,34719,129
+7584,Thu,Southbound,Weekday,Spring,32398,114
+7584,Thu,Southbound,Weekday,Summer,37857,121
+7584,Thu,Southbound,Weekday,Winter,25243,118
+7584,Tue,All directions,Weekday,Autumn,77798,130
+7584,Tue,All directions,Weekday,Spring,72540,114
+7584,Tue,All directions,Weekday,Summer,85674,120
+7584,Tue,All directions,Weekday,Winter,51637,117
+7584,Tue,Northbound,Weekday,Autumn,40144,130
+7584,Tue,Northbound,Weekday,Spring,37372,114
+7584,Tue,Northbound,Weekday,Summer,43991,120
+7584,Tue,Northbound,Weekday,Winter,26738,117
+7584,Tue,Southbound,Weekday,Autumn,37654,130
+7584,Tue,Southbound,Weekday,Spring,35168,114
+7584,Tue,Southbound,Weekday,Summer,41683,120
+7584,Tue,Southbound,Weekday,Winter,24899,117
+7584,Wed,All directions,Weekday,Autumn,75111,130
+7584,Wed,All directions,Weekday,Spring,69188,114
+7584,Wed,All directions,Weekday,Summer,79952,120
+7584,Wed,All directions,Weekday,Winter,50234,118
+7584,Wed,Northbound,Weekday,Autumn,38437,130
+7584,Wed,Northbound,Weekday,Spring,35229,114
+7584,Wed,Northbound,Weekday,Summer,40781,120
+7584,Wed,Northbound,Weekday,Winter,25863,118
+7584,Wed,Southbound,Weekday,Autumn,36674,130
+7584,Wed,Southbound,Weekday,Spring,33959,114
+7584,Wed,Southbound,Weekday,Summer,39171,120
+7584,Wed,Southbound,Weekday,Winter,24371,118
+7588,Fri,All directions,Weekday,Autumn,198335,130
+7588,Fri,All directions,Weekday,Spring,159026,115
+7588,Fri,All directions,Weekday,Summer,169340,121
+7588,Fri,All directions,Weekday,Winter,133422,117
+7588,Fri,Eastbound,Weekday,Autumn,91705,130
+7588,Fri,Eastbound,Weekday,Spring,74183,115
+7588,Fri,Eastbound,Weekday,Summer,79390,121
+7588,Fri,Eastbound,Weekday,Winter,61972,117
+7588,Fri,Westbound,Weekday,Autumn,106630,130
+7588,Fri,Westbound,Weekday,Spring,84843,115
+7588,Fri,Westbound,Weekday,Summer,89950,121
+7588,Fri,Westbound,Weekday,Winter,71450,117
+7588,Mon,All directions,Weekday,Autumn,218128,129
+7588,Mon,All directions,Weekday,Spring,178043,114
+7588,Mon,All directions,Weekday,Summer,197574,121
+7588,Mon,All directions,Weekday,Winter,149693,118
+7588,Mon,Eastbound,Weekday,Autumn,100766,129
+7588,Mon,Eastbound,Weekday,Spring,82278,114
+7588,Mon,Eastbound,Weekday,Summer,92095,121
+7588,Mon,Eastbound,Weekday,Winter,68954,118
+7588,Mon,Westbound,Weekday,Autumn,117362,129
+7588,Mon,Westbound,Weekday,Spring,95765,114
+7588,Mon,Westbound,Weekday,Summer,105479,121
+7588,Mon,Westbound,Weekday,Winter,80739,118
+7588,Sat,All directions,Weekend,Autumn,136330,128
+7588,Sat,All directions,Weekend,Spring,124053,115
+7588,Sat,All directions,Weekend,Summer,132391,122
+7588,Sat,All directions,Weekend,Winter,105763,118
+7588,Sat,Eastbound,Weekend,Autumn,62995,128
+7588,Sat,Eastbound,Weekend,Spring,57780,115
+7588,Sat,Eastbound,Weekend,Summer,62224,122
+7588,Sat,Eastbound,Weekend,Winter,49035,118
+7588,Sat,Westbound,Weekend,Autumn,73335,128
+7588,Sat,Westbound,Weekend,Spring,66273,115
+7588,Sat,Westbound,Weekend,Summer,70167,122
+7588,Sat,Westbound,Weekend,Winter,56728,118
+7588,Sun,All directions,Weekend,Autumn,149503,130
+7588,Sun,All directions,Weekend,Spring,146460,115
+7588,Sun,All directions,Weekend,Summer,148503,121
+7588,Sun,All directions,Weekend,Winter,123106,117
+7588,Sun,Eastbound,Weekend,Autumn,68209,130
+7588,Sun,Eastbound,Weekend,Spring,67342,115
+7588,Sun,Eastbound,Weekend,Summer,70231,121
+7588,Sun,Eastbound,Weekend,Winter,55851,117
+7588,Sun,Westbound,Weekend,Autumn,81294,130
+7588,Sun,Westbound,Weekend,Spring,79118,115
+7588,Sun,Westbound,Weekend,Summer,78272,121
+7588,Sun,Westbound,Weekend,Winter,67255,117
+7588,Thu,All directions,Weekday,Autumn,225109,129
+7588,Thu,All directions,Weekday,Spring,180570,114
+7588,Thu,All directions,Weekday,Summer,204855,122
+7588,Thu,All directions,Weekday,Winter,157828,118
+7588,Thu,Eastbound,Weekday,Autumn,103763,129
+7588,Thu,Eastbound,Weekday,Spring,84047,114
+7588,Thu,Eastbound,Weekday,Summer,95809,122
+7588,Thu,Eastbound,Weekday,Winter,72940,118
+7588,Thu,Westbound,Weekday,Autumn,121346,129
+7588,Thu,Westbound,Weekday,Spring,96523,114
+7588,Thu,Westbound,Weekday,Summer,109046,122
+7588,Thu,Westbound,Weekday,Winter,84888,118
+7588,Tue,All directions,Weekday,Autumn,240975,130
+7588,Tue,All directions,Weekday,Spring,190011,114
+7588,Tue,All directions,Weekday,Summer,220810,121
+7588,Tue,All directions,Weekday,Winter,160504,117
+7588,Tue,Eastbound,Weekday,Autumn,111047,130
+7588,Tue,Eastbound,Weekday,Spring,87964,114
+7588,Tue,Eastbound,Weekday,Summer,103015,121
+7588,Tue,Eastbound,Weekday,Winter,73981,117
+7588,Tue,Westbound,Weekday,Autumn,129928,130
+7588,Tue,Westbound,Weekday,Spring,102047,114
+7588,Tue,Westbound,Weekday,Summer,117795,121
+7588,Tue,Westbound,Weekday,Winter,86523,117
+7588,Wed,All directions,Weekday,Autumn,238207,130
+7588,Wed,All directions,Weekday,Spring,189741,114
+7588,Wed,All directions,Weekday,Summer,210713,121
+7588,Wed,All directions,Weekday,Winter,159832,118
+7588,Wed,Eastbound,Weekday,Autumn,110258,130
+7588,Wed,Eastbound,Weekday,Spring,87725,114
+7588,Wed,Eastbound,Weekday,Summer,98395,121
+7588,Wed,Eastbound,Weekday,Winter,74068,118
+7588,Wed,Westbound,Weekday,Autumn,127949,130
+7588,Wed,Westbound,Weekday,Spring,102016,114
+7588,Wed,Westbound,Weekday,Summer,112318,121
+7588,Wed,Westbound,Weekday,Winter,85764,118
+7592,Fri,All directions,Weekday,Autumn,14663,123
+7592,Fri,All directions,Weekday,Spring,13428,115
+7592,Fri,All directions,Weekday,Summer,12832,120
+7592,Fri,All directions,Weekday,Winter,10413,117
+7592,Fri,Northbound,Weekday,Autumn,6665,123
+7592,Fri,Northbound,Weekday,Spring,6042,115
+7592,Fri,Northbound,Weekday,Summer,5814,120
+7592,Fri,Northbound,Weekday,Winter,4654,117
+7592,Fri,Southbound,Weekday,Autumn,7998,123
+7592,Fri,Southbound,Weekday,Spring,7386,115
+7592,Fri,Southbound,Weekday,Summer,7018,120
+7592,Fri,Southbound,Weekday,Winter,5759,117
+7592,Mon,All directions,Weekday,Autumn,15972,122
+7592,Mon,All directions,Weekday,Spring,13753,114
+7592,Mon,All directions,Weekday,Summer,14744,119
+7592,Mon,All directions,Weekday,Winter,11559,118
+7592,Mon,Northbound,Weekday,Autumn,7283,122
+7592,Mon,Northbound,Weekday,Spring,5973,114
+7592,Mon,Northbound,Weekday,Summer,6603,119
+7592,Mon,Northbound,Weekday,Winter,5168,118
+7592,Mon,Southbound,Weekday,Autumn,8689,122
+7592,Mon,Southbound,Weekday,Spring,7780,114
+7592,Mon,Southbound,Weekday,Summer,8141,119
+7592,Mon,Southbound,Weekday,Winter,6391,118
+7592,Sat,All directions,Weekend,Autumn,14869,121
+7592,Sat,All directions,Weekend,Spring,15367,115
+7592,Sat,All directions,Weekend,Summer,14715,121
+7592,Sat,All directions,Weekend,Winter,13510,118
+7592,Sat,Northbound,Weekend,Autumn,7185,121
+7592,Sat,Northbound,Weekend,Spring,7425,115
+7592,Sat,Northbound,Weekend,Summer,6975,121
+7592,Sat,Northbound,Weekend,Winter,6480,118
+7592,Sat,Southbound,Weekend,Autumn,7684,121
+7592,Sat,Southbound,Weekend,Spring,7942,115
+7592,Sat,Southbound,Weekend,Summer,7740,121
+7592,Sat,Southbound,Weekend,Winter,7030,118
+7592,Sun,All directions,Weekend,Autumn,19038,123
+7592,Sun,All directions,Weekend,Spring,21310,115
+7592,Sun,All directions,Weekend,Summer,18502,120
+7592,Sun,All directions,Weekend,Winter,16346,117
+7592,Sun,Northbound,Weekend,Autumn,9848,123
+7592,Sun,Northbound,Weekend,Spring,10640,115
+7592,Sun,Northbound,Weekend,Summer,9311,120
+7592,Sun,Northbound,Weekend,Winter,8139,117
+7592,Sun,Southbound,Weekend,Autumn,9190,123
+7592,Sun,Southbound,Weekend,Spring,10670,115
+7592,Sun,Southbound,Weekend,Summer,9191,120
+7592,Sun,Southbound,Weekend,Winter,8207,117
+7592,Thu,All directions,Weekday,Autumn,15595,122
+7592,Thu,All directions,Weekday,Spring,14921,114
+7592,Thu,All directions,Weekday,Summer,15900,121
+7592,Thu,All directions,Weekday,Winter,12395,118
+7592,Thu,Northbound,Weekday,Autumn,6889,122
+7592,Thu,Northbound,Weekday,Spring,6460,114
+7592,Thu,Northbound,Weekday,Summer,6962,121
+7592,Thu,Northbound,Weekday,Winter,5424,118
+7592,Thu,Southbound,Weekday,Autumn,8706,122
+7592,Thu,Southbound,Weekday,Spring,8461,114
+7592,Thu,Southbound,Weekday,Summer,8938,121
+7592,Thu,Southbound,Weekday,Winter,6971,118
+7592,Tue,All directions,Weekday,Autumn,16713,124
+7592,Tue,All directions,Weekday,Spring,15583,114
+7592,Tue,All directions,Weekday,Summer,16777,119
+7592,Tue,All directions,Weekday,Winter,11769,117
+7592,Tue,Northbound,Weekday,Autumn,7389,124
+7592,Tue,Northbound,Weekday,Spring,6870,114
+7592,Tue,Northbound,Weekday,Summer,7489,119
+7592,Tue,Northbound,Weekday,Winter,5224,117
+7592,Tue,Southbound,Weekday,Autumn,9324,124
+7592,Tue,Southbound,Weekday,Spring,8713,114
+7592,Tue,Southbound,Weekday,Summer,9288,119
+7592,Tue,Southbound,Weekday,Winter,6545,117
+7592,Wed,All directions,Weekday,Autumn,15855,123
+7592,Wed,All directions,Weekday,Spring,15129,114
+7592,Wed,All directions,Weekday,Summer,16386,120
+7592,Wed,All directions,Weekday,Winter,11665,118
+7592,Wed,Northbound,Weekday,Autumn,6980,123
+7592,Wed,Northbound,Weekday,Spring,6466,114
+7592,Wed,Northbound,Weekday,Summer,7245,120
+7592,Wed,Northbound,Weekday,Winter,5059,118
+7592,Wed,Southbound,Weekday,Autumn,8875,123
+7592,Wed,Southbound,Weekday,Spring,8663,114
+7592,Wed,Southbound,Weekday,Summer,9141,120
+7592,Wed,Southbound,Weekday,Winter,6606,118
+7596,Fri,All directions,Weekday,Autumn,92845,130
+7596,Fri,All directions,Weekday,Spring,75973,115
+7596,Fri,All directions,Weekday,Summer,83179,121
+7596,Fri,All directions,Weekday,Winter,64793,117
+7596,Fri,Eastbound,Weekday,Autumn,57997,130
+7596,Fri,Eastbound,Weekday,Spring,45600,114
+7596,Fri,Eastbound,Weekday,Summer,51248,121
+7596,Fri,Eastbound,Weekday,Winter,39519,117
+7596,Fri,Westbound,Weekday,Autumn,34848,130
+7596,Fri,Westbound,Weekday,Spring,30373,115
+7596,Fri,Westbound,Weekday,Summer,31931,121
+7596,Fri,Westbound,Weekday,Winter,25274,117
+7596,Mon,All directions,Weekday,Autumn,109361,129
+7596,Mon,All directions,Weekday,Spring,94332,114
+7596,Mon,All directions,Weekday,Summer,105046,121
+7596,Mon,All directions,Weekday,Winter,78392,118
+7596,Mon,Eastbound,Weekday,Autumn,68363,129
+7596,Mon,Eastbound,Weekday,Spring,57077,114
+7596,Mon,Eastbound,Weekday,Summer,64857,121
+7596,Mon,Eastbound,Weekday,Winter,48105,118
+7596,Mon,Westbound,Weekday,Autumn,40998,129
+7596,Mon,Westbound,Weekday,Spring,37255,114
+7596,Mon,Westbound,Weekday,Summer,40189,121
+7596,Mon,Westbound,Weekday,Winter,30287,118
+7596,Sat,All directions,Weekend,Autumn,51136,128
+7596,Sat,All directions,Weekend,Spring,46556,115
+7596,Sat,All directions,Weekend,Summer,52851,122
+7596,Sat,All directions,Weekend,Winter,39619,118
+7596,Sat,Eastbound,Weekend,Autumn,30527,128
+7596,Sat,Eastbound,Weekend,Spring,26732,114
+7596,Sat,Eastbound,Weekend,Summer,31164,122
+7596,Sat,Eastbound,Weekend,Winter,23099,118
+7596,Sat,Westbound,Weekend,Autumn,20609,128
+7596,Sat,Westbound,Weekend,Spring,19824,115
+7596,Sat,Westbound,Weekend,Summer,21687,122
+7596,Sat,Westbound,Weekend,Winter,16520,118
+7596,Sun,All directions,Weekend,Autumn,56185,130
+7596,Sun,All directions,Weekend,Spring,58837,115
+7596,Sun,All directions,Weekend,Summer,59173,121
+7596,Sun,All directions,Weekend,Winter,44967,117
+7596,Sun,Eastbound,Weekend,Autumn,33380,130
+7596,Sun,Eastbound,Weekend,Spring,33944,115
+7596,Sun,Eastbound,Weekend,Summer,35053,121
+7596,Sun,Eastbound,Weekend,Winter,26375,117
+7596,Sun,Westbound,Weekend,Autumn,22805,130
+7596,Sun,Westbound,Weekend,Spring,24893,114
+7596,Sun,Westbound,Weekend,Summer,24120,121
+7596,Sun,Westbound,Weekend,Winter,18592,117
+7596,Thu,All directions,Weekday,Autumn,110625,129
+7596,Thu,All directions,Weekday,Spring,89649,114
+7596,Thu,All directions,Weekday,Summer,105817,122
+7596,Thu,All directions,Weekday,Winter,80845,118
+7596,Thu,Eastbound,Weekday,Autumn,70479,129
+7596,Thu,Eastbound,Weekday,Spring,54588,113
+7596,Thu,Eastbound,Weekday,Summer,65386,122
+7596,Thu,Eastbound,Weekday,Winter,50015,118
+7596,Thu,Westbound,Weekday,Autumn,40146,129
+7596,Thu,Westbound,Weekday,Spring,35061,114
+7596,Thu,Westbound,Weekday,Summer,40431,122
+7596,Thu,Westbound,Weekday,Winter,30830,118
+7596,Tue,All directions,Weekday,Autumn,124099,130
+7596,Tue,All directions,Weekday,Spring,99528,114
+7596,Tue,All directions,Weekday,Summer,117461,121
+7596,Tue,All directions,Weekday,Winter,85860,117
+7596,Tue,Eastbound,Weekday,Autumn,78418,130
+7596,Tue,Eastbound,Weekday,Spring,60154,113
+7596,Tue,Eastbound,Weekday,Summer,72350,121
+7596,Tue,Eastbound,Weekday,Winter,52872,117
+7596,Tue,Westbound,Weekday,Autumn,45681,130
+7596,Tue,Westbound,Weekday,Spring,39374,114
+7596,Tue,Westbound,Weekday,Summer,45111,121
+7596,Tue,Westbound,Weekday,Winter,32988,117
+7596,Wed,All directions,Weekday,Autumn,120149,130
+7596,Wed,All directions,Weekday,Spring,98510,114
+7596,Wed,All directions,Weekday,Summer,111195,121
+7596,Wed,All directions,Weekday,Winter,85159,118
+7596,Wed,Eastbound,Weekday,Autumn,76622,130
+7596,Wed,Eastbound,Weekday,Spring,60291,114
+7596,Wed,Eastbound,Weekday,Summer,69140,121
+7596,Wed,Eastbound,Weekday,Winter,52514,118
+7596,Wed,Westbound,Weekday,Autumn,43527,130
+7596,Wed,Westbound,Weekday,Spring,38219,114
+7596,Wed,Westbound,Weekday,Summer,42055,121
+7596,Wed,Westbound,Weekday,Winter,32645,118
+7600,Fri,All directions,Weekday,Autumn,107803,117
+7600,Fri,All directions,Weekday,Spring,85454,103
+7600,Fri,All directions,Weekday,Summer,85446,108
+7600,Fri,All directions,Weekday,Winter,79801,113
+7600,Fri,Northbound,Weekday,Autumn,46126,117
+7600,Fri,Northbound,Weekday,Spring,37437,103
+7600,Fri,Northbound,Weekday,Summer,32582,108
+7600,Fri,Northbound,Weekday,Winter,35311,113
+7600,Fri,Southbound,Weekday,Autumn,61677,117
+7600,Fri,Southbound,Weekday,Spring,48017,103
+7600,Fri,Southbound,Weekday,Summer,52864,108
+7600,Fri,Southbound,Weekday,Winter,44490,113
+7600,Mon,All directions,Weekday,Autumn,110642,116
+7600,Mon,All directions,Weekday,Spring,91007,101
+7600,Mon,All directions,Weekday,Summer,92778,108
+7600,Mon,All directions,Weekday,Winter,83753,115
+7600,Mon,Northbound,Weekday,Autumn,48079,116
+7600,Mon,Northbound,Weekday,Spring,40919,101
+7600,Mon,Northbound,Weekday,Summer,35205,108
+7600,Mon,Northbound,Weekday,Winter,38048,115
+7600,Mon,Southbound,Weekday,Autumn,62563,116
+7600,Mon,Southbound,Weekday,Spring,50088,101
+7600,Mon,Southbound,Weekday,Summer,57573,108
+7600,Mon,Southbound,Weekday,Winter,45705,115
+7600,Sat,All directions,Weekend,Autumn,58960,115
+7600,Sat,All directions,Weekend,Spring,50123,103
+7600,Sat,All directions,Weekend,Summer,53222,109
+7600,Sat,All directions,Weekend,Winter,48026,114
+7600,Sat,Northbound,Weekend,Autumn,24786,115
+7600,Sat,Northbound,Weekend,Spring,21929,103
+7600,Sat,Northbound,Weekend,Summer,20578,109
+7600,Sat,Northbound,Weekend,Winter,21194,114
+7600,Sat,Southbound,Weekend,Autumn,34174,115
+7600,Sat,Southbound,Weekend,Spring,28194,103
+7600,Sat,Southbound,Weekend,Summer,32644,109
+7600,Sat,Southbound,Weekend,Winter,26832,114
+7600,Sun,All directions,Weekend,Autumn,47737,117
+7600,Sun,All directions,Weekend,Spring,42335,103
+7600,Sun,All directions,Weekend,Summer,47158,108
+7600,Sun,All directions,Weekend,Winter,39558,113
+7600,Sun,Northbound,Weekend,Autumn,19744,117
+7600,Sun,Northbound,Weekend,Spring,18226,103
+7600,Sun,Northbound,Weekend,Summer,16534,108
+7600,Sun,Northbound,Weekend,Winter,17158,113
+7600,Sun,Southbound,Weekend,Autumn,27993,117
+7600,Sun,Southbound,Weekend,Spring,24109,103
+7600,Sun,Southbound,Weekend,Summer,30624,108
+7600,Sun,Southbound,Weekend,Winter,22400,113
+7600,Thu,All directions,Weekday,Autumn,125637,116
+7600,Thu,All directions,Weekday,Spring,97039,102
+7600,Thu,All directions,Weekday,Summer,101226,109
+7600,Thu,All directions,Weekday,Winter,92604,114
+7600,Thu,Northbound,Weekday,Autumn,54468,116
+7600,Thu,Northbound,Weekday,Spring,43434,102
+7600,Thu,Northbound,Weekday,Summer,38724,109
+7600,Thu,Northbound,Weekday,Winter,41605,114
+7600,Thu,Southbound,Weekday,Autumn,71169,116
+7600,Thu,Southbound,Weekday,Spring,53605,102
+7600,Thu,Southbound,Weekday,Summer,62502,109
+7600,Thu,Southbound,Weekday,Winter,50999,114
+7600,Tue,All directions,Weekday,Autumn,130742,116
+7600,Tue,All directions,Weekday,Spring,95465,101
+7600,Tue,All directions,Weekday,Summer,105955,109
+7600,Tue,All directions,Weekday,Winter,96876,114
+7600,Tue,Northbound,Weekday,Autumn,56755,116
+7600,Tue,Northbound,Weekday,Spring,42533,101
+7600,Tue,Northbound,Weekday,Summer,40066,109
+7600,Tue,Northbound,Weekday,Winter,43603,114
+7600,Tue,Southbound,Weekday,Autumn,73987,116
+7600,Tue,Southbound,Weekday,Spring,52932,101
+7600,Tue,Southbound,Weekday,Summer,65889,109
+7600,Tue,Southbound,Weekday,Winter,53273,114
+7600,Wed,All directions,Weekday,Autumn,130063,117
+7600,Wed,All directions,Weekday,Spring,101168,102
+7600,Wed,All directions,Weekday,Summer,104050,108
+7600,Wed,All directions,Weekday,Winter,96199,114
+7600,Wed,Northbound,Weekday,Autumn,56165,117
+7600,Wed,Northbound,Weekday,Spring,45702,102
+7600,Wed,Northbound,Weekday,Summer,39554,108
+7600,Wed,Northbound,Weekday,Winter,43266,114
+7600,Wed,Southbound,Weekday,Autumn,73898,117
+7600,Wed,Southbound,Weekday,Spring,55466,102
+7600,Wed,Southbound,Weekday,Summer,64496,108
+7600,Wed,Southbound,Weekday,Winter,52933,114
+7604,Fri,All directions,Weekday,Autumn,76327,130
+7604,Fri,All directions,Weekday,Spring,64786,115
+7604,Fri,All directions,Weekday,Summer,68223,121
+7604,Fri,All directions,Weekday,Winter,49209,117
+7604,Fri,Northbound,Weekday,Autumn,34995,130
+7604,Fri,Northbound,Weekday,Spring,30263,115
+7604,Fri,Northbound,Weekday,Summer,31849,121
+7604,Fri,Northbound,Weekday,Winter,23061,117
+7604,Fri,Southbound,Weekday,Autumn,41332,130
+7604,Fri,Southbound,Weekday,Spring,34523,115
+7604,Fri,Southbound,Weekday,Summer,36374,121
+7604,Fri,Southbound,Weekday,Winter,26148,117
+7604,Mon,All directions,Weekday,Autumn,83084,129
+7604,Mon,All directions,Weekday,Spring,64809,114
+7604,Mon,All directions,Weekday,Summer,76386,121
+7604,Mon,All directions,Weekday,Winter,55515,118
+7604,Mon,Northbound,Weekday,Autumn,38580,129
+7604,Mon,Northbound,Weekday,Spring,30539,114
+7604,Mon,Northbound,Weekday,Summer,35652,121
+7604,Mon,Northbound,Weekday,Winter,25992,118
+7604,Mon,Southbound,Weekday,Autumn,44504,129
+7604,Mon,Southbound,Weekday,Spring,34270,114
+7604,Mon,Southbound,Weekday,Summer,40734,121
+7604,Mon,Southbound,Weekday,Winter,29523,118
+7604,Sat,All directions,Weekend,Autumn,84684,128
+7604,Sat,All directions,Weekend,Spring,76648,115
+7604,Sat,All directions,Weekend,Summer,81174,122
+7604,Sat,All directions,Weekend,Winter,73390,118
+7604,Sat,Northbound,Weekend,Autumn,38972,128
+7604,Sat,Northbound,Weekend,Spring,35890,115
+7604,Sat,Northbound,Weekend,Summer,37393,122
+7604,Sat,Northbound,Weekend,Winter,34686,118
+7604,Sat,Southbound,Weekend,Autumn,45712,128
+7604,Sat,Southbound,Weekend,Spring,40758,115
+7604,Sat,Southbound,Weekend,Summer,43781,122
+7604,Sat,Southbound,Weekend,Winter,38704,118
+7604,Sun,All directions,Weekend,Autumn,102467,130
+7604,Sun,All directions,Weekend,Spring,103492,115
+7604,Sun,All directions,Weekend,Summer,98965,121
+7604,Sun,All directions,Weekend,Winter,86587,117
+7604,Sun,Northbound,Weekend,Autumn,46748,130
+7604,Sun,Northbound,Weekend,Spring,47919,115
+7604,Sun,Northbound,Weekend,Summer,45705,121
+7604,Sun,Northbound,Weekend,Winter,40711,117
+7604,Sun,Southbound,Weekend,Autumn,55719,130
+7604,Sun,Southbound,Weekend,Spring,55573,115
+7604,Sun,Southbound,Weekend,Summer,53260,121
+7604,Sun,Southbound,Weekend,Winter,45876,117
+7604,Thu,All directions,Weekday,Autumn,81349,129
+7604,Thu,All directions,Weekday,Spring,69189,114
+7604,Thu,All directions,Weekday,Summer,82502,122
+7604,Thu,All directions,Weekday,Winter,57793,118
+7604,Thu,Northbound,Weekday,Autumn,37870,129
+7604,Thu,Northbound,Weekday,Spring,32463,114
+7604,Thu,Northbound,Weekday,Summer,38744,122
+7604,Thu,Northbound,Weekday,Winter,27200,118
+7604,Thu,Southbound,Weekday,Autumn,43479,129
+7604,Thu,Southbound,Weekday,Spring,36726,114
+7604,Thu,Southbound,Weekday,Summer,43758,122
+7604,Thu,Southbound,Weekday,Winter,30593,118
+7604,Tue,All directions,Weekday,Autumn,90739,130
+7604,Tue,All directions,Weekday,Spring,77437,114
+7604,Tue,All directions,Weekday,Summer,92088,121
+7604,Tue,All directions,Weekday,Winter,59691,117
+7604,Tue,Northbound,Weekday,Autumn,42469,130
+7604,Tue,Northbound,Weekday,Spring,36472,114
+7604,Tue,Northbound,Weekday,Summer,43450,121
+7604,Tue,Northbound,Weekday,Winter,28333,117
+7604,Tue,Southbound,Weekday,Autumn,48270,130
+7604,Tue,Southbound,Weekday,Spring,40965,114
+7604,Tue,Southbound,Weekday,Summer,48638,121
+7604,Tue,Southbound,Weekday,Winter,31358,117
+7604,Wed,All directions,Weekday,Autumn,87005,130
+7604,Wed,All directions,Weekday,Spring,74221,114
+7604,Wed,All directions,Weekday,Summer,86789,121
+7604,Wed,All directions,Weekday,Winter,57782,118
+7604,Wed,Northbound,Weekday,Autumn,40222,130
+7604,Wed,Northbound,Weekday,Spring,34571,114
+7604,Wed,Northbound,Weekday,Summer,40495,121
+7604,Wed,Northbound,Weekday,Winter,26861,118
+7604,Wed,Southbound,Weekday,Autumn,46783,130
+7604,Wed,Southbound,Weekday,Spring,39650,114
+7604,Wed,Southbound,Weekday,Summer,46294,121
+7604,Wed,Southbound,Weekday,Winter,30921,118
+8172,Fri,All directions,Weekday,Autumn,80973,130
+8172,Fri,All directions,Weekday,Spring,59134,102
+8172,Fri,All directions,Weekday,Summer,70070,114
+8172,Fri,All directions,Weekday,Winter,47597,113
+8172,Fri,Northbound,Weekday,Autumn,42810,130
+8172,Fri,Northbound,Weekday,Spring,30888,102
+8172,Fri,Northbound,Weekday,Summer,36605,114
+8172,Fri,Northbound,Weekday,Winter,24938,113
+8172,Fri,Southbound,Weekday,Autumn,38163,130
+8172,Fri,Southbound,Weekday,Spring,28246,102
+8172,Fri,Southbound,Weekday,Summer,33465,114
+8172,Fri,Southbound,Weekday,Winter,22659,113
+8172,Mon,All directions,Weekday,Autumn,92914,129
+8172,Mon,All directions,Weekday,Spring,64507,101
+8172,Mon,All directions,Weekday,Summer,86872,113
+8172,Mon,All directions,Weekday,Winter,56729,114
+8172,Mon,Northbound,Weekday,Autumn,49958,129
+8172,Mon,Northbound,Weekday,Spring,34774,101
+8172,Mon,Northbound,Weekday,Summer,46408,113
+8172,Mon,Northbound,Weekday,Winter,30311,114
+8172,Mon,Southbound,Weekday,Autumn,42956,129
+8172,Mon,Southbound,Weekday,Spring,29733,101
+8172,Mon,Southbound,Weekday,Summer,40464,113
+8172,Mon,Southbound,Weekday,Winter,26418,114
+8172,Sat,All directions,Weekend,Autumn,86491,128
+8172,Sat,All directions,Weekend,Spring,74251,102
+8172,Sat,All directions,Weekend,Summer,82630,115
+8172,Sat,All directions,Weekend,Winter,63167,114
+8172,Sat,Northbound,Weekend,Autumn,44499,128
+8172,Sat,Northbound,Weekend,Spring,38392,102
+8172,Sat,Northbound,Weekend,Summer,41996,115
+8172,Sat,Northbound,Weekend,Winter,32889,114
+8172,Sat,Southbound,Weekend,Autumn,41992,128
+8172,Sat,Southbound,Weekend,Spring,35859,102
+8172,Sat,Southbound,Weekend,Summer,40634,115
+8172,Sat,Southbound,Weekend,Winter,30278,114
+8172,Sun,All directions,Weekend,Autumn,105175,130
+8172,Sun,All directions,Weekend,Spring,93330,102
+8172,Sun,All directions,Weekend,Summer,98338,113
+8172,Sun,All directions,Weekend,Winter,78006,114
+8172,Sun,Northbound,Weekend,Autumn,53876,130
+8172,Sun,Northbound,Weekend,Spring,47870,102
+8172,Sun,Northbound,Weekend,Summer,49740,113
+8172,Sun,Northbound,Weekend,Winter,39691,114
+8172,Sun,Southbound,Weekend,Autumn,51299,130
+8172,Sun,Southbound,Weekend,Spring,45460,102
+8172,Sun,Southbound,Weekend,Summer,48598,113
+8172,Sun,Southbound,Weekend,Winter,38315,114
+8172,Thu,All directions,Weekday,Autumn,82977,129
+8172,Thu,All directions,Weekday,Spring,62954,101
+8172,Thu,All directions,Weekday,Summer,86093,115
+8172,Thu,All directions,Weekday,Winter,54457,114
+8172,Thu,Northbound,Weekday,Autumn,45111,129
+8172,Thu,Northbound,Weekday,Spring,33411,101
+8172,Thu,Northbound,Weekday,Summer,45344,115
+8172,Thu,Northbound,Weekday,Winter,28764,114
+8172,Thu,Southbound,Weekday,Autumn,37866,129
+8172,Thu,Southbound,Weekday,Spring,29543,101
+8172,Thu,Southbound,Weekday,Summer,40749,115
+8172,Thu,Southbound,Weekday,Winter,25693,114
+8172,Tue,All directions,Weekday,Autumn,93309,130
+8172,Tue,All directions,Weekday,Spring,68513,101
+8172,Tue,All directions,Weekday,Summer,97798,114
+8172,Tue,All directions,Weekday,Winter,56562,113
+8172,Tue,Northbound,Weekday,Autumn,50323,130
+8172,Tue,Northbound,Weekday,Spring,36013,101
+8172,Tue,Northbound,Weekday,Summer,51597,114
+8172,Tue,Northbound,Weekday,Winter,29837,113
+8172,Tue,Southbound,Weekday,Autumn,42986,130
+8172,Tue,Southbound,Weekday,Spring,32500,101
+8172,Tue,Southbound,Weekday,Summer,46201,114
+8172,Tue,Southbound,Weekday,Winter,26725,113
+8172,Wed,All directions,Weekday,Autumn,91973,130
+8172,Wed,All directions,Weekday,Spring,68261,101
+8172,Wed,All directions,Weekday,Summer,94139,114
+8172,Wed,All directions,Weekday,Winter,57482,114
+8172,Wed,Northbound,Weekday,Autumn,50038,130
+8172,Wed,Northbound,Weekday,Spring,36393,101
+8172,Wed,Northbound,Weekday,Summer,50107,114
+8172,Wed,Northbound,Weekday,Winter,30581,114
+8172,Wed,Southbound,Weekday,Autumn,41935,130
+8172,Wed,Southbound,Weekday,Spring,31868,101
+8172,Wed,Southbound,Weekday,Summer,44032,114
+8172,Wed,Southbound,Weekday,Winter,26901,114
+8176,Fri,All directions,Weekday,Autumn,147065,125
+8176,Fri,All directions,Weekday,Spring,119616,104
+8176,Fri,All directions,Weekday,Summer,142084,108
+8176,Fri,All directions,Weekday,Winter,87479,100
+8176,Fri,Eastbound,Weekday,Autumn,76937,125
+8176,Fri,Eastbound,Weekday,Spring,62316,103
+8176,Fri,Eastbound,Weekday,Summer,74539,108
+8176,Fri,Eastbound,Weekday,Winter,44766,98
+8176,Fri,Westbound,Weekday,Autumn,70128,124
+8176,Fri,Westbound,Weekday,Spring,57300,104
+8176,Fri,Westbound,Weekday,Summer,67545,108
+8176,Fri,Westbound,Weekday,Winter,42713,100
+8176,Mon,All directions,Weekday,Autumn,169511,124
+8176,Mon,All directions,Weekday,Spring,143576,102
+8176,Mon,All directions,Weekday,Summer,173114,108
+8176,Mon,All directions,Weekday,Winter,97997,101
+8176,Mon,Eastbound,Weekday,Autumn,89405,123
+8176,Mon,Eastbound,Weekday,Spring,74994,102
+8176,Mon,Eastbound,Weekday,Summer,90935,108
+8176,Mon,Eastbound,Weekday,Winter,50850,100
+8176,Mon,Westbound,Weekday,Autumn,80106,123
+8176,Mon,Westbound,Weekday,Spring,68582,101
+8176,Mon,Westbound,Weekday,Summer,82179,108
+8176,Mon,Westbound,Weekday,Winter,47147,100
+8176,Sat,All directions,Weekend,Autumn,99105,123
+8176,Sat,All directions,Weekend,Spring,105936,102
+8176,Sat,All directions,Weekend,Summer,114577,109
+8176,Sat,All directions,Weekend,Winter,68815,102
+8176,Sat,Eastbound,Weekend,Autumn,55648,123
+8176,Sat,Eastbound,Weekend,Spring,59155,102
+8176,Sat,Eastbound,Weekend,Summer,63457,109
+8176,Sat,Eastbound,Weekend,Winter,38654,101
+8176,Sat,Westbound,Weekend,Autumn,43457,123
+8176,Sat,Westbound,Weekend,Spring,46781,102
+8176,Sat,Westbound,Weekend,Summer,51120,109
+8176,Sat,Westbound,Weekend,Winter,30161,102
+8176,Sun,All directions,Weekend,Autumn,105574,125
+8176,Sun,All directions,Weekend,Spring,101880,102
+8176,Sun,All directions,Weekend,Summer,106664,108
+8176,Sun,All directions,Weekend,Winter,68704,101
+8176,Sun,Eastbound,Weekend,Autumn,60108,124
+8176,Sun,Eastbound,Weekend,Spring,58644,102
+8176,Sun,Eastbound,Weekend,Summer,61296,108
+8176,Sun,Eastbound,Weekend,Winter,39213,101
+8176,Sun,Westbound,Weekend,Autumn,45466,125
+8176,Sun,Westbound,Weekend,Spring,43236,102
+8176,Sun,Westbound,Weekend,Summer,45368,108
+8176,Sun,Westbound,Weekend,Winter,29491,99
+8176,Thu,All directions,Weekday,Autumn,174962,123
+8176,Thu,All directions,Weekday,Spring,141583,101
+8176,Thu,All directions,Weekday,Summer,181055,109
+8176,Thu,All directions,Weekday,Winter,106721,104
+8176,Thu,Eastbound,Weekday,Autumn,90545,123
+8176,Thu,Eastbound,Weekday,Spring,73393,101
+8176,Thu,Eastbound,Weekday,Summer,94834,109
+8176,Thu,Eastbound,Weekday,Winter,54698,102
+8176,Thu,Westbound,Weekday,Autumn,84417,122
+8176,Thu,Westbound,Weekday,Spring,68190,101
+8176,Thu,Westbound,Weekday,Summer,86221,109
+8176,Thu,Westbound,Weekday,Winter,52023,104
+8176,Tue,All directions,Weekday,Autumn,195822,126
+8176,Tue,All directions,Weekday,Spring,147839,101
+8176,Tue,All directions,Weekday,Summer,192274,108
+8176,Tue,All directions,Weekday,Winter,106991,101
+8176,Tue,Eastbound,Weekday,Autumn,101338,125
+8176,Tue,Eastbound,Weekday,Spring,77230,101
+8176,Tue,Eastbound,Weekday,Summer,100635,108
+8176,Tue,Eastbound,Weekday,Winter,54686,100
+8176,Tue,Westbound,Weekday,Autumn,94484,125
+8176,Tue,Westbound,Weekday,Spring,70609,101
+8176,Tue,Westbound,Weekday,Summer,91639,108
+8176,Tue,Westbound,Weekday,Winter,52305,101
+8176,Wed,All directions,Weekday,Autumn,188685,124
+8176,Wed,All directions,Weekday,Spring,149098,101
+8176,Wed,All directions,Weekday,Summer,184227,109
+8176,Wed,All directions,Weekday,Winter,106115,99
+8176,Wed,Eastbound,Weekday,Autumn,98040,124
+8176,Wed,Eastbound,Weekday,Spring,77300,101
+8176,Wed,Eastbound,Weekday,Summer,96538,109
+8176,Wed,Eastbound,Weekday,Winter,54122,99
+8176,Wed,Westbound,Weekday,Autumn,90645,123
+8176,Wed,Westbound,Weekday,Spring,71798,101
+8176,Wed,Westbound,Weekday,Summer,87689,109
+8176,Wed,Westbound,Weekday,Winter,51993,99
+8180,Fri,All directions,Weekday,Autumn,137480,130
+8180,Fri,All directions,Weekday,Spring,111294,115
+8180,Fri,All directions,Weekday,Summer,118875,121
+8180,Fri,All directions,Weekday,Winter,91396,117
+8180,Fri,Northbound,Weekday,Autumn,59746,130
+8180,Fri,Northbound,Weekday,Spring,48274,115
+8180,Fri,Northbound,Weekday,Summer,52005,121
+8180,Fri,Northbound,Weekday,Winter,39593,117
+8180,Fri,Southbound,Weekday,Autumn,77734,130
+8180,Fri,Southbound,Weekday,Spring,63020,115
+8180,Fri,Southbound,Weekday,Summer,66870,121
+8180,Fri,Southbound,Weekday,Winter,51803,117
+8180,Mon,All directions,Weekday,Autumn,151258,129
+8180,Mon,All directions,Weekday,Spring,125465,114
+8180,Mon,All directions,Weekday,Summer,136417,121
+8180,Mon,All directions,Weekday,Winter,103663,118
+8180,Mon,Northbound,Weekday,Autumn,66445,129
+8180,Mon,Northbound,Weekday,Spring,55933,114
+8180,Mon,Northbound,Weekday,Summer,60623,121
+8180,Mon,Northbound,Weekday,Winter,45582,118
+8180,Mon,Southbound,Weekday,Autumn,84813,129
+8180,Mon,Southbound,Weekday,Spring,69532,114
+8180,Mon,Southbound,Weekday,Summer,75794,121
+8180,Mon,Southbound,Weekday,Winter,58081,118
+8180,Sat,All directions,Weekend,Autumn,86449,128
+8180,Sat,All directions,Weekend,Spring,79103,115
+8180,Sat,All directions,Weekend,Summer,84385,122
+8180,Sat,All directions,Weekend,Winter,66338,118
+8180,Sat,Northbound,Weekend,Autumn,38081,128
+8180,Sat,Northbound,Weekend,Spring,34873,115
+8180,Sat,Northbound,Weekend,Summer,37011,122
+8180,Sat,Northbound,Weekend,Winter,29602,118
+8180,Sat,Southbound,Weekend,Autumn,48368,128
+8180,Sat,Southbound,Weekend,Spring,44230,115
+8180,Sat,Southbound,Weekend,Summer,47374,122
+8180,Sat,Southbound,Weekend,Winter,36736,118
+8180,Sun,All directions,Weekend,Autumn,87569,130
+8180,Sun,All directions,Weekend,Spring,86218,115
+8180,Sun,All directions,Weekend,Summer,84443,121
+8180,Sun,All directions,Weekend,Winter,68770,117
+8180,Sun,Northbound,Weekend,Autumn,39236,130
+8180,Sun,Northbound,Weekend,Spring,38524,115
+8180,Sun,Northbound,Weekend,Summer,38038,121
+8180,Sun,Northbound,Weekend,Winter,29963,117
+8180,Sun,Southbound,Weekend,Autumn,48333,130
+8180,Sun,Southbound,Weekend,Spring,47694,115
+8180,Sun,Southbound,Weekend,Summer,46405,121
+8180,Sun,Southbound,Weekend,Winter,38807,117
+8180,Thu,All directions,Weekday,Autumn,158535,129
+8180,Thu,All directions,Weekday,Spring,127415,114
+8180,Thu,All directions,Weekday,Summer,141332,122
+8180,Thu,All directions,Weekday,Winter,109976,118
+8180,Thu,Northbound,Weekday,Autumn,69685,129
+8180,Thu,Northbound,Weekday,Spring,56314,114
+8180,Thu,Northbound,Weekday,Summer,62861,122
+8180,Thu,Northbound,Weekday,Winter,48252,118
+8180,Thu,Southbound,Weekday,Autumn,88850,129
+8180,Thu,Southbound,Weekday,Spring,71101,114
+8180,Thu,Southbound,Weekday,Summer,78471,122
+8180,Thu,Southbound,Weekday,Winter,61724,118
+8180,Tue,All directions,Weekday,Autumn,168327,130
+8180,Tue,All directions,Weekday,Spring,131879,114
+8180,Tue,All directions,Weekday,Summer,152677,121
+8180,Tue,All directions,Weekday,Winter,111158,117
+8180,Tue,Northbound,Weekday,Autumn,73905,130
+8180,Tue,Northbound,Weekday,Spring,58166,114
+8180,Tue,Northbound,Weekday,Summer,68206,121
+8180,Tue,Northbound,Weekday,Winter,48742,117
+8180,Tue,Southbound,Weekday,Autumn,94422,130
+8180,Tue,Southbound,Weekday,Spring,73713,114
+8180,Tue,Southbound,Weekday,Summer,84471,121
+8180,Tue,Southbound,Weekday,Winter,62416,117
+8180,Wed,All directions,Weekday,Autumn,167053,130
+8180,Wed,All directions,Weekday,Spring,132200,114
+8180,Wed,All directions,Weekday,Summer,145424,121
+8180,Wed,All directions,Weekday,Winter,110406,118
+8180,Wed,Northbound,Weekday,Autumn,73075,130
+8180,Wed,Northbound,Weekday,Spring,58287,114
+8180,Wed,Northbound,Weekday,Summer,64322,121
+8180,Wed,Northbound,Weekday,Winter,48455,118
+8180,Wed,Southbound,Weekday,Autumn,93978,130
+8180,Wed,Southbound,Weekday,Spring,73913,114
+8180,Wed,Southbound,Weekday,Summer,81102,121
+8180,Wed,Southbound,Weekday,Winter,61951,118
+8184,Fri,All directions,Weekday,Autumn,253019,128
+8184,Fri,All directions,Weekday,Spring,184710,102
+8184,Fri,All directions,Weekday,Summer,210612,114
+8184,Fri,All directions,Weekday,Winter,163160,113
+8184,Fri,Northbound,Weekday,Autumn,128815,128
+8184,Fri,Northbound,Weekday,Spring,93267,102
+8184,Fri,Northbound,Weekday,Summer,107135,114
+8184,Fri,Northbound,Weekday,Winter,82449,113
+8184,Fri,Southbound,Weekday,Autumn,124204,128
+8184,Fri,Southbound,Weekday,Spring,91443,102
+8184,Fri,Southbound,Weekday,Summer,103477,114
+8184,Fri,Southbound,Weekday,Winter,80711,113
+8184,Mon,All directions,Weekday,Autumn,291646,126
+8184,Mon,All directions,Weekday,Spring,207717,101
+8184,Mon,All directions,Weekday,Summer,265998,113
+8184,Mon,All directions,Weekday,Winter,192826,114
+8184,Mon,Northbound,Weekday,Autumn,147631,126
+8184,Mon,Northbound,Weekday,Spring,104553,101
+8184,Mon,Northbound,Weekday,Summer,134905,113
+8184,Mon,Northbound,Weekday,Winter,96810,114
+8184,Mon,Southbound,Weekday,Autumn,144015,126
+8184,Mon,Southbound,Weekday,Spring,103164,101
+8184,Mon,Southbound,Weekday,Summer,131093,113
+8184,Mon,Southbound,Weekday,Winter,96016,114
+8184,Sat,All directions,Weekend,Autumn,161740,126
+8184,Sat,All directions,Weekend,Spring,136993,102
+8184,Sat,All directions,Weekend,Summer,156438,115
+8184,Sat,All directions,Weekend,Winter,125311,114
+8184,Sat,Northbound,Weekend,Autumn,83858,126
+8184,Sat,Northbound,Weekend,Spring,69968,102
+8184,Sat,Northbound,Weekend,Summer,81241,115
+8184,Sat,Northbound,Weekend,Winter,63960,114
+8184,Sat,Southbound,Weekend,Autumn,77882,126
+8184,Sat,Southbound,Weekend,Spring,67025,102
+8184,Sat,Southbound,Weekend,Summer,75197,115
+8184,Sat,Southbound,Weekend,Winter,61351,114
+8184,Sun,All directions,Weekend,Autumn,186784,128
+8184,Sun,All directions,Weekend,Spring,173668,102
+8184,Sun,All directions,Weekend,Summer,181328,113
+8184,Sun,All directions,Weekend,Winter,150429,114
+8184,Sun,Northbound,Weekend,Autumn,96060,128
+8184,Sun,Northbound,Weekend,Spring,88440,102
+8184,Sun,Northbound,Weekend,Summer,93278,113
+8184,Sun,Northbound,Weekend,Winter,77578,114
+8184,Sun,Southbound,Weekend,Autumn,90724,128
+8184,Sun,Southbound,Weekend,Spring,85228,102
+8184,Sun,Southbound,Weekend,Summer,88050,113
+8184,Sun,Southbound,Weekend,Winter,72851,114
+8184,Thu,All directions,Weekday,Autumn,294233,127
+8184,Thu,All directions,Weekday,Spring,208932,101
+8184,Thu,All directions,Weekday,Summer,272098,115
+8184,Thu,All directions,Weekday,Winter,201237,114
+8184,Thu,Northbound,Weekday,Autumn,150014,127
+8184,Thu,Northbound,Weekday,Spring,105773,101
+8184,Thu,Northbound,Weekday,Summer,138750,115
+8184,Thu,Northbound,Weekday,Winter,101862,114
+8184,Thu,Southbound,Weekday,Autumn,144219,127
+8184,Thu,Southbound,Weekday,Spring,103159,101
+8184,Thu,Southbound,Weekday,Summer,133348,115
+8184,Thu,Southbound,Weekday,Winter,99375,114
+8184,Tue,All directions,Weekday,Autumn,327649,128
+8184,Tue,All directions,Weekday,Spring,223521,101
+8184,Tue,All directions,Weekday,Summer,301630,114
+8184,Tue,All directions,Weekday,Winter,210574,113
+8184,Tue,Northbound,Weekday,Autumn,166351,128
+8184,Tue,Northbound,Weekday,Spring,112899,101
+8184,Tue,Northbound,Weekday,Summer,154308,114
+8184,Tue,Northbound,Weekday,Winter,106165,113
+8184,Tue,Southbound,Weekday,Autumn,161298,128
+8184,Tue,Southbound,Weekday,Spring,110622,101
+8184,Tue,Southbound,Weekday,Summer,147322,114
+8184,Tue,Southbound,Weekday,Winter,104409,113
+8184,Wed,All directions,Weekday,Autumn,318161,128
+8184,Wed,All directions,Weekday,Spring,222805,101
+8184,Wed,All directions,Weekday,Summer,288023,114
+8184,Wed,All directions,Weekday,Winter,205467,114
+8184,Wed,Northbound,Weekday,Autumn,161092,128
+8184,Wed,Northbound,Weekday,Spring,112073,101
+8184,Wed,Northbound,Weekday,Summer,145789,114
+8184,Wed,Northbound,Weekday,Winter,103242,114
+8184,Wed,Southbound,Weekday,Autumn,157069,128
+8184,Wed,Southbound,Weekday,Spring,110732,101
+8184,Wed,Southbound,Weekday,Summer,142234,114
+8184,Wed,Southbound,Weekday,Winter,102225,114
+8188,Fri,All directions,Weekday,Autumn,74845,130
+8188,Fri,All directions,Weekday,Spring,61978,115
+8188,Fri,All directions,Weekday,Summer,64744,121
+8188,Fri,All directions,Weekday,Winter,51466,117
+8188,Fri,Northbound,Weekday,Autumn,37383,130
+8188,Fri,Northbound,Weekday,Spring,30451,115
+8188,Fri,Northbound,Weekday,Summer,31879,121
+8188,Fri,Northbound,Weekday,Winter,25452,117
+8188,Fri,Southbound,Weekday,Autumn,37462,130
+8188,Fri,Southbound,Weekday,Spring,31527,115
+8188,Fri,Southbound,Weekday,Summer,32865,121
+8188,Fri,Southbound,Weekday,Winter,26014,117
+8188,Mon,All directions,Weekday,Autumn,81125,129
+8188,Mon,All directions,Weekday,Spring,69702,114
+8188,Mon,All directions,Weekday,Summer,74983,121
+8188,Mon,All directions,Weekday,Winter,56593,118
+8188,Mon,Northbound,Weekday,Autumn,41258,129
+8188,Mon,Northbound,Weekday,Spring,34869,114
+8188,Mon,Northbound,Weekday,Summer,37749,121
+8188,Mon,Northbound,Weekday,Winter,28429,118
+8188,Mon,Southbound,Weekday,Autumn,39867,129
+8188,Mon,Southbound,Weekday,Spring,34833,114
+8188,Mon,Southbound,Weekday,Summer,37234,121
+8188,Mon,Southbound,Weekday,Winter,28164,118
+8188,Sat,All directions,Weekend,Autumn,44593,128
+8188,Sat,All directions,Weekend,Spring,40858,115
+8188,Sat,All directions,Weekend,Summer,43751,122
+8188,Sat,All directions,Weekend,Winter,35204,118
+8188,Sat,Northbound,Weekend,Autumn,22345,128
+8188,Sat,Northbound,Weekend,Spring,20137,115
+8188,Sat,Northbound,Weekend,Summer,22016,122
+8188,Sat,Northbound,Weekend,Winter,17487,118
+8188,Sat,Southbound,Weekend,Autumn,22248,128
+8188,Sat,Southbound,Weekend,Spring,20721,115
+8188,Sat,Southbound,Weekend,Summer,21735,122
+8188,Sat,Southbound,Weekend,Winter,17717,118
+8188,Sun,All directions,Weekend,Autumn,42033,130
+8188,Sun,All directions,Weekend,Spring,40879,115
+8188,Sun,All directions,Weekend,Summer,39646,121
+8188,Sun,All directions,Weekend,Winter,32563,117
+8188,Sun,Northbound,Weekend,Autumn,21627,130
+8188,Sun,Northbound,Weekend,Spring,20730,115
+8188,Sun,Northbound,Weekend,Summer,20322,121
+8188,Sun,Northbound,Weekend,Winter,16508,117
+8188,Sun,Southbound,Weekend,Autumn,20406,130
+8188,Sun,Southbound,Weekend,Spring,20149,115
+8188,Sun,Southbound,Weekend,Summer,19324,121
+8188,Sun,Southbound,Weekend,Winter,16055,117
+8188,Thu,All directions,Weekday,Autumn,88455,129
+8188,Thu,All directions,Weekday,Spring,70346,114
+8188,Thu,All directions,Weekday,Summer,79160,122
+8188,Thu,All directions,Weekday,Winter,60692,118
+8188,Thu,Northbound,Weekday,Autumn,44637,129
+8188,Thu,Northbound,Weekday,Spring,34909,114
+8188,Thu,Northbound,Weekday,Summer,39782,122
+8188,Thu,Northbound,Weekday,Winter,30370,118
+8188,Thu,Southbound,Weekday,Autumn,43818,129
+8188,Thu,Southbound,Weekday,Spring,35437,114
+8188,Thu,Southbound,Weekday,Summer,39378,122
+8188,Thu,Southbound,Weekday,Winter,30322,118
+8188,Tue,All directions,Weekday,Autumn,92782,130
+8188,Tue,All directions,Weekday,Spring,72263,114
+8188,Tue,All directions,Weekday,Summer,83026,121
+8188,Tue,All directions,Weekday,Winter,61493,117
+8188,Tue,Northbound,Weekday,Autumn,46783,130
+8188,Tue,Northbound,Weekday,Spring,36135,114
+8188,Tue,Northbound,Weekday,Summer,41758,121
+8188,Tue,Northbound,Weekday,Winter,30847,117
+8188,Tue,Southbound,Weekday,Autumn,45999,130
+8188,Tue,Southbound,Weekday,Spring,36128,114
+8188,Tue,Southbound,Weekday,Summer,41268,121
+8188,Tue,Southbound,Weekday,Winter,30646,117
+8188,Wed,All directions,Weekday,Autumn,92077,130
+8188,Wed,All directions,Weekday,Spring,75446,114
+8188,Wed,All directions,Weekday,Summer,81914,121
+8188,Wed,All directions,Weekday,Winter,61774,118
+8188,Wed,Northbound,Weekday,Autumn,46468,130
+8188,Wed,Northbound,Weekday,Spring,37574,114
+8188,Wed,Northbound,Weekday,Summer,40994,121
+8188,Wed,Northbound,Weekday,Winter,30823,118
+8188,Wed,Southbound,Weekday,Autumn,45609,130
+8188,Wed,Southbound,Weekday,Spring,37872,114
+8188,Wed,Southbound,Weekday,Summer,40920,121
+8188,Wed,Southbound,Weekday,Winter,30951,118
+8192,Fri,All directions,Weekday,Autumn,124965,130
+8192,Fri,All directions,Weekday,Spring,86736,102
+8192,Fri,All directions,Weekday,Summer,98865,110
+8192,Fri,All directions,Weekday,Winter,70325,111
+8192,Fri,Northbound,Weekday,Autumn,61877,130
+8192,Fri,Northbound,Weekday,Spring,42983,102
+8192,Fri,Northbound,Weekday,Summer,49002,110
+8192,Fri,Northbound,Weekday,Winter,34586,108
+8192,Fri,Southbound,Weekday,Autumn,63088,130
+8192,Fri,Southbound,Weekday,Spring,43753,102
+8192,Fri,Southbound,Weekday,Summer,49863,110
+8192,Fri,Southbound,Weekday,Winter,35739,111
+8192,Mon,All directions,Weekday,Autumn,140061,129
+8192,Mon,All directions,Weekday,Spring,95848,101
+8192,Mon,All directions,Weekday,Summer,120335,110
+8192,Mon,All directions,Weekday,Winter,84160,110
+8192,Mon,Northbound,Weekday,Autumn,69511,129
+8192,Mon,Northbound,Weekday,Spring,47177,101
+8192,Mon,Northbound,Weekday,Summer,59226,110
+8192,Mon,Northbound,Weekday,Winter,41667,110
+8192,Mon,Southbound,Weekday,Autumn,70550,129
+8192,Mon,Southbound,Weekday,Spring,48671,101
+8192,Mon,Southbound,Weekday,Summer,61109,110
+8192,Mon,Southbound,Weekday,Winter,42493,109
+8192,Sat,All directions,Weekend,Autumn,105950,128
+8192,Sat,All directions,Weekend,Spring,77104,102
+8192,Sat,All directions,Weekend,Summer,89378,111
+8192,Sat,All directions,Weekend,Winter,73656,112
+8192,Sat,Northbound,Weekend,Autumn,52867,128
+8192,Sat,Northbound,Weekend,Spring,38554,102
+8192,Sat,Northbound,Weekend,Summer,44117,111
+8192,Sat,Northbound,Weekend,Winter,36768,111
+8192,Sat,Southbound,Weekend,Autumn,53083,128
+8192,Sat,Southbound,Weekend,Spring,38550,102
+8192,Sat,Southbound,Weekend,Summer,45261,111
+8192,Sat,Southbound,Weekend,Winter,36888,112
+8192,Sun,All directions,Weekend,Autumn,129965,130
+8192,Sun,All directions,Weekend,Spring,105382,102
+8192,Sun,All directions,Weekend,Summer,113442,110
+8192,Sun,All directions,Weekend,Winter,88985,113
+8192,Sun,Northbound,Weekend,Autumn,65252,130
+8192,Sun,Northbound,Weekend,Spring,52846,102
+8192,Sun,Northbound,Weekend,Summer,56302,110
+8192,Sun,Northbound,Weekend,Winter,44670,113
+8192,Sun,Southbound,Weekend,Autumn,64713,130
+8192,Sun,Southbound,Weekend,Spring,52536,102
+8192,Sun,Southbound,Weekend,Summer,57140,110
+8192,Sun,Southbound,Weekend,Winter,44315,110
+8192,Thu,All directions,Weekday,Autumn,131299,129
+8192,Thu,All directions,Weekday,Spring,97682,101
+8192,Thu,All directions,Weekday,Summer,120564,110
+8192,Thu,All directions,Weekday,Winter,83121,111
+8192,Thu,Northbound,Weekday,Autumn,64306,129
+8192,Thu,Northbound,Weekday,Spring,47710,101
+8192,Thu,Northbound,Weekday,Summer,59075,110
+8192,Thu,Northbound,Weekday,Winter,40325,110
+8192,Thu,Southbound,Weekday,Autumn,66993,129
+8192,Thu,Southbound,Weekday,Spring,49972,101
+8192,Thu,Southbound,Weekday,Summer,61489,110
+8192,Thu,Southbound,Weekday,Winter,42796,110
+8192,Tue,All directions,Weekday,Autumn,145816,130
+8192,Tue,All directions,Weekday,Spring,103794,101
+8192,Tue,All directions,Weekday,Summer,134796,109
+8192,Tue,All directions,Weekday,Winter,88128,110
+8192,Tue,Northbound,Weekday,Autumn,71829,130
+8192,Tue,Northbound,Weekday,Spring,51125,101
+8192,Tue,Northbound,Weekday,Summer,66229,109
+8192,Tue,Northbound,Weekday,Winter,43053,110
+8192,Tue,Southbound,Weekday,Autumn,73987,130
+8192,Tue,Southbound,Weekday,Spring,52669,101
+8192,Tue,Southbound,Weekday,Summer,68567,109
+8192,Tue,Southbound,Weekday,Winter,45075,109
+8192,Wed,All directions,Weekday,Autumn,142604,130
+8192,Wed,All directions,Weekday,Spring,104940,101
+8192,Wed,All directions,Weekday,Summer,122827,109
+8192,Wed,All directions,Weekday,Winter,85273,112
+8192,Wed,Northbound,Weekday,Autumn,69945,130
+8192,Wed,Northbound,Weekday,Spring,51855,101
+8192,Wed,Northbound,Weekday,Summer,60228,109
+8192,Wed,Northbound,Weekday,Winter,41971,111
+8192,Wed,Southbound,Weekday,Autumn,72659,130
+8192,Wed,Southbound,Weekday,Spring,53085,101
+8192,Wed,Southbound,Weekday,Summer,62599,109
+8192,Wed,Southbound,Weekday,Winter,43302,111
+8196,Fri,All directions,Weekday,Autumn,6523,117
+8196,Fri,All directions,Weekday,Spring,5296,115
+8196,Fri,All directions,Weekday,Summer,8875,105
+8196,Fri,All directions,Weekday,Winter,3631,116
+8196,Fri,Northbound,Weekday,Autumn,3372,116
+8196,Fri,Northbound,Weekday,Spring,2737,115
+8196,Fri,Northbound,Weekday,Summer,4728,105
+8196,Fri,Northbound,Weekday,Winter,1896,116
+8196,Fri,Southbound,Weekday,Autumn,3151,117
+8196,Fri,Southbound,Weekday,Spring,2559,115
+8196,Fri,Southbound,Weekday,Summer,4147,105
+8196,Fri,Southbound,Weekday,Winter,1735,115
+8196,Mon,All directions,Weekday,Autumn,7067,117
+8196,Mon,All directions,Weekday,Spring,5397,114
+8196,Mon,All directions,Weekday,Summer,8928,105
+8196,Mon,All directions,Weekday,Winter,3830,118
+8196,Mon,Northbound,Weekday,Autumn,3581,117
+8196,Mon,Northbound,Weekday,Spring,2779,114
+8196,Mon,Northbound,Weekday,Summer,4738,105
+8196,Mon,Northbound,Weekday,Winter,2013,118
+8196,Mon,Southbound,Weekday,Autumn,3486,117
+8196,Mon,Southbound,Weekday,Spring,2618,114
+8196,Mon,Southbound,Weekday,Summer,4190,105
+8196,Mon,Southbound,Weekday,Winter,1817,118
+8196,Sat,All directions,Weekend,Autumn,8774,116
+8196,Sat,All directions,Weekend,Spring,7458,115
+8196,Sat,All directions,Weekend,Summer,11358,106
+8196,Sat,All directions,Weekend,Winter,5131,117
+8196,Sat,Northbound,Weekend,Autumn,4622,116
+8196,Sat,Northbound,Weekend,Spring,3930,115
+8196,Sat,Northbound,Weekend,Summer,5955,106
+8196,Sat,Northbound,Weekend,Winter,2709,117
+8196,Sat,Southbound,Weekend,Autumn,4152,116
+8196,Sat,Southbound,Weekend,Spring,3528,115
+8196,Sat,Southbound,Weekend,Summer,5403,106
+8196,Sat,Southbound,Weekend,Winter,2422,117
+8196,Sun,All directions,Weekend,Autumn,9465,118
+8196,Sun,All directions,Weekend,Spring,8545,115
+8196,Sun,All directions,Weekend,Summer,11254,105
+8196,Sun,All directions,Weekend,Winter,6210,117
+8196,Sun,Northbound,Weekend,Autumn,5047,118
+8196,Sun,Northbound,Weekend,Spring,4498,115
+8196,Sun,Northbound,Weekend,Summer,5980,105
+8196,Sun,Northbound,Weekend,Winter,3337,117
+8196,Sun,Southbound,Weekend,Autumn,4418,118
+8196,Sun,Southbound,Weekend,Spring,4047,115
+8196,Sun,Southbound,Weekend,Summer,5274,105
+8196,Sun,Southbound,Weekend,Winter,2873,117
+8196,Thu,All directions,Weekday,Autumn,5433,116
+8196,Thu,All directions,Weekday,Spring,4700,114
+8196,Thu,All directions,Weekday,Summer,9092,106
+8196,Thu,All directions,Weekday,Winter,3355,118
+8196,Thu,Northbound,Weekday,Autumn,2935,116
+8196,Thu,Northbound,Weekday,Spring,2477,114
+8196,Thu,Northbound,Weekday,Summer,4748,106
+8196,Thu,Northbound,Weekday,Winter,1753,118
+8196,Thu,Southbound,Weekday,Autumn,2498,116
+8196,Thu,Southbound,Weekday,Spring,2223,114
+8196,Thu,Southbound,Weekday,Summer,4344,106
+8196,Thu,Southbound,Weekday,Winter,1602,118
+8196,Tue,All directions,Weekday,Autumn,5728,118
+8196,Tue,All directions,Weekday,Spring,5037,114
+8196,Tue,All directions,Weekday,Summer,9198,105
+8196,Tue,All directions,Weekday,Winter,3384,117
+8196,Tue,Northbound,Weekday,Autumn,3106,118
+8196,Tue,Northbound,Weekday,Spring,2623,114
+8196,Tue,Northbound,Weekday,Summer,4833,105
+8196,Tue,Northbound,Weekday,Winter,1764,117
+8196,Tue,Southbound,Weekday,Autumn,2622,118
+8196,Tue,Southbound,Weekday,Spring,2414,114
+8196,Tue,Southbound,Weekday,Summer,4365,105
+8196,Tue,Southbound,Weekday,Winter,1620,117
+8196,Wed,All directions,Weekday,Autumn,6690,118
+8196,Wed,All directions,Weekday,Spring,6225,114
+8196,Wed,All directions,Weekday,Summer,10076,104
+8196,Wed,All directions,Weekday,Winter,4672,118
+8196,Wed,Northbound,Weekday,Autumn,3573,118
+8196,Wed,Northbound,Weekday,Spring,3347,114
+8196,Wed,Northbound,Weekday,Summer,5415,104
+8196,Wed,Northbound,Weekday,Winter,2477,118
+8196,Wed,Southbound,Weekday,Autumn,3117,118
+8196,Wed,Southbound,Weekday,Spring,2878,114
+8196,Wed,Southbound,Weekday,Summer,4661,104
+8196,Wed,Southbound,Weekday,Winter,2195,118
+9077,Fri,All directions,Weekday,Autumn,128307,130
+9077,Fri,All directions,Weekday,Spring,88778,102
+9077,Fri,All directions,Weekday,Summer,104013,114
+9077,Fri,All directions,Weekday,Winter,87912,113
+9077,Fri,Eastbound,Weekday,Autumn,58864,130
+9077,Fri,Eastbound,Weekday,Spring,40169,102
+9077,Fri,Eastbound,Weekday,Summer,46912,114
+9077,Fri,Eastbound,Weekday,Winter,40942,113
+9077,Fri,Westbound,Weekday,Autumn,69443,130
+9077,Fri,Westbound,Weekday,Spring,48609,102
+9077,Fri,Westbound,Weekday,Summer,57101,114
+9077,Fri,Westbound,Weekday,Winter,46970,113
+9077,Mon,All directions,Weekday,Autumn,135928,129
+9077,Mon,All directions,Weekday,Spring,96034,101
+9077,Mon,All directions,Weekday,Summer,117913,115
+9077,Mon,All directions,Weekday,Winter,91402,114
+9077,Mon,Eastbound,Weekday,Autumn,63242,129
+9077,Mon,Eastbound,Weekday,Spring,44378,101
+9077,Mon,Eastbound,Weekday,Summer,54170,115
+9077,Mon,Eastbound,Weekday,Winter,42834,114
+9077,Mon,Westbound,Weekday,Autumn,72686,129
+9077,Mon,Westbound,Weekday,Spring,51656,101
+9077,Mon,Westbound,Weekday,Summer,63743,114
+9077,Mon,Westbound,Weekday,Winter,48568,114
+9077,Sat,All directions,Weekend,Autumn,57137,128
+9077,Sat,All directions,Weekend,Spring,42359,102
+9077,Sat,All directions,Weekend,Summer,48599,115
+9077,Sat,All directions,Weekend,Winter,41861,114
+9077,Sat,Eastbound,Weekend,Autumn,26200,127
+9077,Sat,Eastbound,Weekend,Spring,19055,102
+9077,Sat,Eastbound,Weekend,Summer,21793,115
+9077,Sat,Eastbound,Weekend,Winter,19057,114
+9077,Sat,Westbound,Weekend,Autumn,30937,128
+9077,Sat,Westbound,Weekend,Spring,23304,102
+9077,Sat,Westbound,Weekend,Summer,26806,115
+9077,Sat,Westbound,Weekend,Winter,22804,114
+9077,Sun,All directions,Weekend,Autumn,49660,130
+9077,Sun,All directions,Weekend,Spring,37916,102
+9077,Sun,All directions,Weekend,Summer,42845,113
+9077,Sun,All directions,Weekend,Winter,36145,114
+9077,Sun,Eastbound,Weekend,Autumn,23132,130
+9077,Sun,Eastbound,Weekend,Spring,17105,102
+9077,Sun,Eastbound,Weekend,Summer,19378,113
+9077,Sun,Eastbound,Weekend,Winter,16936,114
+9077,Sun,Westbound,Weekend,Autumn,26528,130
+9077,Sun,Westbound,Weekend,Spring,20811,102
+9077,Sun,Westbound,Weekend,Summer,23467,113
+9077,Sun,Westbound,Weekend,Winter,19209,114
+9077,Thu,All directions,Weekday,Autumn,155384,129
+9077,Thu,All directions,Weekday,Spring,102441,101
+9077,Thu,All directions,Weekday,Summer,127415,115
+9077,Thu,All directions,Weekday,Winter,103597,114
+9077,Thu,Eastbound,Weekday,Autumn,71777,128
+9077,Thu,Eastbound,Weekday,Spring,47079,101
+9077,Thu,Eastbound,Weekday,Summer,57777,115
+9077,Thu,Eastbound,Weekday,Winter,48454,114
+9077,Thu,Westbound,Weekday,Autumn,83607,129
+9077,Thu,Westbound,Weekday,Spring,55362,101
+9077,Thu,Westbound,Weekday,Summer,69638,115
+9077,Thu,Westbound,Weekday,Winter,55143,114
+9077,Tue,All directions,Weekday,Autumn,163375,130
+9077,Tue,All directions,Weekday,Spring,101787,101
+9077,Tue,All directions,Weekday,Summer,135035,115
+9077,Tue,All directions,Weekday,Winter,105363,113
+9077,Tue,Eastbound,Weekday,Autumn,75169,129
+9077,Tue,Eastbound,Weekday,Spring,46304,101
+9077,Tue,Eastbound,Weekday,Summer,61546,115
+9077,Tue,Eastbound,Weekday,Winter,48970,113
+9077,Tue,Westbound,Weekday,Autumn,88206,130
+9077,Tue,Westbound,Weekday,Spring,55483,101
+9077,Tue,Westbound,Weekday,Summer,73489,114
+9077,Tue,Westbound,Weekday,Winter,56393,113
+9077,Wed,All directions,Weekday,Autumn,160532,130
+9077,Wed,All directions,Weekday,Spring,104807,101
+9077,Wed,All directions,Weekday,Summer,131482,114
+9077,Wed,All directions,Weekday,Winter,103586,114
+9077,Wed,Eastbound,Weekday,Autumn,74162,130
+9077,Wed,Eastbound,Weekday,Spring,47828,101
+9077,Wed,Eastbound,Weekday,Summer,60066,114
+9077,Wed,Eastbound,Weekday,Winter,47989,114
+9077,Wed,Westbound,Weekday,Autumn,86370,130
+9077,Wed,Westbound,Weekday,Spring,56979,101
+9077,Wed,Westbound,Weekday,Summer,71416,114
+9077,Wed,Westbound,Weekday,Winter,55597,114
+9079,Fri,All directions,Weekday,Autumn,22536,127
+9079,Fri,All directions,Weekday,Spring,19847,115
+9079,Fri,All directions,Weekday,Summer,19042,121
+9079,Fri,All directions,Weekday,Winter,15760,117
+9079,Fri,Eastbound,Weekday,Autumn,10126,127
+9079,Fri,Eastbound,Weekday,Spring,8965,115
+9079,Fri,Eastbound,Weekday,Summer,8670,121
+9079,Fri,Eastbound,Weekday,Winter,7125,117
+9079,Fri,Westbound,Weekday,Autumn,12410,127
+9079,Fri,Westbound,Weekday,Spring,10882,115
+9079,Fri,Westbound,Weekday,Summer,10372,121
+9079,Fri,Westbound,Weekday,Winter,8635,117
+9079,Mon,All directions,Weekday,Autumn,21146,126
+9079,Mon,All directions,Weekday,Spring,17541,114
+9079,Mon,All directions,Weekday,Summer,18846,121
+9079,Mon,All directions,Weekday,Winter,14711,118
+9079,Mon,Eastbound,Weekday,Autumn,10215,126
+9079,Mon,Eastbound,Weekday,Spring,8718,114
+9079,Mon,Eastbound,Weekday,Summer,9348,121
+9079,Mon,Eastbound,Weekday,Winter,7288,118
+9079,Mon,Westbound,Weekday,Autumn,10931,126
+9079,Mon,Westbound,Weekday,Spring,8823,114
+9079,Mon,Westbound,Weekday,Summer,9498,121
+9079,Mon,Westbound,Weekday,Winter,7423,118
+9079,Sat,All directions,Weekend,Autumn,24081,125
+9079,Sat,All directions,Weekend,Spring,23769,115
+9079,Sat,All directions,Weekend,Summer,23073,122
+9079,Sat,All directions,Weekend,Winter,22481,118
+9079,Sat,Eastbound,Weekend,Autumn,10788,125
+9079,Sat,Eastbound,Weekend,Spring,11065,115
+9079,Sat,Eastbound,Weekend,Summer,10806,122
+9079,Sat,Eastbound,Weekend,Winter,10209,118
+9079,Sat,Westbound,Weekend,Autumn,13293,125
+9079,Sat,Westbound,Weekend,Spring,12704,115
+9079,Sat,Westbound,Weekend,Summer,12267,122
+9079,Sat,Westbound,Weekend,Winter,12272,118
+9079,Sun,All directions,Weekend,Autumn,32373,127
+9079,Sun,All directions,Weekend,Spring,33871,115
+9079,Sun,All directions,Weekend,Summer,29544,121
+9079,Sun,All directions,Weekend,Winter,29500,117
+9079,Sun,Eastbound,Weekend,Autumn,14616,127
+9079,Sun,Eastbound,Weekend,Spring,15797,115
+9079,Sun,Eastbound,Weekend,Summer,13432,121
+9079,Sun,Eastbound,Weekend,Winter,13049,117
+9079,Sun,Westbound,Weekend,Autumn,17757,127
+9079,Sun,Westbound,Weekend,Spring,18074,115
+9079,Sun,Westbound,Weekend,Summer,16112,121
+9079,Sun,Westbound,Weekend,Winter,16451,117
+9079,Thu,All directions,Weekday,Autumn,21620,126
+9079,Thu,All directions,Weekday,Spring,19826,114
+9079,Thu,All directions,Weekday,Summer,22056,122
+9079,Thu,All directions,Weekday,Winter,16699,118
+9079,Thu,Eastbound,Weekday,Autumn,9860,126
+9079,Thu,Eastbound,Weekday,Spring,9217,114
+9079,Thu,Eastbound,Weekday,Summer,10229,122
+9079,Thu,Eastbound,Weekday,Winter,7711,118
+9079,Thu,Westbound,Weekday,Autumn,11760,126
+9079,Thu,Westbound,Weekday,Spring,10609,114
+9079,Thu,Westbound,Weekday,Summer,11827,122
+9079,Thu,Westbound,Weekday,Winter,8988,118
+9079,Tue,All directions,Weekday,Autumn,23705,127
+9079,Tue,All directions,Weekday,Spring,21670,114
+9079,Tue,All directions,Weekday,Summer,23613,121
+9079,Tue,All directions,Weekday,Winter,16809,117
+9079,Tue,Eastbound,Weekday,Autumn,11055,127
+9079,Tue,Eastbound,Weekday,Spring,10126,114
+9079,Tue,Eastbound,Weekday,Summer,11350,121
+9079,Tue,Eastbound,Weekday,Winter,7939,117
+9079,Tue,Westbound,Weekday,Autumn,12650,127
+9079,Tue,Westbound,Weekday,Spring,11544,114
+9079,Tue,Westbound,Weekday,Summer,12263,121
+9079,Tue,Westbound,Weekday,Winter,8870,117
+9079,Wed,All directions,Weekday,Autumn,22439,127
+9079,Wed,All directions,Weekday,Spring,20774,114
+9079,Wed,All directions,Weekday,Summer,21827,121
+9079,Wed,All directions,Weekday,Winter,15768,118
+9079,Wed,Eastbound,Weekday,Autumn,10154,127
+9079,Wed,Eastbound,Weekday,Spring,9640,114
+9079,Wed,Eastbound,Weekday,Summer,9907,121
+9079,Wed,Eastbound,Weekday,Winter,7191,118
+9079,Wed,Westbound,Weekday,Autumn,12285,127
+9079,Wed,Westbound,Weekday,Spring,11134,114
+9079,Wed,Westbound,Weekday,Summer,11920,121
+9079,Wed,Westbound,Weekday,Winter,8577,118
+9999,Fri,All directions,Weekday,Autumn,211162,117
+9999,Fri,All directions,Weekday,Spring,164525,112
+9999,Fri,All directions,Weekday,Summer,188408,108
+9999,Fri,All directions,Weekday,Winter,148878,112
+9999,Fri,Northbound,Weekday,Autumn,77092,86
+9999,Fri,Northbound,Weekday,Spring,54370,80
+9999,Fri,Northbound,Weekday,Summer,66864,80
+9999,Fri,Northbound,Weekday,Winter,55105,86
+9999,Fri,Southbound,Weekday,Autumn,134070,117
+9999,Fri,Southbound,Weekday,Spring,110155,112
+9999,Fri,Southbound,Weekday,Summer,121544,108
+9999,Fri,Southbound,Weekday,Winter,93773,112
+9999,Mon,All directions,Weekday,Autumn,228196,117
+9999,Mon,All directions,Weekday,Spring,183546,111
+9999,Mon,All directions,Weekday,Summer,215488,109
+9999,Mon,All directions,Weekday,Winter,165395,114
+9999,Mon,Northbound,Weekday,Autumn,83840,87
+9999,Mon,Northbound,Weekday,Spring,58860,74
+9999,Mon,Northbound,Weekday,Summer,75339,82
+9999,Mon,Northbound,Weekday,Winter,61435,88
+9999,Mon,Southbound,Weekday,Autumn,144356,117
+9999,Mon,Southbound,Weekday,Spring,124686,110
+9999,Mon,Southbound,Weekday,Summer,140149,108
+9999,Mon,Southbound,Weekday,Winter,103960,114
+9999,Sat,All directions,Weekend,Autumn,118084,115
+9999,Sat,All directions,Weekend,Spring,99821,111
+9999,Sat,All directions,Weekend,Summer,115828,109
+9999,Sat,All directions,Weekend,Winter,84961,113
+9999,Sat,Northbound,Weekend,Autumn,41586,90
+9999,Sat,Northbound,Weekend,Spring,31953,80
+9999,Sat,Northbound,Weekend,Summer,39254,84
+9999,Sat,Northbound,Weekend,Winter,28265,83
+9999,Sat,Southbound,Weekend,Autumn,76498,115
+9999,Sat,Southbound,Weekend,Spring,67868,111
+9999,Sat,Southbound,Weekend,Summer,76574,109
+9999,Sat,Southbound,Weekend,Winter,56696,113
+9999,Sun,All directions,Weekend,Autumn,110299,117
+9999,Sun,All directions,Weekend,Spring,100781,111
+9999,Sun,All directions,Weekend,Summer,112917,108
+9999,Sun,All directions,Weekend,Winter,78883,112
+9999,Sun,Northbound,Weekend,Autumn,38749,94
+9999,Sun,Northbound,Weekend,Spring,30482,88
+9999,Sun,Northbound,Weekend,Summer,37868,83
+9999,Sun,Northbound,Weekend,Winter,26287,87
+9999,Sun,Southbound,Weekend,Autumn,71550,117
+9999,Sun,Southbound,Weekend,Spring,70299,111
+9999,Sun,Southbound,Weekend,Summer,75049,108
+9999,Sun,Southbound,Weekend,Winter,52596,112
+9999,Thu,All directions,Weekday,Autumn,249460,116
+9999,Thu,All directions,Weekday,Spring,191049,111
+9999,Thu,All directions,Weekday,Summer,230898,109
+9999,Thu,All directions,Weekday,Winter,180112,113
+9999,Thu,Northbound,Weekday,Autumn,92467,88
+9999,Thu,Northbound,Weekday,Spring,61633,76
+9999,Thu,Northbound,Weekday,Summer,80502,78
+9999,Thu,Northbound,Weekday,Winter,66509,83
+9999,Thu,Southbound,Weekday,Autumn,156993,116
+9999,Thu,Southbound,Weekday,Spring,129416,111
+9999,Thu,Southbound,Weekday,Summer,150396,109
+9999,Thu,Southbound,Weekday,Winter,113603,113
+9999,Tue,All directions,Weekday,Autumn,264173,117
+9999,Tue,All directions,Weekday,Spring,191959,110
+9999,Tue,All directions,Weekday,Summer,243290,109
+9999,Tue,All directions,Weekday,Winter,185660,113
+9999,Tue,Northbound,Weekday,Autumn,95954,84
+9999,Tue,Northbound,Weekday,Spring,61850,74
+9999,Tue,Northbound,Weekday,Summer,85820,82
+9999,Tue,Northbound,Weekday,Winter,69060,89
+9999,Tue,Southbound,Weekday,Autumn,168219,117
+9999,Tue,Southbound,Weekday,Spring,130109,110
+9999,Tue,Southbound,Weekday,Summer,157470,108
+9999,Tue,Southbound,Weekday,Winter,116600,113
+9999,Wed,All directions,Weekday,Autumn,262705,116
+9999,Wed,All directions,Weekday,Spring,197025,110
+9999,Wed,All directions,Weekday,Summer,237588,109
+9999,Wed,All directions,Weekday,Winter,186044,114
+9999,Wed,Northbound,Weekday,Autumn,96078,86
+9999,Wed,Northbound,Weekday,Spring,63663,81
+9999,Wed,Northbound,Weekday,Summer,81749,80
+9999,Wed,Northbound,Weekday,Winter,69659,83
+9999,Wed,Southbound,Weekday,Autumn,166627,116
+9999,Wed,Southbound,Weekday,Spring,133362,110
+9999,Wed,Southbound,Weekday,Summer,155839,109
+9999,Wed,Southbound,Weekday,Winter,116385,114

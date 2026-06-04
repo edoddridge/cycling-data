@@ -1,0 +1,1714 @@
+site_xn_route,month,direction,weekpart,season,sum_flow,sample_count
+10223,Apr,All directions,All weeks,Autumn,116515,42
+10223,Apr,Northbound,All weeks,Autumn,59829,42
+10223,Apr,Southbound,All weeks,Autumn,56686,42
+10223,Aug,All directions,All weeks,Winter,94174,40
+10223,Aug,Northbound,All weeks,Winter,47741,40
+10223,Aug,Southbound,All weeks,Winter,46433,40
+10223,Dec,All directions,All weeks,Summer,82559,36
+10223,Dec,Northbound,All weeks,Summer,42549,36
+10223,Dec,Southbound,All weeks,Summer,40010,36
+10223,Feb,All directions,All weeks,Summer,112113,41
+10223,Feb,Northbound,All weeks,Summer,57348,41
+10223,Feb,Southbound,All weeks,Summer,54765,41
+10223,Jan,All directions,All weeks,Summer,116263,45
+10223,Jan,Northbound,All weeks,Summer,59582,45
+10223,Jan,Southbound,All weeks,Summer,56681,45
+10223,Jul,All directions,All weeks,Winter,79882,37
+10223,Jul,Northbound,All weeks,Winter,40544,37
+10223,Jul,Southbound,All weeks,Winter,39338,37
+10223,Jun,All directions,All weeks,Winter,83448,41
+10223,Jun,Northbound,All weeks,Winter,42157,41
+10223,Jun,Southbound,All weeks,Winter,41291,41
+10223,Mar,All directions,All weeks,Autumn,113928,42
+10223,Mar,Northbound,All weeks,Autumn,58452,42
+10223,Mar,Southbound,All weeks,Autumn,55476,42
+10223,May,All directions,All weeks,Autumn,102043,45
+10223,May,Northbound,All weeks,Autumn,51666,45
+10223,May,Southbound,All weeks,Autumn,50377,45
+10223,Nov,All directions,All weeks,Spring,87231,36
+10223,Nov,Northbound,All weeks,Spring,44676,36
+10223,Nov,Southbound,All weeks,Spring,42555,36
+10223,Oct,All directions,All weeks,Spring,106198,41
+10223,Oct,Northbound,All weeks,Spring,54101,41
+10223,Oct,Southbound,All weeks,Spring,52097,41
+10223,Sep,All directions,All weeks,Spring,103056,37
+10223,Sep,Northbound,All weeks,Spring,52667,37
+10223,Sep,Southbound,All weeks,Spring,50389,37
+10225,Apr,All directions,All weeks,Autumn,194658,43
+10225,Apr,Northbound,All weeks,Autumn,90392,43
+10225,Apr,Southbound,All weeks,Autumn,104266,43
+10225,Aug,All directions,All weeks,Winter,152476,40
+10225,Aug,Northbound,All weeks,Winter,70428,40
+10225,Aug,Southbound,All weeks,Winter,82048,40
+10225,Dec,All directions,All weeks,Summer,115989,36
+10225,Dec,Northbound,All weeks,Summer,54413,36
+10225,Dec,Southbound,All weeks,Summer,61576,36
+10225,Feb,All directions,All weeks,Summer,213584,41
+10225,Feb,Northbound,All weeks,Summer,100903,41
+10225,Feb,Southbound,All weeks,Summer,112681,41
+10225,Jan,All directions,All weeks,Summer,178478,45
+10225,Jan,Northbound,All weeks,Summer,84572,45
+10225,Jan,Southbound,All weeks,Summer,93906,45
+10225,Jul,All directions,All weeks,Winter,133373,37
+10225,Jul,Northbound,All weeks,Winter,62868,37
+10225,Jul,Southbound,All weeks,Winter,70505,37
+10225,Jun,All directions,All weeks,Winter,149317,41
+10225,Jun,Northbound,All weeks,Winter,69996,41
+10225,Jun,Southbound,All weeks,Winter,79321,41
+10225,Mar,All directions,All weeks,Autumn,218247,42
+10225,Mar,Northbound,All weeks,Autumn,102344,42
+10225,Mar,Southbound,All weeks,Autumn,115903,42
+10225,May,All directions,All weeks,Autumn,197104,45
+10225,May,Northbound,All weeks,Autumn,90780,45
+10225,May,Southbound,All weeks,Autumn,106324,45
+10225,Nov,All directions,All weeks,Spring,142634,35
+10225,Nov,Northbound,All weeks,Spring,66906,35
+10225,Nov,Southbound,All weeks,Spring,75728,35
+10225,Oct,All directions,All weeks,Spring,180731,41
+10225,Oct,Northbound,All weeks,Spring,83523,41
+10225,Oct,Southbound,All weeks,Spring,97208,41
+10225,Sep,All directions,All weeks,Spring,149463,37
+10225,Sep,Northbound,All weeks,Spring,69380,37
+10225,Sep,Southbound,All weeks,Spring,80083,37
+10484,Apr,All directions,All weeks,Autumn,297314,42
+10484,Apr,Northbound,All weeks,Autumn,155327,42
+10484,Apr,Southbound,All weeks,Autumn,141987,42
+10484,Aug,All directions,All weeks,Winter,223293,40
+10484,Aug,Northbound,All weeks,Winter,115079,40
+10484,Aug,Southbound,All weeks,Winter,108214,40
+10484,Dec,All directions,All weeks,Summer,228278,36
+10484,Dec,Northbound,All weeks,Summer,118716,36
+10484,Dec,Southbound,All weeks,Summer,109562,36
+10484,Feb,All directions,All weeks,Summer,365713,41
+10484,Feb,Northbound,All weeks,Summer,190478,41
+10484,Feb,Southbound,All weeks,Summer,175235,41
+10484,Jan,All directions,All weeks,Summer,350060,45
+10484,Jan,Northbound,All weeks,Summer,183154,45
+10484,Jan,Southbound,All weeks,Summer,166906,45
+10484,Jul,All directions,All weeks,Winter,202642,37
+10484,Jul,Northbound,All weeks,Winter,104402,37
+10484,Jul,Southbound,All weeks,Winter,98240,37
+10484,Jun,All directions,All weeks,Winter,229714,41
+10484,Jun,Northbound,All weeks,Winter,119049,41
+10484,Jun,Southbound,All weeks,Winter,110665,41
+10484,Mar,All directions,All weeks,Autumn,334961,42
+10484,Mar,Northbound,All weeks,Autumn,174826,42
+10484,Mar,Southbound,All weeks,Autumn,160135,42
+10484,May,All directions,All weeks,Autumn,287067,45
+10484,May,Northbound,All weeks,Autumn,149426,45
+10484,May,Southbound,All weeks,Autumn,137641,45
+10484,Nov,All directions,All weeks,Spring,263444,36
+10484,Nov,Northbound,All weeks,Spring,135938,36
+10484,Nov,Southbound,All weeks,Spring,127506,36
+10484,Oct,All directions,All weeks,Spring,295767,41
+10484,Oct,Northbound,All weeks,Spring,151086,41
+10484,Oct,Southbound,All weeks,Spring,144681,41
+10484,Sep,All directions,All weeks,Spring,244131,37
+10484,Sep,Northbound,All weeks,Spring,125656,37
+10484,Sep,Southbound,All weeks,Spring,118475,37
+10486,Apr,All directions,All weeks,Autumn,509094,42
+10486,Apr,Northbound,All weeks,Autumn,256082,42
+10486,Apr,Southbound,All weeks,Autumn,253012,42
+10486,Aug,All directions,All weeks,Winter,393420,40
+10486,Aug,Northbound,All weeks,Winter,193114,40
+10486,Aug,Southbound,All weeks,Winter,200306,40
+10486,Dec,All directions,All weeks,Summer,284004,36
+10486,Dec,Northbound,All weeks,Summer,142276,36
+10486,Dec,Southbound,All weeks,Summer,141728,36
+10486,Feb,All directions,All weeks,Summer,572384,41
+10486,Feb,Northbound,All weeks,Summer,284792,41
+10486,Feb,Southbound,All weeks,Summer,287592,41
+10486,Jan,All directions,All weeks,Summer,476306,45
+10486,Jan,Northbound,All weeks,Summer,228377,45
+10486,Jan,Southbound,All weeks,Summer,247929,45
+10486,Jul,All directions,All weeks,Winter,312690,37
+10486,Jul,Northbound,All weeks,Winter,160149,37
+10486,Jul,Southbound,All weeks,Winter,152541,33
+10486,Jun,All directions,All weeks,Winter,378462,41
+10486,Jun,Northbound,All weeks,Winter,190596,41
+10486,Jun,Southbound,All weeks,Winter,187866,40
+10486,Mar,All directions,All weeks,Autumn,537294,42
+10486,Mar,Northbound,All weeks,Autumn,285306,42
+10486,Mar,Southbound,All weeks,Autumn,251988,42
+10486,May,All directions,All weeks,Autumn,516292,45
+10486,May,Northbound,All weeks,Autumn,247968,44
+10486,May,Southbound,All weeks,Autumn,268324,44
+10486,Nov,All directions,All weeks,Spring,378613,36
+10486,Nov,Northbound,All weeks,Spring,184536,36
+10486,Nov,Southbound,All weeks,Spring,194077,36
+10486,Oct,All directions,All weeks,Spring,474206,41
+10486,Oct,Northbound,All weeks,Spring,220643,41
+10486,Oct,Southbound,All weeks,Spring,253563,41
+10486,Sep,All directions,All weeks,Spring,370689,37
+10486,Sep,Northbound,All weeks,Spring,188288,37
+10486,Sep,Southbound,All weeks,Spring,182401,37
+10488,Apr,All directions,All weeks,Autumn,140619,42
+10488,Apr,Northbound,All weeks,Autumn,72988,42
+10488,Apr,Southbound,All weeks,Autumn,67631,42
+10488,Aug,All directions,All weeks,Winter,108728,40
+10488,Aug,Northbound,All weeks,Winter,54565,40
+10488,Aug,Southbound,All weeks,Winter,54163,40
+10488,Dec,All directions,All weeks,Summer,96667,36
+10488,Dec,Northbound,All weeks,Summer,48777,36
+10488,Dec,Southbound,All weeks,Summer,47890,36
+10488,Feb,All directions,All weeks,Summer,179903,41
+10488,Feb,Northbound,All weeks,Summer,89678,41
+10488,Feb,Southbound,All weeks,Summer,90225,41
+10488,Jan,All directions,All weeks,Summer,155923,45
+10488,Jan,Northbound,All weeks,Summer,78045,45
+10488,Jan,Southbound,All weeks,Summer,77878,45
+10488,Jul,All directions,All weeks,Winter,102991,37
+10488,Jul,Northbound,All weeks,Winter,51696,37
+10488,Jul,Southbound,All weeks,Winter,51295,37
+10488,Jun,All directions,All weeks,Winter,113215,41
+10488,Jun,Northbound,All weeks,Winter,59041,41
+10488,Jun,Southbound,All weeks,Winter,54174,41
+10488,Mar,All directions,All weeks,Autumn,164026,42
+10488,Mar,Northbound,All weeks,Autumn,82787,42
+10488,Mar,Southbound,All weeks,Autumn,81239,42
+10488,May,All directions,All weeks,Autumn,139859,45
+10488,May,Northbound,All weeks,Autumn,72027,44
+10488,May,Southbound,All weeks,Autumn,67832,45
+10488,Nov,All directions,All weeks,Spring,118757,36
+10488,Nov,Northbound,All weeks,Spring,60278,36
+10488,Nov,Southbound,All weeks,Spring,58479,36
+10488,Oct,All directions,All weeks,Spring,137844,41
+10488,Oct,Northbound,All weeks,Spring,70025,41
+10488,Oct,Southbound,All weeks,Spring,67819,41
+10488,Sep,All directions,All weeks,Spring,108840,37
+10488,Sep,Northbound,All weeks,Spring,54715,37
+10488,Sep,Southbound,All weeks,Spring,54125,37
+31602,Apr,All directions,All weeks,Autumn,59472,42
+31602,Apr,Northbound,All weeks,Autumn,30943,42
+31602,Apr,Southbound,All weeks,Autumn,28529,42
+31602,Aug,All directions,All weeks,Winter,51449,40
+31602,Aug,Northbound,All weeks,Winter,27054,40
+31602,Aug,Southbound,All weeks,Winter,24395,40
+31602,Dec,All directions,All weeks,Summer,39910,36
+31602,Dec,Northbound,All weeks,Summer,20772,36
+31602,Dec,Southbound,All weeks,Summer,19138,36
+31602,Feb,All directions,All weeks,Summer,50137,41
+31602,Feb,Northbound,All weeks,Summer,26145,41
+31602,Feb,Southbound,All weeks,Summer,23992,41
+31602,Jan,All directions,All weeks,Summer,51956,45
+31602,Jan,Northbound,All weeks,Summer,26929,45
+31602,Jan,Southbound,All weeks,Summer,25027,45
+31602,Jul,All directions,All weeks,Winter,40012,37
+31602,Jul,Northbound,All weeks,Winter,20975,37
+31602,Jul,Southbound,All weeks,Winter,19037,37
+31602,Jun,All directions,All weeks,Winter,43051,41
+31602,Jun,Northbound,All weeks,Winter,21709,41
+31602,Jun,Southbound,All weeks,Winter,21342,41
+31602,Mar,All directions,All weeks,Autumn,54068,42
+31602,Mar,Northbound,All weeks,Autumn,27986,42
+31602,Mar,Southbound,All weeks,Autumn,26082,42
+31602,May,All directions,All weeks,Autumn,51399,45
+31602,May,Northbound,All weeks,Autumn,26985,45
+31602,May,Southbound,All weeks,Autumn,24414,45
+31602,Nov,All directions,All weeks,Spring,43526,36
+31602,Nov,Northbound,All weeks,Spring,22943,36
+31602,Nov,Southbound,All weeks,Spring,20583,36
+31602,Oct,All directions,All weeks,Spring,51551,41
+31602,Oct,Northbound,All weeks,Spring,26866,41
+31602,Oct,Southbound,All weeks,Spring,24685,41
+31602,Sep,All directions,All weeks,Spring,53757,37
+31602,Sep,Northbound,All weeks,Spring,28145,37
+31602,Sep,Southbound,All weeks,Spring,25612,37
+31747,Apr,All directions,All weeks,Autumn,11956,42
+31747,Apr,Eastbound,All weeks,Autumn,6488,42
+31747,Apr,Westbound,All weeks,Autumn,5468,42
+31747,Aug,All directions,All weeks,Winter,10273,40
+31747,Aug,Eastbound,All weeks,Winter,5326,40
+31747,Aug,Westbound,All weeks,Winter,4947,40
+31747,Dec,All directions,All weeks,Summer,10657,36
+31747,Dec,Eastbound,All weeks,Summer,5590,36
+31747,Dec,Westbound,All weeks,Summer,5067,36
+31747,Feb,All directions,All weeks,Summer,13116,41
+31747,Feb,Eastbound,All weeks,Summer,7045,41
+31747,Feb,Westbound,All weeks,Summer,6071,41
+31747,Jan,All directions,All weeks,Summer,14398,45
+31747,Jan,Eastbound,All weeks,Summer,7569,45
+31747,Jan,Westbound,All weeks,Summer,6829,45
+31747,Jul,All directions,All weeks,Winter,9002,37
+31747,Jul,Eastbound,All weeks,Winter,4759,37
+31747,Jul,Westbound,All weeks,Winter,4243,37
+31747,Jun,All directions,All weeks,Winter,9154,41
+31747,Jun,Eastbound,All weeks,Winter,4818,41
+31747,Jun,Westbound,All weeks,Winter,4336,41
+31747,Mar,All directions,All weeks,Autumn,12279,42
+31747,Mar,Eastbound,All weeks,Autumn,6479,42
+31747,Mar,Westbound,All weeks,Autumn,5800,42
+31747,May,All directions,All weeks,Autumn,11268,45
+31747,May,Eastbound,All weeks,Autumn,6078,45
+31747,May,Westbound,All weeks,Autumn,5190,45
+31747,Nov,All directions,All weeks,Spring,11237,36
+31747,Nov,Eastbound,All weeks,Spring,5868,36
+31747,Nov,Westbound,All weeks,Spring,5369,36
+31747,Oct,All directions,All weeks,Spring,12992,41
+31747,Oct,Eastbound,All weeks,Spring,6918,41
+31747,Oct,Westbound,All weeks,Spring,6074,41
+31747,Sep,All directions,All weeks,Spring,11836,37
+31747,Sep,Eastbound,All weeks,Spring,6297,37
+31747,Sep,Westbound,All weeks,Spring,5539,37
+32493,Apr,All directions,All weeks,Autumn,177947,34
+32493,Apr,Northbound,All weeks,Autumn,78845,34
+32493,Apr,Southbound,All weeks,Autumn,99102,34
+32493,Aug,All directions,All weeks,Winter,123821,34
+32493,Aug,Northbound,All weeks,Winter,62099,34
+32493,Aug,Southbound,All weeks,Winter,61722,34
+32493,Dec,All directions,All weeks,Summer,122872,30
+32493,Dec,Northbound,All weeks,Summer,59638,30
+32493,Dec,Southbound,All weeks,Summer,63234,30
+32493,Feb,All directions,All weeks,Summer,196703,32
+32493,Feb,Northbound,All weeks,Summer,88979,32
+32493,Feb,Southbound,All weeks,Summer,107724,32
+32493,Jan,All directions,All weeks,Summer,187465,37
+32493,Jan,Northbound,All weeks,Summer,86424,37
+32493,Jan,Southbound,All weeks,Summer,101041,37
+32493,Jul,All directions,All weeks,Winter,125949,29
+32493,Jul,Northbound,All weeks,Winter,58134,29
+32493,Jul,Southbound,All weeks,Winter,67815,29
+32493,Jun,All directions,All weeks,Winter,141551,32
+32493,Jun,Northbound,All weeks,Winter,66084,32
+32493,Jun,Southbound,All weeks,Winter,75467,32
+32493,Mar,All directions,All weeks,Autumn,189881,33
+32493,Mar,Northbound,All weeks,Autumn,84868,33
+32493,Mar,Southbound,All weeks,Autumn,105013,33
+32493,May,All directions,All weeks,Autumn,182156,36
+32493,May,Northbound,All weeks,Autumn,79581,36
+32493,May,Southbound,All weeks,Autumn,102575,36
+32493,Nov,All directions,All weeks,Spring,150505,31
+32493,Nov,Northbound,All weeks,Spring,70210,31
+32493,Nov,Southbound,All weeks,Spring,80295,31
+32493,Oct,All directions,All weeks,Spring,180224,37
+32493,Oct,Northbound,All weeks,Spring,88297,37
+32493,Oct,Southbound,All weeks,Spring,91927,37
+32493,Sep,All directions,All weeks,Spring,135514,33
+32493,Sep,Northbound,All weeks,Spring,70942,33
+32493,Sep,Southbound,All weeks,Spring,64572,33
+32612,Apr,All directions,All weeks,Autumn,118936,34
+32612,Apr,Northbound,All weeks,Autumn,57195,34
+32612,Apr,Southbound,All weeks,Autumn,61741,34
+32612,Aug,All directions,All weeks,Winter,100684,32
+32612,Aug,Northbound,All weeks,Winter,48428,32
+32612,Aug,Southbound,All weeks,Winter,52256,32
+32612,Dec,All directions,All weeks,Summer,111997,34
+32612,Dec,Northbound,All weeks,Summer,54173,34
+32612,Dec,Southbound,All weeks,Summer,57824,34
+32612,Feb,All directions,All weeks,Summer,120050,32
+32612,Feb,Northbound,All weeks,Summer,57576,32
+32612,Feb,Southbound,All weeks,Summer,62474,32
+32612,Jan,All directions,All weeks,Summer,145105,37
+32612,Jan,Northbound,All weeks,Summer,70036,37
+32612,Jan,Southbound,All weeks,Summer,75069,37
+32612,Jul,All directions,All weeks,Winter,82517,33
+32612,Jul,Northbound,All weeks,Winter,39818,33
+32612,Jul,Southbound,All weeks,Winter,42699,33
+32612,Jun,All directions,All weeks,Winter,77972,33
+32612,Jun,Northbound,All weeks,Winter,37200,33
+32612,Jun,Southbound,All weeks,Winter,40772,33
+32612,Mar,All directions,All weeks,Autumn,120743,34
+32612,Mar,Northbound,All weeks,Autumn,58142,34
+32612,Mar,Southbound,All weeks,Autumn,62601,34
+32612,May,All directions,All weeks,Autumn,105440,36
+32612,May,Northbound,All weeks,Autumn,50283,36
+32612,May,Southbound,All weeks,Autumn,55157,36
+32612,Nov,All directions,All weeks,Spring,97420,27
+32612,Nov,Northbound,All weeks,Spring,46951,27
+32612,Nov,Southbound,All weeks,Spring,50469,27
+32612,Oct,All directions,All weeks,Spring,121660,33
+32612,Oct,Northbound,All weeks,Spring,59746,33
+32612,Oct,Southbound,All weeks,Spring,61914,33
+32612,Sep,All directions,All weeks,Spring,105260,28
+32612,Sep,Northbound,All weeks,Spring,50486,28
+32612,Sep,Southbound,All weeks,Spring,54774,28
+32614,Apr,All directions,All weeks,Autumn,214802,34
+32614,Apr,Northbound,All weeks,Autumn,103121,34
+32614,Apr,Southbound,All weeks,Autumn,111681,34
+32614,Aug,All directions,All weeks,Winter,121210,27
+32614,Aug,Northbound,All weeks,Winter,59232,27
+32614,Aug,Southbound,All weeks,Winter,61978,27
+32614,Dec,All directions,All weeks,Summer,133707,26
+32614,Dec,Northbound,All weeks,Summer,64811,26
+32614,Dec,Southbound,All weeks,Summer,68896,26
+32614,Feb,All directions,All weeks,Summer,135684,24
+32614,Feb,Northbound,All weeks,Summer,65927,24
+32614,Feb,Southbound,All weeks,Summer,69757,24
+32614,Jan,All directions,All weeks,Summer,166467,28
+32614,Jan,Northbound,All weeks,Summer,81509,28
+32614,Jan,Southbound,All weeks,Summer,84958,28
+32614,Jul,All directions,All weeks,Winter,117423,33
+32614,Jul,Northbound,All weeks,Winter,58275,33
+32614,Jul,Southbound,All weeks,Winter,59148,33
+32614,Jun,All directions,All weeks,Winter,118741,33
+32614,Jun,Northbound,All weeks,Winter,59554,33
+32614,Jun,Southbound,All weeks,Winter,59187,33
+32614,Mar,All directions,All weeks,Autumn,166916,28
+32614,Mar,Northbound,All weeks,Autumn,80831,28
+32614,Mar,Southbound,All weeks,Autumn,86085,28
+32614,May,All directions,All weeks,Autumn,184085,37
+32614,May,Northbound,All weeks,Autumn,90376,37
+32614,May,Southbound,All weeks,Autumn,93709,37
+32614,Nov,All directions,All weeks,Spring,102634,18
+32614,Nov,Northbound,All weeks,Spring,49655,18
+32614,Nov,Southbound,All weeks,Spring,52979,18
+32614,Oct,All directions,All weeks,Spring,146410,25
+32614,Oct,Northbound,All weeks,Spring,71110,25
+32614,Oct,Southbound,All weeks,Spring,75300,25
+32614,Sep,All directions,All weeks,Spring,132260,24
+32614,Sep,Northbound,All weeks,Spring,63555,24
+32614,Sep,Southbound,All weeks,Spring,68705,24
+32615,Apr,All directions,All weeks,Autumn,251076,35
+32615,Apr,Northbound,All weeks,Autumn,123415,35
+32615,Apr,Southbound,All weeks,Autumn,127661,34
+32615,Aug,All directions,All weeks,Winter,213229,32
+32615,Aug,Northbound,All weeks,Winter,102640,32
+32615,Aug,Southbound,All weeks,Winter,110589,32
+32615,Dec,All directions,All weeks,Summer,263696,34
+32615,Dec,Northbound,All weeks,Summer,129539,34
+32615,Dec,Southbound,All weeks,Summer,134157,34
+32615,Feb,All directions,All weeks,Summer,240384,32
+32615,Feb,Northbound,All weeks,Summer,118075,32
+32615,Feb,Southbound,All weeks,Summer,122309,32
+32615,Jan,All directions,All weeks,Summer,269448,34
+32615,Jan,Northbound,All weeks,Summer,133349,34
+32615,Jan,Southbound,All weeks,Summer,136099,34
+32615,Jul,All directions,All weeks,Winter,173857,33
+32615,Jul,Northbound,All weeks,Winter,84305,33
+32615,Jul,Southbound,All weeks,Winter,89552,33
+32615,Jun,All directions,All weeks,Winter,160405,32
+32615,Jun,Northbound,All weeks,Winter,78451,32
+32615,Jun,Southbound,All weeks,Winter,81954,32
+32615,Mar,All directions,All weeks,Autumn,250537,34
+32615,Mar,Northbound,All weeks,Autumn,123848,34
+32615,Mar,Southbound,All weeks,Autumn,126689,34
+32615,May,All directions,All weeks,Autumn,226546,35
+32615,May,Northbound,All weeks,Autumn,110867,35
+32615,May,Southbound,All weeks,Autumn,115679,35
+32615,Nov,All directions,All weeks,Spring,200483,27
+32615,Nov,Northbound,All weeks,Spring,97291,27
+32615,Nov,Southbound,All weeks,Spring,103192,27
+32615,Oct,All directions,All weeks,Spring,249102,33
+32615,Oct,Northbound,All weeks,Spring,121223,33
+32615,Oct,Southbound,All weeks,Spring,127879,33
+32615,Sep,All directions,All weeks,Spring,221388,28
+32615,Sep,Northbound,All weeks,Spring,107292,28
+32615,Sep,Southbound,All weeks,Spring,114096,28
+32616,Apr,All directions,All weeks,Autumn,43893,31
+32616,Apr,Northbound,All weeks,Autumn,22056,31
+32616,Apr,Southbound,All weeks,Autumn,21837,31
+32616,Aug,All directions,All weeks,Winter,38860,27
+32616,Aug,Northbound,All weeks,Winter,19766,27
+32616,Aug,Southbound,All weeks,Winter,19094,27
+32616,Dec,All directions,All weeks,Summer,58512,34
+32616,Dec,Northbound,All weeks,Summer,28452,34
+32616,Dec,Southbound,All weeks,Summer,30060,34
+32616,Feb,All directions,All weeks,Summer,54132,32
+32616,Feb,Northbound,All weeks,Summer,25360,32
+32616,Feb,Southbound,All weeks,Summer,28772,32
+32616,Jan,All directions,All weeks,Summer,61446,34
+32616,Jan,Northbound,All weeks,Summer,29325,34
+32616,Jan,Southbound,All weeks,Summer,32121,34
+32616,Jul,All directions,All weeks,Winter,33732,29
+32616,Jul,Northbound,All weeks,Winter,17315,29
+32616,Jul,Southbound,All weeks,Winter,16417,29
+32616,Jun,All directions,All weeks,Winter,37922,32
+32616,Jun,Northbound,All weeks,Winter,19551,32
+32616,Jun,Southbound,All weeks,Winter,18371,32
+32616,Mar,All directions,All weeks,Autumn,54057,34
+32616,Mar,Northbound,All weeks,Autumn,26260,34
+32616,Mar,Southbound,All weeks,Autumn,27797,34
+32616,May,All directions,All weeks,Autumn,50822,36
+32616,May,Northbound,All weeks,Autumn,26166,36
+32616,May,Southbound,All weeks,Autumn,24656,36
+32616,Nov,All directions,All weeks,Spring,41700,26
+32616,Nov,Northbound,All weeks,Spring,20667,26
+32616,Nov,Southbound,All weeks,Spring,21033,26
+32616,Oct,All directions,All weeks,Spring,46221,28
+32616,Oct,Northbound,All weeks,Spring,23073,28
+32616,Oct,Southbound,All weeks,Spring,23148,28
+32616,Sep,All directions,All weeks,Spring,43841,24
+32616,Sep,Northbound,All weeks,Spring,22162,24
+32616,Sep,Southbound,All weeks,Spring,21679,24
+33179,Apr,All directions,All weeks,Autumn,295711,30
+33179,Apr,Northbound,All weeks,Autumn,155740,30
+33179,Apr,Southbound,All weeks,Autumn,139971,30
+33179,Aug,All directions,All weeks,Winter,219823,30
+33179,Aug,Northbound,All weeks,Winter,115198,30
+33179,Aug,Southbound,All weeks,Winter,104625,30
+33179,Dec,All directions,All weeks,Summer,231059,26
+33179,Dec,Northbound,All weeks,Summer,120795,26
+33179,Dec,Southbound,All weeks,Summer,110264,26
+33179,Feb,All directions,All weeks,Summer,340645,28
+33179,Feb,Northbound,All weeks,Summer,177831,28
+33179,Feb,Southbound,All weeks,Summer,162814,28
+33179,Jan,All directions,All weeks,Summer,338059,32
+33179,Jan,Northbound,All weeks,Summer,176841,32
+33179,Jan,Southbound,All weeks,Summer,161218,32
+33179,Jul,All directions,All weeks,Winter,221038,29
+33179,Jul,Northbound,All weeks,Winter,116168,29
+33179,Jul,Southbound,All weeks,Winter,104870,29
+33179,Jun,All directions,All weeks,Winter,230224,29
+33179,Jun,Northbound,All weeks,Winter,120691,29
+33179,Jun,Southbound,All weeks,Winter,109533,29
+33179,Mar,All directions,All weeks,Autumn,308104,29
+33179,Mar,Northbound,All weeks,Autumn,161055,29
+33179,Mar,Southbound,All weeks,Autumn,147049,29
+33179,May,All directions,All weeks,Autumn,281584,31
+33179,May,Northbound,All weeks,Autumn,147956,31
+33179,May,Southbound,All weeks,Autumn,133628,31
+33179,Nov,All directions,All weeks,Spring,265218,27
+33179,Nov,Northbound,All weeks,Spring,138592,27
+33179,Nov,Southbound,All weeks,Spring,126626,27
+33179,Oct,All directions,All weeks,Spring,323497,32
+33179,Oct,Northbound,All weeks,Spring,170484,32
+33179,Oct,Southbound,All weeks,Spring,153013,32
+33179,Sep,All directions,All weeks,Spring,278510,29
+33179,Sep,Northbound,All weeks,Spring,146753,29
+33179,Sep,Southbound,All weeks,Spring,131757,29
+34215,Apr,All directions,All weeks,Autumn,88668,26
+34215,Apr,Northbound,All weeks,Autumn,42331,26
+34215,Apr,Southbound,All weeks,Autumn,46337,26
+34215,Aug,All directions,All weeks,Winter,86900,27
+34215,Aug,Northbound,All weeks,Winter,42285,27
+34215,Aug,Southbound,All weeks,Winter,44615,27
+34215,Dec,All directions,All weeks,Summer,84741,26
+34215,Dec,Northbound,All weeks,Summer,40683,26
+34215,Dec,Southbound,All weeks,Summer,44058,26
+34215,Feb,All directions,All weeks,Summer,114804,24
+34215,Feb,Northbound,All weeks,Summer,55074,24
+34215,Feb,Southbound,All weeks,Summer,59730,24
+34215,Jan,All directions,All weeks,Summer,96022,27
+34215,Jan,Northbound,All weeks,Summer,45837,27
+34215,Jan,Southbound,All weeks,Summer,50185,27
+34215,Jul,All directions,All weeks,Winter,74356,24
+34215,Jul,Northbound,All weeks,Winter,36080,24
+34215,Jul,Southbound,All weeks,Winter,38276,24
+34215,Jun,All directions,All weeks,Winter,72861,24
+34215,Jun,Northbound,All weeks,Winter,35184,24
+34215,Jun,Southbound,All weeks,Winter,37677,24
+34215,Mar,All directions,All weeks,Autumn,114442,26
+34215,Mar,Northbound,All weeks,Autumn,55076,26
+34215,Mar,Southbound,All weeks,Autumn,59366,26
+34215,May,All directions,All weeks,Autumn,96395,27
+34215,May,Northbound,All weeks,Autumn,46272,27
+34215,May,Southbound,All weeks,Autumn,50123,27
+34215,Nov,All directions,All weeks,Spring,101843,26
+34215,Nov,Northbound,All weeks,Spring,49697,26
+34215,Nov,Southbound,All weeks,Spring,52146,26
+34215,Oct,All directions,All weeks,Spring,107576,27
+34215,Oct,Northbound,All weeks,Spring,52032,27
+34215,Oct,Southbound,All weeks,Spring,55544,27
+34215,Sep,All directions,All weeks,Spring,90566,25
+34215,Sep,Northbound,All weeks,Spring,43866,25
+34215,Sep,Southbound,All weeks,Spring,46700,25
+34216,Apr,All directions,All weeks,Autumn,33147,26
+34216,Apr,Northbound,All weeks,Autumn,17643,25
+34216,Apr,Southbound,All weeks,Autumn,15504,26
+34216,Aug,All directions,All weeks,Winter,32805,27
+34216,Aug,Northbound,All weeks,Winter,17536,27
+34216,Aug,Southbound,All weeks,Winter,15269,27
+34216,Dec,All directions,All weeks,Summer,34333,26
+34216,Dec,Northbound,All weeks,Summer,18087,26
+34216,Dec,Southbound,All weeks,Summer,16246,26
+34216,Feb,All directions,All weeks,Summer,40467,24
+34216,Feb,Northbound,All weeks,Summer,23025,24
+34216,Feb,Southbound,All weeks,Summer,17442,24
+34216,Jan,All directions,All weeks,Summer,29953,27
+34216,Jan,Northbound,All weeks,Summer,17570,27
+34216,Jan,Southbound,All weeks,Summer,12383,27
+34216,Jul,All directions,All weeks,Winter,31522,27
+34216,Jul,Northbound,All weeks,Winter,16782,27
+34216,Jul,Southbound,All weeks,Winter,14740,27
+34216,Jun,All directions,All weeks,Winter,28443,25
+34216,Jun,Northbound,All weeks,Winter,15208,25
+34216,Jun,Southbound,All weeks,Winter,13235,25
+34216,Mar,All directions,All weeks,Autumn,40414,26
+34216,Mar,Northbound,All weeks,Autumn,21461,26
+34216,Mar,Southbound,All weeks,Autumn,18953,26
+34216,May,All directions,All weeks,Autumn,34694,27
+34216,May,Northbound,All weeks,Autumn,18369,27
+34216,May,Southbound,All weeks,Autumn,16325,27
+34216,Nov,All directions,All weeks,Spring,45162,26
+34216,Nov,Northbound,All weeks,Spring,23140,26
+34216,Nov,Southbound,All weeks,Spring,22022,26
+34216,Oct,All directions,All weeks,Spring,43918,27
+34216,Oct,Northbound,All weeks,Spring,23110,27
+34216,Oct,Southbound,All weeks,Spring,20808,27
+34216,Sep,All directions,All weeks,Spring,32700,25
+34216,Sep,Northbound,All weeks,Spring,17371,25
+34216,Sep,Southbound,All weeks,Spring,15329,25
+34217,Apr,All directions,All weeks,Autumn,18442,26
+34217,Apr,Eastbound,All weeks,Autumn,8773,26
+34217,Apr,Westbound,All weeks,Autumn,9669,25
+34217,Aug,All directions,All weeks,Winter,16648,27
+34217,Aug,Eastbound,All weeks,Winter,7377,27
+34217,Aug,Westbound,All weeks,Winter,9271,27
+34217,Dec,All directions,All weeks,Summer,18458,26
+34217,Dec,Eastbound,All weeks,Summer,8639,26
+34217,Dec,Westbound,All weeks,Summer,9819,26
+34217,Feb,All directions,All weeks,Summer,21253,24
+34217,Feb,Eastbound,All weeks,Summer,10232,24
+34217,Feb,Westbound,All weeks,Summer,11021,24
+34217,Jan,All directions,All weeks,Summer,20113,27
+34217,Jan,Eastbound,All weeks,Summer,9469,27
+34217,Jan,Westbound,All weeks,Summer,10644,27
+34217,Jul,All directions,All weeks,Winter,14691,24
+34217,Jul,Eastbound,All weeks,Winter,6817,24
+34217,Jul,Westbound,All weeks,Winter,7874,24
+34217,Jun,All directions,All weeks,Winter,15147,24
+34217,Jun,Eastbound,All weeks,Winter,7111,24
+34217,Jun,Westbound,All weeks,Winter,8036,24
+34217,Mar,All directions,All weeks,Autumn,21163,26
+34217,Mar,Eastbound,All weeks,Autumn,10071,26
+34217,Mar,Westbound,All weeks,Autumn,11092,26
+34217,May,All directions,All weeks,Autumn,18727,27
+34217,May,Eastbound,All weeks,Autumn,8844,27
+34217,May,Westbound,All weeks,Autumn,9883,27
+34217,Nov,All directions,All weeks,Spring,20392,26
+34217,Nov,Eastbound,All weeks,Spring,9495,26
+34217,Nov,Westbound,All weeks,Spring,10897,26
+34217,Oct,All directions,All weeks,Spring,19989,27
+34217,Oct,Eastbound,All weeks,Spring,9077,27
+34217,Oct,Westbound,All weeks,Spring,10912,27
+34217,Sep,All directions,All weeks,Spring,17549,25
+34217,Sep,Eastbound,All weeks,Spring,7715,25
+34217,Sep,Westbound,All weeks,Spring,9834,25
+34271,Apr,All directions,All weeks,Autumn,28476,25
+34271,Apr,Northbound,All weeks,Autumn,357,25
+34271,Apr,Southbound,All weeks,Autumn,28119,25
+34271,Aug,All directions,All weeks,Winter,19286,23
+34271,Aug,Northbound,All weeks,Winter,290,23
+34271,Aug,Southbound,All weeks,Winter,18996,23
+34271,Dec,All directions,All weeks,Summer,20521,21
+34271,Dec,Northbound,All weeks,Summer,318,21
+34271,Dec,Southbound,All weeks,Summer,20203,21
+34271,Feb,All directions,All weeks,Summer,33561,24
+34271,Feb,Northbound,All weeks,Summer,389,24
+34271,Feb,Southbound,All weeks,Summer,33172,24
+34271,Jan,All directions,All weeks,Summer,23751,24
+34271,Jan,Northbound,All weeks,Summer,331,24
+34271,Jan,Southbound,All weeks,Summer,23420,24
+34271,Jul,All directions,All weeks,Winter,21414,22
+34271,Jul,Northbound,All weeks,Winter,310,22
+34271,Jul,Southbound,All weeks,Winter,21104,22
+34271,Jun,All directions,All weeks,Winter,21344,24
+34271,Jun,Northbound,All weeks,Winter,301,24
+34271,Jun,Southbound,All weeks,Winter,21043,24
+34271,Mar,All directions,All weeks,Autumn,33678,26
+34271,Mar,Northbound,All weeks,Autumn,351,26
+34271,Mar,Southbound,All weeks,Autumn,33327,26
+34271,May,All directions,All weeks,Autumn,27383,27
+34271,May,Northbound,All weeks,Autumn,349,27
+34271,May,Southbound,All weeks,Autumn,27034,27
+34271,Nov,All directions,All weeks,Spring,23766,22
+34271,Nov,Northbound,All weeks,Spring,325,22
+34271,Nov,Southbound,All weeks,Spring,23441,22
+34271,Oct,All directions,All weeks,Spring,24110,22
+34271,Oct,Northbound,All weeks,Spring,304,22
+34271,Oct,Southbound,All weeks,Spring,23806,22
+34271,Sep,All directions,All weeks,Spring,20235,21
+34271,Sep,Northbound,All weeks,Spring,285,21
+34271,Sep,Southbound,All weeks,Spring,19950,21
+34314,Apr,All directions,All weeks,Autumn,237097,26
+34314,Apr,Northbound,All weeks,Autumn,119766,26
+34314,Apr,Southbound,All weeks,Autumn,117331,25
+34314,Aug,All directions,All weeks,Winter,167300,23
+34314,Aug,Northbound,All weeks,Winter,86541,23
+34314,Aug,Southbound,All weeks,Winter,80759,23
+34314,Dec,All directions,All weeks,Summer,163312,21
+34314,Dec,Northbound,All weeks,Summer,81615,21
+34314,Dec,Southbound,All weeks,Summer,81697,21
+34314,Feb,All directions,All weeks,Summer,266733,24
+34314,Feb,Northbound,All weeks,Summer,141057,24
+34314,Feb,Southbound,All weeks,Summer,125676,24
+34314,Jan,All directions,All weeks,Summer,173394,24
+34314,Jan,Northbound,All weeks,Summer,97224,24
+34314,Jan,Southbound,All weeks,Summer,76170,24
+34314,Jul,All directions,All weeks,Winter,171286,22
+34314,Jul,Northbound,All weeks,Winter,87192,22
+34314,Jul,Southbound,All weeks,Winter,84094,22
+34314,Jun,All directions,All weeks,Winter,175502,25
+34314,Jun,Northbound,All weeks,Winter,92407,25
+34314,Jun,Southbound,All weeks,Winter,83095,25
+34314,Mar,All directions,All weeks,Autumn,275632,26
+34314,Mar,Northbound,All weeks,Autumn,144014,26
+34314,Mar,Southbound,All weeks,Autumn,131618,26
+34314,May,All directions,All weeks,Autumn,247652,27
+34314,May,Northbound,All weeks,Autumn,125330,27
+34314,May,Southbound,All weeks,Autumn,122322,27
+34314,Nov,All directions,All weeks,Spring,186254,22
+34314,Nov,Northbound,All weeks,Spring,98607,22
+34314,Nov,Southbound,All weeks,Spring,87647,22
+34314,Oct,All directions,All weeks,Spring,184281,22
+34314,Oct,Northbound,All weeks,Spring,95848,22
+34314,Oct,Southbound,All weeks,Spring,88433,22
+34314,Sep,All directions,All weeks,Spring,172029,21
+34314,Sep,Northbound,All weeks,Spring,89484,21
+34314,Sep,Southbound,All weeks,Spring,82545,21
+34315,Apr,All directions,All weeks,Autumn,98674,25
+34315,Apr,Eastbound,All weeks,Autumn,53116,25
+34315,Apr,Westbound,All weeks,Autumn,45558,25
+34315,Aug,All directions,All weeks,Winter,86430,23
+34315,Aug,Eastbound,All weeks,Winter,46086,23
+34315,Aug,Westbound,All weeks,Winter,40344,23
+34315,Dec,All directions,All weeks,Summer,80078,26
+34315,Dec,Eastbound,All weeks,Summer,42919,26
+34315,Dec,Westbound,All weeks,Summer,37159,26
+34315,Feb,All directions,All weeks,Summer,96800,24
+34315,Feb,Eastbound,All weeks,Summer,51522,24
+34315,Feb,Westbound,All weeks,Summer,45278,24
+34315,Jan,All directions,All weeks,Summer,93802,27
+34315,Jan,Eastbound,All weeks,Summer,49868,27
+34315,Jan,Westbound,All weeks,Summer,43934,27
+34315,Jul,All directions,All weeks,Winter,67937,22
+34315,Jul,Eastbound,All weeks,Winter,35848,22
+34315,Jul,Westbound,All weeks,Winter,32089,22
+34315,Jun,All directions,All weeks,Winter,69751,24
+34315,Jun,Eastbound,All weeks,Winter,37691,24
+34315,Jun,Westbound,All weeks,Winter,32060,24
+34315,Mar,All directions,All weeks,Autumn,99634,26
+34315,Mar,Eastbound,All weeks,Autumn,53042,26
+34315,Mar,Westbound,All weeks,Autumn,46592,26
+34315,May,All directions,All weeks,Autumn,89314,27
+34315,May,Eastbound,All weeks,Autumn,47681,27
+34315,May,Westbound,All weeks,Autumn,41633,27
+34315,Nov,All directions,All weeks,Spring,89869,26
+34315,Nov,Eastbound,All weeks,Spring,47817,26
+34315,Nov,Westbound,All weeks,Spring,42052,26
+34315,Oct,All directions,All weeks,Spring,99371,27
+34315,Oct,Eastbound,All weeks,Spring,52826,27
+34315,Oct,Westbound,All weeks,Spring,46545,27
+34315,Sep,All directions,All weeks,Spring,98526,25
+34315,Sep,Eastbound,All weeks,Spring,52592,25
+34315,Sep,Westbound,All weeks,Spring,45934,25
+34556,Apr,All directions,All weeks,Autumn,24471,25
+34556,Apr,Eastbound,All weeks,Autumn,11257,25
+34556,Apr,Westbound,All weeks,Autumn,13214,25
+34556,Aug,All directions,All weeks,Winter,21286,23
+34556,Aug,Eastbound,All weeks,Winter,9524,23
+34556,Aug,Westbound,All weeks,Winter,11762,23
+34556,Dec,All directions,All weeks,Summer,18500,21
+34556,Dec,Eastbound,All weeks,Summer,8835,21
+34556,Dec,Westbound,All weeks,Summer,9665,21
+34556,Feb,All directions,All weeks,Summer,26512,24
+34556,Feb,Eastbound,All weeks,Summer,12584,24
+34556,Feb,Westbound,All weeks,Summer,13928,24
+34556,Jan,All directions,All weeks,Summer,25596,25
+34556,Jan,Eastbound,All weeks,Summer,12305,25
+34556,Jan,Westbound,All weeks,Summer,13291,25
+34556,Jul,All directions,All weeks,Winter,16210,22
+34556,Jul,Eastbound,All weeks,Winter,7131,22
+34556,Jul,Westbound,All weeks,Winter,9079,22
+34556,Jun,All directions,All weeks,Winter,16595,24
+34556,Jun,Eastbound,All weeks,Winter,7323,24
+34556,Jun,Westbound,All weeks,Winter,9272,24
+34556,Mar,All directions,All weeks,Autumn,25888,26
+34556,Mar,Eastbound,All weeks,Autumn,12098,26
+34556,Mar,Westbound,All weeks,Autumn,13790,26
+34556,May,All directions,All weeks,Autumn,22476,27
+34556,May,Eastbound,All weeks,Autumn,10100,27
+34556,May,Westbound,All weeks,Autumn,12376,27
+34556,Nov,All directions,All weeks,Spring,20052,22
+34556,Nov,Eastbound,All weeks,Spring,9573,22
+34556,Nov,Westbound,All weeks,Spring,10479,22
+34556,Oct,All directions,All weeks,Spring,22672,22
+34556,Oct,Eastbound,All weeks,Spring,10426,22
+34556,Oct,Westbound,All weeks,Spring,12246,22
+34556,Sep,All directions,All weeks,Spring,23126,21
+34556,Sep,Eastbound,All weeks,Spring,10642,21
+34556,Sep,Westbound,All weeks,Spring,12484,21
+40003,Apr,All directions,All weeks,Autumn,4045,4
+40003,Apr,Northbound,All weeks,Autumn,2418,4
+40003,Apr,Southbound,All weeks,Autumn,1627,4
+40003,Feb,All directions,All weeks,Summer,4849,4
+40003,Feb,Northbound,All weeks,Summer,2662,4
+40003,Feb,Southbound,All weeks,Summer,2187,4
+40003,Jan,All directions,All weeks,Summer,3510,4
+40003,Jan,Northbound,All weeks,Summer,1939,4
+40003,Jan,Southbound,All weeks,Summer,1571,4
+40003,Jul,All directions,All weeks,Winter,805,1
+40003,Jul,Northbound,All weeks,Winter,472,1
+40003,Jul,Southbound,All weeks,Winter,333,1
+40003,Jun,All directions,All weeks,Winter,3053,4
+40003,Jun,Northbound,All weeks,Winter,1746,4
+40003,Jun,Southbound,All weeks,Winter,1307,4
+40003,Mar,All directions,All weeks,Autumn,5185,5
+40003,Mar,Northbound,All weeks,Autumn,3160,5
+40003,Mar,Southbound,All weeks,Autumn,2025,5
+40003,May,All directions,All weeks,Autumn,4660,5
+40003,May,Northbound,All weeks,Autumn,2769,5
+40003,May,Southbound,All weeks,Autumn,1891,5
+40004,Apr,All directions,All weeks,Autumn,63293,11
+40004,Apr,Eastbound,All weeks,Autumn,30405,11
+40004,Apr,Westbound,All weeks,Autumn,32888,11
+40004,Aug,All directions,All weeks,Winter,48004,10
+40004,Aug,Eastbound,All weeks,Winter,22738,10
+40004,Aug,Westbound,All weeks,Winter,25266,10
+40004,Dec,All directions,All weeks,Summer,30216,7
+40004,Dec,Eastbound,All weeks,Summer,12122,7
+40004,Dec,Westbound,All weeks,Summer,18094,7
+40004,Feb,All directions,All weeks,Summer,59178,9
+40004,Feb,Eastbound,All weeks,Summer,29466,9
+40004,Feb,Westbound,All weeks,Summer,29712,9
+40004,Jan,All directions,All weeks,Summer,53408,11
+40004,Jan,Eastbound,All weeks,Summer,23669,11
+40004,Jan,Westbound,All weeks,Summer,29739,11
+40004,Jul,All directions,All weeks,Winter,29132,7
+40004,Jul,Eastbound,All weeks,Winter,13881,7
+40004,Jul,Westbound,All weeks,Winter,15251,7
+40004,Jun,All directions,All weeks,Winter,29678,7
+40004,Jun,Eastbound,All weeks,Winter,14018,7
+40004,Jun,Westbound,All weeks,Winter,15660,7
+40004,Mar,All directions,All weeks,Autumn,83519,13
+40004,Mar,Eastbound,All weeks,Autumn,39853,13
+40004,Mar,Westbound,All weeks,Autumn,43666,13
+40004,May,All directions,All weeks,Autumn,52133,9
+40004,May,Eastbound,All weeks,Autumn,24838,9
+40004,May,Westbound,All weeks,Autumn,27295,9
+40004,Nov,All directions,All weeks,Spring,39503,7
+40004,Nov,Eastbound,All weeks,Spring,18883,7
+40004,Nov,Westbound,All weeks,Spring,20620,7
+40004,Oct,All directions,All weeks,Spring,33413,7
+40004,Oct,Eastbound,All weeks,Spring,13746,7
+40004,Oct,Westbound,All weeks,Spring,19667,7
+40004,Sep,All directions,All weeks,Spring,43545,8
+40004,Sep,Eastbound,All weeks,Spring,20429,8
+40004,Sep,Westbound,All weeks,Spring,23116,8
+40005,Apr,All directions,All weeks,Autumn,52365,10
+40005,Apr,Eastbound,All weeks,Autumn,24375,10
+40005,Apr,Westbound,All weeks,Autumn,27990,10
+40005,Aug,All directions,All weeks,Winter,50246,10
+40005,Aug,Eastbound,All weeks,Winter,24205,10
+40005,Aug,Westbound,All weeks,Winter,26041,10
+40005,Dec,All directions,All weeks,Summer,34703,7
+40005,Dec,Eastbound,All weeks,Summer,16580,7
+40005,Dec,Westbound,All weeks,Summer,18123,7
+40005,Feb,All directions,All weeks,Summer,61731,9
+40005,Feb,Eastbound,All weeks,Summer,28317,9
+40005,Feb,Westbound,All weeks,Summer,33414,9
+40005,Jan,All directions,All weeks,Summer,50634,11
+40005,Jan,Eastbound,All weeks,Summer,22277,11
+40005,Jan,Westbound,All weeks,Summer,28357,11
+40005,Jul,All directions,All weeks,Winter,29560,7
+40005,Jul,Eastbound,All weeks,Winter,14146,7
+40005,Jul,Westbound,All weeks,Winter,15414,7
+40005,Jun,All directions,All weeks,Winter,25635,7
+40005,Jun,Eastbound,All weeks,Winter,9771,7
+40005,Jun,Westbound,All weeks,Winter,15864,7
+40005,Mar,All directions,All weeks,Autumn,74922,13
+40005,Mar,Eastbound,All weeks,Autumn,38621,13
+40005,Mar,Westbound,All weeks,Autumn,36301,13
+40005,May,All directions,All weeks,Autumn,47835,9
+40005,May,Eastbound,All weeks,Autumn,23447,9
+40005,May,Westbound,All weeks,Autumn,24388,9
+40005,Nov,All directions,All weeks,Spring,35328,7
+40005,Nov,Eastbound,All weeks,Spring,19139,7
+40005,Nov,Westbound,All weeks,Spring,16189,7
+40005,Oct,All directions,All weeks,Spring,36308,7
+40005,Oct,Eastbound,All weeks,Spring,15328,7
+40005,Oct,Westbound,All weeks,Spring,20980,7
+40005,Sep,All directions,All weeks,Spring,46388,8
+40005,Sep,Eastbound,All weeks,Spring,22042,8
+40005,Sep,Westbound,All weeks,Spring,24346,8
+40430,Apr,All directions,All weeks,Autumn,22762,7
+40430,Apr,Northbound,All weeks,Autumn,347,7
+40430,Apr,Southbound,All weeks,Autumn,22415,7
+40430,Aug,All directions,All weeks,Winter,13008,5
+40430,Aug,Northbound,All weeks,Winter,160,5
+40430,Aug,Southbound,All weeks,Winter,12848,5
+40430,Dec,All directions,All weeks,Summer,7374,4
+40430,Dec,Northbound,All weeks,Summer,79,4
+40430,Dec,Southbound,All weeks,Summer,7295,4
+40430,Feb,All directions,All weeks,Summer,19548,5
+40430,Feb,Northbound,All weeks,Summer,332,5
+40430,Feb,Southbound,All weeks,Summer,19216,5
+40430,Jan,All directions,All weeks,Summer,15659,6
+40430,Jan,Northbound,All weeks,Summer,211,6
+40430,Jan,Southbound,All weeks,Summer,15448,6
+40430,Jul,All directions,All weeks,Winter,7018,3
+40430,Jul,Northbound,All weeks,Winter,70,3
+40430,Jul,Southbound,All weeks,Winter,6948,3
+40430,Jun,All directions,All weeks,Winter,9308,4
+40430,Jun,Northbound,All weeks,Winter,79,4
+40430,Jun,Southbound,All weeks,Winter,9229,4
+40430,Mar,All directions,All weeks,Autumn,29549,8
+40430,Mar,Northbound,All weeks,Autumn,536,8
+40430,Mar,Southbound,All weeks,Autumn,29013,8
+40430,May,All directions,All weeks,Autumn,14409,5
+40430,May,Northbound,All weeks,Autumn,143,5
+40430,May,Southbound,All weeks,Autumn,14266,5
+40430,Oct,All directions,All weeks,Spring,8082,3
+40430,Oct,Northbound,All weeks,Spring,105,3
+40430,Oct,Southbound,All weeks,Spring,7977,3
+40430,Sep,All directions,All weeks,Spring,10340,4
+40430,Sep,Northbound,All weeks,Spring,172,4
+40430,Sep,Southbound,All weeks,Spring,10168,4
+404305,Nov,All directions,All weeks,Spring,8778,4
+404305,Nov,Northbound,All weeks,Spring,61,4
+404305,Nov,Southbound,All weeks,Spring,8717,4
+6411,Apr,All directions,All weeks,Autumn,478746,42
+6411,Apr,Northbound,All weeks,Autumn,242253,42
+6411,Apr,Southbound,All weeks,Autumn,236493,42
+6411,Aug,All directions,All weeks,Winter,347557,40
+6411,Aug,Northbound,All weeks,Winter,171396,40
+6411,Aug,Southbound,All weeks,Winter,176161,40
+6411,Dec,All directions,All weeks,Summer,281898,32
+6411,Dec,Northbound,All weeks,Summer,139705,32
+6411,Dec,Southbound,All weeks,Summer,142193,32
+6411,Feb,All directions,All weeks,Summer,518410,37
+6411,Feb,Northbound,All weeks,Summer,260894,37
+6411,Feb,Southbound,All weeks,Summer,257516,37
+6411,Jan,All directions,All weeks,Summer,415667,40
+6411,Jan,Northbound,All weeks,Summer,209561,40
+6411,Jan,Southbound,All weeks,Summer,206106,40
+6411,Jul,All directions,All weeks,Winter,309988,37
+6411,Jul,Northbound,All weeks,Winter,151793,37
+6411,Jul,Southbound,All weeks,Winter,158195,37
+6411,Jun,All directions,All weeks,Winter,336342,39
+6411,Jun,Northbound,All weeks,Winter,166175,39
+6411,Jun,Southbound,All weeks,Winter,170167,39
+6411,Mar,All directions,All weeks,Autumn,535126,42
+6411,Mar,Northbound,All weeks,Autumn,271306,42
+6411,Mar,Southbound,All weeks,Autumn,263820,42
+6411,May,All directions,All weeks,Autumn,483836,45
+6411,May,Northbound,All weeks,Autumn,241802,45
+6411,May,Southbound,All weeks,Autumn,242034,45
+6411,Nov,All directions,All weeks,Spring,357742,32
+6411,Nov,Northbound,All weeks,Spring,176499,32
+6411,Nov,Southbound,All weeks,Spring,181243,32
+6411,Oct,All directions,All weeks,Spring,405478,36
+6411,Oct,Northbound,All weeks,Spring,200329,36
+6411,Oct,Southbound,All weeks,Spring,205149,36
+6411,Sep,All directions,All weeks,Spring,333807,34
+6411,Sep,Northbound,All weeks,Spring,164566,34
+6411,Sep,Southbound,All weeks,Spring,169241,34
+6415,Apr,All directions,All weeks,Autumn,370993,36
+6415,Apr,Eastbound,All weeks,Autumn,173046,35
+6415,Apr,Westbound,All weeks,Autumn,197947,35
+6415,Aug,All directions,All weeks,Winter,277295,35
+6415,Aug,Eastbound,All weeks,Winter,131945,35
+6415,Aug,Westbound,All weeks,Winter,145350,35
+6415,Dec,All directions,All weeks,Summer,283458,32
+6415,Dec,Eastbound,All weeks,Summer,132648,32
+6415,Dec,Westbound,All weeks,Summer,150810,32
+6415,Feb,All directions,All weeks,Summer,484671,38
+6415,Feb,Eastbound,All weeks,Summer,231892,38
+6415,Feb,Westbound,All weeks,Summer,252779,38
+6415,Jan,All directions,All weeks,Summer,426174,40
+6415,Jan,Eastbound,All weeks,Summer,197059,40
+6415,Jan,Westbound,All weeks,Summer,229115,40
+6415,Jul,All directions,All weeks,Winter,269409,33
+6415,Jul,Eastbound,All weeks,Winter,127681,33
+6415,Jul,Westbound,All weeks,Winter,141728,33
+6415,Jun,All directions,All weeks,Winter,285773,37
+6415,Jun,Eastbound,All weeks,Winter,133912,37
+6415,Jun,Westbound,All weeks,Winter,151861,37
+6415,Mar,All directions,All weeks,Autumn,461691,39
+6415,Mar,Eastbound,All weeks,Autumn,218259,39
+6415,Mar,Westbound,All weeks,Autumn,243432,38
+6415,May,All directions,All weeks,Autumn,377028,40
+6415,May,Eastbound,All weeks,Autumn,178400,39
+6415,May,Westbound,All weeks,Autumn,198628,40
+6415,Nov,All directions,All weeks,Spring,333721,32
+6415,Nov,Eastbound,All weeks,Spring,155370,32
+6415,Nov,Westbound,All weeks,Spring,178351,32
+6415,Oct,All directions,All weeks,Spring,355385,36
+6415,Oct,Eastbound,All weeks,Spring,168805,36
+6415,Oct,Westbound,All weeks,Spring,186580,36
+6415,Sep,All directions,All weeks,Spring,294870,33
+6415,Sep,Eastbound,All weeks,Spring,138851,33
+6415,Sep,Westbound,All weeks,Spring,156019,33
+6419,Apr,All directions,All weeks,Autumn,181251,38
+6419,Apr,Northbound,All weeks,Autumn,99618,38
+6419,Apr,Southbound,All weeks,Autumn,81633,38
+6419,Aug,All directions,All weeks,Winter,154225,35
+6419,Aug,Northbound,All weeks,Winter,78832,35
+6419,Aug,Southbound,All weeks,Winter,75393,35
+6419,Dec,All directions,All weeks,Summer,123747,31
+6419,Dec,Northbound,All weeks,Summer,65692,31
+6419,Dec,Southbound,All weeks,Summer,58055,31
+6419,Feb,All directions,All weeks,Summer,194926,34
+6419,Feb,Northbound,All weeks,Summer,105755,34
+6419,Feb,Southbound,All weeks,Summer,89171,34
+6419,Jan,All directions,All weeks,Summer,172986,38
+6419,Jan,Northbound,All weeks,Summer,93197,38
+6419,Jan,Southbound,All weeks,Summer,79789,38
+6419,Jul,All directions,All weeks,Winter,126248,33
+6419,Jul,Northbound,All weeks,Winter,64079,33
+6419,Jul,Southbound,All weeks,Winter,62169,33
+6419,Jun,All directions,All weeks,Winter,126636,33
+6419,Jun,Northbound,All weeks,Winter,64390,33
+6419,Jun,Southbound,All weeks,Winter,62246,33
+6419,Mar,All directions,All weeks,Autumn,205686,39
+6419,Mar,Northbound,All weeks,Autumn,113333,39
+6419,Mar,Southbound,All weeks,Autumn,92353,39
+6419,May,All directions,All weeks,Autumn,154519,35
+6419,May,Northbound,All weeks,Autumn,82222,35
+6419,May,Southbound,All weeks,Autumn,72297,35
+6419,Nov,All directions,All weeks,Spring,153310,32
+6419,Nov,Northbound,All weeks,Spring,80909,32
+6419,Nov,Southbound,All weeks,Spring,72401,32
+6419,Oct,All directions,All weeks,Spring,176889,36
+6419,Oct,Northbound,All weeks,Spring,91927,36
+6419,Oct,Southbound,All weeks,Spring,84962,36
+6419,Sep,All directions,All weeks,Spring,158015,33
+6419,Sep,Northbound,All weeks,Spring,81700,33
+6419,Sep,Southbound,All weeks,Spring,76315,33
+6423,Apr,All directions,All weeks,Autumn,32328,42
+6423,Apr,Northbound,All weeks,Autumn,14245,42
+6423,Apr,Southbound,All weeks,Autumn,18083,42
+6423,Aug,All directions,All weeks,Winter,26795,40
+6423,Aug,Northbound,All weeks,Winter,11023,40
+6423,Aug,Southbound,All weeks,Winter,15772,40
+6423,Dec,All directions,All weeks,Summer,22370,36
+6423,Dec,Northbound,All weeks,Summer,9575,36
+6423,Dec,Southbound,All weeks,Summer,12795,36
+6423,Feb,All directions,All weeks,Summer,33915,41
+6423,Feb,Northbound,All weeks,Summer,15014,41
+6423,Feb,Southbound,All weeks,Summer,18901,41
+6423,Jan,All directions,All weeks,Summer,35383,45
+6423,Jan,Northbound,All weeks,Summer,15566,45
+6423,Jan,Southbound,All weeks,Summer,19817,45
+6423,Jul,All directions,All weeks,Winter,22743,37
+6423,Jul,Northbound,All weeks,Winter,9465,37
+6423,Jul,Southbound,All weeks,Winter,13278,37
+6423,Jun,All directions,All weeks,Winter,24617,41
+6423,Jun,Northbound,All weeks,Winter,10490,41
+6423,Jun,Southbound,All weeks,Winter,14127,41
+6423,Mar,All directions,All weeks,Autumn,32541,42
+6423,Mar,Northbound,All weeks,Autumn,14364,42
+6423,Mar,Southbound,All weeks,Autumn,18177,42
+6423,May,All directions,All weeks,Autumn,28915,45
+6423,May,Northbound,All weeks,Autumn,12446,45
+6423,May,Southbound,All weeks,Autumn,16469,45
+6423,Nov,All directions,All weeks,Spring,25157,36
+6423,Nov,Northbound,All weeks,Spring,10702,36
+6423,Nov,Southbound,All weeks,Spring,14455,36
+6423,Oct,All directions,All weeks,Spring,29938,41
+6423,Oct,Northbound,All weeks,Spring,12755,41
+6423,Oct,Southbound,All weeks,Spring,17183,41
+6423,Sep,All directions,All weeks,Spring,26884,37
+6423,Sep,Northbound,All weeks,Spring,11212,37
+6423,Sep,Southbound,All weeks,Spring,15672,37
+6588,Apr,All directions,All weeks,Autumn,356735,22
+6588,Apr,Northbound,All weeks,Autumn,194023,22
+6588,Apr,Southbound,All weeks,Autumn,162712,22
+6588,Aug,All directions,All weeks,Winter,233467,17
+6588,Aug,Northbound,All weeks,Winter,143957,17
+6588,Aug,Southbound,All weeks,Winter,89510,17
+6588,Dec,All directions,All weeks,Summer,164877,17
+6588,Dec,Northbound,All weeks,Summer,93907,17
+6588,Dec,Southbound,All weeks,Summer,70970,17
+6588,Feb,All directions,All weeks,Summer,363038,21
+6588,Feb,Northbound,All weeks,Summer,200808,21
+6588,Feb,Southbound,All weeks,Summer,162230,21
+6588,Jan,All directions,All weeks,Summer,290289,22
+6588,Jan,Northbound,All weeks,Summer,162505,22
+6588,Jan,Southbound,All weeks,Summer,127784,22
+6588,Jul,All directions,All weeks,Winter,187358,15
+6588,Jul,Northbound,All weeks,Winter,113946,15
+6588,Jul,Southbound,All weeks,Winter,73412,15
+6588,Jun,All directions,All weeks,Winter,268127,20
+6588,Jun,Northbound,All weeks,Winter,159587,20
+6588,Jun,Southbound,All weeks,Winter,108540,20
+6588,Mar,All directions,All weeks,Autumn,331333,20
+6588,Mar,Northbound,All weeks,Autumn,184252,20
+6588,Mar,Southbound,All weeks,Autumn,147081,20
+6588,May,All directions,All weeks,Autumn,352473,22
+6588,May,Northbound,All weeks,Autumn,198589,22
+6588,May,Southbound,All weeks,Autumn,153884,22
+6588,Nov,All directions,All weeks,Spring,205481,14
+6588,Nov,Northbound,All weeks,Spring,117441,14
+6588,Nov,Southbound,All weeks,Spring,88040,14
+6588,Oct,All directions,All weeks,Spring,305000,19
+6588,Oct,Northbound,All weeks,Spring,177312,19
+6588,Oct,Southbound,All weeks,Spring,127688,19
+6588,Sep,All directions,All weeks,Spring,224808,16
+6588,Sep,Northbound,All weeks,Spring,138975,16
+6588,Sep,Southbound,All weeks,Spring,85833,16
+6592,Apr,All directions,All weeks,Autumn,607694,43
+6592,Apr,Northbound,All weeks,Autumn,303195,43
+6592,Apr,Southbound,All weeks,Autumn,304499,42
+6592,Aug,All directions,All weeks,Winter,428260,40
+6592,Aug,Northbound,All weeks,Winter,213926,40
+6592,Aug,Southbound,All weeks,Winter,214334,40
+6592,Dec,All directions,All weeks,Summer,374141,36
+6592,Dec,Northbound,All weeks,Summer,187918,36
+6592,Dec,Southbound,All weeks,Summer,186223,36
+6592,Feb,All directions,All weeks,Summer,709683,41
+6592,Feb,Northbound,All weeks,Summer,356010,41
+6592,Feb,Southbound,All weeks,Summer,353673,41
+6592,Jan,All directions,All weeks,Summer,579701,44
+6592,Jan,Northbound,All weeks,Summer,290327,44
+6592,Jan,Southbound,All weeks,Summer,289374,44
+6592,Jul,All directions,All weeks,Winter,404475,37
+6592,Jul,Northbound,All weeks,Winter,201804,37
+6592,Jul,Southbound,All weeks,Winter,202671,37
+6592,Jun,All directions,All weeks,Winter,464165,41
+6592,Jun,Northbound,All weeks,Winter,232106,41
+6592,Jun,Southbound,All weeks,Winter,232059,41
+6592,Mar,All directions,All weeks,Autumn,673913,42
+6592,Mar,Northbound,All weeks,Autumn,337250,42
+6592,Mar,Southbound,All weeks,Autumn,336663,42
+6592,May,All directions,All weeks,Autumn,585814,45
+6592,May,Northbound,All weeks,Autumn,292627,45
+6592,May,Southbound,All weeks,Autumn,293187,45
+6592,Nov,All directions,All weeks,Spring,450495,36
+6592,Nov,Northbound,All weeks,Spring,225152,36
+6592,Nov,Southbound,All weeks,Spring,225343,36
+6592,Oct,All directions,All weeks,Spring,527632,40
+6592,Oct,Northbound,All weeks,Spring,263142,40
+6592,Oct,Southbound,All weeks,Spring,264490,40
+6592,Sep,All directions,All weeks,Spring,430769,37
+6592,Sep,Northbound,All weeks,Spring,214217,37
+6592,Sep,Southbound,All weeks,Spring,216552,37
+6596,Apr,All directions,All weeks,Autumn,386597,42
+6596,Apr,Northbound,All weeks,Autumn,196165,40
+6596,Apr,Southbound,All weeks,Autumn,190432,42
+6596,Aug,All directions,All weeks,Winter,266584,39
+6596,Aug,Northbound,All weeks,Winter,134461,35
+6596,Aug,Southbound,All weeks,Winter,132123,39
+6596,Dec,All directions,All weeks,Summer,327004,36
+6596,Dec,Northbound,All weeks,Summer,169663,36
+6596,Dec,Southbound,All weeks,Summer,157341,36
+6596,Feb,All directions,All weeks,Summer,461604,41
+6596,Feb,Northbound,All weeks,Summer,239804,38
+6596,Feb,Southbound,All weeks,Summer,221800,41
+6596,Jan,All directions,All weeks,Summer,492259,45
+6596,Jan,Northbound,All weeks,Summer,256099,44
+6596,Jan,Southbound,All weeks,Summer,236160,45
+6596,Jul,All directions,All weeks,Winter,236790,37
+6596,Jul,Northbound,All weeks,Winter,118238,34
+6596,Jul,Southbound,All weeks,Winter,118552,37
+6596,Jun,All directions,All weeks,Winter,270985,40
+6596,Jun,Northbound,All weeks,Winter,136104,38
+6596,Jun,Southbound,All weeks,Winter,134881,40
+6596,Mar,All directions,All weeks,Autumn,361051,38
+6596,Mar,Northbound,All weeks,Autumn,186607,36
+6596,Mar,Southbound,All weeks,Autumn,174444,37
+6596,May,All directions,All weeks,Autumn,321344,44
+6596,May,Northbound,All weeks,Autumn,161404,41
+6596,May,Southbound,All weeks,Autumn,159940,44
+6596,Nov,All directions,All weeks,Spring,329832,36
+6596,Nov,Northbound,All weeks,Spring,168729,33
+6596,Nov,Southbound,All weeks,Spring,161103,36
+6596,Oct,All directions,All weeks,Spring,375492,40
+6596,Oct,Northbound,All weeks,Spring,191735,38
+6596,Oct,Southbound,All weeks,Spring,183757,40
+6596,Sep,All directions,All weeks,Spring,332284,37
+6596,Sep,Northbound,All weeks,Spring,169029,36
+6596,Sep,Southbound,All weeks,Spring,163255,37
+6600,Apr,All directions,All weeks,Autumn,73120,42
+6600,Apr,Eastbound,All weeks,Autumn,36857,42
+6600,Apr,Westbound,All weeks,Autumn,36263,42
+6600,Aug,All directions,All weeks,Winter,61737,40
+6600,Aug,Eastbound,All weeks,Winter,30759,40
+6600,Aug,Westbound,All weeks,Winter,30978,40
+6600,Dec,All directions,All weeks,Summer,55744,36
+6600,Dec,Eastbound,All weeks,Summer,27996,36
+6600,Dec,Westbound,All weeks,Summer,27748,36
+6600,Feb,All directions,All weeks,Summer,80608,41
+6600,Feb,Eastbound,All weeks,Summer,40638,41
+6600,Feb,Westbound,All weeks,Summer,39970,41
+6600,Jan,All directions,All weeks,Summer,82543,45
+6600,Jan,Eastbound,All weeks,Summer,41478,45
+6600,Jan,Westbound,All weeks,Summer,41065,45
+6600,Jul,All directions,All weeks,Winter,49221,37
+6600,Jul,Eastbound,All weeks,Winter,24783,37
+6600,Jul,Westbound,All weeks,Winter,24438,37
+6600,Jun,All directions,All weeks,Winter,52701,41
+6600,Jun,Eastbound,All weeks,Winter,26600,41
+6600,Jun,Westbound,All weeks,Winter,26101,41
+6600,Mar,All directions,All weeks,Autumn,72687,42
+6600,Mar,Eastbound,All weeks,Autumn,36655,42
+6600,Mar,Westbound,All weeks,Autumn,36032,42
+6600,May,All directions,All weeks,Autumn,65697,45
+6600,May,Eastbound,All weeks,Autumn,33318,45
+6600,May,Westbound,All weeks,Autumn,32379,45
+6600,Nov,All directions,All weeks,Spring,59237,36
+6600,Nov,Eastbound,All weeks,Spring,29932,36
+6600,Nov,Westbound,All weeks,Spring,29305,36
+6600,Oct,All directions,All weeks,Spring,69450,41
+6600,Oct,Eastbound,All weeks,Spring,34857,41
+6600,Oct,Westbound,All weeks,Spring,34593,41
+6600,Sep,All directions,All weeks,Spring,69775,37
+6600,Sep,Eastbound,All weeks,Spring,34662,37
+6600,Sep,Westbound,All weeks,Spring,35113,37
+7584,Apr,All directions,All weeks,Autumn,192329,42
+7584,Apr,Northbound,All weeks,Autumn,99644,42
+7584,Apr,Southbound,All weeks,Autumn,92685,42
+7584,Aug,All directions,All weeks,Winter,154854,40
+7584,Aug,Northbound,All weeks,Winter,80054,40
+7584,Aug,Southbound,All weeks,Winter,74800,40
+7584,Dec,All directions,All weeks,Summer,155616,36
+7584,Dec,Northbound,All weeks,Summer,80660,36
+7584,Dec,Southbound,All weeks,Summer,74956,36
+7584,Feb,All directions,All weeks,Summer,200295,40
+7584,Feb,Northbound,All weeks,Summer,103184,40
+7584,Feb,Southbound,All weeks,Summer,97111,40
+7584,Jan,All directions,All weeks,Summer,217454,45
+7584,Jan,Northbound,All weeks,Summer,112182,45
+7584,Jan,Southbound,All weeks,Summer,105272,45
+7584,Jul,All directions,All weeks,Winter,127844,37
+7584,Jul,Northbound,All weeks,Winter,66810,37
+7584,Jul,Southbound,All weeks,Winter,61034,37
+7584,Jun,All directions,All weeks,Winter,138421,41
+7584,Jun,Northbound,All weeks,Winter,72849,41
+7584,Jun,Southbound,All weeks,Winter,65572,41
+7584,Mar,All directions,All weeks,Autumn,199664,42
+7584,Mar,Northbound,All weeks,Autumn,103008,42
+7584,Mar,Southbound,All weeks,Autumn,96656,42
+7584,May,All directions,All weeks,Autumn,166417,45
+7584,May,Northbound,All weeks,Autumn,86781,45
+7584,May,Southbound,All weeks,Autumn,79636,45
+7584,Nov,All directions,All weeks,Spring,161313,36
+7584,Nov,Northbound,All weeks,Spring,83609,36
+7584,Nov,Southbound,All weeks,Spring,77704,36
+7584,Oct,All directions,All weeks,Spring,186985,41
+7584,Oct,Northbound,All weeks,Spring,96209,41
+7584,Oct,Southbound,All weeks,Spring,90776,41
+7584,Sep,All directions,All weeks,Spring,176091,37
+7584,Sep,Northbound,All weeks,Spring,90848,37
+7584,Sep,Southbound,All weeks,Spring,85243,37
+7588,Apr,All directions,All weeks,Autumn,444415,42
+7588,Apr,Eastbound,All weeks,Autumn,204042,42
+7588,Apr,Westbound,All weeks,Autumn,240373,42
+7588,Aug,All directions,All weeks,Winter,345098,40
+7588,Aug,Eastbound,All weeks,Winter,158917,40
+7588,Aug,Westbound,All weeks,Winter,186181,40
+7588,Dec,All directions,All weeks,Summer,304638,36
+7588,Dec,Eastbound,All weeks,Summer,143079,36
+7588,Dec,Westbound,All weeks,Summer,161559,36
+7588,Feb,All directions,All weeks,Summer,531857,41
+7588,Feb,Eastbound,All weeks,Summer,248713,41
+7588,Feb,Westbound,All weeks,Summer,283144,41
+7588,Jan,All directions,All weeks,Summer,462193,45
+7588,Jan,Eastbound,All weeks,Summer,216158,45
+7588,Jan,Westbound,All weeks,Summer,246035,45
+7588,Jul,All directions,All weeks,Winter,298980,37
+7588,Jul,Eastbound,All weeks,Winter,137622,37
+7588,Jul,Westbound,All weeks,Winter,161358,37
+7588,Jun,All directions,All weeks,Winter,351153,41
+7588,Jun,Eastbound,All weeks,Winter,162256,41
+7588,Jun,Westbound,All weeks,Winter,188897,41
+7588,Mar,All directions,All weeks,Autumn,496560,42
+7588,Mar,Eastbound,All weeks,Autumn,228869,42
+7588,Mar,Westbound,All weeks,Autumn,267691,42
+7588,May,All directions,All weeks,Autumn,444094,45
+7588,May,Eastbound,All weeks,Autumn,205511,45
+7588,May,Westbound,All weeks,Autumn,238583,45
+7588,Nov,All directions,All weeks,Spring,378547,36
+7588,Nov,Eastbound,All weeks,Spring,176905,36
+7588,Nov,Westbound,All weeks,Spring,201642,36
+7588,Oct,All directions,All weeks,Spring,433505,41
+7588,Oct,Eastbound,All weeks,Spring,201093,41
+7588,Oct,Westbound,All weeks,Spring,232412,41
+7588,Sep,All directions,All weeks,Spring,357785,37
+7588,Sep,Eastbound,All weeks,Spring,164857,37
+7588,Sep,Westbound,All weeks,Spring,192928,37
+7592,Apr,All directions,All weeks,Autumn,38106,40
+7592,Apr,Northbound,All weeks,Autumn,17938,40
+7592,Apr,Southbound,All weeks,Autumn,20168,40
+7592,Aug,All directions,All weeks,Winter,32015,40
+7592,Aug,Northbound,All weeks,Winter,14642,40
+7592,Aug,Southbound,All weeks,Winter,17373,40
+7592,Dec,All directions,All weeks,Summer,28447,36
+7592,Dec,Northbound,All weeks,Summer,13095,36
+7592,Dec,Southbound,All weeks,Summer,15352,36
+7592,Feb,All directions,All weeks,Summer,39806,39
+7592,Feb,Northbound,All weeks,Summer,18125,39
+7592,Feb,Southbound,All weeks,Summer,21681,39
+7592,Jan,All directions,All weeks,Summer,41476,45
+7592,Jan,Northbound,All weeks,Summer,19124,45
+7592,Jan,Southbound,All weeks,Summer,22352,45
+7592,Jul,All directions,All weeks,Winter,27117,37
+7592,Jul,Northbound,All weeks,Winter,12459,37
+7592,Jul,Southbound,All weeks,Winter,14658,37
+7592,Jun,All directions,All weeks,Winter,29759,41
+7592,Jun,Northbound,All weeks,Winter,13643,41
+7592,Jun,Southbound,All weeks,Winter,16116,41
+7592,Mar,All directions,All weeks,Autumn,37138,38
+7592,Mar,Northbound,All weeks,Autumn,17179,38
+7592,Mar,Southbound,All weeks,Autumn,19959,38
+7592,May,All directions,All weeks,Autumn,37095,45
+7592,May,Northbound,All weeks,Autumn,16964,45
+7592,May,Southbound,All weeks,Autumn,20131,45
+7592,Nov,All directions,All weeks,Spring,33766,36
+7592,Nov,Northbound,All weeks,Spring,15202,36
+7592,Nov,Southbound,All weeks,Spring,18564,36
+7592,Oct,All directions,All weeks,Spring,40660,41
+7592,Oct,Northbound,All weeks,Spring,18358,41
+7592,Oct,Southbound,All weeks,Spring,22302,41
+7592,Sep,All directions,All weeks,Spring,34324,37
+7592,Sep,Northbound,All weeks,Spring,15933,37
+7592,Sep,Southbound,All weeks,Spring,18391,37
+7596,Apr,All directions,All weeks,Autumn,212510,42
+7596,Apr,Eastbound,All weeks,Autumn,133590,42
+7596,Apr,Westbound,All weeks,Autumn,78920,42
+7596,Aug,All directions,All weeks,Winter,162176,40
+7596,Aug,Eastbound,All weeks,Winter,98084,40
+7596,Aug,Westbound,All weeks,Winter,64092,40
+7596,Dec,All directions,All weeks,Summer,158505,36
+7596,Dec,Eastbound,All weeks,Summer,93034,36
+7596,Dec,Westbound,All weeks,Summer,65471,36
+7596,Feb,All directions,All weeks,Summer,252176,41
+7596,Feb,Eastbound,All weeks,Summer,158546,41
+7596,Feb,Westbound,All weeks,Summer,93630,41
+7596,Jan,All directions,All weeks,Summer,228562,45
+7596,Jan,Eastbound,All weeks,Summer,141118,45
+7596,Jan,Westbound,All weeks,Summer,87444,45
+7596,Jul,All directions,All weeks,Winter,153074,37
+7596,Jul,Eastbound,All weeks,Winter,93174,37
+7596,Jul,Westbound,All weeks,Winter,59900,37
+7596,Jun,All directions,All weeks,Winter,165226,41
+7596,Jun,Eastbound,All weeks,Winter,101997,41
+7596,Jun,Westbound,All weeks,Winter,63229,41
+7596,Mar,All directions,All weeks,Autumn,235441,42
+7596,Mar,Eastbound,All weeks,Autumn,147410,42
+7596,Mar,Westbound,All weeks,Autumn,88031,42
+7596,May,All directions,All weeks,Autumn,207445,45
+7596,May,Eastbound,All weeks,Autumn,128598,45
+7596,May,Westbound,All weeks,Autumn,78847,45
+7596,Nov,All directions,All weeks,Spring,180219,36
+7596,Nov,Eastbound,All weeks,Spring,108406,36
+7596,Nov,Westbound,All weeks,Spring,71813,36
+7596,Oct,All directions,All weeks,Spring,217806,41
+7596,Oct,Eastbound,All weeks,Spring,130190,41
+7596,Oct,Westbound,All weeks,Spring,87616,41
+7596,Sep,All directions,All weeks,Spring,169002,37
+7596,Sep,Eastbound,All weeks,Spring,101722,37
+7596,Sep,Westbound,All weeks,Spring,67280,37
+7600,Apr,All directions,All weeks,Autumn,230369,38
+7600,Apr,Northbound,All weeks,Autumn,101700,38
+7600,Apr,Southbound,All weeks,Autumn,128669,38
+7600,Aug,All directions,All weeks,Winter,188789,40
+7600,Aug,Northbound,All weeks,Winter,85931,40
+7600,Aug,Southbound,All weeks,Winter,102858,40
+7600,Dec,All directions,All weeks,Summer,137211,32
+7600,Dec,Northbound,All weeks,Summer,55728,32
+7600,Dec,Southbound,All weeks,Summer,81483,32
+7600,Feb,All directions,All weeks,Summer,249855,37
+7600,Feb,Northbound,All weeks,Summer,95054,37
+7600,Feb,Southbound,All weeks,Summer,154801,37
+7600,Jan,All directions,All weeks,Summer,206808,40
+7600,Jan,Northbound,All weeks,Summer,72983,40
+7600,Jan,Southbound,All weeks,Summer,133825,40
+7600,Jul,All directions,All weeks,Winter,167373,37
+7600,Jul,Northbound,All weeks,Winter,75495,37
+7600,Jul,Southbound,All weeks,Winter,91878,37
+7600,Jun,All directions,All weeks,Winter,184677,38
+7600,Jun,Northbound,All weeks,Winter,80798,38
+7600,Jun,Southbound,All weeks,Winter,103879,38
+7600,Mar,All directions,All weeks,Autumn,244767,38
+7600,Mar,Northbound,All weeks,Autumn,102530,38
+7600,Mar,Southbound,All weeks,Autumn,142237,38
+7600,May,All directions,All weeks,Autumn,228242,40
+7600,May,Northbound,All weeks,Autumn,99620,40
+7600,May,Southbound,All weeks,Autumn,128622,40
+7600,Nov,All directions,All weeks,Spring,177947,31
+7600,Nov,Northbound,All weeks,Spring,79143,31
+7600,Nov,Southbound,All weeks,Spring,98804,31
+7600,Oct,All directions,All weeks,Spring,211946,37
+7600,Oct,Northbound,All weeks,Spring,93700,37
+7600,Oct,Southbound,All weeks,Spring,118246,37
+7600,Sep,All directions,All weeks,Spring,172843,33
+7600,Sep,Northbound,All weeks,Spring,77049,33
+7600,Sep,Southbound,All weeks,Spring,95794,33
+7604,Apr,All directions,All weeks,Autumn,203337,42
+7604,Apr,Northbound,All weeks,Autumn,92956,42
+7604,Apr,Southbound,All weeks,Autumn,110381,42
+7604,Aug,All directions,All weeks,Winter,157317,40
+7604,Aug,Northbound,All weeks,Winter,73900,40
+7604,Aug,Southbound,All weeks,Winter,83417,40
+7604,Dec,All directions,All weeks,Summer,153138,36
+7604,Dec,Northbound,All weeks,Summer,71165,36
+7604,Dec,Southbound,All weeks,Summer,81973,36
+7604,Feb,All directions,All weeks,Summer,221960,41
+7604,Feb,Northbound,All weeks,Summer,103914,41
+7604,Feb,Southbound,All weeks,Summer,118046,41
+7604,Jan,All directions,All weeks,Summer,214943,45
+7604,Jan,Northbound,All weeks,Summer,99951,45
+7604,Jan,Southbound,All weeks,Summer,114992,45
+7604,Jul,All directions,All weeks,Winter,137307,37
+7604,Jul,Northbound,All weeks,Winter,65344,37
+7604,Jul,Southbound,All weeks,Winter,71963,37
+7604,Jun,All directions,All weeks,Winter,151163,41
+7604,Jun,Northbound,All weeks,Winter,70401,41
+7604,Jun,Southbound,All weeks,Winter,80762,41
+7604,Mar,All directions,All weeks,Autumn,213339,42
+7604,Mar,Northbound,All weeks,Autumn,99309,42
+7604,Mar,Southbound,All weeks,Autumn,114030,42
+7604,May,All directions,All weeks,Autumn,181657,45
+7604,May,Northbound,All weeks,Autumn,84260,45
+7604,May,Southbound,All weeks,Autumn,97397,45
+7604,Nov,All directions,All weeks,Spring,165833,36
+7604,Nov,Northbound,All weeks,Spring,77892,36
+7604,Nov,Southbound,All weeks,Spring,87941,36
+7604,Oct,All directions,All weeks,Spring,190784,41
+7604,Oct,Northbound,All weeks,Spring,89231,41
+7604,Oct,Southbound,All weeks,Spring,101553,41
+7604,Sep,All directions,All weeks,Spring,171553,37
+7604,Sep,Northbound,All weeks,Spring,79782,37
+7604,Sep,Southbound,All weeks,Spring,91771,37
+8172,Apr,All directions,All weeks,Autumn,210887,42
+8172,Apr,Northbound,All weeks,Autumn,111824,42
+8172,Apr,Southbound,All weeks,Autumn,99063,42
+8172,Aug,All directions,All weeks,Winter,137746,36
+8172,Aug,Northbound,All weeks,Winter,72902,36
+8172,Aug,Southbound,All weeks,Winter,64844,36
+8172,Dec,All directions,All weeks,Summer,132980,31
+8172,Dec,Northbound,All weeks,Summer,68222,31
+8172,Dec,Southbound,All weeks,Summer,64758,31
+8172,Feb,All directions,All weeks,Summer,248661,41
+8172,Feb,Northbound,All weeks,Summer,130867,41
+8172,Feb,Southbound,All weeks,Summer,117794,41
+8172,Jan,All directions,All weeks,Summer,240095,43
+8172,Jan,Northbound,All weeks,Summer,125896,43
+8172,Jan,Southbound,All weeks,Summer,114199,43
+8172,Jul,All directions,All weeks,Winter,131337,37
+8172,Jul,Northbound,All weeks,Winter,69171,37
+8172,Jul,Southbound,All weeks,Winter,62166,37
+8172,Jun,All directions,All weeks,Winter,150568,41
+8172,Jun,Northbound,All weeks,Winter,78002,41
+8172,Jun,Southbound,All weeks,Winter,72566,41
+8172,Mar,All directions,All weeks,Autumn,232621,42
+8172,Mar,Northbound,All weeks,Autumn,123620,42
+8172,Mar,Southbound,All weeks,Autumn,109001,42
+8172,May,All directions,All weeks,Autumn,180346,45
+8172,May,Northbound,All weeks,Autumn,95969,45
+8172,May,Southbound,All weeks,Autumn,84377,45
+8172,Nov,All directions,All weeks,Spring,158433,32
+8172,Nov,Northbound,All weeks,Spring,82344,32
+8172,Nov,Southbound,All weeks,Spring,76089,32
+8172,Oct,All directions,All weeks,Spring,182654,37
+8172,Oct,Northbound,All weeks,Spring,96108,37
+8172,Oct,Southbound,All weeks,Spring,86546,37
+8172,Sep,All directions,All weeks,Spring,148374,32
+8172,Sep,Northbound,All weeks,Spring,78239,32
+8172,Sep,Southbound,All weeks,Spring,70135,32
+8176,Apr,All directions,All weeks,Autumn,360071,42
+8176,Apr,Eastbound,All weeks,Autumn,193386,42
+8176,Apr,Westbound,All weeks,Autumn,166685,42
+8176,Aug,All directions,All weeks,Winter,213313,31
+8176,Aug,Eastbound,All weeks,Winter,111856,31
+8176,Aug,Westbound,All weeks,Winter,101457,31
+8176,Dec,All directions,All weeks,Summer,247344,32
+8176,Dec,Eastbound,All weeks,Summer,133468,32
+8176,Dec,Westbound,All weeks,Summer,113876,32
+8176,Feb,All directions,All weeks,Summer,449886,37
+8176,Feb,Eastbound,All weeks,Summer,237612,37
+8176,Feb,Westbound,All weeks,Summer,212274,37
+8176,Jan,All directions,All weeks,Summer,400082,40
+8176,Jan,Eastbound,All weeks,Summer,212934,40
+8176,Jan,Westbound,All weeks,Summer,187148,40
+8176,Jul,All directions,All weeks,Winter,213970,35
+8176,Jul,Eastbound,All weeks,Winter,112573,34
+8176,Jul,Westbound,All weeks,Winter,101397,34
+8176,Jun,All directions,All weeks,Winter,218249,41
+8176,Jun,Eastbound,All weeks,Winter,114140,39
+8176,Jun,Westbound,All weeks,Winter,104109,41
+8176,Mar,All directions,All weeks,Autumn,392515,38
+8176,Mar,Eastbound,All weeks,Autumn,207236,38
+8176,Mar,Westbound,All weeks,Autumn,185279,38
+8176,May,All directions,All weeks,Autumn,315422,45
+8176,May,Eastbound,All weeks,Autumn,164509,45
+8176,May,Westbound,All weeks,Autumn,150913,45
+8176,Nov,All directions,All weeks,Spring,313206,33
+8176,Nov,Eastbound,All weeks,Spring,167054,33
+8176,Nov,Westbound,All weeks,Spring,146152,33
+8176,Oct,All directions,All weeks,Spring,340482,36
+8176,Oct,Eastbound,All weeks,Spring,179664,36
+8176,Oct,Westbound,All weeks,Spring,160818,36
+8176,Sep,All directions,All weeks,Spring,262529,35
+8176,Sep,Eastbound,All weeks,Spring,139844,34
+8176,Sep,Westbound,All weeks,Spring,122685,34
+8180,Apr,All directions,All weeks,Autumn,296256,42
+8180,Apr,Northbound,All weeks,Autumn,130214,42
+8180,Apr,Southbound,All weeks,Autumn,166042,42
+8180,Aug,All directions,All weeks,Winter,233580,40
+8180,Aug,Northbound,All weeks,Winter,103054,40
+8180,Aug,Southbound,All weeks,Winter,130526,40
+8180,Dec,All directions,All weeks,Summer,202281,36
+8180,Dec,Northbound,All weeks,Summer,89288,36
+8180,Dec,Southbound,All weeks,Summer,112993,36
+8180,Feb,All directions,All weeks,Summer,363045,41
+8180,Feb,Northbound,All weeks,Summer,160982,41
+8180,Feb,Southbound,All weeks,Summer,202063,41
+8180,Jan,All directions,All weeks,Summer,309700,45
+8180,Jan,Northbound,All weeks,Summer,137685,45
+8180,Jan,Southbound,All weeks,Summer,172015,45
+8180,Jul,All directions,All weeks,Winter,199255,37
+8180,Jul,Northbound,All weeks,Winter,87659,37
+8180,Jul,Southbound,All weeks,Winter,111596,37
+8180,Jun,All directions,All weeks,Winter,232116,41
+8180,Jun,Northbound,All weeks,Winter,101001,41
+8180,Jun,Southbound,All weeks,Winter,131115,41
+8180,Mar,All directions,All weeks,Autumn,339048,42
+8180,Mar,Northbound,All weeks,Autumn,149331,42
+8180,Mar,Southbound,All weeks,Autumn,189717,42
+8180,May,All directions,All weeks,Autumn,304625,45
+8180,May,Northbound,All weeks,Autumn,133244,45
+8180,May,Southbound,All weeks,Autumn,171381,45
+8180,Nov,All directions,All weeks,Spring,254980,36
+8180,Nov,Northbound,All weeks,Spring,112340,36
+8180,Nov,Southbound,All weeks,Spring,142640,36
+8180,Oct,All directions,All weeks,Spring,300351,41
+8180,Oct,Northbound,All weeks,Spring,132586,41
+8180,Oct,Southbound,All weeks,Spring,167765,41
+8180,Sep,All directions,All weeks,Spring,240268,37
+8180,Sep,Northbound,All weeks,Spring,106415,37
+8180,Sep,Southbound,All weeks,Spring,133853,37
+8184,Apr,All directions,All weeks,Autumn,585497,41
+8184,Apr,Northbound,All weeks,Autumn,297752,41
+8184,Apr,Southbound,All weeks,Autumn,287745,41
+8184,Aug,All directions,All weeks,Winter,396337,36
+8184,Aug,Northbound,All weeks,Winter,199485,36
+8184,Aug,Southbound,All weeks,Winter,196852,36
+8184,Dec,All directions,All weeks,Summer,350749,31
+8184,Dec,Northbound,All weeks,Summer,179241,31
+8184,Dec,Southbound,All weeks,Summer,171508,31
+8184,Feb,All directions,All weeks,Summer,724776,41
+8184,Feb,Northbound,All weeks,Summer,369997,41
+8184,Feb,Southbound,All weeks,Summer,354779,41
+8184,Jan,All directions,All weeks,Summer,617521,43
+8184,Jan,Northbound,All weeks,Summer,315211,43
+8184,Jan,Southbound,All weeks,Summer,302310,43
+8184,Jul,All directions,All weeks,Winter,402675,37
+8184,Jul,Northbound,All weeks,Winter,203427,37
+8184,Jul,Southbound,All weeks,Winter,199248,37
+8184,Jun,All directions,All weeks,Winter,458006,41
+8184,Jun,Northbound,All weeks,Winter,232927,41
+8184,Jun,Southbound,All weeks,Winter,225079,41
+8184,Mar,All directions,All weeks,Autumn,643883,41
+8184,Mar,Northbound,All weeks,Autumn,328801,41
+8184,Mar,Southbound,All weeks,Autumn,315082,41
+8184,May,All directions,All weeks,Autumn,577036,45
+8184,May,Northbound,All weeks,Autumn,293114,45
+8184,May,Southbound,All weeks,Autumn,283922,45
+8184,Nov,All directions,All weeks,Spring,438396,32
+8184,Nov,Northbound,All weeks,Spring,222787,32
+8184,Nov,Southbound,All weeks,Spring,215609,32
+8184,Oct,All directions,All weeks,Spring,516353,37
+8184,Oct,Northbound,All weeks,Spring,261175,37
+8184,Oct,Southbound,All weeks,Spring,255178,37
+8184,Sep,All directions,All weeks,Spring,405480,32
+8184,Sep,Northbound,All weeks,Spring,204349,32
+8184,Sep,Southbound,All weeks,Spring,201131,32
+8188,Apr,All directions,All weeks,Autumn,164048,42
+8188,Apr,Northbound,All weeks,Autumn,83083,42
+8188,Apr,Southbound,All weeks,Autumn,80965,42
+8188,Aug,All directions,All weeks,Winter,126701,40
+8188,Aug,Northbound,All weeks,Winter,63084,40
+8188,Aug,Southbound,All weeks,Winter,63617,40
+8188,Dec,All directions,All weeks,Summer,113059,36
+8188,Dec,Northbound,All weeks,Summer,56612,36
+8188,Dec,Southbound,All weeks,Summer,56447,36
+8188,Feb,All directions,All weeks,Summer,193965,41
+8188,Feb,Northbound,All weeks,Summer,97626,41
+8188,Feb,Southbound,All weeks,Summer,96339,41
+8188,Jan,All directions,All weeks,Summer,163275,45
+8188,Jan,Northbound,All weeks,Summer,81928,45
+8188,Jan,Southbound,All weeks,Summer,81347,45
+8188,Jul,All directions,All weeks,Winter,111479,37
+8188,Jul,Northbound,All weeks,Winter,55628,37
+8188,Jul,Southbound,All weeks,Winter,55851,37
+8188,Jun,All directions,All weeks,Winter,123846,41
+8188,Jun,Northbound,All weeks,Winter,62264,41
+8188,Jun,Southbound,All weeks,Winter,61582,41
+8188,Mar,All directions,All weeks,Autumn,182014,42
+8188,Mar,Northbound,All weeks,Autumn,91823,42
+8188,Mar,Southbound,All weeks,Autumn,90191,42
+8188,May,All directions,All weeks,Autumn,163082,45
+8188,May,Northbound,All weeks,Autumn,82208,45
+8188,May,Southbound,All weeks,Autumn,80874,45
+8188,Nov,All directions,All weeks,Spring,141409,36
+8188,Nov,Northbound,All weeks,Spring,70213,36
+8188,Nov,Southbound,All weeks,Spring,71196,36
+8188,Oct,All directions,All weeks,Spring,160975,41
+8188,Oct,Northbound,All weeks,Spring,80272,41
+8188,Oct,Southbound,All weeks,Spring,80703,41
+8188,Sep,All directions,All weeks,Spring,130538,37
+8188,Sep,Northbound,All weeks,Spring,64981,37
+8188,Sep,Southbound,All weeks,Spring,65557,37
+8192,Apr,All directions,All weeks,Autumn,310248,42
+8192,Apr,Northbound,All weeks,Autumn,153842,42
+8192,Apr,Southbound,All weeks,Autumn,156406,42
+8192,Aug,All directions,All weeks,Winter,196200,35
+8192,Aug,Northbound,All weeks,Winter,96874,35
+8192,Aug,Southbound,All weeks,Winter,99326,35
+8192,Dec,All directions,All weeks,Summer,192023,32
+8192,Dec,Northbound,All weeks,Summer,94624,32
+8192,Dec,Southbound,All weeks,Summer,97399,32
+8192,Feb,All directions,All weeks,Summer,313810,39
+8192,Feb,Northbound,All weeks,Summer,153855,39
+8192,Feb,Southbound,All weeks,Summer,159955,39
+8192,Jan,All directions,All weeks,Summer,307550,41
+8192,Jan,Northbound,All weeks,Summer,152010,41
+8192,Jan,Southbound,All weeks,Summer,155540,41
+8192,Jul,All directions,All weeks,Winter,161697,37
+8192,Jul,Northbound,All weeks,Winter,79659,37
+8192,Jul,Southbound,All weeks,Winter,82038,37
+8192,Jun,All directions,All weeks,Winter,216346,41
+8192,Jun,Northbound,All weeks,Winter,106864,41
+8192,Jun,Southbound,All weeks,Winter,109482,41
+8192,Mar,All directions,All weeks,Autumn,321556,42
+8192,Mar,Northbound,All weeks,Autumn,158872,42
+8192,Mar,Southbound,All weeks,Autumn,162684,42
+8192,May,All directions,All weeks,Autumn,277454,45
+8192,May,Northbound,All weeks,Autumn,137386,45
+8192,May,Southbound,All weeks,Autumn,140068,45
+8192,Nov,All directions,All weeks,Spring,200106,31
+8192,Nov,Northbound,All weeks,Spring,98453,31
+8192,Nov,Southbound,All weeks,Spring,101653,31
+8192,Oct,All directions,All weeks,Spring,250733,37
+8192,Oct,Northbound,All weeks,Spring,123985,37
+8192,Oct,Southbound,All weeks,Spring,126748,37
+8192,Sep,All directions,All weeks,Spring,218278,33
+8192,Sep,Northbound,All weeks,Spring,108632,33
+8192,Sep,Southbound,All weeks,Spring,109646,33
+8196,Apr,All directions,All weeks,Autumn,16465,37
+8196,Apr,Northbound,All weeks,Autumn,8693,37
+8196,Apr,Southbound,All weeks,Autumn,7772,37
+8196,Aug,All directions,All weeks,Winter,10274,40
+8196,Aug,Northbound,All weeks,Winter,5430,40
+8196,Aug,Southbound,All weeks,Winter,4844,40
+8196,Dec,All directions,All weeks,Summer,22262,34
+8196,Dec,Northbound,All weeks,Summer,11761,34
+8196,Dec,Southbound,All weeks,Summer,10501,34
+8196,Feb,All directions,All weeks,Summer,17442,35
+8196,Feb,Northbound,All weeks,Summer,9283,35
+8196,Feb,Southbound,All weeks,Summer,8159,35
+8196,Jan,All directions,All weeks,Summer,29566,36
+8196,Jan,Northbound,All weeks,Summer,15643,36
+8196,Jan,Southbound,All weeks,Summer,13923,36
+8196,Jul,All directions,All weeks,Winter,8962,37
+8196,Jul,Northbound,All weeks,Winter,4770,37
+8196,Jul,Southbound,All weeks,Winter,4192,37
+8196,Jun,All directions,All weeks,Winter,11560,41
+8196,Jun,Northbound,All weeks,Winter,6064,41
+8196,Jun,Southbound,All weeks,Winter,5496,41
+8196,Mar,All directions,All weeks,Autumn,19350,37
+8196,Mar,Northbound,All weeks,Autumn,10214,37
+8196,Mar,Southbound,All weeks,Autumn,9136,37
+8196,May,All directions,All weeks,Autumn,12838,45
+8196,May,Northbound,All weeks,Autumn,6749,45
+8196,May,Southbound,All weeks,Autumn,6089,45
+8196,Nov,All directions,All weeks,Spring,14276,36
+8196,Nov,Northbound,All weeks,Spring,7443,36
+8196,Nov,Southbound,All weeks,Spring,6833,36
+8196,Oct,All directions,All weeks,Spring,15194,41
+8196,Oct,Northbound,All weeks,Spring,7954,41
+8196,Oct,Southbound,All weeks,Spring,7240,41
+8196,Sep,All directions,All weeks,Spring,13143,37
+8196,Sep,Northbound,All weeks,Spring,6969,37
+8196,Sep,Southbound,All weeks,Spring,6174,37
+9077,Apr,All directions,All weeks,Autumn,267546,42
+9077,Apr,Eastbound,All weeks,Autumn,124669,42
+9077,Apr,Westbound,All weeks,Autumn,142877,42
+9077,Aug,All directions,All weeks,Winter,173456,36
+9077,Aug,Eastbound,All weeks,Winter,79641,36
+9077,Aug,Westbound,All weeks,Winter,93815,36
+9077,Dec,All directions,All weeks,Summer,148422,31
+9077,Dec,Eastbound,All weeks,Summer,68719,31
+9077,Dec,Westbound,All weeks,Summer,79703,31
+9077,Feb,All directions,All weeks,Summer,311425,41
+9077,Feb,Eastbound,All weeks,Summer,139622,41
+9077,Feb,Westbound,All weeks,Summer,171803,41
+9077,Jan,All directions,All weeks,Summer,254731,43
+9077,Jan,Eastbound,All weeks,Summer,116584,43
+9077,Jan,Westbound,All weeks,Summer,138147,43
+9077,Jul,All directions,All weeks,Winter,185499,37
+9077,Jul,Eastbound,All weeks,Winter,87224,37
+9077,Jul,Westbound,All weeks,Winter,98275,37
+9077,Jun,All directions,All weeks,Winter,210442,41
+9077,Jun,Eastbound,All weeks,Winter,97966,41
+9077,Jun,Westbound,All weeks,Winter,112476,41
+9077,Mar,All directions,All weeks,Autumn,297236,42
+9077,Mar,Eastbound,All weeks,Autumn,137406,42
+9077,Mar,Westbound,All weeks,Autumn,159830,42
+9077,May,All directions,All weeks,Autumn,274598,45
+9077,May,Eastbound,All weeks,Autumn,125761,45
+9077,May,Westbound,All weeks,Autumn,148837,45
+9077,Nov,All directions,All weeks,Spring,190521,32
+9077,Nov,Eastbound,All weeks,Spring,85473,32
+9077,Nov,Westbound,All weeks,Spring,105048,32
+9077,Oct,All directions,All weeks,Spring,219433,37
+9077,Oct,Eastbound,All weeks,Spring,100802,37
+9077,Oct,Westbound,All weeks,Spring,118631,37
+9077,Sep,All directions,All weeks,Spring,168304,32
+9077,Sep,Eastbound,All weeks,Spring,77421,32
+9077,Sep,Westbound,All weeks,Spring,90883,32
+9079,Apr,All directions,All weeks,Autumn,57118,40
+9079,Apr,Eastbound,All weeks,Autumn,25858,40
+9079,Apr,Westbound,All weeks,Autumn,31260,40
+9079,Aug,All directions,All weeks,Winter,49233,40
+9079,Aug,Eastbound,All weeks,Winter,22925,40
+9079,Aug,Westbound,All weeks,Winter,26308,40
+9079,Dec,All directions,All weeks,Summer,43372,36
+9079,Dec,Eastbound,All weeks,Summer,19845,36
+9079,Dec,Westbound,All weeks,Summer,23527,36
+9079,Feb,All directions,All weeks,Summer,58042,41
+9079,Feb,Eastbound,All weeks,Summer,26963,41
+9079,Feb,Westbound,All weeks,Summer,31079,41
+9079,Jan,All directions,All weeks,Summer,57133,45
+9079,Jan,Eastbound,All weeks,Summer,27234,45
+9079,Jan,Westbound,All weeks,Summer,29899,45
+9079,Jul,All directions,All weeks,Winter,40990,37
+9079,Jul,Eastbound,All weeks,Winter,18980,37
+9079,Jul,Westbound,All weeks,Winter,22010,37
+9079,Jun,All directions,All weeks,Winter,43885,41
+9079,Jun,Eastbound,All weeks,Winter,19768,41
+9079,Jun,Westbound,All weeks,Winter,24117,41
+9079,Mar,All directions,All weeks,Autumn,58354,42
+9079,Mar,Eastbound,All weeks,Autumn,27021,42
+9079,Mar,Westbound,All weeks,Autumn,31333,42
+9079,May,All directions,All weeks,Autumn,51630,44
+9079,May,Eastbound,All weeks,Autumn,23509,44
+9079,May,Westbound,All weeks,Autumn,28121,44
+9079,Nov,All directions,All weeks,Spring,46707,36
+9079,Nov,Eastbound,All weeks,Spring,21480,36
+9079,Nov,Westbound,All weeks,Spring,25227,36
+9079,Oct,All directions,All weeks,Spring,54423,41
+9079,Oct,Eastbound,All weeks,Spring,25683,41
+9079,Oct,Westbound,All weeks,Spring,28740,41
+9079,Sep,All directions,All weeks,Spring,54040,37
+9079,Sep,Eastbound,All weeks,Spring,25330,37
+9079,Sep,Westbound,All weeks,Spring,28710,37
+9999,Apr,All directions,All weeks,Autumn,453947,39
+9999,Apr,Northbound,All weeks,Autumn,171060,37
+9999,Apr,Southbound,All weeks,Autumn,282887,39
+9999,Aug,All directions,All weeks,Winter,368580,40
+9999,Aug,Northbound,All weeks,Winter,138353,39
+9999,Aug,Southbound,All weeks,Winter,230227,40
+9999,Dec,All directions,All weeks,Summer,286900,32
+9999,Dec,Northbound,All weeks,Summer,86208,31
+9999,Dec,Southbound,All weeks,Summer,200692,32
+9999,Feb,All directions,All weeks,Summer,569117,38
+9999,Feb,Northbound,All weeks,Summer,205072,38
+9999,Feb,Southbound,All weeks,Summer,364045,37
+9999,Jan,All directions,All weeks,Summer,507034,40
+9999,Jan,Northbound,All weeks,Summer,185900,40
+9999,Jan,Southbound,All weeks,Summer,321134,40
+9999,Jul,All directions,All weeks,Winter,317536,37
+9999,Jul,Northbound,All weeks,Winter,113347,37
+9999,Jul,Southbound,All weeks,Winter,204189,37
+9999,Jun,All directions,All weeks,Winter,351053,37
+9999,Jun,Northbound,All weeks,Winter,126870,36
+9999,Jun,Southbound,All weeks,Winter,224183,37
+9999,Mar,All directions,All weeks,Autumn,513665,38
+9999,Mar,Northbound,All weeks,Autumn,182908,38
+9999,Mar,Southbound,All weeks,Autumn,330757,38
+9999,May,All directions,All weeks,Autumn,448153,40
+9999,May,Northbound,All weeks,Autumn,159529,39
+9999,May,Southbound,All weeks,Autumn,288624,40
+9999,Nov,All directions,All weeks,Spring,351968,33
+9999,Nov,Northbound,All weeks,Spring,109152,33
+9999,Nov,Southbound,All weeks,Spring,242816,32
+9999,Oct,All directions,All weeks,Spring,432429,41
+9999,Oct,Northbound,All weeks,Spring,145392,41
+9999,Oct,Southbound,All weeks,Spring,287037,41
+9999,Sep,All directions,All weeks,Spring,346753,37
+9999,Sep,Northbound,All weeks,Spring,108502,35
+9999,Sep,Southbound,All weeks,Spring,238251,37
