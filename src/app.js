@@ -93,7 +93,8 @@ const appState = {
   insetZoom: 16,
   statsVolumeMode: "summed",
   statsDataset: "all",
-  statsCity: "all"
+  statsCity: "all",
+  statsSplitGender: false
 };
 
 const IS_OTHER_MODE = APP_MODE === "other";
@@ -136,6 +137,7 @@ const directionalChart = document.getElementById("directional-chart");
 const directionalMatrix = document.getElementById("directional-matrix");
 const statsCityFilter = document.getElementById("stats-city-filter");
 const statsVolumeMode = document.getElementById("stats-volume-mode");
+const statsSplitGenderInput = document.getElementById("stats-split-gender");
 const statsScope = document.getElementById("stats-scope");
 const statsGrid = document.getElementById("stats-grid");
 const statsNotes = document.getElementById("stats-notes");
@@ -506,6 +508,25 @@ function computeDashboardYearlyStats(sites) {
   const yearly = new Map();
   const siteYearTotals = new Map();
   const siteIdByKey = new Map(sites.map((site) => [site.key, site.siteId]));
+  const genderYearTotals = new Map();
+
+  const addGenderTotal = (gender, year, siteKey, value) => {
+    if (!genderYearTotals.has(gender)) {
+      genderYearTotals.set(gender, new Map());
+    }
+
+    const totalsByYear = genderYearTotals.get(gender);
+    if (!totalsByYear.has(year)) {
+      totalsByYear.set(year, {
+        networkTotal: 0,
+        siteTotals: new Map()
+      });
+    }
+
+    const totals = totalsByYear.get(year);
+    totals.networkTotal += value;
+    totals.siteTotals.set(siteKey, (totals.siteTotals.get(siteKey) || 0) + value);
+  };
 
   sites.forEach((site) => {
     if (!siteYearTotals.has(site.key)) {
@@ -533,6 +554,19 @@ function computeDashboardYearlyStats(sites) {
 
       const byYear = siteYearTotals.get(site.key);
       byYear.set(year, (byYear.get(year) || 0) + total);
+
+      const genderByCategory = new Map((site.categoryDefinitions || [])
+        .map((definition) => [definition.id, categoryDimensions(definition).gender])
+        .filter(([, gender]) => gender));
+
+      Object.entries(record.categories || {}).forEach(([categoryId, value]) => {
+        const gender = genderByCategory.get(categoryId);
+        const count = Number(value);
+        if (!gender || !Number.isFinite(count)) {
+          return;
+        }
+        addGenderTotal(gender, year, site.key, count);
+      });
     });
   });
 
@@ -554,12 +588,31 @@ function computeDashboardYearlyStats(sites) {
     return percentile(values, 0.9);
   });
 
+  const genderSeries = ["Women", "Men", "Unknown"]
+    .map((gender) => {
+      const totalsByYear = genderYearTotals.get(gender);
+      if (!totalsByYear) {
+        return null;
+      }
+
+      return {
+        gender,
+        networkTotals: years.map((year) => totalsByYear.get(year)?.networkTotal ?? null),
+        medianSiteTotals: years.map((year) => {
+          const values = [...(totalsByYear.get(year)?.siteTotals.values() || [])];
+          return percentile(values, 0.5);
+        })
+      };
+    })
+    .filter(Boolean);
+
   return {
     years,
     networkTotals: years.map((year) => yearly.get(year).networkTotal),
     siteSeries,
     medianSiteTotals,
-    p90SiteTotals
+    p90SiteTotals,
+    genderSeries
   };
 }
 
@@ -653,7 +706,25 @@ function renderDashboardStatsTrends(sites) {
 
   const x = yearly.years.map((year) => String(year));
 
-  const traces = appState.statsVolumeMode === "site"
+  const genderColors = {
+    Women: "#1d3557",
+    Men: "#2a9d8f",
+    Unknown: "#6c757d"
+  };
+  const traces = appState.statsSplitGender
+    ? yearly.genderSeries.map((series) => ({
+      x,
+      y: appState.statsVolumeMode === "site" ? series.medianSiteTotals : series.networkTotals,
+      type: "scatter",
+      mode: "lines+markers",
+      name: appState.statsVolumeMode === "site"
+        ? `${series.gender} median per site`
+        : series.gender,
+      line: { color: genderColors[series.gender], width: 2.8 },
+      marker: { color: genderColors[series.gender], size: 7 },
+      connectgaps: false
+    }))
+    : appState.statsVolumeMode === "site"
     ? [
       ...yearly.siteSeries.map((series) => ({
         x,
@@ -691,7 +762,10 @@ function renderDashboardStatsTrends(sites) {
     traces,
     {
       margin: { t: 36, r: 14, b: 60, l: 56 },
-      title: { text: "Volume Evolution", font: { size: 14 } },
+      title: {
+        text: appState.statsSplitGender ? "Volume Evolution by Gender" : "Volume Evolution",
+        font: { size: 14 }
+      },
       xaxis: { title: { text: "Year", standoff: 12 } },
       yaxis: { title: "Count" },
       legend: { orientation: "h", y: -0.28 },
@@ -3764,6 +3838,13 @@ function wireEvents() {
     appState.statsVolumeMode = statsVolumeMode.value;
     renderDashboardStats();
   });
+
+  if (statsSplitGenderInput) {
+    statsSplitGenderInput.addEventListener("change", () => {
+      appState.statsSplitGender = statsSplitGenderInput.checked;
+      renderDashboardStats();
+    });
+  }
 
   map.on("moveend", () => {
     renderDashboardStats();

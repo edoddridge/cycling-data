@@ -79,10 +79,11 @@ git push
 2. Use **Find Site** to jump to a site by `site_id` or council name.
 3. Click a map marker to open site details.
 4. Adjust **Inset zoom** to change the background map scale.
-3. In **Time Series**, switch between:
+5. In **Descriptive Statistics**, select **Split volume evolution by gender** to compare annual Super Tuesday counts for women, men, and unknown gender within the current map and council scope.
+6. In **Time Series**, switch between:
    - **One-day evolution** for time bins within a selected count date
    - **Trend between years** for annual totals
-5. Review the **Intersection Inset** to interpret leg labels and azimuth directions.
+7. Review the **Intersection Inset** to interpret leg labels and azimuth directions.
 
 ## Archived experimental work
 
